@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/mon-portfolio',
-  assetPrefix: '/mon-portfolio/',
+  output: 'export', // Obligatoire pour `npx next export`
+  basePath: '/mon-portfolio', // correspond à ton repo GitHub
+  trailingSlash: true, // important pour GitHub Pages
 };
 
 module.exports = nextConfig;
