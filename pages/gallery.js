@@ -1,5 +1,3 @@
-﻿// pages/gallery.js
-
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,7 +5,6 @@ import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper';
 import fs from 'fs';
 import path from 'path';
-
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import { motion } from 'framer-motion';
@@ -16,6 +13,7 @@ import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
 import Image from 'next/image';
 import CustomCursor from '../components/CustomCursor';
+import { getAssetPath } from '../lib/assets'; // ✅ ajout
 
 export async function getStaticProps() {
     const imageDir = path.join(process.cwd(), 'public/images');
@@ -29,7 +27,9 @@ export async function getStaticProps() {
             .readdirSync(themeFolder)
             .filter((file) => /\.(jpe?g|png|gif|webp)$/i.test(file));
 
-        const images = files.map((filename) => `/images/${theme}/${encodeURIComponent(filename)}`);
+        const images = files.map((filename) =>
+            getAssetPath(`/images/${theme}/${encodeURIComponent(filename)}`)
+        );
         return { theme, images };
     });
 
@@ -98,7 +98,15 @@ export default function Gallery({ galleries }) {
                                         className="relative w-60 h-60 overflow-hidden rounded-xl shadow-lg cursor-pointer group"
                                         onClick={() => openLightbox(gallery.images, index)}
                                     >
-                                        <div className="absolute inset-0 bg-[url('/images/noise 03.png')] bg-cover bg-center opacity-0 group-hover:opacity-20 transition duration-300 pointer-events-none"></div>
+                                        <div
+                                            className="absolute inset-0 opacity-0 group-hover:opacity-20 transition duration-300 pointer-events-none"
+                                            style={{
+                                                backgroundImage: `url(${getAssetPath('/images/noise 03.png')})`,
+                                                backgroundSize: 'cover',
+                                                backgroundPosition: 'center',
+                                            }}
+                                        ></div>
+
                                         <Image
                                             src={src}
                                             alt={`Image ${index + 1}`}
@@ -106,11 +114,8 @@ export default function Gallery({ galleries }) {
                                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                             className="object-cover cursor-none"
                                         />
-                                        <div className="absolute inset-0 bg-[url('/images/noise 03.png')] opacity-0 bg-cover bg-center bg-blue-300 bg-opacity-30 group-hover:opacity-90 transition duration-300 flex items-center justify-center text-white-600 font-semibold pointer-events-none">
-                                         </div>
                                     </motion.div>
                                 </SwiperSlide>
-
                             ))}
                         </Swiper>
                     </motion.div>
@@ -127,11 +132,7 @@ export default function Gallery({ galleries }) {
                 />
             )}
 
-           {/* Ajoute le curseur personnalisé */}
-    <CustomCursor></CustomCursor>
-    
+            <CustomCursor />
         </section>
-         
-
-    );  
+    );
 }
