@@ -1,4 +1,5 @@
 import Gauge from '../components/Gauge';
+import { getAssetPath } from '../lib/assets'; // ✅ Ajout
 
 
 export default function About() {

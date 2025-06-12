@@ -10,14 +10,14 @@ const projects = [
     {
         title: 'Projet A',
         description: 'Description courte du projet A.',
-        image: `url('${getAssetPath('/images/project-a.png')}')`,
+        image: getAssetPath('/images/project-a.png') ,
         tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         link: '#'
     },
     {
         title: 'Projet B',
         description: 'Description courte du projet B.',
-        image: `url('${getAssetPath('/images/project-a.png')}')`,
+        image: getAssetPath('/images/project-a.png'),
         tech: ['React', 'Node.js', 'Express'],
         link: '#'
     },
