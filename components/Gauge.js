@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { getAssetPath } from '../lib/assets';
 
+
 export default function Gauge({ theme }) {
     const needleRef = useRef(null);
 
