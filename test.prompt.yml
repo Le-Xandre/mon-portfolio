@@ -1,0 +1,7 @@
+messages:
+  - role: system
+    content: |
+      help me to deploy my project mon-portfolio
+  - role: user
+    content: ''
+model: openai/gpt-4o
