@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Exemple simple de triskèle -->
+  <path d="M50 10 A40 40 0 0 1 90 50" stroke="#D4B064" stroke-width="5" fill="none"/>
+  <!-- répète selon modèle -->
+</svg>
