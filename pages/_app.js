@@ -1,4 +1,4 @@
-import { ThemeProvider } from "../context/ThemeContext";
+﻿import { ThemeProvider } from "../context/ThemeContext";
 import "../styles/globals.css";
 import '../styles/breizh.css';
 import React, { useEffect } from "react";

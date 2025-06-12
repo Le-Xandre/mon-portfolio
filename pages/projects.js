@@ -3,19 +3,21 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FiArrowRight } from 'react-icons/fi'; // Flèche
+import { getAssetPath } from '../lib/assets'; // ✅ Ajout
+
 
 const projects = [
     {
         title: 'Projet A',
         description: 'Description courte du projet A.',
-        image: '/images/project-a.png',
+        image: `url('${getAssetPath('/images/project-a.png')}')`,
         tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         link: '#'
     },
     {
         title: 'Projet B',
         description: 'Description courte du projet B.',
-        image: '/images/project-a.png',
+        image: `url('${getAssetPath('/images/project-a.png')}')`,
         tech: ['React', 'Node.js', 'Express'],
         link: '#'
     },
