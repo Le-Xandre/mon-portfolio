@@ -1,4 +1,4 @@
-﻿// pages/blog/index.js
+// pages/blog/index.js
 import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
@@ -9,8 +9,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper';
 import TornImage from '../../components/TornImage';
-import { getAssetPath } from '../lib/assets'; // ✅ Ajout
-import 'yet-another-react-lightbox/styles.css';
 
 export async function getStaticProps() {
     const files = fs.readdirSync(path.join('content/blog'));
@@ -30,7 +28,7 @@ export default function Blog({ posts }) {
         <section className="py-10 max-w-6xl mx-auto dark:bg-gray-800">
             {/* Vidéo de fond en fixed pour ne pas impacter le flux */}
             <video
-                src={getAssetPath('/videos/0_Futuristic_Technology_3840x2160.mov')}
+                src="/videos/0_Futuristic_Technology_3840x2160.mov"
                 autoPlay
                 muted
                 loop
@@ -71,7 +69,7 @@ export default function Blog({ posts }) {
                                     className="block bg-white dark:bg-gray-700 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
                                 >
                                     <TornImage
-                                        src={post.frontmatter.coverImage || getAssetPath('/default.jpg') }
+                                        src={post.frontmatter.coverImage || '/default.jpg'}
                                         alt={post.frontmatter.title}
                                         className="h-48"
                                     />
