@@ -1,4 +1,5 @@
 {
+  "homepage": "https://le-xandre.github.io/mon-portfolio",
   "name": "c",
   "version": "1.0.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "0.14.1",
@@ -46,7 +49,8 @@
     "yet-another-react-lightbox": "^3.23.2"
   },
   "devDependencies": {
-    "@types/node": "24.0.0"
+    "@types/node": "24.0.0",
+    "gh-pages": "^6.3.0"
   },
   "description": "Ce projet est un portfolio complet pour un développeur expert, prêt à être personnalisé. Il inclut :",
   "main": "next.config.js",
