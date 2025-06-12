@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Obligatoire pour `npx next export`
-  basePath: '/mon-portfolio', // correspond à ton repo GitHub
-  trailingSlash: true, // important pour GitHub Pages
+  output: 'export',
+  basePath: '/mon-portfolio',
+  assetPrefix: '/mon-portfolio/',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
