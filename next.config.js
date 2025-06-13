@@ -1,12 +1,9 @@
-// next.config.js
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   output: 'export',
   basePath: '/mon-portfolio',
-  assetPrefix: '/mon-portfolio/',
-  trailingSlash: true,
-  publicRuntimeConfig: {
-    basePath: '/mon-portfolio',
-  },
+  assetPrefix: '/mon-portfolio',
 };
 
 module.exports = nextConfig;
