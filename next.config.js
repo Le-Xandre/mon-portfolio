@@ -5,5 +5,4 @@ const nextConfig = {
   basePath: '/mon-portfolio',
   assetPrefix: '/mon-portfolio',
 };
-
 module.exports = nextConfig;
