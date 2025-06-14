@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { getAssetPath } from '../lib/assets';
 
 
 export default function Gauge({ theme }) {
@@ -18,36 +17,55 @@ export default function Gauge({ theme }) {
         };
 
         animate();
+
         return () => cancelAnimationFrame(animationFrameId);
     }, []);
 
+    // Choix des couleurs selon le thème
     const colors = {
         classic: '#c49b66',
-        steampunk: '#b87333',
-        cyberpunk: '#0ff',
+        steampunk: '#b87333', // cuivre rouillé
+        cyberpunk: '#0ff',    // néon cyan
     };
 
     const strokeColor = colors[theme] || colors.classic;
 
-    const steampunkBg = `url(${getAssetPath('/textures/steampunk-bg3.png')}), url(${getAssetPath('/textures/steampunk-overlay.png')})`;
-    const cyberpunkBg = `${steampunkBg}, radial-gradient(circle, #0ff, #003)`;
+    // Choix de l'image de fond principale
+    const bgImage =
+        theme === 'steampunk'
+            ? "url('/textures/steampunk-bg.png')"
+            : theme === 'cyberpunk'
+                ? 'radial-gradient(circle, #0ff, #003)'
+                : 'transparent';
 
     return (
         <div
-            className="flex justify-center p-4 rounded-xl"
+            className={`flex justify-center p-4 rounded-xl`}
             style={{
                 backgroundImage:
                     theme === 'steampunk'
-                        ? steampunkBg
+                        ? "url('/textures/steampunk-bg3.png') , url('/textures/steampunk-overlay.png')" // ajoute cette image dans /public/textures/
                         : theme === 'cyberpunk'
-                            ? cyberpunkBg
+                            ? "url('/textures/steampunk-bg3.png') , url('/textures/steampunk-overlay.png') , radial-gradient(circle, #0ff, #003)"
                             : 'transparent',
                 backgroundSize: 'contain',
-                minHeight: '150px',
+                minHeight: '150px' // Ajuste selon tes besoins
             }}
         >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="150" height="150">
-                <circle cx="50" cy="50" r="45" stroke={strokeColor} strokeWidth="5" fill="none" />
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 100"
+                width="150"
+                height="150"
+            >
+                <circle
+                    cx="50"
+                    cy="50"
+                    r="45"
+                    stroke={strokeColor}
+                    strokeWidth="5"
+                    fill="none"
+                />
                 <line
                     ref={needleRef}
                     x1="50"
@@ -59,6 +77,8 @@ export default function Gauge({ theme }) {
                     id="needle"
                 />
             </svg>
+
         </div>
+
     );
 }

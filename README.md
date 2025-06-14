@@ -1,6 +1,6 @@
 # Portfolio Expert
 
-Ce projet est un portfolio complet pour un développeur, prêt à être personnalisé. Il inclut :
+Ce projet est un portfolio complet pour un développeur expert, prêt à être personnalisé. Il inclut :
 
 - Page d'accueil avec Hero animé.
 - Section "À propos".
