@@ -37,17 +37,7 @@ export default function Home() {
                 transition={{ duration: 1 }}
             >
                 <div className="glassmorphism-card flex flex-col md:flex-row items-center md:items-start gap-6">
-                    <div className="flex-1">
-                        <h1 className="text-4xl md:text-5xl font-extrabold glitch-text text-white mb-4">@Hell~Xandre</h1>
-                        <p className="text-lg text-gray-300 mb-4 font-light">Créateur d’expériences web immersives</p>
-                        <Link
-                            href="#projects"
-                            className="inline-block px-6 py-3 text-bretagneBlue rounded-lg neon-glow neon-box text-white bg-gradient-to-r from-cyan-600 to-blue-500 shadow-lg hover:from-pink-400 hover:to-purple-500 overflow-hidden border-4 border-cyan-400 shadow-xl group-hover:scale-105 group-hover:shadow-pink-400 transition-transform duration-300"
-                        >
-                            Découvre mes projets
-                        </Link>
-                    </div>
-
+                   
                     {/* Avatar */}
                     <div className="flex-shrink-0 relative group">
                         <div className="avatar animate-noise overflow-hidden border-4 border-cyan-400 shadow-xl transition-transform duration-300">
@@ -59,7 +49,18 @@ export default function Home() {
                                 className="object-cover w-full h-full"
                             />
                         </div>
+                    </div> 
+                                    <div className="flex-1">
+                        <h1 className="text-4xl md:text-5xl font-extrabold glitch-text text-white mb-4">@Hell~Xandre</h1>
+                        <p className="text-lg text-gray-300 mb-4 font-light">Créateur d’expériences web immersives</p>
+                        <Link
+                            href="#projects"
+                            className="inline-block px-6 py-3 text-bretagneBlue rounded-lg neon-glow neon-box text-white bg-gradient-to-r from-cyan-600 to-blue-500 shadow-lg hover:from-pink-400 hover:to-purple-500 overflow-hidden border-4 border-cyan-400 shadow-xl group-hover:scale-105 group-hover:shadow-pink-400 transition-transform duration-300"
+                        >
+                            Découvre mes projets
+                        </Link>
                     </div>
+
                 </div>
             </motion.div>
 
