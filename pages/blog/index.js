@@ -25,23 +25,23 @@ export async function getStaticProps() {
 
 export default function Blog({ posts }) {
     return (
-        <section className="py-10 max-w-6xl mx-auto dark:bg-gray-800">
-            {/* Vidéo de fond en fixed pour ne pas impacter le flux */}
-            <video
-                src="/videos/0_Futuristic_Technology_3840x2160.mov"
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="fixed inset-0 w-full h-full object-cover opacity-20"
-            />
+        <section className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
+            
             <div className="fixed inset-0 bg-black/10 pointer-events-none" />
 
             {/* Conteneur centré pour le titre et le slider */}
             <div className="relative z-10 flex-shrink-0 py-10">
                 <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">
                     Blog
-                </h2>
+                </h2>{/* Vidéo de fond en fixed pour ne pas impacter le flux */}
+            <video
+                src="/videos/0_Futuristic_Technology_3840x2160.mov"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="fixed inset-0 w-full h-auto object-cover opacity-20"
+            />
             </div>
 
             {/* Slider */}

@@ -25,12 +25,12 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="projects" className="py-10 max-w-6xl mx-auto dark:bg-gray-800">
-            <div className="max-w-2xl mx-auto px-2">
+        <section id="projects" className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
+            <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">
                     Mes Projets
                 </h2>
-                <div className="mt-6 grid gap-8 sm:grid-cols-2">
+                <div className="mt-10 grid gap-8 sm:grid-cols-2">
                     {projects.map((project, index) => (
                         <motion.div
                             key={index}
@@ -49,7 +49,7 @@ export default function Projects() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition duration-300"></div>
                             </div>
 
-                            <div className="p-6">
+                            <div className="p-8">
                                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
                                     {project.title}
                                 </h3>

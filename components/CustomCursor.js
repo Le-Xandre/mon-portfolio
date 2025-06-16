@@ -1,4 +1,4 @@
-// components/CustomCursor.js
+﻿// components/CustomCursor.js
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -7,7 +7,7 @@ export default function CustomCursor({ text = 'Voir' }) {
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
-        const move = (e) => setPos({ x: e.clientX, y: e.clientY });
+        const move = (e) => setPos({ x: e.pageX, y: e.pageY });
         const enter = () => setVisible(true);
         const leave = () => setVisible(false);
 
@@ -31,9 +31,10 @@ export default function CustomCursor({ text = 'Voir' }) {
             className="fixed top-0 left-0 z-50 pointer-events-none flex items-center justify-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: visible ? 1 : 0 }}
-            style={{ x: pos.x - 30, y: pos.y - 30 }}
+            style={{ x: pos.x - 240, y: pos.y - 200 }}
+            transition={{ type: 'spring', stiffness: 500, damping: 40 }}
         >
-            <div className="w-10 h-10 rounded-full border-2 border-pink-500 neon-glow bg-black bg-opacity-10 text-white-400 flex items-center justify-center text-xs font-semibold">
+            <div className="custom-cursor w-16 h-16 rounded-full border border-pink-400 neon-glow bg-black bg-opacity-0 text-white flex items-center justify-center text-xs font-semibold">
                 {text}
             </div>
         </motion.div>

@@ -1,16 +1,17 @@
-﻿import { ThemeProvider } from "../context/ThemeContext";
+﻿// pages/_app.js
+import { ThemeProvider } from "../context/ThemeContext";
 import "../styles/globals.css";
-import '../styles/breizh.css';
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Layout from "../components/Layout";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 import { PageTransitionProvider, usePageTransition } from "../context/PageTransitionContext";
-import { getAssetPath } from "../lib/assets"; // 🔧 ajout
+import { getAssetPath } from "../lib/assets";
+import useGlow from "../components/glow"; // 👈 Effet glow
 
 function PageTransitionWrapper({ children }) {
     const router = useRouter();
-    const { direction, updateHistory } = usePageTransition();
+    const { direction, updateHistory } = usePageTransition(); // 👈 Désormais à l'intérieur
 
     useEffect(() => {
         updateHistory(router.pathname);
@@ -33,22 +34,26 @@ function PageTransitionWrapper({ children }) {
 }
 
 export default function App({ Component, pageProps }) {
+    useGlow(); // 👈 À cet endroit, aucun problème
+
     return (
         <>
-            {/* Background statique */}
+            {/* Background visuel */}
             <div
                 className="background fixed inset-0 -z-10"
-                style={{ backgroundImage: `url('${getAssetPath('/images/bg02.png')}')`, backgroundSize: "cover" }}
+                style={{
+                    backgroundImage: `url('${getAssetPath("/images/bg02.png")}')`,
+                    backgroundSize: "cover",
+                }}
             >
-                {/* Grain statique */}
                 <div
                     className="noise-overlay"
                     style={{
-                        backgroundImage: `url('${getAssetPath('/images/noise 01.png')}')`,
+                        backgroundImage: `url('${getAssetPath("/images/noise 01.png")}')`,
                         opacity: 0.15,
                         mixBlendMode: "screen",
                     }}
-                ></div>
+                />
             </div>
 
             <ThemeProvider>

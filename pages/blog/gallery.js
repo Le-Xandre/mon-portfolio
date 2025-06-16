@@ -54,13 +54,13 @@ export default function Gallery({ folders }) {
     return (
         <div>
             {folders.map((folder, folderIdx) => (
-                <section key={folder.name} className="gallery-folder">
+                <section key={folder.name} className="gallery-folder glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
                     <h2 className="gallery-folder-title">{folder.name}</h2>
                     <div className="gallery-container">
                         {folder.images.map((src, imgIdx) => (
                             <div
                                 key={src}
-                                className="gallery-card"
+                                className="gallery-card glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800"
                                 onClick={() => openLightbox(folderIdx, imgIdx)}
                                 role="button"
                                 tabIndex={0}

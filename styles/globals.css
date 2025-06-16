@@ -1,44 +1,91 @@
-@tailwind base;
+ï»¿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
     --bg-image: none;
+    --bg-fallback: #000; /* Couleur de fond si lâ€™image ne remplit pas tout */
     --nav-backdrop: rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="steampunk"] {
+    --font-title: 'Metamorphous', cursive;
+    --font-body: 'Georgia', serif;
     --bg-image: url('/themes/steampunk/bg.jpg');
+    --bg-fallback: #1f140a;
     --nav-backdrop: rgba(30, 20, 10, 0.6);
 }
+    [data-theme="steampunk"] .glass-section {
+        background: rgba(60, 30, 10, 0.3);
+    }
+
+    [data-theme="steampunk"] .custom-cursor {
+        background-color: rgba(100, 60, 30, 0.3);
+        border-color: #d4b064;
+        color: #fff;
+        opacity: 1;
+    }
 
 [data-theme="cyberpunk"] {
-    --bg-image: url('/themes/cyberpunk/bg03.jpg');
+    --font-title: 'Orbitron', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --bg-image: url('/themes/cyberpunk/bg.jpg');
+    --bg-fallback: #080820;
     --nav-backdrop: rgba(10, 10, 40, 0.6);
 }
+
+[data-theme="cyberpunk"] .glass-section {
+    background: rgba(20, 60, 90, 0.3);
+}
+
+    [data-theme="cyberpunk"] .custom-cursor {
+        background-color: rgba(0, 255, 255, 0.15);
+        border-color: #0ff;
+        color: #fff;
+        opacity: 1;
+    }
+
+[data-theme="fantasy"] {
+    --font-title: 'IM Fell English SC', serif;
+    --font-body: 'Metamorphous', cursive;
+    --bg-image: url('/themes/fantasy/bg.jpg');
+    --bg-fallback: #4a2e60;
+    --nav-backdrop: rgba(80, 40, 100, 0.3);
+}
+    [data-theme="fantasy"] .glass-section {
+        background: rgba(100, 50, 150, 0.3);
+    }
+
+
+    [data-theme="fantasy"] .custom-cursor {
+        background-color: rgba(186, 108, 255, 0.2);
+        border-color: #ffb3ff;
+        color: #fff;
+        opacity: 1;
+    }
 
 html {
     transition: background-color 0.3s, color 0.3s;
     min-height: 100vh;
 }
-
+body, html {
+    overflow-x: hidden;
+}
+/* ðŸ’¡ Background principal avec fallback et image centrÃ©e */
 body {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     min-height: 100vh;
-    background: var(--bg-image) center/cover no-repeat, #000;
-    color: var(--color-text, #e0e0e0);
-    z-index: -1;
-    /* Ajoute un léger glow diffus */
-    box-shadow: 0 0 30px rgba(0, 255, 255, 0.1) inset;
+    background-color: var(--bg-fallback, #000);
+    font-family: var(--font-body, 'Inter', sans-serif);
+    color: #e0e0e0;
+    position: relative;
+    z-index: 0;
+    transition: background-color 0.3s ease-in-out;
 }
 
-    /* Bruit en overlay */
     body::before {
         content: '';
         position: fixed;
@@ -46,14 +93,15 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        min-height: 100vh;
-        background: url('/images/bg02.png');
-        opacity: 0.08; /* Légèrement plus visible */
-        pointer-events: none;
-        z-index: 50;
+        background-image: var(--bg-image);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        z-index: -2;
+        opacity: 1;
+        transition: background-image 0.3s ease;
     }
 
-    /* Scanlines effet */
     body::after {
         content: '';
         position: fixed;
@@ -61,12 +109,18 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        min-height: 100vh;
-        background: repeating-linear-gradient( to bottom, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 4px );
+        background: radial-gradient(ellipse at center, transparent 60%, var(--bg-fallback, #000) 100%);
+        z-index: -1;
         pointer-events: none;
-        z-index: 55;
-        mix-blend-mode: overlay;
     }
+
+body.light .section-overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #111;
+}
+
+
+
 
 .background {
     background-position: center;
@@ -85,7 +139,6 @@ body {
     pointer-events: none;
 }
 
-
 @keyframes moveNoise {
     0% {
         background-position: 0 0;
@@ -96,16 +149,55 @@ body {
     }
 }
 
-/* Neon glow pour titres et overlays */
-.neon-glow {
-    text-shadow: 0 0 5px #d824fbe2, 0 0 15px #d824fb, 0 0 25px #24fb8bd6, 0 0 35px #24fbf4a7;
+h1, h2, h3 {
+    font-family: var(--font-title, 'Cormorant Garamond', serif);
+    color: #003366;
 }
 
-/* Cartes avec glow et hover */
+.icon-hermine {
+    background: url('/theme/icons/hermine.svg') no-repeat center;
+}
+
+.icon-triskel {
+    background: url('/theme/icons/triskel.svg') no-repeat center;
+}
+
+.icon-wave {
+    background: url('/theme/icons/wave.svg') no-repeat center;
+}
+
+.glass-section {
+    background: rgba(0, 0, 0, 0.4); /* ajustable */
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    color: white;
+
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* ðŸ’¡ Bloc flottant sur fond complexe */
+.section-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    z-index: 1;
+}
+.neon-glow {
+    text-shadow: 0 0 5px #d824fbcc, 0 0 15px #d824fb, 0 0 25px #24fb8bcc, 0 0 35px #24fbf4aa;
+}
+
+
 .glow-card {
     border: 1px solid rgba(216, 36, 251, 0.3);
     box-shadow: 0 0 10px rgba(216, 36, 251, 0.3);
     transition: box-shadow 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
     .glow-card:hover {
@@ -113,7 +205,69 @@ body {
         box-shadow: 0 0 15px rgba(216, 36, 251, 0.6), 0 0 25px rgba(216, 36, 251, 0.4);
     }
 
-/* Animation glitch pour titres */
+.glow-hover,
+.gallery img,
+.projects img {
+    position: relative; /* nÃ©cessaire pour ::after */
+    z-index: 1; /* que lâ€™image reste en dessous */
+}
+
+    .glow-hover::before {
+        content: "";
+        position: absolute;
+        top: var(--y);
+        left: var(--x);
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, rgba(0,255,255,0.4) 0%, transparent 60%);
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+
+    .glow-hover:hover::before {
+        opacity: 0.8;
+    }
+
+
+    .glow-card::after {
+        content: '';
+        position: absolute;
+        top: var(--y);
+        left: var(--x);
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, var(--glow-color, rgba(0,255,255,0.2)) 0%, transparent 80%);
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        transition: opacity 0.2s;
+        z-index: 10;
+    }
+
+.glow-hover::after,
+.gallery img::after,
+.projects img::after {
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+    background: radial-gradient( circle, var(--glow-color) 0%, transparent 80% );
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    z-index: 5; /* au-dessus de lâ€™image */
+}
+
+.glow-hover:hover::after,
+.gallery img:hover::after,
+.projects img:hover::after {
+    opacity: 1;
+}
+
 @keyframes glitch {
     0% {
         text-shadow: 2px 0 #d824fb, -2px 0 #24fb8b;
@@ -136,7 +290,7 @@ body {
     }
 
     100% {
-        text-shadow: 0 0 5px #d824fbe2, 0 0 15px #d824fb, 0 0 25px #24fb8bd6, 0 0 35px #24fbf4a7;
+        text-shadow: 0 0 5px #d824fbcc, 0 0 15px #d824fb, 0 0 25px #24fb8bcc, 0 0 35px #24fbf4aa;
     }
 }
 
@@ -144,14 +298,25 @@ body {
     animation: glitch 5s infinite;
 }
 
-/* Navigation */
 nav {
     backdrop-filter: blur(8px);
     background-color: var(--nav-backdrop);
-    z-index: 1;
+    z-index: 50;
+    position: sticky;
+    top: 0;
 }
+    nav a {
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
 
-/* Animation de box-shadow neon glow (unifié) */
+        nav a:hover {
+            color: #0ff;
+        }
+
+
 @keyframes neonGlow {
     0% {
         box-shadow: 0 0 20px rgba(0, 255, 255, 0.4), 0 0 40px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 255, 255, 0.2);
@@ -170,6 +335,7 @@ nav {
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 255, 255, 0.2);
     animation: neonGlow 5s infinite alternate;
 }
+
 
 .glassmorphism-card {
     position: relative;
@@ -194,9 +360,9 @@ nav {
     transition: transform 0.3s ease;
 }
 
-    .avatar:hover {
-        transform: scale(1.1);
-    }
+.avatar\:hover {
+    transform: scale(1.1);
+}
 
 .glassmorphism-card h1 {
     font-size: 2rem;
@@ -218,10 +384,10 @@ nav {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-    .glassmorphism-card a.button:hover {
-        background-color: #0ff;
-        color: #000;
-    }
+.glassmorphism-card a.button\:hover {
+    background-color: #0ff;
+    color: #000;
+}
 
 article img {
     max-width: 100%;
@@ -231,28 +397,32 @@ article img {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* styles/globals.css ou styles/articles.css */
 .prose img {
     max-width: 100%;
     height: auto;
-    max-height: 500px; /* ajuste à ton goût */
-    cursor: zoom-in; /* effet pour clic */
+    margin: 2rem auto;
+    display: block;
+    max-height: 500px;
+    cursor: zoom-in;
     transition: transform 0.3s ease;
 }
 
-    .prose img:hover {
-        transform: scale(1.05);
-    }
+.prose img\:hover {
+    transform: scale(1.05);
+}
+
 .steampunk-title {
     font-family: 'Metamorphous', cursive;
     letter-spacing: 1px;
-    text-shadow: 1px 1px #000; /* ou des ornements steampunk */
+    text-shadow: 1px 1px #000;
 }
 
 .gallery {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
     .gallery img {
@@ -260,11 +430,17 @@ article img {
         height: auto;
         object-fit: contain;
         border-radius: 0.25rem;
+        transition: transform 0.3s ease, filter 0.3s ease;
     }
 
+    .gallery img:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 10px #0ff);
+    }
+.gallery-hover-area {
+    cursor: none;
+}
 
-
-/* Responsive styles */
 @media (max-width: 768px) {
     .glassmorphism-card {
         max-width: 90%;
@@ -278,5 +454,12 @@ article img {
     .avatar {
         width: 80px;
         height: 80px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 }

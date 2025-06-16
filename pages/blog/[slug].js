@@ -70,7 +70,7 @@ export default function Post({ frontmatter, contentHtml }) {
     }, [contentHtml]);
 
     return (
-        <article className="prose dark:prose-dark max-w-2xl mx-auto py-20">
+        <article className="prose dark:prose-dark max-w-2xl mx-auto py-20 glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
             <img
                 src={frontmatter.coverImage || '/default.jpg'}
                 alt={frontmatter.title}

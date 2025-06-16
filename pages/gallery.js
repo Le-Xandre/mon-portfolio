@@ -1,4 +1,5 @@
-﻿import { useState } from 'react';
+﻿import { useEffect, useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -15,11 +16,16 @@ import Image from 'next/image';
 import CustomCursor from '../components/CustomCursor';
 import { getAssetPath } from '../lib/assets'; // ✅ ajout
 
+import useGlow from '../components/glow';
+
+
+
 export async function getStaticProps() {
     const imageDir = path.join(process.cwd(), 'public/images');
     const themes = fs
         .readdirSync(imageDir)
         .filter((name) => fs.statSync(path.join(imageDir, name)).isDirectory());
+
 
     const galleries = themes.map((theme) => {
         const themeFolder = path.join(imageDir, theme);
@@ -30,6 +36,7 @@ export async function getStaticProps() {
         const images = files.map((filename) =>
             getAssetPath(`/images/${theme}/${encodeURIComponent(filename)}`)
         );
+
         return { theme, images };
     });
 
@@ -49,8 +56,10 @@ export default function Gallery({ galleries }) {
         setLightboxOpen(true);
     };
 
+
     return (
-        <section className="py-10 max-w-6xl mx-auto dark:bg-gray-800">
+        <section className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
+
             <motion.div
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -95,7 +104,7 @@ export default function Gallery({ galleries }) {
                                     <motion.div
                                         whileHover={{ scale: 1.05, rotate: 1 }}
                                         whileTap={{ scale: 0.95 }}
-                                        className="relative w-60 h-60 overflow-hidden rounded-xl shadow-lg cursor-pointer group"
+                                        className="glow-hover relative w-60 h-60 overflow-hidden rounded-xl shadow-lg cursor-pointer group"
                                         onClick={() => openLightbox(gallery.images, index)}
                                     >
                                         <div
@@ -136,3 +145,4 @@ export default function Gallery({ galleries }) {
         </section>
     );
 }
+

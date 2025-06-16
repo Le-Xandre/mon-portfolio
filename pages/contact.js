@@ -15,7 +15,7 @@ export default function Contact() {
   };
 
   return (
-      <section className="py-10 max-w-6xl mx-auto dark:bg-gray-800">
+      <section className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
           
       <div className="max-w-2xl mx-auto px-4">
               <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">Contact</h2>

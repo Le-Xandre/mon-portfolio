@@ -1,75 +1,82 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getAssetPath } from '../lib/assets'; // ✅ Ajout
+import { getAssetPath } from '../lib/assets';
 
 export default function Home() {
     return (
-        <div className="relative max-w-8xl mx-auto py-30 px-4 bg-black min-h-[78vh] flex flex-col overflow-hidden">
-            {/* Background image */}
-            <div
-                className="absolute top-0 left-0 w-full h-full max-h-[78vh] bg-center bg-no-repeat"
-                style={{
-                    backgroundImage: `url('${getAssetPath('/images/bg03.png')}')`,
-                    backgroundSize: 'contain',
-                    mixBlendMode: 'screen',
-                }}
-            >
-                <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
-
-                {/* Calque noise animé */}
-                <div
-                    className="absolute top-0 left-0 w-full h-full pointer-events-none animate-noise"
-                    style={{
-                        backgroundImage: `url('${getAssetPath('/images/bg02.png')}')`,
-                        backgroundSize: 'cover',
-                        opacity: 0.2,
-                        mixBlendMode: 'screen',
-                    }}
-                ></div>
-            </div>
-
-            {/* Contenu centré */}
+        <div className="relative inset-0 -z-10 min-h-[78vh] w-full h-full px-4 py-10 flex flex-col items-center justify-center overflow-hidden">
+           
+            {/* Contenu principal animé */}
             <motion.div
-                className="flex flex-1 items-center justify-center text-center px-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
+                className="glass-section max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 p-6 md:p-10"
+            > {/* Fond personnalisé pour masquer les thèmes */}
+            <div
+                    className="absolute glass-section inset-0 -z-10 bg-cover bg-center"
+                style={{
+                    backgroundImage: `url('${getAssetPath('/images/bg03.png')}')`,
+                    backgroundSize: 'contain',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center',
+                    opacity: 0.6,
+                    backgroundColor: '#000', // masque le thème
+                    backgroundBlendMode: 'overlay',
+                }}
             >
-                <div className="glassmorphism-card flex flex-col md:flex-row items-center md:items-start gap-6">
-                   
-                    {/* Avatar */}
-                    <div className="flex-shrink-0 relative group">
-                        <div className="avatar animate-noise overflow-hidden border-4 border-cyan-400 shadow-xl transition-transform duration-300">
-                            <Image
-                                src={getAssetPath('/images/profil.png')} // ✅ modifié
-                                alt="Mon portrait"
-                                width={200}
-                                height={200}
-                                className="object-cover w-full h-full"
-                            />
-                        </div>
-                    </div> 
-                                    <div className="flex-1">
-                        <h1 className="text-4xl md:text-5xl font-extrabold glitch-text text-white mb-4">@Hell~Xandre</h1>
-                        <p className="text-lg text-gray-300 mb-4 font-light">Créateur d’expériences web immersives</p>
-                        <Link
-                            href="#projects"
-                            className="inline-block px-6 py-3 text-bretagneBlue rounded-lg neon-glow neon-box text-white bg-gradient-to-r from-cyan-600 to-blue-500 shadow-lg hover:from-pink-400 hover:to-purple-500 overflow-hidden border-4 border-cyan-400 shadow-xl group-hover:scale-105 group-hover:shadow-pink-400 transition-transform duration-300"
-                        >
-                            Découvre mes projets
-                        </Link>
-                    </div>
+                {/* Voile noir semi-transparent */}
+                    <div className="absolute glass-section inset-0 bg-black opacity-60"></div>
 
+                {/* Bruit animé */}
+                <div
+                        className="absolute glass-section inset-0 pointer-events-none animate-noise"
+                    style={{
+                        backgroundImage: `url('${getAssetPath('/images/bg02.png')}')`,
+                        backgroundSize: 'cover',
+                    }}
+                />
+            </div>
+
+                {/* Avatar */}
+                <div className="relative group">
+                    <div className="avatar overflow-hidden border-4 border-cyan-400 shadow-xl animate-noise">
+                        <Image
+                            src={getAssetPath('/images/profil.png')}
+                            alt="Mon portrait"
+                            width={140}
+                            height={140}
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
+                </div>
+
+                {/* Texte, bouton, tagline */}
+                <div className="flex-1 text-center md:text-left space-y-4">
+                    <h1 className="text-3xl md:text-4xl font-bold glitch-text text-white">
+                        @Hell~Xandre
+                    </h1>
+                    <p className="text-lg text-gray-300 font-light">
+                        Créateur d’expériences web immersives
+                    </p>
+
+                    {/* Bouton centré */}
+                    <Link
+                        href="#projects"
+                        className="block w-fit mx-auto md:mx-0 px-4 py-2 rounded-lg neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 text-white font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-105 hover:from-pink-400 hover:to-purple-500"
+                    >
+                        Découvre mes projets
+                    </Link>
+
+                    {/* Tagline */}
+                    <div className="text-xs tracking-widest uppercase text-gray-400 pt-4">
+                        • Impressive Design • Innovative Solutions •
+                    </div>
                 </div>
             </motion.div>
 
-            {/* Footer tagline */}
-            <div className="text-center text-xs tracking-widest uppercase text-gray-400 py-1">
-                <span>Impressive Design • Innovative Solutions •</span>
-            </div>
-
-            {/* Styles pour l’animation noise et glow */}
+            {/* Animation bruit */}
             <style jsx>{`
                 @keyframes noiseFlicker {
                     0% {
