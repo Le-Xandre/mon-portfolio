@@ -15,7 +15,7 @@ export default function useGlow() {
                 el.style.setProperty('--x', `${x}px`);
                 el.style.setProperty('--y', `${y}px`);
                 // couleur fixe violet
-                el.style.setProperty('--glow-color', 'rgba(216,36,251,0.4)');
+                el.style.setProperty('--glow-color', 'rgba(216,36,251,0.5)');
             });
         };
 

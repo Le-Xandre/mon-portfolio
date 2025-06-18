@@ -18,7 +18,7 @@ export default function Contact() {
       <section className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
           
       <div className="max-w-2xl mx-auto px-4">
-              <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">Contact</h2>
+              <h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">Contact</h2>
         {!submitted ? (
           <form onSubmit={handleSubmit} className="mt-4 space-y-3">
             <div>

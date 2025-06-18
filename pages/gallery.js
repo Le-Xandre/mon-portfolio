@@ -66,7 +66,7 @@ export default function Gallery({ galleries }) {
                 transition={{ duration: 0.8 }}
                 className="max-w-6xl mx-auto px-4"
             >
-                <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">
+                <h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">
                     Galerie
                 </h2>
 

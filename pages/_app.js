@@ -1,17 +1,17 @@
-﻿// pages/_app.js
+﻿// File: pages/_app.js
+import React, { useEffect } from "react";
 import { ThemeProvider } from "../context/ThemeContext";
 import "../styles/globals.css";
-import { useEffect } from "react";
 import Layout from "../components/Layout";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
 import { PageTransitionProvider, usePageTransition } from "../context/PageTransitionContext";
+import useGlow from "../components/glow";
 import { getAssetPath } from "../lib/assets";
-import useGlow from "../components/glow"; // 👈 Effet glow
 
 function PageTransitionWrapper({ children }) {
     const router = useRouter();
-    const { direction, updateHistory } = usePageTransition(); // 👈 Désormais à l'intérieur
+    const { direction, updateHistory } = usePageTransition();
 
     useEffect(() => {
         updateHistory(router.pathname);
@@ -34,37 +34,37 @@ function PageTransitionWrapper({ children }) {
 }
 
 export default function App({ Component, pageProps }) {
-    useGlow(); // 👈 À cet endroit, aucun problème
+    useGlow();
 
     return (
-        <>
-            {/* Background visuel */}
+        <ThemeProvider>
+            {/* Global background fixed */}
             <div
-                className="background fixed inset-0 -z-10"
+                className="background fixed inset-0 -z-20 pointer-events-none"
                 style={{
                     backgroundImage: `url('${getAssetPath("/images/bg02.png")}')`,
                     backgroundSize: "cover",
+                    backgroundPosition: "center",
                 }}
             >
                 <div
                     className="noise-overlay"
                     style={{
                         backgroundImage: `url('${getAssetPath("/images/noise 01.png")}')`,
-                        opacity: 0.15,
+                        opacity: 0.2,
+                        backgroundSize: "cover",
                         mixBlendMode: "screen",
                     }}
                 />
             </div>
 
-            <ThemeProvider>
-                <PageTransitionProvider>
-                    <Layout>
-                        <PageTransitionWrapper>
-                            <Component {...pageProps} />
-                        </PageTransitionWrapper>
-                    </Layout>
-                </PageTransitionProvider>
-            </ThemeProvider>
-        </>
+            <PageTransitionProvider>
+                <Layout>
+                    <PageTransitionWrapper>
+                        <Component {...pageProps} />
+                    </PageTransitionWrapper>
+                </Layout>
+            </PageTransitionProvider>
+        </ThemeProvider>
     );
 }

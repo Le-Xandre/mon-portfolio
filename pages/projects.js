@@ -27,7 +27,7 @@ export default function Projects() {
     return (
         <section id="projects" className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
             <div className="max-w-4xl mx-auto px-4">
-                <h2 className="text-4xl font-extrabold text-center neon-glow text-gray-900 dark:text-white">
+                <h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">
                     Mes Projets
                 </h2>
                 <div className="mt-10 grid gap-8 sm:grid-cols-2">
@@ -50,7 +50,7 @@ export default function Projects() {
                             </div>
 
                             <div className="p-8">
-                                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                                <h3 className="text-2xl text-center font-semibold text-gray-900 dark:text-white">
                                     {project.title}
                                 </h3>
                                 <p className="mt-4 text-gray-600 dark:text-gray-300">{project.description}</p>
@@ -61,7 +61,7 @@ export default function Projects() {
                                 {/* Bouton avec flèche animée */}
                                 <Link
                                     href={project.link}
-                                    className="mt-6 inline-flex items-center gap-2 text-cyan-400 hover:text-pink-400 transition duration-300"
+                                    className="mt-6 inline-flex text-center items-center gap-2 text-cyan-400 hover:text-pink-400 transition duration-300"
                                 >
                                     Voir le projet
                                     <FiArrowRight className="transform transition-transform group-hover:translate-x-1" />
