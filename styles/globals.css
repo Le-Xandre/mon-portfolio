@@ -5,37 +5,47 @@
 :root {
     --bg-image: none;
     --bg-fallback: #000; /* Couleur de fond si l’image ne remplit pas tout */
-    --nav-backdrop: rgba(255, 255, 255, 0.1);
+    --nav-backdrop: rgba(255, 255, 255, 0.5);
+}
+/* Light & Dark */
+
+html[data-theme='light'] body {
+    --bg-image: url('/images/bg.jpg');
 }
 
-[data-theme="steampunk"] {
+html[data-theme='dark'] body {
+    --bg-image: url('/images/bg03.png');
+}
+/* Ajoute les autres thèmes ici */
+
+[data-theme="steampunk"] body {
     --font-title: 'Metamorphous', cursive;
     --font-body: 'Georgia', serif;
     --bg-image: url('/themes/steampunk/bg.jpg');
     --bg-fallback: #1f140a;
-    --nav-backdrop: rgba(30, 20, 10, 0.6);
+    --nav-backdrop: rgba(30, 20, 10, 0.5);
 }
     [data-theme="steampunk"] .glass-section {
-        background: rgba(60, 30, 10, 0.3);
+        background: rgba(60, 30, 10, 0.5);
     }
 
     [data-theme="steampunk"] .custom-cursor {
-        background-color: rgba(100, 60, 30, 0.3);
+        background-color: rgba(100, 60, 30, 0.5);
         border-color: #d4b064;
         color: #fff;
         opacity: 1;
     }
 
-[data-theme="cyberpunk"] {
+[data-theme="cyberpunk"] body {
     --font-title: 'Orbitron', sans-serif;
     --font-body: 'Inter', sans-serif;
     --bg-image: url('/themes/cyberpunk/bg.jpg');
     --bg-fallback: #080820;
-    --nav-backdrop: rgba(10, 10, 40, 0.6);
+    --nav-backdrop: rgba(10, 10, 40, 0.5);
 }
 
 [data-theme="cyberpunk"] .glass-section {
-    background: rgba(20, 60, 90, 0.3);
+    background: rgba(20, 60, 90, 0.5);
 }
 
     [data-theme="cyberpunk"] .custom-cursor {
@@ -45,15 +55,15 @@
         opacity: 1;
     }
 
-[data-theme="fantasy"] {
+[data-theme="fantasy"] body {
     --font-title: 'IM Fell English SC', serif;
     --font-body: 'Metamorphous', cursive;
     --bg-image: url('/themes/fantasy/bg.jpg');
     --bg-fallback: #4a2e60;
-    --nav-backdrop: rgba(80, 40, 100, 0.3);
+    --nav-backdrop: rgba(80, 40, 100, 0.5);
 }
     [data-theme="fantasy"] .glass-section {
-        background: rgba(100, 50, 150, 0.3);
+        background: rgba(100, 50, 150, 0.5);
     }
 
 
@@ -96,12 +106,12 @@ body {
         background-image: var(--bg-image);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         z-index: -2;
         opacity: 1;
         transition: background-image 0.3s ease;
     }
-
+ 
     body::after {
         content: '';
         position: fixed;
@@ -167,7 +177,7 @@ h1, h2, h3 {
 }
 
 .glass-section {
-    background: rgba(0, 0, 0, 0.5); /* ajustable */
+    background: rgba(0, 0, 0, 0.2); /* ajustable */
     backdrop-filter: blur(1.5px);
     border-radius: 1rem;
     padding: 1rem;
@@ -358,10 +368,19 @@ nav {
     border: 3px solid rgba(255, 255, 255, 0.3);
     margin-top: 1rem;
     transition: transform 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    animation: neonGlow 6s infinite alternate;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 255, 255, 0.2);
+    animation: neonGlow 5s infinite alternate;
 }
-
+    .avatar .img {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 255, 255, 0.2);
+        animation: neonGlow 5s infinite alternate;
+        transition: transform 0.3s ease;
+    }
 .avatar\:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
 }
 
 .glassmorphism-card h1 {
