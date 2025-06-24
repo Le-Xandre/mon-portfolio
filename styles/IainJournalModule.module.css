@@ -1,0 +1,125 @@
+﻿/* styles/IainJournalModule.module.css */
+
+/* Fond noir semi-transparent couvrant tout l'écran */
+.modalFixedOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:80vw;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.5); /* moins opaque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(2px); /* plus léger */
+}
+
+/* Fenêtre flottante centrée */
+.modalFloatingWindow {
+    background: #1a1a1a;
+    color: #f0f0f0;
+    border-radius: 1rem;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.25);
+    position: relative;
+    z-index: 10000;
+    overflow-y: auto;
+    max-height: 90vh;
+    transform: translateY(-10px); /* optionnel pour compenser si nécessaire */
+}
+
+/* Bouton de fermeture (X) */
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    color: #ff5b5b;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .closeButton:hover {
+        color: #ffaaaa;
+    }
+
+/* Liste des entrées */
+.entryList {
+    margin-top: 1rem;
+}
+
+    .entryList ul {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+.entryButton {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: #292929;
+    color: #00ffff;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+    .entryButton:hover {
+        background: #00ffff;
+        color: #1a1a1a;
+        transform: translateX(4px);
+    }
+
+/* Titre principal */
+.modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #00ffff;
+}
+
+/* Contenu d’une entrée */
+.entryContent {
+    text-align: left;
+}
+
+    .entryContent h3 {
+        font-size: 1.25rem;
+        color: #00ffff;
+        margin-bottom: 1rem;
+    }
+
+    .entryContent p {
+        line-height: 1.6;
+        color: #ccc;
+    }
+
+/* Bouton retour */
+.backButton {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .backButton:hover {
+        background: #00ffff;
+        color: #1a1a1a;
+    }

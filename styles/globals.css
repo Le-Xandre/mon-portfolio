@@ -416,6 +416,16 @@ article img {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.prose table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prose th, .prose td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+}
+
 .prose img {
     max-width: 100%;
     height: auto;
@@ -429,6 +439,15 @@ article img {
 .prose img\:hover {
     transform: scale(1.05);
 }
+
+.prose a {
+    color: #4fd1c5;
+    text-decoration: underline;
+}
+.prose a\:hover {
+    transform: scale(1.05);
+}
+
 
 .steampunk-title {
     font-family: 'Metamorphous', cursive;

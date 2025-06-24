@@ -1,0 +1,15 @@
+﻿.journalButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.3s ease;
+    z-index: 100;
+}
+
+    .journalButton:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 8px #00ffff); /* glow néon turquoise */
+    }
