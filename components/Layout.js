@@ -7,7 +7,7 @@ export default function Layout({ children }) {
         <div className="flex flex-col min-h-screen">      {/* 1. conteneur flex-col  */}
             <Navbar />
             <main className="flex-grow m-4">                    {/* 2. main prend l’espace restant */}
-                <AnimatePresence exitBeforeEnter>
+                <AnimatePresence mode="wait">
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
@@ -17,6 +17,7 @@ export default function Layout({ children }) {
                         {children}
                     </motion.div>
                 </AnimatePresence>
+
             </main>
             <Footer />                                      {/* 3. Footer collé en bas */}
         </div>

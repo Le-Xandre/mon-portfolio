@@ -14,7 +14,7 @@ export async function getStaticProps() {
     const folders = folderNames.map(folder => {
         const folderPath = path.join(imagesDir, folder);
         const files = fs.readdirSync(folderPath).filter(file =>
-            /\.(jpe?g|png|gif|webp)$/i.test(file)
+            /\.(jpe?g|png|webp|gif|mp4|mov)$/i.test(file)
         );
         // Return full public path URLs
         const images = files.map(file => `/images/${folder}/${file}`);

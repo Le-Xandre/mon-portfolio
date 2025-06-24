@@ -1,15 +1,22 @@
-﻿type TornImageProps = {
+﻿import Image from 'next/image';
+
+type TornImageProps = {
     src: string;
     alt?: string;
     className?: string;
 };
 
-export default function TornImage({ src, alt, className }: TornImageProps) {
+export default function TornImage({ src, alt = '', className = '' }: TornImageProps) {
     return (
         <div className={`relative overflow-hidden max-h-48 ${className}`}>
-            <img
+            <Image
                 src={src}
                 alt={alt}
+                width={600}
+                height={150} // fill
+                sizes="100vw"
+                priority={false} // tu peux mettre à true si image très visible
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
             />
             <svg
@@ -31,3 +38,4 @@ export default function TornImage({ src, alt, className }: TornImageProps) {
         </div>
     );
 }
+

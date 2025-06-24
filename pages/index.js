@@ -19,7 +19,7 @@ export default function Home() {
           <div className="relative neon-box neon-glow z-10 glass-section max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 p-8 md:p-10">
         {/* Avatar with halo and neon-glow */}  <CustomBackground />
         <div className="relative group flex-shrink-0 neon-glow">
-                  <div className="neon-glow avatar-halo overflow-hidden border-4 border-cyan-400  shadow-lg avatar border-4 border-cyan-400 shadow-xl transition-transform duration-300">
+                  <div className="neon-glow avatar-halo avatar overflow-hidden border-4 border-cyan-400 shadow-xl transition-transform duration-300">
             <Image
               src={getAssetPath("/images/profil.png")}
               alt="Mon portrait"
@@ -29,7 +29,7 @@ export default function Home() {
             />
           </div>
         </div>
- 
+            
         {/* Texte & Bouton */}
         <div className="flex-1 text-white space-y-4">
           {/* Glitch effect tested on pseudo */}
@@ -37,21 +37,21 @@ export default function Home() {
             @Hell~Xandre
           </h1>
           <p className="text-lg md:text-xl font-light text-gray-300">
-            Créateur d’expériences web immersives
+                      Créateur d’expériences web immersives 
           </p>
 
           <Link
             href="#projects"
             className="mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
-          >
+          >  
             Découvre mes projets
           </Link>
-
           <div className="mt-6 text-xs tracking-widest uppercase text-gray-400">
            <br></br> • Impressive Design • Innovative Solutions •
           </div>
         </div>
       </div>
+                  
 
       {/* Halo & noise CSS adjustments */}
       <style jsx>{`

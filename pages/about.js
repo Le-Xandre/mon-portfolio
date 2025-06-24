@@ -1,4 +1,4 @@
-
+import React, { useEffect } from "react";
 import AProposAnimated from '/components/AProposAnimated'
 
 export default function About() {

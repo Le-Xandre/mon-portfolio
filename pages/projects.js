@@ -26,6 +26,19 @@ const projects = [
 export default function Projects() {
     return (
         <section id="projects" className="glass-section py-10 max-w-6xl mx-auto my-10 max-w-4xl mx-auto dark:bg-gray-800">
+
+            {/* Vidéo de fond en fixed pour ne pas impacter le flux  
+                <video
+                src="/videos/0_Futuristic_Technology_3840x2160.mov"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute overflow-hidden opacity-20"
+            />
+            */}
+           
+
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">
                     Mes Projets
