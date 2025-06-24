@@ -48,7 +48,7 @@ coverImage: "/images/bg.jpg"
 
 ---
 
-## ✨ Titres potentiels pour ton univers ou portfolio
+## ✨ Titres potentiels pour un univers ou un portfolio
 
 - Codex de l’Inframonde  
 - Fragments d’Étoiles  
