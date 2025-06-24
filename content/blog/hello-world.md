@@ -62,9 +62,9 @@ coverImage: "/images/bg.jpg"
 ## 🖼️ Bonus visuel
 
 <div class="gallery">
-  <img src="/images/theme03/jpg/image (3).jpg" alt="Château de Vapeur" />
-  <img src="/images/theme03/png/image (91).png" alt="Chute lente" />
-  <img src="/images/theme01/jpg/illustration (12).jpg" alt="Pluie d'astres" />
+  <img src="/images/theme03/png/image (85).png" alt="Château de Vapeur" />
+  <img src="/images/theme03/png/image (83).png" alt="Chute lente" />
+  <img src="/images/theme03/png/image (86).png" alt="Pluie d'astres" />
 </div>
 
 ---
