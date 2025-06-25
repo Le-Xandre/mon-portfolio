@@ -9,7 +9,7 @@ const projects = [
     title: 'Projet A',
     description: 'Portfolio photo & liens tests disponibles',
     image: getAssetPath('/images/project-a.png'),
-    tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
+    tech: ['HTML', 'CSS', 'JavaScript'],
     link: {
       url: 'https://le-xandre.github.io/Vitrine-Portfolio/Portfolio.html',
       label: '🎨 Portfolio photo'
@@ -19,7 +19,7 @@ const projects = [
     title: 'Projet B',
     description: 'Portfolio actuel en projet B.',
     image: getAssetPath('/images/project-a.png'),
-    tech: ['React', 'Node.js', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    tech: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
     link: {
       url: '#',
       label: '🔗 Bientôt disponible'
