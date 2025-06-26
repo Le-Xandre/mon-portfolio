@@ -7,7 +7,7 @@ import matter from 'gray-matter';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination'; 
+import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper';
 import TornImage from '../../components/TornImage';
 import { useState } from 'react';
@@ -31,18 +31,23 @@ export default function Blog({ posts }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <section className="glass-section py-8 max-w-6xl mx-auto my-4 mx-auto dark:bg-gray-800">
-
-            <div className="fixed inset-0 bg-black/10 pointer-events-none" />
-
-            {/* Conteneur centré pour le titre et le slider */}
-            <div className="flex justify-end pr-8">
+        <section className="glass-section py-8  max-w-6xl mx-auto my-8 dark:bg-gray-800">
+<h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">
+                    Blog
+                </h2>
+            {/* En-tête avec titre et bouton alignés */}
+            <div className="flex justify-between items-center px-8 mb-6">
+                
                 <IainJournalButton onClick={() => setIsModalOpen(true)} />
             </div>
 
+            {/* Fond de section */}
+            <div className="fixed inset-2 bg-black/10 pointer-events-none" />
+
+            {/* Modal J.D.B. */}
             <IainJournalModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
- 
-            {/* Slider */}
+
+            {/* Swiper (slider) des articles */}
             <div className="relative z-10 flex-grow">
                 <div className="mx-auto max-w-12xl text-center items-center">
                     <Swiper
@@ -52,7 +57,7 @@ export default function Blog({ posts }) {
                             clickable: true,
                             renderBullet: (idx, className) =>
                                 `<span class="${className}">Page ${idx + 1}</span>`,
-                        }}
+                        }} 
                         spaceBetween={30}
                         slidesPerView={1}
                         breakpoints={{
@@ -69,16 +74,18 @@ export default function Blog({ posts }) {
                                     <TornImage
                                         src={post.frontmatter.coverImage || '/default.jpg'}
                                         alt={post.frontmatter.title}
-                                        className="h-42"
+                                        className="h-40"
                                     />
-                                    <div className="py-8 max-w-8xl">
-                                        <h3 className="font-semibold text-gray-900 dark:text-white">
-                                            {post.frontmatter.title}
-                                        </h3>
-                                        <p className="mt-2 text-gray-600 dark:text-gray-300">
-                                            {post.frontmatter.description}
-                                        </p>
-                                        <p className="mt-4 text-gray-500 dark:text-gray-400">
+                                    <div className="py-8 px-4 max-w-8xl min-h-[240px] flex flex-col justify-between">
+                                        <div>
+                                            <h3 className="font-semibold text-sm text-gray-900 dark:text-white">
+                                                {post.frontmatter.title}
+                                            </h3>
+                                            <p className="mt-4 text-sm md:text-base text-gray-600 dark:text-gray-300">
+                                                {post.frontmatter.description}
+                                            </p>
+                                        </div>
+                                        <p className="mt-4 text-gray-500 dark:text-gray-400 text-center">
                                             <em>{post.frontmatter.date}</em>
                                         </p>
                                     </div>
@@ -88,10 +95,7 @@ export default function Blog({ posts }) {
                     </Swiper>
                 </div>
             </div>
-
+         
         </section>
     );
-  
-
-
 }
