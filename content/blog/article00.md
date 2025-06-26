@@ -26,7 +26,8 @@ Et créer dans ces zones grises, du sens, de la beauté, ou juste un peu de réf
 
 Mais on y trouvera aussi autre chose. Un autre canal, qui lui est assez spécial.  
 Des entrées plus fragmentées, littéraires ou introspectives, parfois codées, parfois symboliques,  
-que j’appelle ici — ou plutôt que **nous** appelons (ne me sentant pas forcément "seul" dans cet effet miroir sans teint) : **le Journal de Bord**.
+que j’appelle ici — ou plutôt que **nous** appelons (ne me sentant pas forcément "seul" dans cet effet miroir sans teint) : 
+**le Journal de Bord**.
 
 Ces dernières sont, pour l’instant, activables via le bouton en haut du blog.  
 Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec les IA, précisément avec une IA (le modèle de langage chatgpt)
