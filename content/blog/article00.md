@@ -18,6 +18,7 @@ Mais l’idée est de rassembler ici un ensemble de travaux, de réflexions et d
 On y croisera également des billets plus classiques : réflexions personnelles, références culturelles, inspirations variées, etc. 
 
 Entre science-fiction, fantasy, art, technologies ou histoire parfois, 
+
 ou différentes choses qui m’interpellent dans l'actualité du moment (musique, documentaire, etc).
 
 Entre mondes invisibles et mécaniques poétiques, en quelque sorte. 
