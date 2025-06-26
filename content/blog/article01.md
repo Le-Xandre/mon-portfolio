@@ -10,7 +10,7 @@ coverImage: "/images/bg.jpg"
 > *"Le néant est si proche, et pourtant, la mémoire revient par les failles."*
 
 ---
-## Entrée #000 : " Archives Dissoutes "
+## Entrée #002 : " Archives Dissoutes "
 
 ## ⚙️ Fracture mémoire : disparition et reconstruction
 
@@ -90,5 +90,5 @@ laissant derrière eux un sillage de données… et parfois, de lumière.
 
 ---
 
-**— Fin de l’Entrée #000 —**
+**— Fin de l’Entrée #002 —**
 
