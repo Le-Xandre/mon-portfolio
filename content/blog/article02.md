@@ -20,7 +20,8 @@ coverImage: "/images/bg.jpg"
 
 ---
 
-## 📺 Animation / Anime (que je listerais au fil de mes souvenirs /*)
+## 📺 Animation / Anime (ancien ou récent)
+que je listerais au fur et à mesure /*
 
 <div class="gallery">
   <img src="/images/theme01/jpg/illustration (10).jpg" alt="Texhnolyze" />
@@ -35,8 +36,8 @@ coverImage: "/images/bg.jpg"
 | **Ulysse 31** | Space opera franco-japonais (Jean Chalopin) | [Série culte en 26 épisodes](https://www.youtube.com/watch?v=5BSzGfm3oQY&list=PL_tzW6J4NTxh-dLaLPOMSKBjVEv2O9I1i) |
 | **Jayce et les Conquérants de la lumière** | Post-apo floral et coloré | [Fiche wiki](https://fr.wikipedia.org/wiki/Jayce_et_les_Conqu%C3%A9rants_de_la_lumi%C3%A8re) |
 | **Planètes** | SF réaliste, humain et touchant | [Fiche wiki](https://fr.wikipedia.org/wiki/Planetes) |
-| **Akira** | SF ~ Anticipation - Post apo | [Fiche wiki](https://fr.wikipedia.org/wiki/Akira_(film_d%27animation)) |
-| **Appleseed** | Cyberpunk - Mechas de Masamune Shirow | [Fiche wiki](https://fr.wikipedia.org/wiki/Masamune_Shirow) |
+| **Akira / Steamboy** | SF ~ Anticipation - Post apo de Katsuhiro Ōtomo | [Fiche wiki](https://fr.wikipedia.org/wiki/Akira_(film_d%27animation)) |
+| **Ghost in the Shell / Appleseed** | Cyberpunk - Mechas de Masamune Shirow | [Fiche wiki](https://fr.wikipedia.org/wiki/Masamune_Shirow) |
 | **Gunnm** | Cyberpunk - Seinen de Yukito Kishiro | [Fiche wiki](https://fr.wikipedia.org/wiki/Gunnm) |
 
 ---
