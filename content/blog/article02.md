@@ -39,7 +39,7 @@ coverImage: "/images/bg.jpg"
 | **Akira / Steamboy** | SF ~ Anticipation - Post apo de Katsuhiro Ōtomo | [Fiche wiki](https://fr.wikipedia.org/wiki/Akira_(film_d%27animation)) |
 | **Ghost in the Shell / Appleseed** | Cyberpunk - Mechas de Masamune Shirow | [Fiche wiki](https://fr.wikipedia.org/wiki/Masamune_Shirow) |
 | **Gunnm** | Cyberpunk - Seinen de Yukito Kishiro | [Fiche wiki](https://fr.wikipedia.org/wiki/Gunnm) |
-| **Paprika / Paranoïa Agent / Millennium Actress / Tokyo Godfathers** | Satoshi Kon | [Lien court expliquant bien sa vision dans l'animation moderne](https://www.youtube.com/watch?v=oz49vQwSoTE) |
+| **Paprika / Paranoïa Agent / Tokyo Godfathers** | Satoshi Kon | [Courte vidéo sur son influence dans l'animation moderne](https://www.youtube.com/watch?v=oz49vQwSoTE) |
 
 ---
 
