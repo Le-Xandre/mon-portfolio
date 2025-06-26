@@ -29,7 +29,7 @@ coverImage: "/images/bg.jpg"
   <img src="/images/theme01/jpg/illustration (7).jpg" alt="Ulysse 31" />
 </div>
 
-| Titre | Genre / Ambiance | Lien |
+| Titre | Genre / Ambiance / Auteur | Lien |
 |-------|------------------|------|
 | **Ergo Proxy** | Dystopie SF, introspective et sombre | [Fiche wiki](https://fr.wikipedia.org/wiki/Ergo_Proxy) |
 | **Texhnolyze** | Cyberpunk philosophique | [Fiche wiki](https://fr.wikipedia.org/wiki/Texhnolyze) |
