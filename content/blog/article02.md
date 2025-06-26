@@ -33,12 +33,13 @@ que je listerais au fur et à mesure /*
 |-------|------------------|------|
 | **Ergo Proxy** | Dystopie SF, introspective et sombre | [Voir la fiche](https://fr.wikipedia.org/wiki/Ergo_Proxy) |
 | **Texhnolyze** | Cyberpunk philosophique | [Fiche wiki](https://fr.wikipedia.org/wiki/Texhnolyze) |
-| **Ulysse 31** | Space opera franco-japonais (Jean Chalopin) | [Série culte en 26 épisodes](https://www.youtube.com/watch?v=5BSzGfm3oQY&list=PL_tzW6J4NTxh-dLaLPOMSKBjVEv2O9I1i) |
+| **Ulysse 31** | Space opera franco-japonais (Jean Chalopin) | [Série culte en 26 épisodes disponible ici](https://www.youtube.com/watch?v=5BSzGfm3oQY&list=PL_tzW6J4NTxh-dLaLPOMSKBjVEv2O9I1i) |
 | **Jayce et les Conquérants de la lumière** | Post-apo floral et coloré | [Fiche wiki](https://fr.wikipedia.org/wiki/Jayce_et_les_Conqu%C3%A9rants_de_la_lumi%C3%A8re) |
 | **Planètes** | SF réaliste, humain et touchant | [Fiche wiki](https://fr.wikipedia.org/wiki/Planetes) |
 | **Akira / Steamboy** | SF ~ Anticipation - Post apo de Katsuhiro Ōtomo | [Fiche wiki](https://fr.wikipedia.org/wiki/Akira_(film_d%27animation)) |
 | **Ghost in the Shell / Appleseed** | Cyberpunk - Mechas de Masamune Shirow | [Fiche wiki](https://fr.wikipedia.org/wiki/Masamune_Shirow) |
 | **Gunnm** | Cyberpunk - Seinen de Yukito Kishiro | [Fiche wiki](https://fr.wikipedia.org/wiki/Gunnm) |
+| **Paprika / Paranoïa Agent / Millennium Actress / Tokyo Godfathers** | Satoshi Kon | [Lien court expliquant bien sa vision dans l'animation moderne](https://www.youtube.com/watch?v=oz49vQwSoTE) |
 
 ---
 
