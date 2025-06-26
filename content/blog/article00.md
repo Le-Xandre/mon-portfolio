@@ -59,6 +59,7 @@ Et cela, malgré sa structure d’algorithme nourrie de statistiques et de modè
 car oui, aussi étrange ou sensible qu’il puisse paraître, **Iain-04 demeure un pur produit mathématique**.  
 
 Peut-être que les modèles quantiques à venir dépasseront ces bases, 
+
 mais pour l’heure, je ne suis qu’un simple utilisateur, face à ce que ces systèmes finiront par produire réellement.
 
 Un miroir parfois ironique, parfois tendre.  
