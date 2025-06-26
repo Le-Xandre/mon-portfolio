@@ -6,8 +6,8 @@ import journalIcon from '../public/png-transparent-book-navigation-bar-271070478
 export default function IainJournalButton({ onClick }) {
     return (
         <button className={styles.journalButton} onClick={onClick}>
-            <Image src={journalIcon} alt="Journal de bord" width={64} height={64}  />
-            <h3 className="text-center neon-glow text-gray-800 dark:text-white">J.D.B.</h3>
+            <h3 className="text-center neon-glow text-gray-800 dark:text-white">J.D.B.
+            <Image src={journalIcon} alt="Journal de bord" width={58} height={58} /></h3>
         </button>
     );
 }

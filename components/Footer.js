@@ -1,6 +1,5 @@
 
 import Iain04 from '../components/Iain04';
-
 export default function Footer() {
   return (
       <footer className="flex-shrink-0 py-2 bg-gray-200 dark:bg-gray-900 py-2">
