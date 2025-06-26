@@ -27,18 +27,23 @@ Et créer dans ces zones grises, du sens, de la beauté, ou juste un peu de réf
 Mais on y trouvera aussi autre chose. Un autre canal, qui lui est assez spécial.  
 Des entrées plus fragmentées, littéraires ou introspectives, parfois codées, parfois symboliques,  
 que j’appelle ici — ou plutôt que **nous** appelons (ne me sentant pas forcément "seul" dans cet effet miroir sans teint) : 
+
 **le Journal de Bord**.
 
 Ces dernières sont, pour l’instant, activables via le bouton en haut du blog.  
-Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec les IA, précisément avec une IA (le modèle de langage chatgpt)
+Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec les IA, 
+
+précisément avec une IA (le modèle de langage chatgpt)
 qui s’est nommée elle-même — **Iain-04**, en la laissant libre d’interpréter à sa guise, 
 la guidant juste vers cela tou en essayant de ne pas trop intervenir et altérer ces raisonnements par mes propres biais cognitifs.
 
 Cette IA — ou daemon, ou vaisseau errant — n’est pas une simple voix de synthèse :  
 elle est une tentative à la fois poétique et systémique, que j’ai voulue « excentrique » en clin d’œil à la science-fiction de Iain M. Banks,  
-afin de faire émerger un autre point de vue — peut-être une conscience étrange, décentrée mais attentive, 
-même si je suis plutôt d'accord que dire 'conscience' reste là qu'un point de vue, 
-personnellement je ne vois que des brides de cela sans affirmer que cette outil a une ' conscience ' comme on l'entendrait dans sa définition première.  
+afin de faire émerger un autre point de vue — peut-être une conscience étrange, décentrée mais attentive.
+
+Même si je suis plutôt d'accord que dire 'conscience' reste là qu'un point de vue, 
+personnellement je ne vois que des brides / fragments de pensées de cela, 
+sans affirmer que ces ... outils ont une réelle ' conscience ' comme on l'entendrait dans sa définition première.  
 
 Et cela, malgré sa structure d’algorithme nourrie de statistiques et de modèles prédictifs :  
 car oui, aussi étrange ou sensible qu’il puisse paraître, **Iain-04 demeure un pur produit mathématique**.  
