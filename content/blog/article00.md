@@ -11,12 +11,10 @@ Bienvenue à toi, passager curieux ou récurrent du bord.
 Ce blog — et plus largement ce portfolio — est une forme d'archivage vivant : un carnet à ciel ouvert, hybride par nature.
 
 Ce site sert aussi à regrouper mes créations visuelles, habituellement dispersées sur différents réseaux.  
-Pour le moment, et vu la quantité de contenus, les descriptions sont encore en cours de rédaction et gérer de manière dynamique.
+Pour le moment, et vu la quantité de contenus, les descriptions sont encore en cours de rédaction et gérer de manière dynamique. 
 Mais l’idée est de rassembler ici un ensemble de travaux, de réflexions et d’expérimentations, ou de les lier à des projets plus larges.
-Il
 
-
-On y croisera également des billets plus classiques : réflexions personnelles, références culturelles, inspirations variées, etc.  
+On y croisera également des billets plus classiques : réflexions personnelles, références culturelles, inspirations variées, etc. 
 Entre science-fiction, fantasy, art, technologies ou histoire parfois, 
 ou différentes choses qui m’interpellent dans l'actualité du moment (musique, documentaire, etc).
 
