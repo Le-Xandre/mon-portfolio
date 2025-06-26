@@ -11,11 +11,11 @@ coverImage: "/images/bg.jpg"
 | Auteur·ice / Œuvre | Genre / Particularité | Notes & Liens |
 |--------------------|------------------------|----------------|
 | **Dan Simmons** – *Hyperion*, *Endymion*, *L’Échiquier du Mal*, *Terreur* | SF mythologique, horreur métaphysique | [Voir Wikipédia](https://fr.wikipedia.org/wiki/Dan_Simmons) |
-| **Iain M. Banks** – *Cycle de la Culture* | Space opera intelligent, IA excentriques | [Découvrir le cycle](https://fr.wikipedia.org/wiki/Cycle_de_la_Culture) |
+| **Iain M. Banks** – *Cycle de la Culture* | Space opera intelligent, IA excentriques | [Découvrir l'auteur ](https://fr.wikipedia.org/wiki/Iain_Banks) |
 | **Philip K. Dick** | Réalité altérée, paranoïa | [Son œuvre](https://fr.wikipedia.org/wiki/Philip_K._Dick) a inspiré *Blade Runner*, *Ubik*... |
 | **Arthur C. Clarke** – *Rama*, *2001* | SF visionnaire | [Rendez-vous avec Rama](https://fr.wikipedia.org/wiki/Rendez-vous_avec_Rama) |
 | **Liu Cixin** – *Problème à trois corps* | Hard SF chinoise, vertige cosmique | [La trilogie](https://fr.wikipedia.org/wiki/Trilogie_du_Problème_%C3%A0_trois_corps) a été adaptée récemment |
-| **Anne Rice** – *Chroniques des vampires* | Fantastique gothique | [Découvrir](https://fr.wikipedia.org/wiki/Chroniques_des_vampires) |
+| **Anne Rice** – *Chroniques des vampires* & *Saga des sorcières Mayfair* | Fantastique gothique | [Découvrir](https://fr.wikipedia.org/wiki/Chroniques_des_vampires) |
 | **Ursula K. Le Guin** – *Terremer*, *La Main gauche de la nuit* | SF anthropologique, fantasy poétique | [Son univers](https://fr.wikipedia.org/wiki/Ursula_K._Le_Guin) mérite une exploration |
 
 ---
