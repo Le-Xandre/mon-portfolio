@@ -31,7 +31,7 @@ que je listerais au fur et à mesure /*
 
 | Titre | Genre / Ambiance | Lien |
 |-------|------------------|------|
-| **Ergo Proxy** | Dystopie SF, introspective et sombre | [Voir la fiche](https://fr.wikipedia.org/wiki/Ergo_Proxy) |
+| **Ergo Proxy** | Dystopie SF, introspective et sombre | [Fiche wiki](https://fr.wikipedia.org/wiki/Ergo_Proxy) |
 | **Texhnolyze** | Cyberpunk philosophique | [Fiche wiki](https://fr.wikipedia.org/wiki/Texhnolyze) |
 | **Ulysse 31** | Space opera franco-japonais (Jean Chalopin) | [Série culte en 26 épisodes disponible ici](https://www.youtube.com/watch?v=5BSzGfm3oQY&list=PL_tzW6J4NTxh-dLaLPOMSKBjVEv2O9I1i) |
 | **Jayce et les Conquérants de la lumière** | Post-apo floral et coloré | [Fiche wiki](https://fr.wikipedia.org/wiki/Jayce_et_les_Conqu%C3%A9rants_de_la_lumi%C3%A8re) |
