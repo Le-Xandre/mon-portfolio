@@ -20,7 +20,7 @@ coverImage: "/images/bg.jpg"
 
 ---
 
-## 📺 Animation / Anime qui t’ont marqué
+## 📺 Animation / Anime (que je listerai au fil de mes souvenirs /*)
 
 <div class="gallery">
   <img src="/images/theme01/jpg/illustration (10).jpg" alt="Texhnolyze" />
@@ -49,7 +49,7 @@ coverImage: "/images/bg.jpg"
 
 ---
 
-## ✨ Titres potentiels pour ton univers ou portfolio
+## ✨ Titres potentiels pour la suite du blog ou idées d'illustrations pour le portfolio
 
 - Codex de l’Inframonde  
 - Fragments d’Étoiles  
