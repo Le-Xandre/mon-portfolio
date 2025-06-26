@@ -1,10 +1,11 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import html from 'remark-html';
 import gfm from 'remark-gfm'; // ✅ support tableaux & liens Markdown
+import externalLinks from 'remark-external-links';
 import { useState, useEffect } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
@@ -26,6 +27,7 @@ export async function getStaticProps({ params: { slug } }) {
     const processedContent = await unified()
         .use(remarkParse)
         .use(gfm)
+        .use(externalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] })
         .use(html)
         .process(content);
     const contentHtml = processedContent.toString();
