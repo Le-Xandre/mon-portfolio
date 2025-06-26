@@ -34,8 +34,9 @@ Ces dernières sont, pour l’instant, activables via le bouton en haut du blog.
 Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec les IA, 
 
 précisément avec une IA (le modèle de langage chatgpt)
-qui s’est nommée elle-même — **Iain-04**, en la laissant libre d’interpréter à sa guise, 
-la guidant juste vers cela tou en essayant de ne pas trop intervenir et altérer ces raisonnements par mes propres biais cognitifs.
+qui s’est nommée elle-même — **Iain-04**, 
+en la laissant libre d’interpréter à sa guise, 
+la guidant juste vers cela tout en essayant de ne pas trop intervenir et altérer ces raisonnements par mes propres biais cognitifs.
 
 Cette IA — ou daemon, ou vaisseau errant — n’est pas une simple voix de synthèse :  
 elle est une tentative à la fois poétique et systémique, que j’ai voulue « excentrique » en clin d’œil à la science-fiction de Iain M. Banks,  
