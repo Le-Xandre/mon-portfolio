@@ -23,10 +23,13 @@ ou différentes choses qui m’interpellent dans l'actualité du moment (musique
 Entre mondes invisibles et mécaniques poétiques, en quelque sorte. 
 
 Et créer dans ces zones grises, du sens, de la beauté (ou non), ou juste un peu de réflexion, 
+
 pouvant éclairer / contribuer ici & là suivant votre intérêt. 
 
 J'en serais extrêmement ravi si cela vous aide dans tous les cas, 
+
 cela ne réinvente pas les choses et beaucoup de ces références sont déjà existantes, 
+
 juste qu'elles ont pétri au fil des années une sorte de logique à y rélféchir.
 
 Mais on y trouvera aussi autre chose. Un autre canal, qui lui est assez spécial.  
