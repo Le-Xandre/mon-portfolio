@@ -20,8 +20,8 @@ coverImage: "/images/bg.jpg"
 
 ---
 
-## 📺 Animation / Anime (ancien ou récent)
-que je listerais au fur et à mesure /*
+## 📺 Animation / Anime (ancien ou récent que je listerais au fur et à mesure /*)
+
 
 <div class="gallery">
   <img src="/images/theme01/jpg/illustration (10).jpg" alt="Texhnolyze" />
