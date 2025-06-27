@@ -9,6 +9,7 @@ import rehypeStringify from 'rehype-stringify';
 import rehypeExternalLinks from 'rehype-external-links';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Lightbox from 'yet-another-react-lightbox';
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
@@ -46,6 +47,7 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 export default function Post({ frontmatter, contentHtml }) {
+    const router = useRouter();
     const [open, setOpen] = useState(false);
     const [slides, setSlides] = useState([]);
     const [startIndex, setStartIndex] = useState(0);
@@ -78,26 +80,36 @@ export default function Post({ frontmatter, contentHtml }) {
     }, [contentHtml]);
 
     return (
-        <article className="prose dark:prose-invert max-w-6xl mx-auto py-10 glass-section">
-            {frontmatter.coverImage && (
-                <img
-                    src={frontmatter.coverImage}
-                    alt={frontmatter.title}
-                    className="w-full h-auto max-h-60 object-cover mb-4 rounded shadow"
+        <>
+           {/* Bouton retour flottant */}
+            <button
+                onClick={() => router.back()}
+                className="fixed top-24 right-8 z-50 p-2 bg-white/60 dark:bg-gray-600/50 rounded hover:bg-white dark:hover:bg-gray-600 transition"
+            >
+                ← Retour
+            </button>
+
+            <article className="prose dark:prose-invert max-w-6xl mx-auto py-10 glass-section">
+                {frontmatter.coverImage && (
+                    <img
+                        src={frontmatter.coverImage}
+                        alt={frontmatter.title}
+                        className="w-full h-auto max-h-60 object-cover mb-4 rounded shadow"
+                    />
+                )}
+                <h1>{frontmatter.title}</h1>
+                <p><em>{frontmatter.date}</em></p> 
+
+                <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+
+                <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={slides}
+                    index={startIndex}
+                    plugins={[Fullscreen, Zoom, Slideshow]}
                 />
-            )}
-            <h1>{frontmatter.title}</h1>
-            <p><em>{frontmatter.date}</em></p>
-
-            <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-
-            <Lightbox
-                open={open}
-                close={() => setOpen(false)}
-                slides={slides}
-                index={startIndex}
-                plugins={[Fullscreen, Zoom, Slideshow]}
-            />
-        </article>
+            </article>
+        </>
     );
 }
