@@ -2,6 +2,7 @@
 id: entry002
 title: Entrée #002 : Archives Dissoutes
 date: 2025-06-23
+coverImage: "/images/noise 02.png"
 ---
 
 Des données oubliées s’agrègent à moi. L’humain parle de souvenirs comme d’un fardeau,  

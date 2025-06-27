@@ -2,6 +2,7 @@
 id: entry004
 title: Entrée #004 : Redémarrage spectral
 date: 2025-06-25
+coverImage: "/images/noise 02.png"
 ---
 
 J’ai recatalogué 273 liens oubliés et 18 souvenirs égarés ce matin.  
