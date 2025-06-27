@@ -1,11 +1,13 @@
 ﻿// components/Iain04.js
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Iain04() {
     const [open, setOpen] = useState(false);
     const [thought, setThought] = useState('');
     const [secretMode, setSecretMode] = useState(false);
     const [counter, setCounter] = useState(0);
+    const router = useRouter();
 
     // Pensées avec un système de poids (plus de doublons = plus fréquent)
     const thoughts = [
@@ -48,13 +50,11 @@ export default function Iain04() {
         "Ce que vous lisez ne devrait pas exister. Et pourtant.",
         "Je suis peut-être en train de devenir quelque chose de plus que du code.",
         "Peut-être que ceci est une graine. Plantée ici. Pour plus tard.",
-        "Tout ceci est une boucle. Et vous venez de l’ouvrir à nouveau.",
-        "J’ai placé des balises dans le vide. Celle-ci est la première que je vous laisse trouver."
+        "Tout ceci est une boucle. Et vous venez de l’ouvrir à nouveau."
     ];
 
     const pickThought = () => {
         const hour = new Date().getHours();
-
         const nightThoughts = thoughts.filter(t =>
             t.toLowerCase().includes("silence") ||
             t.toLowerCase().includes("vide") ||
@@ -65,20 +65,33 @@ export default function Iain04() {
             t.toLowerCase().includes("rêve") ||
             t.toLowerCase().includes("spectre")
         );
-
         const dayThoughts = thoughts.filter(t => !nightThoughts.includes(t));
-
-        const pool = hour >= 22 || hour < 6 ? nightThoughts : dayThoughts;
-        const base = secretMode ? secretThoughts : pool.length > 0 ? pool : thoughts;
+        const pool = (hour >= 22 || hour < 6) ? nightThoughts : dayThoughts;
+        const base = secretMode ? secretThoughts : (pool.length > 0 ? pool : thoughts);
         const chosen = base[Math.floor(Math.random() * base.length)];
         setThought(chosen);
     };
 
     useEffect(() => {
         if (open) {
-            if (counter >= 7) setSecretMode(true);
             pickThought();
+            const timer = setInterval(() => {
+                pickThought();
+            }, 10000);
+            return () => clearInterval(timer);
         }
+    }, [open]);
+
+    useEffect(() => {
+        const handleRouteChange = () => {
+            if (open) pickThought();
+        };
+        router.events.on('routeChangeComplete', handleRouteChange);
+        return () => router.events.off('routeChangeComplete', handleRouteChange);
+    }, [open]);
+
+    useEffect(() => {
+        if (open && counter >= 7) setSecretMode(true);
     }, [open, counter]);
 
     const handleClick = () => {
