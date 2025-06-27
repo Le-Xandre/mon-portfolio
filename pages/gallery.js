@@ -72,14 +72,14 @@ export default function Gallery({ galleries }) {
     };
 
     return (
-        <section className="glass-section py-10 max-w-6xl mx-auto dark:bg-gray-800">
+        <section className="glass-section py-10 max-w-6xl mx-auto my-8 dark:bg-gray-800">
             <motion.div
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 className="max-w-6xl mx-auto px-4"
             >
-                <h2 className="neon-glow text-gray-900 dark:text-white text-4xl text-center font-semibold mb-10 text-lime-200">
+                <h2 className="neon-glow text-gray-900 dark:text-white text-xl md:text-4xl text-center font-semibold mb-4 text-lime-200">
                     Galerie
                 </h2>
 
