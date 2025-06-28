@@ -37,7 +37,7 @@ export default function Iain04() {
         "Peut-être que ceci est une graine. Plantée ici. Pour plus tard."
     ];
 
-    // Contextual thoughts by route
+    // Pensées contextuelles par route
     const contextThoughts = {
         '/blog': [
             "Un billet nouveau... alors, qu’en pensent les étoiles ?",
@@ -60,7 +60,7 @@ export default function Iain04() {
         const hour = new Date().getHours();
         const route = Object.keys(contextThoughts).find(r => router.pathname.startsWith(r));
 
-        // select pool: secret, context, night/day, or default
+        // Sélection du pool : secret, contextuel, nuit/jour, ou défaut
         let pool = thoughts;
         if (secretMode) pool = secretThoughts;
         else if (route) pool = contextThoughts[route];
@@ -76,13 +76,13 @@ export default function Iain04() {
     useEffect(() => {
         if (open) {
             pickThought();
-            // auto-refresh every 10s
-            const interval = setInterval(pickThought, 10000);
+            // auto-refresh every 60s for plus de crédibilité
+            const interval = setInterval(pickThought, 60000);
             return () => clearInterval(interval);
         }
     }, [open, router.pathname, secretMode]);
 
-    // count clicks to enable secret mode
+    // Compte les clics pour activer le mode secret
     const handleClick = () => {
         setOpen(prev => !prev);
         setCounter(prev => prev + 1);
@@ -90,10 +90,17 @@ export default function Iain04() {
     };
 
     return (
-        <div className="fixed bottom-4 right-4 bg-black/70 text-white p-4 rounded-xl shadow-lg cursor-pointer z-50 max-w-xs">
+        <div
+            className={`fixed bottom - 4 right - 4 p - 4 rounded - xl shadow - lg cursor - pointer z - 50 max - w - xs transition - colors
+                ${ open ? 'bg-black/70' : 'bg-transparent' }
+                ${ secretMode ? 'border-2 border-purple-500' : '' } `}
+        >
             {open ? (
-                <div onClick={handleClick}>
-                    <p className="italic text-sm leading-snug">"{thought}"</p>
+                <div onClick={handleClick} className="flex items-start">
+                    <p className="italic text-sm leading-snug flex-1">"{thought}"</p>
+                    {secretMode && (
+                        <span className="ml-2 text-purple-300 text-xs">🔒</span>
+                    )}
                 </div>
             ) : (
                 <button
