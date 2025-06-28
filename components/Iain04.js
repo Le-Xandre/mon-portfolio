@@ -91,7 +91,7 @@ export default function Iain04() {
 
     return (
         <div
-            className={`fixed bottom - 4 right - 4 p - 4 rounded - xl shadow - lg cursor - pointer z - 50 max - w - xs transition - colors
+            className={`fixed bottom-4 right-4 p-4 rounded-xl shadow-lg cursor-pointer z-50 max-w-xs transition-colors
                 ${ open ? 'bg-black/70' : 'bg-transparent' }
                 ${ secretMode ? 'border-2 border-purple-500' : '' } `}
         >
