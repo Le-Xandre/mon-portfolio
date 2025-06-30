@@ -43,7 +43,14 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 | **Ghost in the Shell / Appleseed** | Cyberpunk & mechas – Masamune Shirow | [Fiche wiki](https://fr.wikipedia.org/wiki/Masamune_Shirow) |
 | **Gunnm** | Cyberpunk – Seinen de Yukito Kishiro | [Fiche wiki](https://fr.wikipedia.org/wiki/Gunnm) |
 | **Paprika / Paranoïa Agent / Tokyo Godfathers** | Satoshi Kon, onirisme et satire sociale | [Analyse vidéo](https://www.youtube.com/watch?v=oz49vQwSoTE) |
-| **Serial Experiments Lain** | Cyberpunk - horreur psychologique - Techno-horror | [Fiche wiki](https://fr.wikipedia.org/wiki/Serial_Experiments_Lain) |
+| **Serial Experiments Lain** | Cyberpunk - horreur psychologique - Techno-horror | [Fiche wiki](https://fr.wikipedia.org/wiki/Serial_Experiments_Lain) | 
+
+Dans les entrées plus récentes, je rassemblerai ici les œuvres qui m’ont marqué ces dernières années, 
+ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
+
+| Titre | Genre / Ambiance / Auteur | Lien |
+|-------|---------------------------|------|
+| **Apocalypse Hotel** | Post-apocalyptique, robots, contemplation & quête de sens | [Fiche wiki](https://en.wikipedia.org/wiki/Apocalypse_Hotel) | 
 
 ---
 
