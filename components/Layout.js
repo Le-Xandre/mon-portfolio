@@ -1,6 +1,8 @@
 ﻿import Navbar from './Navbar';
 import Footer from './Footer';
 import { AnimatePresence, motion } from 'framer-motion';
+import AgentWrapper from './IainAgent/AgentWrapper';
+
 
 export default function Layout({ children }) {
     return (
@@ -19,7 +21,9 @@ export default function Layout({ children }) {
                 </AnimatePresence>
 
             </main>
-            <Footer />                                      {/* 3. Footer collé en bas */}
+            <AgentWrapper  />                                  {/* 3. AgentWrapper en bas à droite */}
+            <Footer />                                      {/* 4. Footer collé en bas */}
         </div>
+        
     );
 }
