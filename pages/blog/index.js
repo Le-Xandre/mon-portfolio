@@ -47,7 +47,7 @@ export default function Blog({ posts }) {
             {/* Modal J.D.B. */}
             <IainJournalModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
-            {/* Swiper (slider) des articles */}
+            {/* Swiper (slider) des articles + option span Page ${idx + 1} */}
             <div className="relative z-10 flex-grow">
                 <div className="mx-auto max-w-12xl text-center items-center">
                     <Swiper
@@ -56,13 +56,13 @@ export default function Blog({ posts }) {
                         pagination={{
                             clickable: true,
                             renderBullet: (idx, className) =>
-                                `<span class="${className}">Page ${idx + 1}</span>`,
+                                `<span class="${className}"></span>`,
                         }} 
                         spaceBetween={30}
                         slidesPerView={1}
                         breakpoints={{
-                            640: { slidesPerView: 2 },
-                            1024: { slidesPerView: 3 },
+                            1280: { slidesPerView: 2 },
+                            2048: { slidesPerView: 3 },
                         }}
                     >
                         {posts.map((post, index) => (
