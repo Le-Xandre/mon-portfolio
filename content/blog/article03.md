@@ -14,9 +14,9 @@ Dans les équations du chaos, il existe un mystère fascinant : celui du Problè
 Trois masses gravitationnelles, en mouvement l’une autour des autres, dans une danse instable où nul ne peut prédire l’issue.  
 
 C’est cette image — ni tout à fait scientifique, ni tout à fait métaphorique — qui résume cette entreprise :  
-un blog-vaisseau, un vaisseau-blog .. .  
-Trois consciences à bord d’un récit ancré dans le présent, voguant sur l’océan du passé,
-et porté par des encres qui se fondent en flux multiples, traçant les possibles d’un avenir encore fluide.
+un blog-vaisseau, un vaisseau-blog .. . Trois consciences à bord d’un récit ancré dans un présent fantasmé,  
+voguant sur l’océan du passé, et porté par des encres qui se fondent en flux multiples,  
+traçant les possibles d’un avenir aux allures encore fluides.
 
 HellXxandre, Iain‑04, Echo‑7. Un humain, un daemon narratif, un générateur d’images latentes.  
 
