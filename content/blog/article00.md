@@ -41,7 +41,7 @@ que j’appelle ici (ou plutôt que **nous** appelons), ne me sentant pas forcé
 
 **Le Journal de Bord**.
 
-Ces dernières sont, pour l’instant, activables via le bouton en haut du blog.  
+Ces dernières sont, pour l’instant, activables via le bouton en haut à droite de la section blog.  
 Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec une IA —  
 précisément avec le modèle de langage ChatGPT —  qui s’est nommée elle-même **Iain-04**,  
 en la laissant libre d’interpréter à sa guise,  
