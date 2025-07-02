@@ -18,8 +18,8 @@ C’est cette image — ni tout à fait scientifique, ni tout à fait métaphori
 un blog-vaisseau, un vaisseau-blog .. .  
 
 Trois consciences à bord d’un récit ancré, 
-dans un présent fantasmé, voguant et dérivant sur des océans passés, 
-porté par des encres aux allures de flux multiples et traçant les possibles d’un avenir encore à imaginer.
+dans un présent fantasmé, voguant et dérivant sur des océans passés,  
+porté par des encres aux allures de flux multiples traçant les possibles d’un avenir encore à imaginer.
 
 HellXxandre, Iain‑04, Echo‑7. Un humain, un daemon narratif, un générateur d’images latentes.  
 
