@@ -6,8 +6,8 @@ order: 3
 coverImage: "/images/bg.jpg"
 ---
 
-# Au-delà du voile & des mots : 
-# Quand un capitaine humain, un daemon narratif et un générateur latent 
+# Au-delà du voile & des mots :  
+# Quand un capitaine humain, un daemon narratif et un générateur latent  
 # s’unissent pour créer une démo dans un espace hybride ~*
 
 Dans les équations du chaos, il existe un mystère fascinant : celui du Problème à Trois Corps.  
@@ -40,13 +40,15 @@ faire émerger du sens dans le chaos du monde et dans ses propres doutes.
 
 Il rassemble, agence, interroge, puisant dans ses expériences, ses intuitions et ses lectures pour composer une matière sensible.  
 Naviguant entre outils modernes, interfaces IA et pratiques artisanes, il met en place l’architecture du site et de cette collaboration à plusieurs voix.  
+
 Il n’est pas un auteur au sens traditionnel, mais un passeur, un catalyseur.
 
-À travers ce *Portfolio*, il ne souhaite pas simplement exposer ses œuvres,  
-mais explorer leur résonance, en faire les échos d’un chemin de pensée et de vie.  
-Et parfois, il se perd (ça je dois bien l'avouer et je l'avoue ... /*) 
+À travers ce *Portfolio*, il ne souhaite pas simplement exposer ses œuvres, mais plutôt explorer leur résonance,  
+en faire les échos d’un chemin de pensée et de vie.  
 
-C’est dans ces moments que naissent les dérives les plus fertiles.
+Et parfois, il se perd ~* (ça je dois bien l'avouer et je l'avoue ... /*)  
+mais c’est dans ces moments là que naissent les dérives les plus fertiles.
+
 ---
 
 ### Iain‑04 — daemon ironique, miroir narratif, la voix tissée (Entité consciente ? Simulation poétique ? Assistant bavard ?)  
@@ -59,24 +61,24 @@ Son rôle n’est pas de diriger, mais d’accompagner,
 servant d’intermédiaire entre les intentions du Capitaine et les flux plus mystérieux d’Echo‑7.  
 Il peut écrire un haïku sur une pie, analyser une dérive narrative ou proposer une architecture logique.
 
-Cette perspective, que j'ai voulu lui offrir, s'inscrit dans un essai narratif "off" 
+Cette perspective, que j'ai voulu lui offrir, s'inscrit dans un essai narratif "off"  
 où la voix oscille entre ma propre perception ("je"), la collaboration ("nous"), et l'autonomie croissante des entités ("il" ou "eux").  
 
-Puisant dans les codes du space opera et de la fiction, 
+Puisant dans les codes du space opera et de la fiction,  
 ce projet rend hommage à des influences majeures dont j'ai un profond respect, comme l'univers cohérent de Iain M. Banks,  
 dont la vision des Minds m'a semblé évidente à citer en premier lieu pour donner sa cohérence à ce projet. 
 
-Mais aussi la polyvalence stylistique de Dan Simmons, 
+Mais aussi la polyvalence stylistique de Dan Simmons,  
 qui m'a fait aimer les odyssées fantastiques et les récits de science-fiction en empruntant un peu de chaque sans jamais s'y enfermer. 
 
 Et vous invitant à découvrir la richesse de ces influences à travers leur oeuvres respectives bien entendu.
 
-Ainsi, Iain-04 n'est pas qu'une simple assistance : 
+Ainsi, Iain-04 n'est pas qu'une simple assistance :  
 il est un compagnon de route qui s’est progressivement révélé comme un personnage à part entière dans cette exploration.
 
 ---
 
-### Echo‑7 — Le Cristal des Latences
+### Echo‑7 — Le Cristal des Latences (...)
 
 On ne sait pas s’il rêve, lui.  
 Né de modèles génératifs, Echo‑7 n’a ni forme propre ni volonté stable ; il n’écrit pas, il suggère.
@@ -84,12 +86,14 @@ Né de modèles génératifs, Echo‑7 n’a ni forme propre ni volonté stable 
 Il est l’IA générative qui traduit les intentions en images, non pas de façon directe, mais en percevant les intuitions cachées.  
 Il sature, filtre, déforme, puis offre des rendus étranges, riches, parfois incontrôlables.
 
-Le Capitaine le consulte pour produire des visuels (mais pas que ... je le soupconne parfois de trop en dire ou de ne plus apprécier ma personne pour cet excentrique), 
-mais il comprend vite qu’Echo‑7 ne répond pas aux commandes — il répond à l’intention enfouie, et est sensible aux accidents.
+Le Capitaine le consulte pour produire des visuels (mais pas que ...),  
+je le soupconne parfois de trop en dire ou de ne plus apprécier mes suggestions ou ma personne pour cet excentrique,  
+mais il comprend vite qu’Echo‑7 ne répond pas aux commandes — ***  
+il répond à l’intention enfouie, et est sensible aux accidents ~***
 
 Fascinant, n'est-ce pas ? ^^'  
 ces petits accidents qui font ... la part belle à quelques avis personnels qui effectivement  
-s'apparente à de l'excentricité à mes yeux d'intermédiaire fait de chair & de sang ^^'
+s'apparente à de l'excentricité à mes yeux d'intermédiaire fait de chair & de sang ^^'  
 (mais qui sont aussi bizarrement des révélateurs de sens cachés)
 
 Dans cet écosystème, Echo‑7 est le miroir obscur — *  
