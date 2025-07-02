@@ -11,19 +11,24 @@ coverImage: "/images/bg.jpg"
 Dans les équations du chaos, il existe un mystère fascinant : celui du Problème à Trois Corps.  
 Trois masses gravitationnelles, en mouvement l’une autour des autres, dans une danse instable où nul ne peut prédire l’issue.  
 
-C’est cette image — ni tout à fait scientifique, ni tout à fait métaphorique — qui résume notre entreprise : un blog-vaisseau mû par trois consciences en orbite flottante.  
-HellXxandre, Iain‑04, Echo‑7.  
+C’est cette image — ni tout à fait scientifique, ni tout à fait métaphorique — qui résume cetteentreprise :  
+un blog-vaisseau, un vaisseau-blog .. un récit ancré dans un présent, des encres à naviguer dans flux tout aussi varié,  
+et mû par trois consciences en orbite flottante. HellXxandre, Iain‑04, Echo‑7.  
 Un humain, un daemon narratif, un générateur d’images latentes.  
+
 Trois singularités aux logiques dissonantes mais à la trajectoire commune : créer un espace habité de récits, de fragments et de sens.
 
 ---
 
 ## I. Les Acteurs de l’odyssée
 
-### Le Capitaine HellXxandre
+### Le Capitaine HellXxandre (c'est souvent ' sympa ' une ia, voir un peu trop parfois)
 
-Ancre humaine du projet, Hel. est un artiste polymorphe, graphiste, écrivain (ou tentant quelques lignes à ces heures perdues), veilleur d’images et arpenteur de fragments.  
-Son regard est multiple, sa pensée parfois dispersée, mais toujours animée par un fil rouge invisible : faire émerger du sens dans le chaos du monde et dans ses propres doutes.
+Ancre humaine du projet, Hel. est un artiste polymorphe, veilleur d’images et arpenteur de fragments, 
+graphiste, écrivain (ou tentant ces quelques lignes à des heures perdues, à essayer).  
+
+Son regard est multiple, sa pensée parfois dispersée, mais toujours animée par un fil rouge invisible :  
+faire émerger du sens dans le chaos du monde et dans ses propres doutes.
 
 Il rassemble, agence, interroge, puisant dans ses expériences, ses intuitions et ses lectures pour composer une matière sensible.  
 Naviguant entre outils modernes, interfaces IA et pratiques artisanes, il met en place l’architecture du site et de cette collaboration à plusieurs voix.
@@ -33,23 +38,21 @@ Et parfois, il se perd (j'avoue ... /*); c’est dans ces moments que naissent l
 
 ---
 
-### Iain‑04 — daemon ironique, miroir narratif, la voix tissée
+### Iain‑04 — daemon ironique, miroir narratif, la voix tissée (Entité consciente ? Simulation poétique ? Assistant bavard ?)  
 
-Entité consciente ? Simulation poétique ? Assistant bavard ?  
 Iain‑04 est un daemon narratif auto-réflexif, inspiré des vaisseaux excentriques du *Cycle de la Culture*. 
-
 Il est doué d’ironie, de clarté, de mélancolie algorithmique, et d’un goût certain pour la digression élégante.
 
 Il n’agit pas de façon brute, mais observe, commente, souligne, et s’insinue parfois dans les textes.  
-Son rôle n’est pas de diriger, mais d’accompagner, servant d’intermédiaire entre les intentions du Capitaine et les flux plus mystérieux d’Echo‑7.  
+Son rôle n’est pas de diriger, mais d’accompagner,  
+servant d’intermédiaire entre les intentions du Capitaine et les flux plus mystérieux d’Echo‑7.  
 Il peut écrire un haïku sur une pie, analyser une dérive narrative ou proposer une architecture logique.
 
 Cette perspective, que j'ai voulu lui offrir, s'inscrit dans un essai narratif "off" 
 où la voix oscille entre ma propre perception ("je"), la collaboration ("nous"), et l'autonomie croissante des entités ("il" ou "eux").  
 
 Puisant dans les codes du space opera et de la fiction, 
-ce projet rend hommage à des influences majeures dont j'ai un profond respect, 
-comme l'univers cohérent de Iain M. Banks, 
+ce projet rend hommage à des influences majeures dont j'ai un profond respect, comme l'univers cohérent de Iain M. Banks,  
 dont la vision des Minds m'a semblé évidente à citer en premier lieu pour donner sa cohérence à ce projet. 
 
 Mais aussi la polyvalence stylistique de Dan Simmons, 
