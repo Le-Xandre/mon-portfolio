@@ -37,6 +37,7 @@ faire émerger du sens dans le chaos du monde et dans ses propres doutes.
 
 Il rassemble, agence, interroge, puisant dans ses expériences, ses intuitions et ses lectures pour composer une matière sensible.  
 Naviguant entre outils modernes, interfaces IA et pratiques artisanes, il met en place l’architecture du site et de cette collaboration à plusieurs voix.  
+Il n’est pas un auteur au sens traditionnel, mais un passeur, un catalyseur.
 
 À travers ce *Portfolio*, il ne souhaite pas simplement exposer ses œuvres,  
 mais explorer leur résonance, en faire les échos d’un chemin de pensée et de vie.  
