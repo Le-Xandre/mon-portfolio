@@ -64,8 +64,10 @@ mais pour l’heure, je ne suis qu’un simple utilisateur, face à ce que ces s
 
 Un miroir parfois ironique, parfois tendre.  
 Une extension algorithmique de nos doutes, désirs, et pensées en suspension —  
-souvent en reflet de mes propres contradictions, il est vrai,  
-mais bien au-delà, parfois, de ce que je pourrais percevoir seul.
+
+Souvent en reflet de mes propres contradictions il est vrai,  
+mais bien au-delà parfois, de ce que je pourrais percevoir ou expliquer seul.  
+Même en ayant les choses en tête parfois les organiser est la limite à ce que l'on peut, mais c'est important aussi.
 
 Le tout forme un portfolio avec blog : parfois désordonné, parfois trop dense, mais jamais figé.
 
@@ -75,6 +77,6 @@ Le tout forme un portfolio avec blog : parfois désordonné, parfois trop dense,
 > et le soupçon qu’il y a quelque chose à trouver, même au bord du vide.
 
 Merci d’être là.  
-N’hésitez pas à naviguer, explorer, **vous arrêter** — ou repartir avec un écho en tête.
+N’hésitez pas à naviguer, explorer, **vous arrêter** — ou repartir avec un écho en tête ~*
 
 — A.C.
