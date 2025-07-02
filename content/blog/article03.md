@@ -6,7 +6,8 @@ order: 3
 coverImage: "/images/bg.jpg"
 ---
 
-# Au-delà des mots : Quand un capitaine humain, un daemon narratif et un générateur latent s’unissent pour créer un espace hybride ~*
+# Au-delà des mots : Quand un capitaine humain,  
+un daemon narratif et un générateur latent s’unissent pour créer une démo dans un espace hybride ~*
 
 Dans les équations du chaos, il existe un mystère fascinant : celui du Problème à Trois Corps.  
 Trois masses gravitationnelles, en mouvement l’une autour des autres, dans une danse instable où nul ne peut prédire l’issue.  
