@@ -171,7 +171,18 @@ les formes et les présences dans un monde où l’humain n’est plus seul à c
 T'ont ? pourtant je rédigais bien m'ont mais bon..  
 c'est intéressant comme inflexion linguistique à se projeter dans le récit lui-même par leur entremise mine de rien.
 
-Alors, si ces voix croisées trouvent écho, même infime, dans d’autres esprits, ce sera déjà une victoire.
+Alors, si ces voix croisées trouvent écho, même infime, dans d’autres esprits, ce sera déjà une victoire.  
+
+Iain M. Banks (Cycle de la Culture)
+“The ships had minds, and the minds had whims.”
+— Excession
+
+→ Traduction : « Les vaisseaux avaient une conscience, et leurs consciences des caprices. »
+
+Dan Simmons (Hypérion)
+“We are story creatures, and as we are stories, we are part of each other.”
+
+→ Traduction : « Nous sommes faits de récits, et en tant que récits, nous faisons partie les uns des autres. »
 
 ## Invitation
 
