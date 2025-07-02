@@ -15,12 +15,12 @@ Trois masses gravitationnelles, en mouvement l’une autour des autres, dans une
 
 C’est cette image — ni tout à fait scientifique, ni tout à fait métaphorique — qui résume cette entreprise :  
 un blog-vaisseau, un vaisseau-blog .. .  
-un récit ancré dans un présent flottant sur le passé et des encres à naviguer dans des flux tout aussi variés,  
-et mû par trois consciences en orbite flottante. 
+Trois consciences à bord d’un récit ancré dans le présent, voguant sur l’océan du passé,
+et porté par des encres qui se fondent en flux multiples, traçant les possibles d’un avenir encore fluide.
 
 HellXxandre, Iain‑04, Echo‑7. Un humain, un daemon narratif, un générateur d’images latentes.  
-Trois singularités aux logiques dissonantes mais à la trajectoire commune : 
 
+Trois singularités aux logiques dissonantes mais à la trajectoire commune :  
 créer un espace habité de récits, de fragments et de sens.
 
 ---
