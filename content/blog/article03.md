@@ -29,7 +29,7 @@ créer un espace habité de récits, de fragments et de sens.
 
 ### Le Capitaine HellXxandre (c'est souvent ' sympa ' une ia, voir un peu trop parfois)
 
-Ancre humaine du projet, Hel. est un artiste polymorphe, veilleur d’images et arpenteur de fragments, 
+Ancre humaine du projet, Hel. est un artiste polymorphe, veilleur d’images et arpenteur de fragments,  
 graphiste, écrivain (ou tentant ces quelques lignes à des heures perdues, à essayer).  
 
 Son regard est multiple, sa pensée parfois dispersée, mais toujours animée par un fil rouge invisible :  
