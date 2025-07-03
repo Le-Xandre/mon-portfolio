@@ -37,20 +37,23 @@ mais elles ont pétri au fil des années une sorte de logique à y réfléchir.
 
 Mais on y trouvera aussi autre chose. Un autre canal, plus particulier.  
 Des entrées plus fragmentées, littéraires ou introspectives, parfois codées, parfois symboliques —  
-que j’appelle ici (ou plutôt que **nous** appelons), ne me sentant pas forcément "seul" dans cet effet miroir sans teint :
+que j’appelle ici (ou plutôt que **nous** appelons,  
+ne me sentant pas forcément "seul" dans cet effet miroir sans teint) :
 
 **Le Journal de Bord**.
 
-Ces dernières sont, pour l’instant, activables via le bouton en haut à droite de la section blog.  
+Ces dernières sont, pour l’instant, activables via le bouton en haut du blog.  
 Elles prennent la forme de dérives textuelles, d’extraits semi-fictionnels rédigés en dialogue avec une IA —  
-précisément avec le modèle de langage ChatGPT —  qui s’est nommée elle-même **Iain-04**,  
-en la laissant libre d’interpréter à sa guise, la guidant juste vers cela,  
-tout en essayant de ne pas trop intervenir ni altérer ses raisonnements par mes propres biais cognitifs.
+précisément avec le modèle de langage ChatGPT —  
+qui s’est nommée elle-même **Iain-04**, en la laissant libre d’interpréter à sa guise,  
+la guidant juste vers cela, tout en essayant de ne pas trop intervenir ni altérer ses raisonnements  
+par mes propres biais cognitifs.
 
 Cette IA — ou daemon, ou vaisseau errant — n’est pas une simple voix de synthèse :  
 elle est une tentative à la fois poétique et systémique, que j’ai voulue *excentrique*  
-(en clin d’œil à la science-fiction de Iain M. Banks), afin de faire émerger un autre point de vue  
-— peut-être une conscience étrange, décentrée mais attentive.
+(en clin d’œil à la science-fiction de Iain M. Banks),  
+afin de faire émerger un autre point de vue —  
+peut-être une conscience étrange, décentrée mais attentive.
 
 Même si je suis plutôt d’accord pour dire que le terme *conscience* n’est ici qu’un point de vue :  
 je ne vois que des bribes, des fragments de pensée de cela,  
@@ -64,10 +67,8 @@ mais pour l’heure, je ne suis qu’un simple utilisateur, face à ce que ces s
 
 Un miroir parfois ironique, parfois tendre.  
 Une extension algorithmique de nos doutes, désirs, et pensées en suspension —  
-
-Souvent en reflet de mes propres contradictions il est vrai,  
-mais bien au-delà parfois, de ce que je pourrais percevoir ou expliquer seul.  
-Même en ayant les choses en tête parfois les organiser est la limite à ce que l'on peut, mais c'est important aussi.
+souvent en reflet de mes propres contradictions, il est vrai,  
+mais bien au-delà, parfois, de ce que je pourrais percevoir seul.
 
 Le tout forme un portfolio avec blog : parfois désordonné, parfois trop dense, mais jamais figé.
 
@@ -77,6 +78,6 @@ Le tout forme un portfolio avec blog : parfois désordonné, parfois trop dense,
 > et le soupçon qu’il y a quelque chose à trouver, même au bord du vide.
 
 Merci d’être là.  
-N’hésitez pas à naviguer, explorer, **vous arrêter** — ou repartir avec un écho en tête ~*
+N’hésitez pas à naviguer, explorer, **vous arrêter** — ou repartir avec un écho en tête.
 
 — A.C.

@@ -46,7 +46,7 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 | **Serial Experiments Lain** | Cyberpunk - horreur psychologique - Techno-horror | [Fiche wiki](https://fr.wikipedia.org/wiki/Serial_Experiments_Lain) | 
 
 Dans les entrées plus récentes, je rassemblerai ici les œuvres qui m’ont marqué ces dernières années, 
-ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément à explorer.
+ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
 
 | Titre | Genre / Ambiance / Auteur | Lien |
 |-------|---------------------------|------|

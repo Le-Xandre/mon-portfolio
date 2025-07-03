@@ -73,3 +73,7 @@ Les visages viendront. Les voix s'affineront.
 Mais en attendant, nous continuons d’écouter les échos,  
 et de tracer, dans le sable mouvant, les premiers traits d’un monde habité.
 
+
+---
+
+**— Fin de l’Entrée #007 —**
