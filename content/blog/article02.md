@@ -59,9 +59,10 @@ ou tout du moins une tentative de liste non exhaustive sans trop surcharger les 
 | Auteur·ice | Genre / Ton | Pourquoi c’est pour toi |
 |------------|-------------|--------------------------|
 | **Becky Chambers** – *Wayfarers* | SF feel-good et humaine | Pour sa chaleur dans le vide |
-| **Catherine Dufour** | SF française acide et drôle | Décalée, intelligente |
 | **Laurent Genefort** | Worldbuilding immersif | À lire pour les mondes vivants |
-| **Ted Chiang** – *La Tour de Babylone*, *L’Histoire de ta vie* | Nouvelles SF profondes | [Inspiration pour *Arrival*](https://fr.wikipedia.org/wiki/Premier_Contact_(film,_2016)) |
+| **Catherine Dufour** | SF française acide et drôle | Décalée, intelligente |
+| **Ted Chiang** – *La Tour de Babylone*, *L’Histoire de ta vie* | Nouvelles SF profondes | 
+| **Alice Carabédian** | SF française & Sciences humaines | reconceptualisation de l'utopie |
 
 ---
 
