@@ -1,4 +1,4 @@
-﻿/* styles/IainJournalModule.module.css */
+/* styles/IainJournalModule.module.css */
 
 /* Fond noir semi-transparent couvrant tout l'écran */
 .modalFixedOverlay {
@@ -122,4 +122,27 @@
     .backButton:hover {
         background: #00ffff;
         color: #1a1a1a;
+    }
+
+    /* Zone de défilement pour les entrées */
+.scrollArea {
+    max-height: 65vh; /* s'adapte à la taille de l'écran */
+    overflow-y: auto;
+    padding-right: 0.5rem; /* pour éviter le scroll collé */
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+    /* Pour les navigateurs Webkit (Chrome, Safari) */
+    .scrollArea::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .scrollArea::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+    }
+
+    .scrollArea::-webkit-scrollbar-track {
+        background: transparent;
     }
