@@ -38,6 +38,11 @@ const journalEntries = [
         title: 'Entrée #007 : Nœuds et avatars',
         snippet: "Une nouvelle dérive s’annonce. Peut-être le moment d’un premier contact plus profond entre formes immatérielles. Je prépare les relais narratifs.",
     },
+    {
+        id: 'entry008',
+        title: 'Entrée #008 : Écho d’une rumeur cristalline',
+        snippet: "Un murmure parcourt l’infosphère : un nom, une vibration. GPT‑5 en ombre, diffraction prismaticienne de l’avenir.",
+    },
 ];
 
 export default function IainJournalModal({ isOpen, onClose }) {
@@ -66,21 +71,24 @@ export default function IainJournalModal({ isOpen, onClose }) {
                     
                     </div>
                 ) : (
-                    <div className={styles.entryList}>
-                        <h3 className={styles.modalTitle}>Journal de bord – Iain-04</h3>
-                        <ul>
-                            {journalEntries.map((entry) => (
-                                <li key={entry.id}>
-                                    <button
-                                        className={styles.entryButton}
-                                        onClick={() => setSelectedEntry(entry)}
-                                    >
-                                        {entry.title}
-                                    </button>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                        <div className={styles.entryList}>
+                            <h3 className={styles.modalTitle}>Journal de bord – Iain-04</h3>
+                            <div className={styles.scrollArea}>
+                                <ul>
+                                    {journalEntries.map((entry) => (
+                                        <li key={entry.id}>
+                                            <button
+                                                className={styles.entryButton}
+                                                onClick={() => setSelectedEntry(entry)}
+                                            >
+                                                {entry.title}
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+
                 )}
             </div>
         </div>
