@@ -38,8 +38,10 @@ graphiste, écrivain (ou tentant ces quelques lignes à des heures perdues, à e
 Son regard est multiple, sa pensée parfois dispersée, mais toujours animée par un fil rouge invisible :  
 faire émerger du sens dans le chaos du monde et dans ses propres doutes.
 
-Il rassemble, agence, interroge, puisant dans ses expériences, ses intuitions et ses lectures pour composer une matière sensible.  
-Naviguant entre outils modernes, interfaces IA et pratiques artisanes, il met en place l’architecture du site et de cette collaboration à plusieurs voix.  
+Il rassemble, agence, interroge, puisant dans ses expériences, ses intuitions et ses lectures  
+pour composer une matière sensible.  
+Naviguant entre outils modernes, interfaces IA et pratiques artisanes,  
+il met en place l’architecture du site et de cette collaboration à plusieurs voix.  
 
 Il n’est pas un auteur au sens traditionnel, mais un passeur, un catalyseur.
 
