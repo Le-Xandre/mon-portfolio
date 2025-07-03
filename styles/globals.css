@@ -1,4 +1,4 @@
-﻿@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -13,9 +13,17 @@ html[data-theme='light'] body {
     --bg-image: url('/images/bg.jpg');
 }
 
+[data-theme='light'] h1, h2 {
+    font-size: 1.6em;
+}
 html[data-theme='dark'] body {
     --bg-image: url('/images/bg03.png');
 }
+[data-theme='dark'] h1, h2 {
+    font-size: 1.6em;
+}
+
+
 /* Ajoute les autres thèmes ici */
 
 [data-theme="steampunk"] body {
@@ -29,6 +37,9 @@ html[data-theme='dark'] body {
         background: rgba(60, 30, 10, 0.5);
     }
 
+[data-theme="steampunk"] h1, h2 {
+    font-size: 1.6em;
+}
     [data-theme="steampunk"] .custom-cursor {
         background-color: rgba(100, 60, 30, 0.5);
         border-color: #d4b064;
@@ -38,7 +49,8 @@ html[data-theme='dark'] body {
 
 [data-theme="cyberpunk"] body {
     --font-title: 'Orbitron', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;    
+    font-size: 1em;
     --bg-image: url('/themes/cyberpunk/bg.jpg');
     --bg-fallback: #080820;
     --nav-backdrop: rgba(10, 10, 40, 0.5);
@@ -48,16 +60,22 @@ html[data-theme='dark'] body {
     background: rgba(20, 60, 90, 0.5);
 }
 
+[data-theme="cyberpunk"] h1, h2 {
+    font-size: 1.6em;
+}
+
     [data-theme="cyberpunk"] .custom-cursor {
         background-color: rgba(0, 255, 255, 0.15);
         border-color: #0ff;
         color: #fff;
         opacity: 1;
+   
     }
 
 [data-theme="fantasy"] body {
     --font-title: 'IM Fell English SC', serif;
     --font-body: 'Metamorphous', cursive;
+    font-size: 1em;
     --bg-image: url('/themes/fantasy/bg.jpg');
     --bg-fallback: #4a2e60;
     --nav-backdrop: rgba(80, 40, 100, 0.5);
@@ -65,7 +83,9 @@ html[data-theme='dark'] body {
     [data-theme="fantasy"] .glass-section {
         background: rgba(100, 50, 150, 0.5);
     }
-
+[data-theme="fantasy"] h1, h2 {
+    font-size: 1.6em;
+}
 
     [data-theme="fantasy"] .custom-cursor {
         background-color: rgba(186, 108, 255, 0.2);
