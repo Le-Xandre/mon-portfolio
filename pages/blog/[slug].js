@@ -1,4 +1,6 @@
-﻿import fs from 'fs';
+﻿// pages/blog/[slug].js
+
+import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { unified } from 'unified';
@@ -25,14 +27,20 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-    const markdownWithMeta = fs.readFileSync(path.join('content/blog', slug + '.md'), 'utf-8');
+    const markdownWithMeta = fs.readFileSync(
+        path.join('content/blog', slug + '.md'),
+        'utf-8'
+    );
     const { data: frontmatter, content } = matter(markdownWithMeta);
 
     const processedContent = await unified()
         .use(remarkParse)
         .use(gfm)
         .use(remarkRehype)
-        .use(rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] })
+        .use(rehypeExternalLinks, {
+            target: '_blank',
+            rel: ['noopener', 'noreferrer'],
+        })
         .use(rehypeStringify)
         .process(content);
 
@@ -81,7 +89,7 @@ export default function Post({ frontmatter, contentHtml }) {
 
     return (
         <>
-           {/* Bouton retour flottant */}
+            {/* Bouton retour */}
             <button
                 onClick={() => router.back()}
                 className="fixed top-24 right-8 z-50 p-2 bg-white/60 dark:bg-gray-600/50 rounded hover:bg-white dark:hover:bg-gray-600 transition"
@@ -97,10 +105,36 @@ export default function Post({ frontmatter, contentHtml }) {
                         className="w-full h-auto max-h-60 object-cover mb-4 rounded shadow"
                     />
                 )}
+
                 <h1>{frontmatter.title}</h1>
-                <p><em>{frontmatter.date}</em></p> 
+                <p>
+                    <em>{frontmatter.date}</em>
+                </p>
 
                 <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+
+                {/* Affichage des visuels liés à Echo‑7 */}
+                {frontmatter.images?.map((src, i) => (
+                    <div
+                        key={i}
+                        className={`flex flex-col md:flex-row items-center my-8 gap-4 ${i % 2 === 0 ? '' : 'md:flex-row-reverse'
+                            }`}
+                    >
+                        <img
+                            src={src}
+                            alt={`Fragment visuel ${i + 1}`}
+                            className="w-full md:w-1/3 rounded-xl shadow-xl cursor-pointer hover:scale-105 transition"
+                            onClick={() => {
+                                setSlides(frontmatter.images.map((img) => ({ src: img })));
+                                setStartIndex(i);
+                                setOpen(true);
+                            }}
+                        />
+                        <p className="text-sm text-gray-600 italic">
+                            Vision #{i + 1} — Echo‑7 a intercepté ce fragment à travers les couches.
+                        </p>
+                    </div>
+                ))}
 
                 <Lightbox
                     open={open}
