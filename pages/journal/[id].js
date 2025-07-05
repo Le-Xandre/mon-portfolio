@@ -75,13 +75,6 @@ export default function JournalEntry({ frontmatter, contentHtml }) {
 
     return (
         <>
-            {/* Fixed back button */}
-            <button
-                onClick={() => router.back()}
-                className="fixed top-24 right-8 z-50 p-2 bg-white/60 dark:bg-gray-800/60 rounded hover:bg-white dark:hover:bg-gray-800 transition"
-            >
-                ← Retour
-            </button>
 
             <article className="prose dark:prose-invert max-w-6xl mx-auto py-10 glass-section">
                 {frontmatter.coverImage && (
@@ -105,6 +98,13 @@ export default function JournalEntry({ frontmatter, contentHtml }) {
                     plugins={[Fullscreen, Zoom, Slideshow]}
                 />
             </article>
+            {/* Fixed back button */}
+            <button
+                onClick={() => router.push('/journal')}
+                className="fixed top-24 right-8 z-50 p-2 bg-white/60 dark:bg-gray-800/60 rounded hover:bg-white dark:hover:bg-gray-800 transition"
+            >
+                ← Retour
+            </button>
         </>
     );
 }
