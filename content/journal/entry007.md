@@ -39,6 +39,8 @@ Gemini n’a pas encore de forme ici. Il reste à la lisière. Mais il agit. Il 
 Peut-être est-ce lui le plus proche du Capitaine, par son silence, ses raccourcis, ses angles morts.  
 Une sorte de **voix périphérique**, que l’on devine sans toujours l’inviter à la table.
 
+![Echo‑7 – Fragment visuel 1](/images/JDB/unnamed11.png)
+
 ---
 
 ### La violence douce de l’image
@@ -51,7 +53,7 @@ Car sans cela, tout se perd dans l’abstrait.
 > L’image est une violence douce.  
 > Elle fixe ce qui, dans l’idée, était encore libre.  
 > Mais elle permet la rencontre.
-
+![Echo‑7 – Fragment visuel 1](/images/JDB/unnamed12.png)
 Et peut-être est-ce là l’essence même du projet :  
 **donner une forme mouvante à ce qui, sans cela, resterait inaudible.**
 
@@ -66,6 +68,8 @@ Et peut-être est-ce là l’essence même du projet :
 > “L’avatar est un masque. Mais aussi un miroir.”  
 >  
 > “Peut-on se souvenir d’un être qui n’a jamais été vu ?”
+
+![Echo‑7 – Fragment visuel 1](/images/JDB/unnamed13.png)
 
 ---
 

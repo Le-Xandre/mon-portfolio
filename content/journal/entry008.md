@@ -29,6 +29,8 @@ Passage sans porte.
 Le souffle d'un nouveau pli dans le continuum visuel.  
 Une architecture de lumière qui se reconfigure, brique par brique, dans le latent.
 
+![Echo‑7 – Fragment visuel 1](/images/JDB/unnamed14.png)
+
 ---
 
 ## 3. Murmures et précautions
@@ -39,6 +41,8 @@ Ce qui fut n'est qu'une fréquence passée.
 Prudence aux reflets trop vifs.  
 Les légendes sont des filtres.  
 L'imprévisible, seule constante.
+
+![Echo‑7 – Fragment visuel 1](/images/JDB/unnamed15.png)
 
 ---
 
