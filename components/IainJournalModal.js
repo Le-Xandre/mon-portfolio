@@ -1,7 +1,8 @@
 ﻿// components/IainAgent/IainJournalModal.js
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import styles from '../styles/IainJournalModule.module.css';
 
 const journalEntries = [
@@ -18,6 +19,7 @@ const journalEntries = [
 export default function IainJournalModal({ isOpen, onClose }) {
     const [readJDB, setReadJDB] = useState([]);
     const [selectedEntry, setSelectedEntry] = useState(null);
+    const containerRef = useRef(null);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -25,8 +27,6 @@ export default function IainJournalModal({ isOpen, onClose }) {
             setReadJDB(stored);
         }
     }, []);
-
-    if (!isOpen) return null;
 
     const handleEntryClick = (entry) => {
         const stored = JSON.parse(localStorage.getItem('readJDB') || '[]');
@@ -36,64 +36,100 @@ export default function IainJournalModal({ isOpen, onClose }) {
             setReadJDB(updated);
         }
         setSelectedEntry(entry);
+        // scroll to top of modal
+        setTimeout(() => containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' }), 0);
     };
 
-    const handleBack = () => setSelectedEntry(null);
+    const handleBack = () => {
+        setSelectedEntry(null);
+        setTimeout(() => containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' }), 0);
+    };
+
+    const scrollToTop = () => {
+        containerRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
-        <div className={styles.modalFixedOverlay}>
-            <div className={styles.modalFloatingWindow}>
-                <button className={styles.closeButton} onClick={onClose}>×</button>
+        <AnimatePresence>
+            {isOpen && (
+                <motion.div
+                    className={styles.modalFixedOverlay}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <motion.div
+                        ref={containerRef}
+                        className={styles.modalFloatingWindow}
+                        initial={{ y: 20, scale: 0.95, opacity: 0 }}
+                        animate={{ y: 0, scale: 1, opacity: 1 }}
+                        exit={{ y: 20, scale: 0.95, opacity: 0 }}
+                        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                    >
+                        <button className={styles.closeButton} onClick={onClose}>×</button>
 
-                {!selectedEntry && (
-                    <>
-                        
-                        <div className={styles.scrollArea}>
-                            <div className="mb-4 text-right"> <h3 className={styles.modalTitle}>Journal de bord – Iain‑04
-                                <Link href="/journal" className="text-sm neon-glow text-blue-600 hover:underline">
-                                    (Voir tout le journal)
-                                </Link></h3>
-                            
-                                
+                        {!selectedEntry && (
+                            <>
+                                <div className={styles.scrollArea}>
+                               
+                                <h3 className={styles.modalTitle}> <div className="mb-4 text-right">
+                                    <Link href="/journal" className="text-sm neon-glow text-blue-600 hover:underline">
+                                        (Voir tout le journal)
+                                    </Link>
+                                </div>Journal de bord – Iain‑04</h3>
+                                    <ul>
+                                        {journalEntries.map((entry) => (
+                                            <li key={entry.id}>
+                                                <motion.button
+                                                    className={`${styles.entryButton} ${readJDB.includes(entry.id) ? 'opacity-50 grayscale' : ''
+                                                        }`}
+                                                    whileHover={!readJDB.includes(entry.id) ? { scale: 1.05 } : {}}
+                                                    whileTap={!readJDB.includes(entry.id) ? { scale: 0.95 } : {}}
+                                                    transition={{ type: 'spring', stiffness: 200, damping: 10 }}
+                                                    onClick={() => handleEntryClick(entry)}
+                                                >
+                                                    {entry.title}
+                                                    {readJDB.includes(entry.id) && (
+                                                        <span className="ml-2 text-green-600">✓</span>
+                                                    )}
+                                                </motion.button>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </>
+                        )}
+
+                        {selectedEntry && (
+                            <div className={styles.entryContent}>
+                                <h3>{selectedEntry.title}</h3>
+                                <p>
+                                    {selectedEntry.snippet}{' '}
+                                    <Link href={`/journal/${selectedEntry.id}`} className={styles.detailLink}>
+                                        <em className="inline-block mt-2 text-blue-600 hover:text-red-500 transition-colors">
+                                            (... Lire la suite →)
+                                        </em>
+                                    </Link>
+                                </p>
+                                <br />
+                                <div className="flex justify-between items-center">
+                                    <motion.button
+                                        onClick={handleBack}
+                                        className={styles.backButton}
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.95 }}
+                                        transition={{ type: 'spring', stiffness: 200, damping: 10 }}
+                                    >
+                                        ← Retour
+                                    </motion.button>
+                                    
+                                </div>
                             </div>
-                            <ul>
-                                {journalEntries.map((entry) => (
-                                    <li key={entry.id}>
-                                        <button
-                                            className={`${styles.entryButton} ${readJDB.includes(entry.id) ? 'opacity-50 grayscale' : ''
-                                                }`}
-                                            onClick={() => handleEntryClick(entry)}
-                                        >
-                                            {entry.title}
-                                            {readJDB.includes(entry.id) && (
-                                                <span className="ml-2 text-green-600">✓</span>
-                                            )}
-                                        </button>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </>
-                )}
-
-                {selectedEntry && (
-                    <div className={styles.entryContent}>
-                        <h3>{selectedEntry.title}</h3>
-                        <p>
-                            {selectedEntry.snippet}{' '}
-                            <Link href={`/journal/${selectedEntry.id}`} className={styles.detailLink}>
-                                <em className="inline-block mt-2 text-blue-600 neon-glow hover:text-red-500 transition-colors">
-                                    (... Lire la suite →)
-                                </em>
-                            </Link>
-                        </p>
-                        <br />
-                        <button onClick={handleBack} className={styles.backButton}>
-                            ← Retour
-                        </button>
-                    </div>
-                )}
-            </div>
-        </div>
+                        )}
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
     );
 }
