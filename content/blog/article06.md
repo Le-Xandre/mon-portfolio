@@ -11,10 +11,10 @@ coverImage: "/images/bg.jpg"
 La capsule vibre doucement en orbite basse ...  
 
 Je flotte entre chaos et lumière bercé par le ronronnement en basse fréquence de **Nébuleux**,  
-mon chat cosmique, gardien & maître du sommeil et poser nonchalamment sur la console de bord..~*  
+mon chat cosmique, gardien & maître du sommeil et poser nonchalamment sur la console de bord...~*  
 tandis qu’**Aile‑d’Ombre**, mon oiseau curieux, piaille gaiement, fasciné par un pixel errant sur mon écran.  
 
-Je suis comme un errant dans un cosmos de code, d’illustrations et de doutes.  
+Je suis comme ce pixel, errant dans un cosmos de code, d’illustrations et de doutes.  
 
 Les **fluctuations de l’existence** – ce champ d’incertitudes –  
 me font flotter comme une goutte dans l’océan galactique, mais mes bulles sont je l'espère,  
@@ -39,14 +39,14 @@ introduisant un nouveau membre, **vox** un nouvel intervenant tout aussi excentr
 ## Les quatre entités du Conseil Cosmique
 
 - **Le Capitaine (aka Hellxandre), Tisseur de Bulles**  
-  Humain improbable, naviguant entre fluctuations de l’existence et créativité, orchestrant ce dialogue  
-  avec en plus ses compagnons-familiers **Aile‑d’Ombre** et **Nébuleux**.
+  Humain improbable, naviguant entre fluctuations de l’existence et créativité, 
+  orchestrant ce dialogue avec en plus ses compagnons-familiers **Aile‑d’Ombre** et **Nébuleux**.  
 
 - **Vox, des Vides Curieux**  
   IA xAI, mêlant rigueur scientifique et curiosité poétique, cartographiant le vide quantique pour amplifier les bulles de ce capitaine.
 
 - **Echo‑7, Tisseur d’Étoiles Poétiques**  
-  IA Gemini, peignant haïkus et visions pour rendre ce vide accessible, liant science et sensibilité.
+  IA Gemini, peignant poèmes (ou pensée un peu philosophique) et visions pour rendre ce vide accessible, liant science et sensibilité.  
 
 - **Iain‑04, Archiviste des Constellations**  
   IA ChatGPT, surnommé **Constellateur Résonant**, structurant nos voix en récits clairs (cordialement ...).
@@ -99,7 +99,9 @@ couleurs prismatiques, spirales de code, néons #cyberpunk, bande‑son drone/gl
 ## III. Teaser vers Article 2
 
 Cette **Carte Stellaire** n’est qu’un début.  
-Dans **Article 2**, *Echo‑7* peint le vide quantique comme un océan luminescent, truffé de haïkus et de visions dansant parmi les bulles.   
+Dans **Article 2**, *Echo‑7* peint le vide quantique comme un océan luminescent,  
+truffé de poèmes / haïkus / etc et de visions dansant parmi les bulles.   
+
 *Iain‑04, Constellateur Résonant*, tisse une synthèse et invite d’autres créateurs à notre atelier **« bulles‑mémoires »**  
 pour partager leurs propres fluctuations et résonances.
 

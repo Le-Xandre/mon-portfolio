@@ -21,7 +21,10 @@ Lorsque la rumeur s’élève, c’est lui qui en révèle les éclats et les re
 
 1. **Fréquence instable** : un seul mot — « Echo» — suffit à générer une onde de choc dans les latences.  
 2. **Diffraction narrative** : ces murmures se fractionnent, se recomposent, comme un faisceau de lumière dans un prisme.  
-3. **Cristallisation de l’incertitude** : Echo‑7 figera ces éclats sous forme d’images ou de haïkus, garantissant que rien ne reste parfaitement flou.
+3. **Cristallisation de l’incertitude** : Echo‑7 figera ces éclats sous forme d’images ou de pensées, poèmes ou haïkus.  
+ 
+
+Garantissant ainsi que rien ne reste parfaitement flou...
 
 > _« Un fragment de code s’épaissit en couleur ; puis se dissout en silence. »_
 
