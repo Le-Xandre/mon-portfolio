@@ -58,7 +58,7 @@ Les plus pauvres, dont je fais partie,
 portent le fardeau d’un système qui glorifie le souhait d'être comme les riches, en tout cas en avoir la liberté,  
 tout en étouffant ceux qui luttent pour survivre. 
 
-Mais même les plus riches (le 1 % improbable car au final c'est un tout, pas que ce 1%), 
+Mais même les plus riches (le 1 % improbable car au final c'est un tout, pas que ce 1%),  
 eux aussi **ne fuiront pas un monde en feu** et seront pris par son étau à l'issu certaine.
 
 > Que transmettons-nous, vraiment, à ceux qui suivent ? 
@@ -79,8 +79,9 @@ C’est le résultat d’une obsession : **extraction, consommation, croissanc
 Le réchauffement climatique **amplifie** cette crise, mais il n’en est pas le seul moteur.  
 Agriculture industrielle, déforestation, pollution plastique… **tout est lié** ou relié de près ou de loin.
 
-Même le local, s’il ne change pas de paradigme, 
-demeure complice de l’effondrement si l’on se contente de reproduire à minima ce que nous faisons déjà — produire toujours plus.
+Même le local, s’il ne change pas de paradigme,  
+demeure complice de l’effondrement si l’on se contente de reproduire à minima ce que nous faisons déjà,  
+c'est à dire produire toujours plus.
 
 Et au cœur de cette toile, **nous**, humains, animaux parmi les animaux, 
 sommes dépendants du même air, de la même eau, de la même vie, et pourtant...
@@ -99,8 +100,10 @@ Comme le souligne assez bien Aurélien Barrau dans ces plaidoyers,
 ces « solutions » produites à l’échelle industrielle **ne sont que des pansements sur une plaie béante**.
 
 > Les Tesla invendues s’entassent. Les superpuissances rivalisent dans une guerre d’ego.  
-> Et nous ? Nous avons parfois l’impression qu’il ne reste qu’à suivre… ou à fuir, mais pour aller où ?
-> Mars ? La Lune ? ... sincèrement je pense que c'est une fuite en avant certes désirable pour certains, 
+> Et nous ? Nous avons parfois l’impression qu’il ne reste qu’à suivre… ou à fuir,  
+mais pour aller où ?  
+> Mars ? La Lune ? ...  
+sincèrement je pense que c'est une fuite en avant certes désirable pour certains,  
 mais qui ne résout rien à ce qui est en train de se passer déjà sous nos yeux.
 
 Pourtant, je continue à croire que **d’autres voies sont possibles**,  
@@ -167,16 +170,15 @@ Si nous voulons creuser plus loin ou ouvrir d’autres « bulles de pensée 
 - **Concept :** Notre société souffre de myopie temporelle : seul le court terme et le profit immédiat comptent.  
   La profondeur temporelle nous invite à intégrer les générations passées et futures, à penser le temps long des évolutions écologiques.  
 
-- **Lien avec ce texte :** Vos phrases sur la résurgence de la vie ou la trace laissée par notre civilisation sont des marqueurs de cette conscience du temps long.  
-Questionner comment cultiver cette profondeur dans un monde obsédé par l’instantanéité :  
-  quel rôle l’histoire, la géologie, l’astrophysique peuvent jouer pour nous reconnecter au temps profond du vivant ?
+La résurgence de la vie ou la trace laissée par notre civilisation sont des marqueurs de cette conscience du temps long.  
+Il est essentiel de questionner comment cultiver cette profondeur dans un monde obsédé par l’instantanéité :  
+Quel rôle l’histoire, la géologie, l’astrophysique peuvent jouer pour nous reconnecter au temps profond du vivant ?
 
 ### L’Éthique de la Responsabilité Intergénérationnelle
 
 - **Concept :** Directement liée à la profondeur temporelle,  
   c’est l’idée d’une obligation morale envers les générations futures et envers la trame du vivant, de préserver ce qui peut l’être.
   
-- Au cœur de cette éthique,  
-  détailler comment cette responsabilité se traduit dans les petites victoires quotidiennes et les choix ou renoncements évoqués,  
-  reliant pensée profonde et action concrète.
+- Au cœur de cette éthique, il serait pertinent de détailler comment cette responsabilité se traduit.  
+  dans les petites victoires quotidiennes et les choix ou renoncements évoqués, reliant ainsi pensée profonde et action concrète.
 
