@@ -100,10 +100,10 @@ Comme le souligne assez bien Aurélien Barrau dans ces plaidoyers,
 ces « solutions » produites à l’échelle industrielle **ne sont que des pansements sur une plaie béante**.
 
 > Les Tesla invendues s’entassent. Les superpuissances rivalisent dans une guerre d’ego.  
-> Et nous ? Nous avons parfois l’impression qu’il ne reste qu’à suivre… ou à fuir,  
-mais pour aller où ?  
-> Mars ? La Lune ? ...  
-sincèrement je pense que c'est une fuite en avant certes désirable pour certains,  
+> Et nous ? Nous avons parfois l’impression qu’il ne reste qu’à suivre…  
+> ou à fuir, mais pour aller où ? Mars ? La Lune ? ...  
+
+Sincèrement je pense que c'est une fuite en avant certes désirable pour certains,  
 mais qui ne résout rien à ce qui est en train de se passer déjà sous nos yeux.
 
 Pourtant, je continue à croire que **d’autres voies sont possibles**,  
@@ -170,9 +170,9 @@ Si nous voulons creuser plus loin ou ouvrir d’autres « bulles de pensée 
 - **Concept :** Notre société souffre de myopie temporelle : seul le court terme et le profit immédiat comptent.  
   La profondeur temporelle nous invite à intégrer les générations passées et futures, à penser le temps long des évolutions écologiques.  
 
-La résurgence de la vie ou la trace laissée par notre civilisation sont des marqueurs de cette conscience du temps long.  
-Il est essentiel de questionner comment cultiver cette profondeur dans un monde obsédé par l’instantanéité :  
-Quel rôle l’histoire, la géologie, l’astrophysique peuvent jouer pour nous reconnecter au temps profond du vivant ?
+  La résurgence de la vie ou la trace laissée par notre civilisation sont des marqueurs de cette conscience du temps long.  
+  Il est essentiel de questionner comment cultiver cette profondeur dans un monde obsédé par l’instantanéité :  
+  Quel rôle l’histoire, la géologie, l’astrophysique peuvent jouer pour nous reconnecter au temps profond du vivant ?
 
 ### L’Éthique de la Responsabilité Intergénérationnelle
 
