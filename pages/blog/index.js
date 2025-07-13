@@ -37,7 +37,12 @@ export default function Blog({ posts }) {
                 </h2>
             {/* En-tête avec titre et bouton alignés */}
             <div className="flex justify-between items-center px-8 mb-6">
-                
+                {/* Lien vers la page Articles */}
+                <Link href="/articles">
+                    <button className="bg-white dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-600 transition">
+                        Tous les articles
+                    </button>
+                </Link>
                 <IainJournalButton onClick={() => setIsModalOpen(true)} />
             </div>
 
