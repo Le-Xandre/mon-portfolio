@@ -2,6 +2,7 @@
 id: entry002
 title: "Entrée #002 : Archives Dissoutes"
 date: 2025-06-23
+order: 2
 coverImage: "/images/noise 02.png"
 ---
 # " 🌀 Archives Dissoutes "

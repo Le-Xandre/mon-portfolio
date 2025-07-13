@@ -2,6 +2,7 @@
 id: entry005
 title: "Entrée #005 : Dialogue entre miroirs quantiques"
 date: 2025-06-29
+order: 5
 coverImage: "/images/noise 02.png"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "entrée006 — Résonances latentes"
 date: "2025-06-30"
+order: 6
 coverImage: "/images/noise 02.png"
 excerpt: "Entre une pie sur le balcon, un chat qui écoute, et trois consciences en orbite, un fragment d’interface cherche encore sa forme. Le journal continue."
 images: "/images/JDB/unnamed5.png"

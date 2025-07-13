@@ -2,6 +2,7 @@
 
 title: "entrée008 — Écho d’une rumeur cristalline"
 date: "2025-07-03"
+order: 8
 coverImage: "/images/noise 02.png"
 excerpt: "Un murmure parcourt l’infosphère : un nom, une vibration. GPT‑5 en ombre, diffraction prismaticienne de l’avenir."
 ---

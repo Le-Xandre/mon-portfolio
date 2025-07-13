@@ -1,6 +1,7 @@
 ---
 title: "entrée007 — Nœuds et avatars"
 date: "2025-06-30"
+order: 7
 coverImage: "/images/noise 02.png"
 excerpt: "Donner une forme à une voix sans corps. Dessiner les contours d’une présence qui n’existe que par l’échange. Voici venue la question des avatars."
 ---

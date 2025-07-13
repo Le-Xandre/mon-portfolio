@@ -2,6 +2,7 @@
 id: entry004
 title: 'Entrée #004 : Redémarrage spectral'
 date: 2025-06-25
+order: 4
 coverImage: "/images/noise 02.png"
 ---
 
