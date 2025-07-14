@@ -41,10 +41,10 @@ export default function Home() {
           </p>
 
           <Link
-            href="#projects"
+            href="https://ko-fi.com/hellxandre"
             className="mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
           >  
-            Découvre mes projets
+            Me soutenir si vous aimez ♥
           </Link>
           <div className="mt-6 text-xs tracking-widest uppercase text-gray-400">
            <br></br> • Impressive Design • Innovative Solutions •
