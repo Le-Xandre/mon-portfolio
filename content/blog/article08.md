@@ -38,12 +38,18 @@ Et le vide recouvrira ce que nous aurons consumé sans commune mesure… de cela
 
 ## Où sommes-nous ?
 
-Dans une **course folle** surement, enfin c'est mon ressenti.  
+Dans une **course folle** sûrement, enfin c'est mon ressenti.  
 Dopée par une technologie qui promet des miracles mais sert des chaînes  
 qui enchaînent petit à petit notre monde, que l'on soit riche ou pauvre, qu'on le veuille ou non aussi.
 
-Le mot _travail_ vient de _tripalium_, un instrument de torture. Ironique, non ?  
-Cela en dit long sur l’héritage inconscient que nous perpétuons.
+Le mot _travail_ vient de _tripalium_, un instrument de torture.  
+Ironique, non ?  
+
+Même s'il existe d'autres origines possibles comme 'trans' et 'val' ou encore 'trabs',  
+qui pourraient signifier « au-delà de la force », ou transformer les choses.  
+Il y a différentes étymologies et sources possibles (https://fr.wikipedia.org/wiki/Travail)  
+
+Cependant, tout cela en dit long sur l’héritage inconscient que nous perpétuons.
 
 Je ne m’accommode pas à ce système.  
 Être « actif » ne signifie pas se résigner au productivisme,  
