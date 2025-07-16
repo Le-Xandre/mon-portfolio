@@ -3,7 +3,7 @@ title: "Vers une Clé Vivante : Souveraineté, Éthique et Technologie en Europe
 date: "2025-07-15"
 order: 9
 description: "Diagnostic géopolitique du cloud‑capital et de la souveraineté numérique européenne face aux États‑Unis et à la Chine."
-coverImage: "/images/cloud-vivant.jpg"
+coverImage: "/images/bg.jpg"
 ---
 
 # I. Introduction : De la poésie à la géopolitique du vivant
