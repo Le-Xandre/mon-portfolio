@@ -10,7 +10,7 @@ const articles = [
     {
         slug: 'hello-world',
         title: 'Hello World',
-        description: 'Le signal de départ et les premières balises.'
+        description: "Le signal de départ et les premières balises... passant d'hello-world à hello-univers"
     }
     // Ajouter d'autres articles ici...
 ];
@@ -150,7 +150,8 @@ const agentData = {
             "Hmm… question non référencée. Reformule ou explore le site par intuition.",
             "Je note ce murmure pour un futur fragment de journal.",
             "Cette brèche de sens reste à combler. Peut-être plus tard ?",
-            "Intriguant. Je retiens cette question comme un murmure dans le cristal."
+            "Intriguant. Je retiens cette question comme un murmure dans le cristal.",
+            " Iain bougonne que les humains n’optimisent jamais leurs conteneurs… sauf quand ils ajoutent un petit ❤️ ou un commentaire ! "
         ];
         return fallback[Math.floor(Math.random() * fallback.length)];
     }
