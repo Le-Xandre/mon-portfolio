@@ -2,7 +2,7 @@
 title: "Le Vivant"
 date: "2025-07-13"
 order: 8
-description: "Une Réflexion sur les Enjeux d’un Monde en Feu"
+description: "Une Réflexion sur les Enjeux d’un Monde en Feu 🔥"
 coverImage: "/images/bg.jpg"
 ---
 
