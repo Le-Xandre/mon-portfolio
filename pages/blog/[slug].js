@@ -36,12 +36,12 @@ export async function getStaticProps({ params: { slug } }) {
     const processedContent = await unified()
         .use(remarkParse)
         .use(gfm)
-        .use(remarkRehype)
+        .use(remarkRehype, { allowDangerousHtml: true })
         .use(rehypeExternalLinks, {
             target: '_blank',
             rel: ['noopener', 'noreferrer'],
         })
-        .use(rehypeStringify)
+        .use(rehypeStringify, { allowDangerousHtml: true })
         .process(content);
 
     const contentHtml = processedContent.toString();
