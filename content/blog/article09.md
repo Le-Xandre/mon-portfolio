@@ -123,4 +123,12 @@ L’Europe possède une boussole morale, mais manque d’élan industriel pour t
 ---
 
 L’Europe peut conjuguer éthique, technologie et vitalité locale pour forger une clé vivante de souveraineté numérique.  
+
+A l'image des recherches sur les algues par exemple,  
+qui est l'une des pistes possibles pour une économie circulaire et durable.
+
+Cette clé vivante, ancrée dans les valeurs du vivant en quelques sorte,    
+à ce lien un très bon documentaire de Arte parlant de ce sujet :  
+[« Algues, la nouvelle ruée vers l’or vert »](https://www.arte.tv/fr/videos/RC-023258/algues-la-nouvelle-ruee-vers-l-or-vert/)
+
 Si ces idées vous plaise, laissez-moi un petit don sur Ko‑fi pour faire vivre un peu tout cela ♥    
