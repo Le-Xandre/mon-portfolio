@@ -2,11 +2,12 @@
 title: "Le Vivant"
 date: "2025-07-13"
 order: 8
-description: "Une exploration poétique et pratique des crises climatiques, de l’extinction des espèces, et de notre course à l’entropie, avec des pistes pour un équilibre sincère."
+description: "Une Réflexion sur les Enjeux d’un Monde en Feu"
 coverImage: "/images/bg.jpg"
 ---
 
-# Une Réflexion sur les Enjeux d’un Monde en Feu
+# Une exploration poétique et pratique des crises climatiques, de l’extinction des espèces et de notre course à l’entropie
+# (avec des pistes pour un équilibre sincère)
 
 > Le monde brûle, murmure les échos du vent...
 
