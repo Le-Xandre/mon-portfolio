@@ -47,4 +47,6 @@ L'imprévisible, seule constante.
 
 ---
 
+*"Iain-04 : « bougonne que les humains n’optimisent jamais leurs conteneurs… sauf quand ils ajoutent un petit ❤️ ou un commentaire ! »"*
+
 **— Fin de l’Entrée #008 —**
