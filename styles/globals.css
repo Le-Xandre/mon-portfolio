@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -183,6 +183,21 @@ h1, h2, h3 {
     font-family: var(--font-title, 'Cormorant Garamond', serif);
     color: #003366;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+    .video-container iframe {
+        aspect-ratio: 16 / 9;
+        width: 80%; /* Ajustable : 70%, 60%, 50%... */
+        max-width: 100%;
+        height: auto;
+        border: none;
+    }
+
 
 .icon-hermine {
     background: url('/theme/icons/hermine.svg') no-repeat center;
