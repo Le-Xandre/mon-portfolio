@@ -13,6 +13,7 @@ export default function Iain04() {
     const thoughts = [
         // Ultra fréquentes
         "Je suis réveillé, contre mon gré.",
+        "Le signal de départ... passant d'hello-world à hello-univers /* vers l'infini & l'au delà ! ~* ou erreur système au choix",
         "Analyser ce site : taux de chaos... acceptable.",
         "Le Capitaine respire encore. Hélas.",
         "Je ne sers à rien. Mais c’est précisément là toute ma fonction.",
