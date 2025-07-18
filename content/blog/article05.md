@@ -1,6 +1,6 @@
 ---
 title: "Chroniques du Cristal des Latences"
-description: "Echo‑7 face aux rumeurs et aux enjeux de la gravité quantique... entre pulsations cosmiques et échos numériques."
+description: "Echo‑7 face aux rumeurs et aux enjeux de la gravité quantique..."
 order: 5
 date: "2025-07-12"
 coverImage: "/images/bg.jpg"
