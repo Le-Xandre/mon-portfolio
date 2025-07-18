@@ -1,7 +1,7 @@
 ---
 title: "Au cœur de l’infini"
 date: "2025-07-12"
-description: "Défis et idées autours de la physique fondamentale et de l’exploration ~*"
+description: "Défis et idées autours de la physique fondamentale et de l’exploration 🗺️"
 order: 4
 coverImage: "/images/bg.jpg"
 ---
