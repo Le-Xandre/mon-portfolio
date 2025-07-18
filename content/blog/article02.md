@@ -50,7 +50,8 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 <div class="gallery">
   <img src="/images/theme04/png/image (134).png" alt="Apocalypse Hotel" />
 </div>
-Dans les entrées plus récentes, je rassemblerai ici les œuvres qui m’ont marqué ces dernières années, 
+Dans les entrées plus récentes,  
+je rassemblerai ici les œuvres qui m’ont marqué ces dernières années,  
 ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
 
 | Titre | Genre / Ambiance / Auteur | Lien |
