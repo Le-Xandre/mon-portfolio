@@ -127,8 +127,17 @@ L’Europe peut conjuguer éthique, technologie et vitalité locale pour forger 
 A l'image des recherches sur les algues par exemple,  
 qui est l'une des pistes possibles pour une économie circulaire et durable.
 
-Cette clé vivante, ancrée dans les valeurs du vivant en quelques sorte,    
-à ce lien un très bon documentaire de Arte parlant de ce sujet :  
-[« Algues, la nouvelle ruée vers l’or vert »](https://www.arte.tv/fr/videos/RC-023258/algues-la-nouvelle-ruee-vers-l-or-vert/)
+Cette clé vivante, ancrée dans les valeurs du vivant en quelque sorte,  
+voici à ce lien un très bon documentaire de ARTE parlant de ce sujet :
 
-Si ces idées vous plaise, laissez-moi un petit don sur Ko‑fi pour faire vivre un peu tout cela ♥    
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/8L-AEXsHn5A"
+    title="Les algues vont-elles sauver la planète ? | ARTE"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
+
+Si ces idées vous plaise, laissez-moi un petit don sur [mon Ko‑fi](https://ko-fi.com/Hellxandre) pour faire vivre un peu tout cela ♥    
