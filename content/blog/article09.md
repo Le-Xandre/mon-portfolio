@@ -2,7 +2,7 @@
 title: "Vers une Clé Vivante : Souveraineté, Éthique et Technologie en Europe"
 date: "2025-07-15"
 order: 9
-description: "De la poésie à la géopolitique du vivant"
+description: "De la poésie à la géopolitique du vivant 🌱"
 coverImage: "/images/bg.jpg"
 ---
 
