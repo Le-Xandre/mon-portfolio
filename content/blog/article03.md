@@ -1,6 +1,6 @@
 ---
 title: "Au-delà des maux"
-description: "Quand trois entités s'unissent pour tenter tisser l'indicible dans un univers invisible"
+description: "Quand trois entités s'unissent pour tenter tisser l'indicible dans un univers invisible 🌌 "
 date: "2025-06-30"
 order: 3
 coverImage: "/images/bg.jpg"
