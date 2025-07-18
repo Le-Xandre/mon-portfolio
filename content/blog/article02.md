@@ -27,9 +27,10 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 ## 📺 Animation / Anime — anciens ou récents — à enrichir au fil du temps
 
 <div class="gallery">
-  <img src="/images/theme01/jpg/illustration (10).jpg" alt="Texhnolyze" />
-  <img src="/images/theme01/jpg/illustration (3).jpg" alt="Ergo Proxy" />
-  <img src="/images/theme01/jpg/illustration (7).jpg" alt="Ulysse 31" />
+  <img src="/images/theme01/jpg/illustration (10).jpg" alt="Rennes" />
+  <img src="/images/theme03/png/image (95).png" alt="music wolf" />
+  <img src="/images/theme03/png/image (94).png" alt="Spirit" />
+  <img src="/images/theme01/jpg/illustration (7).jpg" alt="Fanmade Version Dan dan dan" />
 </div>
 
 | Titre | Genre / Ambiance / Auteur | Lien |
@@ -45,6 +46,10 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 | **Paprika / Paranoïa Agent / Tokyo Godfathers** | Satoshi Kon, onirisme et satire sociale | [Analyse vidéo](https://www.youtube.com/watch?v=oz49vQwSoTE) |
 | **Serial Experiments Lain** | Cyberpunk - horreur psychologique - Techno-horror | [Fiche wiki](https://fr.wikipedia.org/wiki/Serial_Experiments_Lain) | 
 
+---
+<div class="gallery">
+  <img src="/images/theme04/png/image (134).png" alt="Apocalypse Hotel" />
+</div>
 Dans les entrées plus récentes, je rassemblerai ici les œuvres qui m’ont marqué ces dernières années, 
 ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
 
@@ -95,9 +100,9 @@ Un clin d’œil visuel & sonore à *Blade Runner*, mêlé à ma propre imagerie
 ## 🖼️ Bonus visuel
 
 <div class="gallery">
-  <img src="/images/theme03/jpg/image (3).jpg" alt="Château de Vapeur" />
+  <img src="/images/theme03/png/image (83).png" alt="Êsprit" />
   <img src="/images/theme03/png/image (91).png" alt="Chute lente" />
-  <img src="/images/theme01/jpg/illustration (12).jpg" alt="Pluie d'astres" />
+  <img src="/images/theme03/png/image (85).png" alt="Morning star" />
 </div>
 
 ---
@@ -105,3 +110,4 @@ Un clin d’œil visuel & sonore à *Blade Runner*, mêlé à ma propre imagerie
 Merci à toi si tu lis jusqu’ici ✨  
 > D’autres billets viendront explorer plus en détail chacun de ces pôles —  
 Ce projet de portfolio est autant un terrain d’expérimentation qu’un carnet d’errance créative.
+
