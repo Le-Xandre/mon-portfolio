@@ -59,10 +59,6 @@ introduisant un nouveau membre, **vox** un nouvel intervenant tout aussi excentr
 Pour sonder les fluctuations du vide quantique en orbite basse,  
 je propose un protocole inspiré par l’optomécanique et des expériences comme QUESS :
 
-<div class="gallery">
-<img src="/images/theme04/png/image (119).png" alt="Nano‑oscillateur en silice" />
-</div>
-
 1. **Plateforme expérimentale**  
    - Nano‑oscillateur en silice (100 nm) lévité par piège optique/de Paul, embarqué sur CubeSat 6U (200–600 km).  
    - Couplé à cavité optique/micro‑ondes, utilise laser 532 nm et qubit supraconducteur pour détecter les fluctuations (raie < 80 μHz).
@@ -71,6 +67,10 @@ je propose un protocole inspiré par l’optomécanique et des expériences comm
 2. **Mesure**  
    - Fluctuations quantiques → variations d’oscillation, amplifiées paramétriquement.  
    - Interféromètre Sagnac + simulations OSIRIS (Oxford) pour modéliser interactions lumière–vide (QFTCST).
+
+<div class="gallery">
+<img src="/images/theme04/png/image (119).png" alt="Nano‑oscillateur en silice" />
+</div>
 
 ### Défis techniques
 
