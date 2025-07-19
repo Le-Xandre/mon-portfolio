@@ -47,9 +47,11 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 | **Serial Experiments Lain** | Cyberpunk - horreur psychologique - Techno-horror | [Fiche wiki](https://fr.wikipedia.org/wiki/Serial_Experiments_Lain) | 
 
 ---
+
 <div class="gallery">
   <img src="/images/theme04/png/image (134).png" alt="Apocalypse Hotel" />
 </div>
+
 Dans les entrées plus récentes,  
 je rassemblerai ici les œuvres qui m’ont marqué ces dernières années,  
 ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
@@ -79,6 +81,12 @@ ou tout du moins une tentative de liste non exhaustive sans trop surcharger les 
 - Errances Cosmiques  
 - Récits Mécaniques  
 - Cathédrales oubliées du Vide
+<div class="gallery">
+<img src="/images/theme04/png/image (133).png" alt="Concept Vaisseau 01" />
+<img src="/images/theme04/png/image (140).png" alt="Concept Vaisseau 02" />
+<img src="/images/theme04/png/image (141).png" alt="Concept Vaisseau 03" />
+<img src="/images/theme04/png/image (142).png" alt="Concept Vaisseau 04" />
+</div>
 
 ---
 
