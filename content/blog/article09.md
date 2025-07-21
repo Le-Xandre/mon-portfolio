@@ -120,19 +120,20 @@ L’Europe possède une boussole morale, mais manque d’élan industriel pour t
 - **Plateforme « Voix du Vivant » :** espace participatif pour projets citoyens et suivi (KPIs RGPD, adoption Gaia‑X).  
 - **Hackathons « Cloud Vivant » :** événements annuels pour prototyper solutions souveraines (data trusts, IA low‑tech).
 
----
-
 L’Europe peut conjuguer éthique, technologie et vitalité locale pour forger une clé vivante de souveraineté numérique.  
+
+---
 
 A l'image des recherches sur les algues par exemple, qui est l'une des pistes possibles pour une économie circulaire et durable.
 
-Cette clé ancrée dans les valeurs du vivant en quelque sorte, malgré les défis de logistique & de financement,
-permettrait de trouver une solution aux soucis de prolifération liés au réchauffement climatique.  
+Cette clé, ancrée dans les valeurs du vivant en quelque sorte, malgré les défis logistiques & financiers,  
+permettrait de trouver une solution aux soucis de prolifération liés au réchauffement climatique,    
+tout en proposant des alternatives à nos modes de consommation directe.  
 
-Par exemple dans les îles et qui sont touchées par cette ' pollution ' (les sargasses),  
+C'est notamment le cas dans les îles, fortement impactées par cette ' pollution ' (les sargasses),  
 touchant leurs rivages et pouvant être dangereux également pour les populations locales.  
 
-Les algues cependant, en tant que ressource renouvelable, pourraient jouer un rôle clé dans la transition vers une économie circulaire.
+Les algues en tant que ressource renouvelable, pourraient jouer un rôle clé dans la transition vers une économie circulaire.
 Voici un très bon documentaire d'ARTE, parlant de ces sujets et des possibilités envisageables :
 
 <div class="video-container">
