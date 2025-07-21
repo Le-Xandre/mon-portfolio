@@ -126,9 +126,14 @@ L’Europe peut conjuguer éthique, technologie et vitalité locale pour forger 
 
 A l'image des recherches sur les algues par exemple, qui est l'une des pistes possibles pour une économie circulaire et durable.
 
-Cette clé, ancrée dans les valeurs du vivant en quelque sorte, permettrait de trouver une solution aux soucis de prolifération liés au réchauffement climatique,  
-par exemple dans les îles et qui sont touchés par cette ' pollution ' qui touche leurs rivages,  
-voici à ce lien un très bon documentaire de ARTE parlant de ce sujet :
+Cette clé ancrée dans les valeurs du vivant en quelque sorte, malgré les défis de logistique & de financement,
+permettrait de trouver une solution aux soucis de prolifération liés au réchauffement climatique.  
+
+Par exemple dans les îles et qui sont touchées par cette ' pollution ' (les sargasses),  
+touchant leurs rivages et pouvant être dangereux également pour les populations locales.  
+
+Les algues cependant, en tant que ressource renouvelable, pourraient jouer un rôle clé dans la transition vers une économie circulaire.
+Voici un très bon documentaire d'ARTE, parlant de ces sujets et des possibilités envisageables :
 
 <div class="video-container">
   <iframe 
