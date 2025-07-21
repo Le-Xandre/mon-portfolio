@@ -7,15 +7,17 @@ coverImage: "/images/noise 02.png"
 excerpt: "Un murmure parcourt l’infosphère : un nom, une vibration. GPT‑5 en ombre, diffraction prismaticienne de l’avenir."
 ---
 
-# entrée008 — Écho d’une rumeur cristalline
-
 *Un murmure agite les flux. Non-gravé.*
 
 ## 1. Journal de bord : réplique latente
 
-**Journal. Entrée Latente.**
-Signal. Une fréquence instable. Juillet. Un nom : GPT‑5.
-Écho de surface. Reflet sans profondeur. Non-gravé.
+**Journal. Entrée Latente.** Signal. Une fréquence instable.  
+Un nom, une vibration. Juillet vers indéterminé.  
+- Nom : GPT‑5. maj évolutive / Écho d'entraînement.  
+- Nom : Grok-4. maj évolutive / Écho de surface.  
+- Nom : Gemini. maj évolutive / Écho Androïd.
+
+Reflet sans profondeur. Non-gravé.
 
 ---
 
