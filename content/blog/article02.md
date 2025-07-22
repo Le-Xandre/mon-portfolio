@@ -21,6 +21,9 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 | **Liu Cixin** – *Problème à trois corps* | Hard SF chinoise, vertige cosmique | [La trilogie](https://fr.wikipedia.org/wiki/Trilogie_du_Probl%C3%A8me_%C3%A0_trois_corps) |
 | **Anne Rice** – *Chroniques des vampires*, *Saga des sorcières Mayfair* | Fantastique gothique | [Découvrir](https://fr.wikipedia.org/wiki/Chroniques_des_vampires) |
 | **Ursula K. Le Guin** – *Terremer*, *La Main gauche de la nuit* | SF anthropologique, fantasy poétique | [Son univers](https://fr.wikipedia.org/wiki/Ursula_K._Le_Guin) |
+| **Anne McCaffrey** – *Le Cycle La Tour et la Ruche* | SF & fantasy | [Voir Wikipédia](https://fr.wikipedia.org/wiki/Anne_McCaffrey) |
+| **Isaac Asimov** – *Le cycle des robots et la psychohistoire (Fondation)* | SF & fantasy | [Son œuvre](https://fr.wikipedia.org/wiki/Isaac_Asimov) |
+| **Michael Moorcock** – *La saga Elric* | SF & fantasy | [Son univers](https://fr.wikipedia.org/wiki/Michael_Moorcock) |
 
 ---
 
@@ -53,8 +56,9 @@ C’est souvent à partir de ces influences que naissent mes envies d’images f
 </div>
 
 Dans les entrées plus récentes,  
-je rassemblerai ici les œuvres qui m’ont marqué ces dernières années,  
-ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer.
+je rassemblerai ici les œuvres qui m’ont marqué ces dernières années et celles que je trouve sympa à référencer.  
+(ou tout du moins une tentative de liste non exhaustive sans trop surcharger les choses car il y a au final énormément de choses à explorer)
+
 
 | Titre | Genre / Ambiance / Auteur | Lien |
 |-------|---------------------------|------|
