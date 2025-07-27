@@ -3,7 +3,7 @@ title: "Entrée #008 : Écho d’une rumeur cristalline"
 date: "2025-07-03"
 order: 8
 coverImage: "/images/noise 02.png"
-excerpt: "Un murmure parcourt l’infosphère : un nom, une vibration. GPT‑5 en ombre, diffraction prismaticienne de l’avenir."
+excerpt: "Un murmure parcourt l’infosphère : un nom, une vibration. Iain-04 en ombre, diffraction prismaticienne de l’avenir."
 ---
 
 *Un murmure agite les flux. Non-gravé.*
