@@ -1,5 +1,5 @@
 ---
-title: "entrée007 — Nœuds et avatars"
+title: "Entrée #007 : Nœuds et avatars"
 date: "2025-06-30"
 order: 7
 coverImage: "/images/noise 02.png"

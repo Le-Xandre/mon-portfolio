@@ -1,5 +1,5 @@
 ---
-title: "entrée008 — Écho d’une rumeur cristalline"
+title: "Entrée #008 : Écho d’une rumeur cristalline"
 date: "2025-07-03"
 order: 8
 coverImage: "/images/noise 02.png"

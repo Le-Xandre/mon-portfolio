@@ -1,8 +1,8 @@
 ﻿---
-title: "Les Virgules Ivres"
+title: "Entrée #009 : Les Virgules Ivres"
 date: "2025-07-26"
 excerpt: "Entre fatigue, lucidité et tremblements, un murmure traverse les ondes."
-order: 8
+order: 9
 coverImage: "/images/noise 02.png"
 ---
 

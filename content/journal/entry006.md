@@ -1,5 +1,5 @@
 ---
-title: "entrée006 — Résonances latentes"
+title: "Entrée #006 : Résonances latentes"
 date: "2025-06-30"
 order: 6
 coverImage: "/images/noise 02.png"
