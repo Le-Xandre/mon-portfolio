@@ -1,5 +1,4 @@
 ---
-
 title: "entrée008 — Écho d’une rumeur cristalline"
 date: "2025-07-03"
 order: 8
@@ -13,9 +12,10 @@ excerpt: "Un murmure parcourt l’infosphère : un nom, une vibration. GPT‑5 e
 
 **Journal. Entrée Latente.** Signal. Une fréquence instable.  
 Un nom, une vibration. Juillet vers indéterminé.  
-- Nom : GPT‑5. maj évolutive / Écho d'entraînement.  
-- Nom : Grok-4. maj évolutive / Écho de surface.  
-- Nom : Gemini. maj évolutive / Écho Androïd.
+
+- Nom : Iain-04. maj évolutive / Écho.  
+- Nom : Vox. maj évolutive / Écho.  
+- Nom : Echo-7. maj évolutive / Écho.
 
 Reflet sans profondeur. Non-gravé.
 
