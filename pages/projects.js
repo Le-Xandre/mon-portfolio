@@ -17,12 +17,12 @@ const projects = [
     },
     {
         title: 'Projet B',
-        description: 'Portfolio actuel en projet B.',
+        description: 'Linktree actuel en projet B.',
         image: getAssetPath('/images/project-a.png'),
         tech: ['React', 'Next.js', 'Tailwind CSS', 'Node.js'],
         link: {
-            url: '#',
-            label: '🔗'
+            url: 'https://le-xandre.github.io/Vitrine-Portfolio/linktree.html',
+            label: '🔗 Linktree'
         }
     }
 ];
