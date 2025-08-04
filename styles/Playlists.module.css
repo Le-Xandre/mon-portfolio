@@ -1,0 +1,89 @@
+﻿/* styles/Playlists.module.css */
+
+.tabs {
+    @apply flex flex-wrap justify-start gap-2 p-4;
+}
+
+.tab {
+    @apply px-4 py-2 rounded-full cursor-pointer text-white bg-gradient-to-r from-indigo-500 to-purple-500;
+    transition: transform 0.2s ease-in-out;
+}
+
+    .tab:hover {
+        transform: scale(1.05);
+        @apply shadow-lg;
+    }
+
+.tab-active {
+    @apply bg-gradient-to-r from-orange-400 to-pink-500 font-bold;
+}
+
+.cardGrid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4;
+}
+
+.card {
+    @apply flex flex-col bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden border-4 transition-transform;
+    min-height: 480px;
+    min-width: 100%;
+    border-image: linear-gradient(45deg, #ff8a00, #e52e71) 1;
+}
+
+    .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(255, 138, 0, 0.3);
+    }
+
+.thumbnail {
+    @apply w-full h-56 object-cover;
+}
+
+.title {
+    @apply px-4 py-2 text-gray-800 dark:text-gray-100;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+   
+    -webkit-text-fill-color: transparent;
+    font-size: 0.8rem;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.details {
+    padding: 1rem;
+    text-align: center; /* ✅ centre le texte */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ✅ centre les éléments enfants horizontalement */
+    justify-content: center;
+}
+
+.description {
+    @apply text-sm px-4 py-2 text-gray-600 dark:text-gray-300;
+    font-style: italic;
+    margin: 0.1rem 0;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.actions {
+    @apply px-4 pb-4 mt-auto flex gap-3 items-center;
+    margin-top: 1rem;
+}
+
+.button {
+    @apply inline-block px-3 py-1 text-sm rounded-md font-medium transition-colors duration-300;
+    background: linear-gradient(90deg, #7f5af0, #2cb67d);
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+    .button:hover {
+        background-color: #4338ca;
+        background: linear-gradient(90deg, #ff8a00, #e52e71);
+    }
