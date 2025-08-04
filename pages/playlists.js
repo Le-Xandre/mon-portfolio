@@ -9,10 +9,10 @@ const playlistMeta = {
         description: "Entre nouvelles sorties & nostalgies, Différents styles musicaux ♫",
         category: "Musique"
     },
-    "PL7XN2x8uRCXc3KNeYX6t0if5fEJe4GJ6P": {
-        title: "Playlist Arte - Hellfest 2025",
-        description: "Morceaux chill, électro et ambient pour se concentrer ou rêver.",
-        category: "Musique"
+    "PL7XN2x8uRCXeZpKhRT3aDS58A2UMDVOyI": {
+        title: "Mes petites Créations numériques ♫",
+        description: "Divers petites créations variées.",
+        category: "Créations"
     },
     "PL7XN2x8uRCXc8YqC0MgAw1Wi51hOR4nvr": {
         title: "☯―'~ Divers d'univers tout en vers/verre/vert ..° ~'―☯",
@@ -49,6 +49,11 @@ const playlistMeta = {
         description: "Revivez l'édition 2024 du festival.",
         category: "Musique"
     },
+    "PL7XN2x8uRCXc3KNeYX6t0if5fEJe4GJ6P": {
+        title: "Playlist Arte - Hellfest 2025",
+        description: "Morceaux chill, électro et ambient pour se concentrer ou rêver.",
+        category: "Musique"
+    },
     "PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0": {
         title: "Miniatures Painting / Necromunda Mix",
         description: "Ambiance Warhammer Necromunda & créations.",
@@ -58,11 +63,6 @@ const playlistMeta = {
         title: "Tatami Galaxy (V.o.s.t.fr) - 四畳半神話大系 * (2010) ♥",
         description: "Anime Tatami Galaxy en VOSTFR.",
         category: "Autres"
-    },
-    "PL7XN2x8uRCXeZpKhRT3aDS58A2UMDVOyI": {
-        title: "Mes petites Créations numériques ♫",
-        description: "Divers petites créations variées.",
-        category: "Créations"
     }
 }
 
