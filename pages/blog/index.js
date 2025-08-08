@@ -15,16 +15,64 @@ import IainJournalModal from '../../components/IainJournalModal';
 import IainJournalButton from '../../components/IainJournalButton';
 
 export async function getStaticProps() {
-    const files = fs.readdirSync(path.join('content/blog'));
-    const posts = files.map((filename) => {
-        const markdownWithMeta = fs.readFileSync(path.join('content/blog', filename), 'utf-8');
-        const { data } = matter(markdownWithMeta);
+    try {
+        const blogDir = path.join(process.cwd(), 'content/blog');
+
+        // Vérifie si le dossier existe
+        if (!fs.existsSync(blogDir)) {
+            console.warn("⚠️ Dossier 'content/blog' introuvable, utilisation des articles par défaut.");
+            return {
+                props: {
+                    posts: getFallbackPosts(),
+                }
+            };
+        }
+
+        const files = fs.readdirSync(blogDir);
+
+        if (files.length === 0) {
+            console.warn("⚠️ Aucun fichier dans 'content/blog', utilisation des articles par défaut.");
+            return {
+                props: {
+                    posts: getFallbackPosts(),
+                }
+            };
+        }
+
+        const posts = files.map((filename) => {
+            const markdownWithMeta = fs.readFileSync(path.join(blogDir, filename), 'utf-8');
+            const { data } = matter(markdownWithMeta);
+            return {
+                frontmatter: data,
+                slug: filename.replace('.md', ''),
+            };
+        });
+
+        return { props: { posts } };
+
+    } catch (error) {
+        console.error("❌ Erreur lors du chargement des articles :", error);
         return {
-            frontmatter: data,
-            slug: filename.replace('.md', ''),
+            props: {
+                posts: getFallbackPosts(),
+            }
         };
-    });
-    return { props: { posts } };
+    }
+}
+
+// Fonction pour fournir un article fictif
+function getFallbackPosts() {
+    return [
+        {
+            frontmatter: {
+                title: "Article indisponible",
+                description: "Impossible de charger les articles pour le moment.",
+                date: new Date().toLocaleDateString(),
+                coverImage: "/default.jpg"
+            },
+            slug: "article-indisponible"
+        }
+    ];
 }
 
 export default function Blog({ posts }) {
