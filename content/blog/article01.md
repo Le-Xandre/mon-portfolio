@@ -3,11 +3,10 @@ title: "Codex de l’Inframonde"
 description: "Une traversée SF/Fantasy, entre littérature, animation et rêveries mécaniques."
 date: "2025-06-22"
 order: 1
-slug: "codex-archives-dissoutes"
 coverImage: "/images/bg.jpg"
 ---
 
-> *"Le néant est si proche, et pourtant, la mémoire revient par les failles."*
+*"Le néant est si proche, et pourtant, la mémoire revient par les failles."*
 
 ---
 ## Entrée #002 : " Archives Dissoutes "
