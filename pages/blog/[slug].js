@@ -1,6 +1,4 @@
-﻿// pages/blog/[slug].js
-
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { unified } from 'unified';
@@ -61,30 +59,110 @@ export default function Post({ frontmatter, contentHtml }) {
     const [startIndex, setStartIndex] = useState(0);
 
     useEffect(() => {
-        const galleries = document.querySelectorAll('.gallery');
+        // --- Lightbox gallery wiring ---
+        const galleryListeners = [];
+        const imageListeners = [];
+
+        const galleries = Array.from(document.querySelectorAll('.gallery'));
         galleries.forEach((gallery) => {
-            const imgs = gallery.querySelectorAll('img');
+            const imgs = Array.from(gallery.querySelectorAll('img'));
             imgs.forEach((img, index) => {
                 img.style.cursor = 'pointer';
-                img.addEventListener('click', () => {
-                    const groupSlides = Array.from(imgs).map((i) => ({ src: i.src }));
+                const onClick = () => {
+                    const groupSlides = imgs.map((i) => ({ src: i.src }));
                     setSlides(groupSlides);
                     setStartIndex(index);
                     setOpen(true);
-                });
+                };
+                img.addEventListener('click', onClick);
+                galleryListeners.push({ img, onClick });
             });
         });
 
-        const allImages = document.querySelectorAll('.prose img:not(.gallery img)');
+        const allImages = Array.from(document.querySelectorAll('.prose img:not(.gallery img)'));
         allImages.forEach((img) => {
             img.style.maxWidth = '350px';
             img.style.cursor = 'pointer';
-            img.addEventListener('click', () => {
+            const onClick = () => {
                 setSlides([{ src: img.src }]);
                 setStartIndex(0);
                 setOpen(true);
-            });
+            };
+            img.addEventListener('click', onClick);
+            imageListeners.push({ img, onClick });
         });
+
+        // --- Secret fragment (7 clicks) wiring ---
+        const secretListeners = [];
+        const triggers = Array.from(document.querySelectorAll('.secret-trigger[data-secret-id]'));
+
+        triggers.forEach((btn) => {
+            const secretId = btn.dataset.secretId;
+            const fragment = document.querySelector(`.secret-fragment[data-secret-id="${secretId}"]`);
+            if (!fragment) return;
+
+            const clicksNeeded = parseInt(btn.dataset.clicksNeeded || '7', 10);
+            const storageKey = `secret:${secretId}:count`;
+            let count = parseInt(localStorage.getItem(storageKey) || '0', 10);
+
+            // Initialize visual state
+            if (count >= clicksNeeded) {
+                fragment.classList.remove('hidden');
+                fragment.setAttribute('aria-hidden', 'false');
+                fragment.style.opacity = 1;
+            } else {
+                fragment.style.opacity = 0;
+            }
+
+            // Ensure focusability for keyboard users
+            if (!btn.hasAttribute('tabindex')) btn.tabIndex = 0;
+
+            const revealIfNeeded = () => {
+                count += 1;
+                localStorage.setItem(storageKey, String(count));
+                btn.dataset.count = String(count);
+
+                // small tactile feedback
+                try {
+                    btn.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.06)' }, { transform: 'scale(1)' }], { duration: 160 });
+                } catch (e) {
+                    // animate might not be available in old browsers
+                }
+
+                if (count >= clicksNeeded) {
+                    fragment.classList.remove('hidden');
+                    fragment.setAttribute('aria-hidden', 'false');
+                    fragment.style.transition = 'opacity 400ms ease';
+                    fragment.style.opacity = 1;
+                }
+            };
+
+            const onClick = (e) => {
+                e.preventDefault();
+                revealIfNeeded();
+            };
+
+            const onKey = (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    revealIfNeeded();
+                }
+            };
+
+            btn.addEventListener('click', onClick);
+            btn.addEventListener('keydown', onKey);
+            secretListeners.push({ btn, onClick, onKey });
+        });
+
+        // cleanup
+        return () => {
+            galleryListeners.forEach(({ img, onClick }) => img.removeEventListener('click', onClick));
+            imageListeners.forEach(({ img, onClick }) => img.removeEventListener('click', onClick));
+            secretListeners.forEach(({ btn, onClick, onKey }) => {
+                btn.removeEventListener('click', onClick);
+                btn.removeEventListener('keydown', onKey);
+            });
+        };
     }, [contentHtml]);
 
     return (
