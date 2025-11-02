@@ -24,18 +24,6 @@ celle de **vivre encore**, même fatigué, même cabossé, même un peu perdu da
   class="halloween-image"
 />
 
-<img
-  src="/images/Après la fête d'Halloween.png"
-  alt="Le charme du vivant debout 2"
-  class="halloween-image"
-/>
-
-<img
-  src="/images/Après un weekend festif....png"
-  alt="Le charme du vivant debout 3"
-  class="halloween-image"
-/>
-
 ---
 
 ### ✦ Charme du Vivant Debout ✦  
@@ -50,6 +38,12 @@ celle de **vivre encore**, même fatigué, même cabossé, même un peu perdu da
 >  
 > Car dans l’ombre et la chance, il n’y a pas d’adversaire :  
 > Seulement la vie, opiniâtre et sincère.  
+
+<img
+  src="/images/Après la fête d'Halloween.png"
+  alt="Le charme du vivant debout 2"
+  class="halloween-image"
+/>
 
 ---
 
@@ -99,5 +93,13 @@ viendra sourire à ceux qui cliquent.
 > Recommandation : persister à vivre.  
 > Éventuellement danser.
 
+
+<img
+  src="/images/Après un weekend festif....png"
+  alt="Le charme du vivant debout 3"
+  class="halloween-image"
+/>
+
 *(Halloween 2025 – sous la protection des vivants debout)*
+
 
