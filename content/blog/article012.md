@@ -53,8 +53,7 @@ par curiosité, par défi, juste pour voir si le monde répond.
 
 🎮 **Bonus Halloween**  
 J’avais créé il y a longtemps un petit jeu sur le thème, un brin nostalgique et maladroit,  
-mais il me fait encore sourire. Vous pouvez le (re)découvrir ici :  
-👉 [Jeu Halloween – Le-Xandre](https://le-xandre.github.io/portfoliobis/Game.html)
+mais il me fait encore sourire. Vous pouvez le (re)découvrir ici : 👉 [Jeu Halloween – Le-Xandre](https://le-xandre.github.io/portfoliobis/Game.html)
 
 Et qui sait, peut-être que la chance ou quelque vieux esprit farceur viendra sourire à ceux qui cliquent.
 
@@ -96,6 +95,7 @@ Et qui sait, peut-être que la chance ou quelque vieux esprit farceur viendra so
 />
 
 *(Halloween 2025 – sous la protection des vivants debout)*
+
 
 
 
