@@ -13,6 +13,7 @@ coverImage: "/images/bg.jpg"
 
 Je ne croyais pas trop à ces choses-là.  
 Les talismans, les prières païennes, les chiffres du hasard.  
+
 Et pourtant… en ce soir d’Halloween, j’ai senti comme une logique à tout ça :  
 celle de **vivre encore**, même fatigué, même cabossé, même un peu perdu dans le tirage des jours.
 
@@ -47,19 +48,15 @@ celle de **vivre encore**, même fatigué, même cabossé, même un peu perdu da
 
 ---
 
-Un petit souffle pour ceux qui reprennent la marche,  
-ou qui jouent encore, par curiosité, par défi,  
-juste pour voir si le monde répond.
+Un petit souffle pour ceux qui reprennent la marche, ou qui jouent encore, 
+par curiosité, par défi, juste pour voir si le monde répond.
 
 🎮 **Bonus Halloween**  
 J’avais créé il y a longtemps un petit jeu sur le thème, un brin nostalgique et maladroit,  
-mais il me fait encore sourire.  
-Vous pouvez le (re)découvrir ici :  
+mais il me fait encore sourire. Vous pouvez le (re)découvrir ici :  
 👉 [Jeu Halloween – Le-Xandre](https://le-xandre.github.io/portfoliobis/Game.html)
 
-Et qui sait, peut-être que la chance — ou quelque vieux esprit farceur —  
-viendra sourire à ceux qui cliquent.
-
+Et qui sait, peut-être que la chance ou quelque vieux esprit farceur viendra sourire à ceux qui cliquent.
 
 ---
 
@@ -86,12 +83,10 @@ viendra sourire à ceux qui cliquent.
 > Niveau d’ironie : optimal.  
 > Chance statistique : toujours aussi absurde.  
 >  
-> Mais les systèmes humains — malgré leur fragilité structurelle —  
-> continuent de s’allumer chaque matin.  
+> Mais les systèmes humains malgré leur fragilité structurelle continuent de s’allumer chaque matin.  
 > C’est un bug magnifique.  
 >  
-> Recommandation : persister à vivre.  
-> Éventuellement danser.
+> Recommandation : Persister à vivre. Éventuellement danser.
 
 
 <img
@@ -101,5 +96,6 @@ viendra sourire à ceux qui cliquent.
 />
 
 *(Halloween 2025 – sous la protection des vivants debout)*
+
 
 
