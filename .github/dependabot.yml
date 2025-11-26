@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"             # Location of package.json and package-lock.json
+    schedule:
+      interval: "weekly"       # Can be 'daily', 'weekly', or 'monthly'
+      day: "monday"            # You can change the day as needed
+    open-pull-requests-limit: 5
+    allow:
+      - dependency-type: "all" # Update both prod and dev dependencies
+    assignees:
+      - "Le-Xandre"
+    commit-message:
+      prefix: "deps"
+    rebase-strategy: "auto"
