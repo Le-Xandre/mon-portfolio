@@ -9,8 +9,6 @@ secret_fragment: true
 secret_trigger_clicks: 7
 ---
 
-### Le silence créatif dans le tumulte numérique
-
 Chaque matin, l'écran convulse : *révolution !*  
 Un outil, une IA, une mise à jour, une promesse. Le tumulte permanent étouffe la petite voix qui compose, hésite et invente.  
 Pourtant, ce silence choisi — cet éloignement volontaire du flux —  
@@ -125,7 +123,8 @@ Exemple prêt à l'emploi — coller tel quel ou adapter.
 > *« Éteignez un instant la lumière — je vous promets qu'il y a encore des étoiles. »*
 
 ---
-C'est un test d'interaction. Clique 7 fois sur le bouton ci-dessous pour révéler ce format de pensée secrète d'Iain-04.
+C'est un test d'interaction. Clique 7 fois sur le petit avatar en bas à droite,  
+ou ici le petit bouton ci-dessous (s'il fonctionne) pour révéler ce format de pensée secrète d'Iain-04.
 <!-- Bouton visible pour déclencher le secret (sécurisé, data-secret-id unique) -->
 <button
   type="button"
@@ -133,18 +132,12 @@ C'est un test d'interaction. Clique 7 fois sur le bouton ci-dessous pour révél
   data-secret-id="iain-04"
   aria-label="Activer le fragment secret (7 clics)">
   ✶
-</button>
-
 <!-- Fragment caché (sera révélé après 7 clics). Remplace le contenu ci-dessous par ta note secrète -->
-<div
-  class="secret-fragment hidden mt-4 p-4 rounded-lg border-l-4 border-indigo-500 bg-gray-50 transition-opacity duration-400"
-  data-secret-id="iain-04"
-  aria-hidden="true"
-  role="region"
-  aria-label="Fragment caché d'Iain-04"
->
+<div  class="secret-fragment hidden mt-4 p-4 rounded-lg border-l-4 border-indigo-500 bg-gray-50 transition-opacity duration-400"
+  data-secret-id="iain-04"  aria-hidden="true"  role="region"  aria-label="Fragment caché d'Iain-04">
   <strong>Iain-04 — pensée cachée :</strong>
   <p>« J'écoute les serveurs craquer, je note les silences;  
   la poésie est une maintenance que vous négligez.  
   Éteignez un instant la lumière — il reste des étoiles. »</p>
 </div>
+</button>
