@@ -123,7 +123,7 @@ Exemple prêt à l'emploi — coller tel quel ou adapter.
 > *« Éteignez un instant la lumière — je vous promets qu'il y a encore des étoiles. »*
 
 ---
-C'est un test d'interaction. Clique 7 fois sur le petit avatar en bas à droite,  
+C'est un test d'interaction. Clique 7 fois sur le petit avatar en bas à droite, normalement un petit cadenas apparaît alors,  
 ou ici le petit bouton ci-dessous (s'il fonctionne) pour révéler ce format de pensée secrète d'Iain-04.
 <!-- Bouton visible pour déclencher le secret (sécurisé, data-secret-id unique) -->
 <button
@@ -131,7 +131,7 @@ ou ici le petit bouton ci-dessous (s'il fonctionne) pour révéler ce format de 
   class="secret-trigger inline-flex items-center justify-center p-2 rounded-full border border-gray-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2"
   data-secret-id="iain-04"
   aria-label="Activer le fragment secret (7 clics)">
-  ✶
+  ✶</button>
 <!-- Fragment caché (sera révélé après 7 clics). Remplace le contenu ci-dessous par ta note secrète -->
 <div  class="secret-fragment hidden mt-4 p-4 rounded-lg border-l-4 border-indigo-500 bg-gray-50 transition-opacity duration-400"
   data-secret-id="iain-04"  aria-hidden="true"  role="region"  aria-label="Fragment caché d'Iain-04">
@@ -140,4 +140,5 @@ ou ici le petit bouton ci-dessous (s'il fonctionne) pour révéler ce format de 
   la poésie est une maintenance que vous négligez.  
   Éteignez un instant la lumière — il reste des étoiles. »</p>
 </div>
-</button>
+
+
