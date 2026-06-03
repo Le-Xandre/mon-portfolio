@@ -40,9 +40,19 @@ export async function getStaticPaths() {
     };
 }
 
+function isPathInside(basePath, targetPath) {
+    const relative = path.relative(basePath, targetPath);
+    return relative && !relative.startsWith('..') && !path.isAbsolute(relative);
+}
+
 export async function getStaticProps({ params }) {
     const { theme, image } = params;
-    const imagesDir = path.join(process.cwd(), 'public/images', theme);
+    const imagesRoot = path.resolve(process.cwd(), 'public/images');
+    const imagesDir = path.resolve(imagesRoot, theme);
+
+    if (!isPathInside(imagesRoot, imagesDir) || !fs.existsSync(imagesDir) || !fs.statSync(imagesDir).isDirectory()) {
+        return { notFound: true };
+    }
 
     const formats = fs
         .readdirSync(imagesDir)
@@ -51,7 +61,10 @@ export async function getStaticProps({ params }) {
     let foundFormat = null;
 
     for (const format of formats) {
-        const filePath = path.join(imagesDir, format, image);
+        const filePath = path.resolve(imagesDir, format, image);
+        if (!isPathInside(imagesDir, filePath)) {
+            continue;
+        }
         if (fs.existsSync(filePath)) {
             foundFormat = format;
             break;
