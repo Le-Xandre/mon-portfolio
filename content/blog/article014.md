@@ -19,9 +19,11 @@ Hypérion ne donne pas seulement une histoire à lire. Il installe un problème 
 
 La conversation qui a servi de point de départ a commencé de façon très simple : une question sur **Hypérion** de **Dan Simmons**.  
 Puis, comme cela arrive avec les bons récits, le sujet a changé de nature.  
+
 Le roman a d’abord servi de prétexte, puis de tremplin, puis de miroir.  
 Très vite, le débat a quitté la simple littérature pour toucher au **temps**, à la **conscience**,  
-au **libre arbitre**, à la **foi**, à la **création artistique** et à la manière dont l’esprit humain fabrique du sens face à ce qui le dépasse.
+au **libre arbitre**, à la **foi**, à la **création artistique**  
+et à la manière dont l’esprit humain fabrique du sens face à ce qui le dépasse.
 
 Ce texte reprend ce déroulé, mais en le resserrant.  
 L’idée n’est pas de juxtaposer des références pour faire savant.  
@@ -34,7 +36,9 @@ puis redescendre vers une question brute :
 ## 1. Hypérion comme machine à vertige
 
 **Hypérion**, publié en 1989, est souvent présenté comme un grand space-opera. C’est vrai, mais c’est un peu court.  
-Le roman fonctionne surtout comme un récit choral et initiatique, avec sept pèlerins qui se rendent vers les **Tombeaux du Temps** pour rencontrer le **Gritche**.  
+
+Le roman fonctionne surtout comme un récit choral et initiatique,  
+avec sept pèlerins qui se rendent vers les **Tombeaux du Temps** pour rencontrer le **Gritche**.  
 
 La structure rappelle les *Contes de Canterbury* : plusieurs voix, plusieurs genres, plusieurs vies, un seul trajet.
 
