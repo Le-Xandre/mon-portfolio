@@ -42,10 +42,8 @@ avec sept pèlerins qui se rendent vers les **Tombeaux du Temps** pour rencontre
 
 La structure rappelle les *Contes de Canterbury* : plusieurs voix, plusieurs genres, plusieurs vies, un seul trajet.
 
-<Aside>
 Ce qui est fascinant, ce n’est pas seulement la richesse de l’univers.  
-  C’est la façon dont chaque élément de décor devient une idée : le temps, la mort, la foi, la technique, l’inconnu.
-</Aside>
+C’est la façon dont chaque élément de décor devient une idée : le temps, la mort, la foi, la technique, l’inconnu.
 
 Le roman met en scène :
 
@@ -172,10 +170,8 @@ C’est une autre manière d’ouvrir le problème.
 **La Divine Comédie** reste la matrice du voyage de révélation.  
 Là aussi, le déplacement dans l’espace sert à faire surgir une vérité morale, cosmique et spirituelle.
 
-<Aside>
 La bonne comparaison n’est pas celle qui écrase les œuvres les unes contre les autres.  
-  C’est celle qui montre qu’elles travaillent le même nœud, mais avec des outils différents.
-</Aside>
+C’est celle qui montre qu’elles travaillent le même nœud, mais avec des outils différents.
 
 ---
 
@@ -236,7 +232,8 @@ Le libre arbitre se tient au croisement de trois questions :
 3. une liberté compatible avec les causes peut-elle exister ?
 
 La réponse la plus solide passe souvent par le **compatibilisme** :  
-la liberté ne serait pas l’absence totale de causes, mais la capacité d’agir selon ses raisons, ses valeurs et sa délibération, sans contrainte immédiate qui écrase le sujet.
+la liberté ne serait pas l’absence totale de causes, mais la capacité d’agir selon ses raisons, ses valeurs et sa délibération,  
+sans contrainte immédiate qui écrase le sujet.
 
 Version simple du problème : 
 
@@ -255,16 +252,14 @@ Il ne dit pas simplement que tout est nécessaire. Il redéfinit ce que signifie
 La liberté, chez lui, n’est pas le pouvoir magique de sortir des causes. C’est une forme de lucidité sur les causes.  
 Autrement dit, plus on comprend le réseau de nécessité qui nous traverse, plus on cesse d’être ballotté par lui.
 
-<Aside>
-Spinoza est précieux ici parce qu’il évite le romantisme facile du “je suis libre parce que je sens que je le suis”.  
-  Il demande plus. Il demande mieux.
-</Aside>
+
+Spinoza est précieux ici parce qu’il évite le romantisme facile du “je suis libre parce que je sens que je le suis”.   
+Il demande plus. Il demande mieux.
 
 ---
 
 ## 10. Neurosciences : ce que Libet permet, et ce qu’il ne permet pas
 
-La partie neuroscientifique doit être écrite avec précision.  
 Les expériences de **Benjamin Libet** ont effectivement montré qu’une activité cérébrale préparatoire précède la prise de conscience de l’intention.  
 Mais il faut arrêter là la phrase et respirer avant d’aller trop loin.
 
@@ -281,7 +276,7 @@ Ce qu’il est prudent d’écrire :
 * on ne peut pas réduire sans reste le problème de la liberté à ces seuls résultats
 
 
-“Les expériences de Libet ont profondément modifié la discussion sur l’intention consciente, 
+“Les expériences de Libet ont profondément modifié la discussion sur l’intention consciente,  
 mais elles ne constituent pas une réfutation définitive du libre arbitre.”
 
 
@@ -296,7 +291,7 @@ L’important n’est pas de faire de l’art une exception magique aux lois de 
 L’important est de montrer qu’il constitue une réponse humaine à l’entropie : une manière d’ordonner du sens sans prétendre abolir le désordre du monde.
 
 <Note>
-On peux presque présenter l’art comme une “liberté opératoire” :  
+On peux presque présenter l’art comme une “liberté opératoire” :   
 non pas la liberté de tout inventer sans contraintes, mais la capacité de produire une forme qui n’était pas donnée d’avance.
 </Note>
 
@@ -380,7 +375,7 @@ Chef-d'œuvre de hard science-fiction explorant la dissociation entre intelligen
 PLATON, Gorgias (Dialogue sur la rhétorique et la justice), rédigé vers 387 av. J.-C.  
 Affrontement philosophique entre Socrate et Calliclès sur la loi du plus fort.
 
-DE SPINOZA Baruch, L'Éthique (Ethica Ordine Geometrico Demonstrata), publié de façon posthume en 1677.
+DE SPINOZA Baruch, L'Éthique (Ethica Ordine Geometrico Demonstrata), publié de façon posthume en 1677.  
 Réflexion géométrique fondant le déterminisme universel ("Dieu ou la Nature").
 
 ELIOT T.S., La Terre vaine (The Waste Land), Éditions Boni & Liveright, 1922.  
@@ -400,7 +395,8 @@ Note de lecture : Cette étude historique en neurosciences a mis en évidence le
 prédisant un mouvement 350 à 500 ms avant sa prise de conscience.
 
 SHANNON Claude, A Mathematical Theory of Communication, Bell System Technical Journal, 1948.  
-Texte fondateur de la théorie de l'information ayant défini mathématiquement l'entropie informationnelle (la mesure de la "surprise" ou de l'inattendu dans un message).
+Texte fondateur de la théorie de l'information ayant défini mathématiquement l'entropie informationnelle  
+(la mesure de la "surprise" ou de l'inattendu dans un message).
 
 
 ---
