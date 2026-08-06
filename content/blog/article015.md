@@ -13,10 +13,10 @@ Bienvenue dans cette présentation consacrée aux principales **cités-ruches de
 Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop 
 afin de présenter les principales Hives du monde-ruche de Necromunda.
 
-> [!NOTE]
 >
-> Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**. 
-Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
+> Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**.  
+>Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
+
 
 ---
 
@@ -49,9 +49,11 @@ rel="noopener noreferrer">
 
 # Le Palatine Cluster
 
-Le **Palatine Cluster** constitue le cœur politique de Necromunda. Ce gigantesque complexe monumental entoure le palais de **Lord Helmawr**, Gouverneur Impérial de la planète.
+Le **Palatine Cluster** constitue le cœur politique de Necromunda. 
+Ce gigantesque complexe monumental entoure le palais de **Lord Helmawr**, Gouverneur Impérial de la planète.
 
-Il regroupe les institutions administratives, les résidences des Grandes Maisons les plus influentes ainsi que les bâtiments depuis lesquels est dirigé le monde-ruche.
+Il regroupe les institutions administratives, 
+les résidences des Grandes Maisons les plus influentes ainsi que les bâtiments depuis lesquels est dirigé le monde-ruche.
 
 Sa proximité avec plusieurs grandes Hives explique son importance dans le lore officiel de Necromunda.
 
@@ -59,13 +61,18 @@ Sa proximité avec plusieurs grandes Hives explique son importance dans le lore 
 
 # Hive Primus
 
-La plus ancienne et la plus vaste cité-ruche de Necromunda, **Hive Primus** constitue le cœur politique, économique et administratif de la planète.
+La plus ancienne et la plus vaste cité-ruche de Necromunda, 
+**Hive Primus** constitue le cœur politique, économique et administratif de la planète.
 
-Construite autour du **Palatine Cluster**, elle abrite le palais de **Lord Helmawr**, ainsi que les institutions gouvernant le monde-ruche.
+Construite autour du **Palatine Cluster**, 
+elle abrite le palais de **Lord Helmawr**, ainsi que les institutions gouvernant le monde-ruche.
 
-Dans les niveaux supérieurs résident les Grandes Maisons et les élites dirigeantes. Plus l'on descend vers les profondeurs, plus l'autorité laisse place aux affrontements entre gangs.
+Dans les niveaux supérieurs résident les Grandes Maisons et les élites dirigeantes. 
+Plus l'on descend vers les profondeurs, plus l'autorité laisse place aux affrontements entre gangs.
 
-Les **Palanite Enforcers** tentent d'y maintenir l'ordre tandis que les Maisons **Escher**, **Goliath**, **Orlock**, **Delaque**, **Van Saar** et **Cawdor** défendent leurs intérêts dans les Sous-Ruches.
+Les **Palanite Enforcers** tentent d'y maintenir l'ordre tandis que 
+les Maisons **Escher**, **Goliath**, **Orlock**, **Delaque**, **Van Saar** et **Cawdor** 
+défendent leurs intérêts dans les Sous-Ruches.
 
 ---
 
@@ -75,7 +82,8 @@ Située au sud du **Palatine Cluster**, **Hive Trazior** est l'un des plus impor
 
 Ses immenses fonderies, raffineries et manufactures alimentent une grande partie de la production planétaire.
 
-Les convois traversant les **Ash Wastes** convergent régulièrement vers cette ruche, faisant d'elle un point stratégique pour le commerce, l'industrie et la logistique.
+Les convois traversant les **Ash Wastes** convergent régulièrement vers cette ruche, 
+faisant d'elle un point stratégique pour le commerce, l'industrie et la logistique.
 
 ---
 
@@ -83,15 +91,18 @@ Les convois traversant les **Ash Wastes** convergent régulièrement vers cette 
 
 Immense cité consacrée au culte impérial, **Hive Temenos** est dominée par ses cathédrales, sanctuaires et monuments religieux.
 
-Des millions de fidèles y vivent sous l'autorité du **Ministorum**, tandis que les niveaux inférieurs restent exposés aux cultes interdits, aux hérétiques et aux **Genestealer Cults**.
+Des millions de fidèles y vivent sous l'autorité du **Ministorum**, 
+tandis que les niveaux inférieurs restent exposés aux cultes interdits, aux hérétiques et aux **Genestealer Cults**.
 
 ---
 
 # Gothrul's Needle
 
-Reconnaissable à sa silhouette particulièrement élancée, **Gothrul's Needle** domine les Désolations comme une immense aiguille de métal.
+Reconnaissable à sa silhouette particulièrement élancée, 
+**Gothrul's Needle** domine les Désolations comme une immense aiguille de métal.
 
-Sa réputation repose autant sur le commerce que sur les réseaux d'information, attirant espions, contrebandiers et agents de la **Maison Delaque**.
+Sa réputation repose autant sur le commerce que sur les réseaux d'information, 
+attirant espions, contrebandiers et agents de la **Maison Delaque**.
 
 ---
 
@@ -99,7 +110,8 @@ Sa réputation repose autant sur le commerce que sur les réseaux d'information,
 
 **Hive Mynerva** est réputée pour ses installations chimiques, pharmaceutiques et biologiques.
 
-Les laboratoires, serres et raffineries occupent des niveaux entiers tandis que la **Maison Escher** y exerce une influence importante grâce à sa maîtrise des toxines, stimulants et biotechnologies.
+Les laboratoires, serres et raffineries occupent des niveaux entiers tandis que 
+la **Maison Escher** y exerce une influence importante grâce à sa maîtrise des toxines, stimulants et biotechnologies.
 
 ---
 
@@ -107,18 +119,22 @@ Les laboratoires, serres et raffineries occupent des niveaux entiers tandis que 
 
 Autrefois prospère, **Hive Secundus** fut condamnée après l'apparition des **Genestealer Cults**.
 
-Placée en quarantaine, elle demeure aujourd'hui interdite d'accès et sert désormais de cadre aux événements de **Secundan Incursion**, où explorateurs et gangs affrontent les dangers qui subsistent dans la ruche abandonnée.
+Placée en quarantaine, elle demeure aujourd'hui interdite d'accès et sert désormais de cadre aux événements de **Secundan Incursion**, 
+où explorateurs et gangs affrontent les dangers qui subsistent dans la ruche abandonnée.
 
 ---
 
 ## Conclusion
 
-Les grandes cités-ruches de Necromunda illustrent chacune un aspect particulier du monde impérial : pouvoir, industrie, religion, commerce, recherche ou encore survie.
+Les grandes cités-ruches de Necromunda illustrent chacune un aspect particulier du monde impérial : 
+pouvoir, industrie, religion, commerce, recherche ou encore survie.
 
-À travers elles se dessine toute la richesse de l'univers de **Necromunda**, où les Grandes Maisons, les gangs et les habitants des Sous-Ruches façonnent l'histoire de cette planète depuis des millénaires.
+À travers elles se dessine toute la richesse de l'univers de **Necromunda**, 
+où les Grandes Maisons, les gangs et les habitants des Sous-Ruches façonnent l'histoire de cette planète depuis des millénaires.
 
 ---
 
 > **Source d'inspiration**
 >
-> Cette présentation s'inspire d'un document promotionnel publié gratuitement par **Games Workshop** sur **Warhammer Community**. Les textes français proposés ici constituent une adaptation destinée à présenter le lore de manière accessible.
+> Cette présentation s'inspire d'un document promotionnel publié gratuitement par **Games Workshop** sur **Warhammer Community**.  
+Les textes français proposés ici constituent une adaptation destinée à présenter le lore de manière accessible.
