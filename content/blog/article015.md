@@ -20,7 +20,7 @@ afin de présenter les principales Hives du monde-ruche de Necromunda.
 
 ---
 
-## Illustrations (la bis étant réalisée avec ia)
+## Illustrations (L'originale et celle traduite réalisée avec ia)
 
 ![Les Cités-Ruches de Necromunda - 01](/images/hivespages01.png)
 ![Les Cités-Ruches de Necromunda - 02](/images/hivespages02.png)
