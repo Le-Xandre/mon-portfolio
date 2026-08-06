@@ -2,25 +2,27 @@
   "name": "c",
   "version": "1.0.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+
   "dependencies": {
     "@lottiefiles/dotlottie-react": "0.14.1",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/typography": "^0.5.16",
+
     "@types/react": "^19.1.7",
-    "@types/react-dom": "^19.1.6",
-    "all": "^0.0.0",
+    "@types/react-dom": "^19.2.3",
+
     "autoprefixer": "^10.4.21",
-    "bin": "^0.0.0",
     "core-js": "^3.43.0",
-    "daisyui": "^5.0.43",
+    "daisyui": "^5.5.5",
     "eslint": "8.25.0",
-    "eslint-config-next": "12.0.7",
+    "eslint-config-next": "15.5.9",
     "flowbite": "3.1.2",
     "framer-motion": "^7.10.3",
     "fs.realpath": "^1.0.0",
@@ -28,11 +30,15 @@
     "lightbox": "^0.5.0",
     "lottie-react": "2.4.1",
     "lucide-react": "^0.525.0",
-    "next": "^15.3.3",
+    "next": "^15.5.22",
     "node": "^24.2.0",
-    "postcss": "8.5.4",
+    "postcss": "8.5.18",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
+    "next": "15.5.9",
+    "postcss": "8.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-icons": "5.5.0",
     "react-medium-image-zoom": "^5.2.14",
     "react-youtube": "^10.1.0",
@@ -48,21 +54,14 @@
     "remark-stringify": "^11.0.0",
     "swiper": "^12.0.3",
     "tailwind": "^2.3.1",
+    "swiper": "^8.4.7",
     "tailwindcss": "^3.4.17",
-    "turbopack": "^0.0.1",
     "typescript": "^5.8.3",
-    "update": "^0.4.2",
     "yet-another-react-lightbox": "^3.23.2"
   },
+
   "devDependencies": {
     "@types/node": "24.0.0",
     "gh-pages": "^6.3.0"
-  },
-  "description": "Ce projet est un portfolio complet pour un développeur expert, prêt à être personnalisé. Il inclut :",
-  "main": "next.config.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
