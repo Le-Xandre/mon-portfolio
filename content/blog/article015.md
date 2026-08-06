@@ -14,7 +14,8 @@ Cette page propose une adaptation française inspirée d'un document promotionne
 
 > [!NOTE]
 >
-> Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**. Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
+> Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**. 
+Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
 
 ---
 
