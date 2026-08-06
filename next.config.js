@@ -1,21 +1,41 @@
-﻿/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
+
 const nextConfig = {
-    reactStrictMode: true,
-    images: {
-        domains: ['yourdomain.com'], // ← ajoute ici les domaines autorisés si tu charges des images distantes
-        formats: ['image/webp', 'image/avif'], // optimisation automatique
-    },
-    experimental: {
-        scrollRestoration: true,
-    },
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            issuer: /\.[jt]sx?$/,
-            use: ['@svgr/webpack'],
-        });
-        return config;
-    },
+  reactStrictMode: true,
+
+  images: {
+    // Formats optimisés
+    formats: ["image/avif", "image/webp"],
+
+    // Décommente uniquement si tu utilises réellement
+    // des images distantes.
+    /*
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "live.staticflickr.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+    */
+  },
+
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: ["@svgr/webpack"],
+    });
+
+    return config;
+  },
 };
 
 module.exports = nextConfig;
