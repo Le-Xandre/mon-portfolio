@@ -24,7 +24,10 @@ afin de présenter les principales Hives du monde-ruche de Necromunda.
 
 ![Les Cités-Ruches de Necromunda - 01](/images/hivespages01.png)
 ![Les Cités-Ruches de Necromunda - 02](/images/hivespages02.png)
-
+<div class="gallery">
+  <img src="/images/hivespages01.png" alt="Les Cités-Ruches de Necromunda - 01">
+  <img src="/images/hivespages02.png" alt="Les Cités-Ruches de Necromunda - 02">
+</div>
 ---
 
 ## Version PDF
