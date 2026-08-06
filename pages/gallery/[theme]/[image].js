@@ -64,19 +64,29 @@ export async function getStaticProps({ params }) {
     const imagesRoot = path.resolve(process.cwd(), 'public/images');
     const imagesDir = path.resolve(imagesRoot, theme);
 
-    if (!isPathInside(imagesRoot, imagesDir) || !fs.existsSync(imagesDir) || !fs.statSync(imagesDir).isDirectory()) {
+    let realImagesRoot;
+    let realImagesDir;
+
+    try {
+        realImagesRoot = fs.realpathSync(imagesRoot);
+        realImagesDir = fs.realpathSync(imagesDir);
+    } catch (err) {
+        return { notFound: true };
+    }
+
+    if (!isPathInside(realImagesRoot, realImagesDir) || !fs.statSync(realImagesDir).isDirectory()) {
         return { notFound: true };
     }
 
     const formats = fs
-        .readdirSync(imagesDir)
-        .filter((f) => fs.statSync(path.join(imagesDir, f)).isDirectory());
+        .readdirSync(realImagesDir)
+        .filter((f) => fs.statSync(path.join(realImagesDir, f)).isDirectory());
 
     let foundFormat = null;
 
     for (const format of formats) {
-        const filePath = path.resolve(imagesDir, format, image);
-        if (!isPathInside(imagesDir, filePath)) {
+        const filePath = path.resolve(realImagesDir, format, image);
+        if (!isPathInside(realImagesDir, filePath)) {
             continue;
         }
         if (fs.existsSync(filePath)) {
