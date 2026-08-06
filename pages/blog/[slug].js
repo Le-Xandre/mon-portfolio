@@ -1,4 +1,5 @@
-﻿import fs from 'fs';
+import rehypeRaw from 'rehype-raw';
+import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { unified } from 'unified';
@@ -34,12 +35,13 @@ export async function getStaticProps({ params: { slug } }) {
     const processedContent = await unified()
         .use(remarkParse)
         .use(gfm)
-        .use(remarkRehype, { allowDangerousHtml: true })
-        .use(rehypeExternalLinks, {
-            target: '_blank',
-            rel: ['noopener', 'noreferrer'],
-        })
-        .use(rehypeStringify, { allowDangerousHtml: true })
+.use(remarkRehype, { allowDangerousHtml: true })
+.use(rehypeRaw)
+.use(rehypeExternalLinks, {
+    target: '_blank',
+    rel: ['noopener', 'noreferrer'],
+})
+.use(rehypeStringify)
         .process(content);
 
     const contentHtml = processedContent.toString();
