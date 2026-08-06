@@ -41,8 +41,9 @@ export async function getStaticPaths() {
 }
 
 function isPathInside(basePath, targetPath) {
-    const relative = path.relative(basePath, targetPath);
-    return relative === '' || (!relative.startsWith('..') && !path.isAbsolute(relative));
+    const normalizedBase = path.resolve(basePath) + path.sep;
+    const normalizedTarget = path.resolve(targetPath) + path.sep;
+    return normalizedTarget.startsWith(normalizedBase);
 }
 
 function isSafePathSegment(value) {
@@ -81,6 +82,16 @@ export async function getStaticProps({ params }) {
     const formats = fs
         .readdirSync(realImagesDir)
         .filter((f) => fs.statSync(path.join(realImagesDir, f)).isDirectory());
+        .readdirSync(imagesDir)
+        .filter((f) => {
+            try {
+                const candidatePath = path.join(imagesDir, f);
+                const realCandidatePath = fs.realpathSync(candidatePath);
+                return isPathInside(imagesDir, realCandidatePath) && fs.statSync(realCandidatePath).isDirectory();
+            } catch {
+                return false;
+            }
+        });
 
     let foundFormat = null;
 
