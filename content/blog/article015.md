@@ -6,11 +6,12 @@ order: 15
 coverImage: "/images/bg.jpg"
 ---
 
-# Les Cités-Ruches de Necromunda
+# 
 
 Bienvenue dans cette présentation consacrée aux principales **cités-ruches de Necromunda**.
 
-Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop afin de présenter les principales Hives du monde-ruche de Necromunda.
+Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop 
+afin de présenter les principales Hives du monde-ruche de Necromunda.
 
 > [!NOTE]
 >
@@ -19,11 +20,11 @@ Les descriptions proposées ici constituent une adaptation destinée à facilite
 
 ---
 
-## Illustrations
+## Illustrations (la bis étant réalisée avec ia)
 
 <div class="gallery">
-  <img src="/images/necromunda/hivespages01.png" alt="Les Cités-Ruches de Necromunda - Première planche" />
-  <img src="/images/necromunda/hivespages02.png" alt="Les Cités-Ruches de Necromunda - Seconde planche" />
+  <img src="/images/hivespages01.png" alt="Les Cités-Ruches de Necromunda - Première planche" />
+  <img src="/images/hivespages02.png" alt="Les Cités-Ruches de Necromunda - Seconde planche" />
 </div>
 
 ---
