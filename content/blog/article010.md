@@ -189,15 +189,6 @@ c’est un spectacle mondial, parfois drôle, parfois inquiétant.
 Un miroir global : ARTE en contrepoint
 
 Cette impression rejoint ce que montre très bien ARTE dans un documentaire récent :  
-<div class="video-container">
-  <iframe 
-    src="https://youtu.be/6e_4mhwQcxM"
-    title=" Pauvres malgré le job – La souffrance des classes moyennes | ARTE"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-  ></iframe>
-</div>
 
 👉 [Regarder le documentaire ARTE « Pauvres malgré le job – La souffrance des classes moyennes »](https://youtu.be/6e_4mhwQcxM)  
 
