@@ -100,10 +100,17 @@ export async function getStaticProps({ params }) {
         if (!isPathInside(realImagesDir, filePath)) {
             continue;
         }
-        if (fs.existsSync(filePath)) {
-            foundFormat = format;
-            break;
+        if (!fs.existsSync(filePath)) {
+            continue;
         }
+
+        const realFilePath = fs.realpathSync.native(filePath);
+        if (!isPathInside(imagesDir, realFilePath)) {
+            continue;
+        }
+
+        foundFormat = format;
+        break;
     }
 
     if (!foundFormat) {
