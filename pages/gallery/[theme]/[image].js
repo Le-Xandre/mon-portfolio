@@ -42,11 +42,25 @@ export async function getStaticPaths() {
 
 function isPathInside(basePath, targetPath) {
     const relative = path.relative(basePath, targetPath);
-    return relative && !relative.startsWith('..') && !path.isAbsolute(relative);
+    return relative === '' || (!relative.startsWith('..') && !path.isAbsolute(relative));
+}
+
+function isSafePathSegment(value) {
+    return typeof value === 'string'
+        && value.length > 0
+        && !value.includes('..')
+        && !value.includes('/')
+        && !value.includes('\\')
+        && /^[A-Za-z0-9._-]+$/.test(value);
 }
 
 export async function getStaticProps({ params }) {
     const { theme, image } = params;
+
+    if (!isSafePathSegment(theme) || !isSafePathSegment(image)) {
+        return { notFound: true };
+    }
+
     const imagesRoot = path.resolve(process.cwd(), 'public/images');
     const imagesDir = path.resolve(imagesRoot, theme);
 
