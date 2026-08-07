@@ -109,16 +109,27 @@ export async function getStaticProps({ params }) {
     let foundFormat = null;
 
     for (const format of formats) {
-        const filePath = path.resolve(realImagesDir, format, image);
-        if (!isPathInside(realImagesDir, filePath)) {
-            continue;
-        }
-        if (!fs.existsSync(filePath)) {
+        const candidatePath = path.resolve(realImagesDir, format, image);
+        if (!isPathInside(realImagesDir, candidatePath)) {
             continue;
         }
 
-        const realFilePath = fs.realpathSync.native(filePath);
-        if (!isPathInside(imagesDir, realFilePath)) {
+        let realFilePath;
+        try {
+            realFilePath = fs.realpathSync.native(candidatePath);
+        } catch {
+            continue;
+        }
+
+        if (!isPathInside(realImagesDir, realFilePath)) {
+            continue;
+        }
+
+        try {
+            if (!fs.statSync(realFilePath).isFile()) {
+                continue;
+            }
+        } catch {
             continue;
         }
 
