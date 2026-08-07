@@ -8,10 +8,12 @@ coverImage: "/images/bg.jpg"
 
 # 
 
-Bienvenue dans cette présentation consacrée aux principales **cités-ruches de Necromunda**.
+Bienvenue dans cette présentation consacrée aux principales **cités-ruches de Necromunda** .
 
 Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop  
-afin de présenter les principales Hives du monde-ruche de Necromunda.  
+afin de présenter les principales Hives* du monde-ruche de Necromunda.  
+(* Hive signifiant ou désignant une Ruche)
+
 à ce lien : https://www.warhammer-community.com/en-gb/articles/2zkr3awe/newsletter-supply-drop/
 >
 > Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**.  
@@ -21,13 +23,14 @@ afin de présenter les principales Hives du monde-ruche de Necromunda.
 ---
 
 ## Illustrations (L'originale et celle traduite réalisée avec ia)
-
-![Les Cités-Ruches de Necromunda - 01](/images/hivespages01.png)
-![Les Cités-Ruches de Necromunda - 02](/images/hivespages02.png)
 <div class="gallery">
   <img src="/images/hivespages01.png" alt="Les Cités-Ruches de Necromunda - 01">
   <img src="/images/hivespages02.png" alt="Les Cités-Ruches de Necromunda - 02">
 </div>
+
+![Les Cités-Ruches de Necromunda - 01](/images/hivespages01.png)
+![Les Cités-Ruches de Necromunda - 02](/images/hivespages02.png)
+
 ---
 
 ## Version PDF
@@ -97,7 +100,10 @@ tandis que les niveaux inférieurs restent exposés aux cultes interdits, aux h�
 
 ---
 
-# Gothrul's Needle
+# Gothrul's Needle (L'aiguille de Gothrul)
+
+Gothrul est le nom d'un des membres de la famille Helmawr,  
+c'est un seigneur qui apparaît dans la guerre aux 2 visages contre sa sœur Cinderak.
 
 Reconnaissable à sa silhouette particulièrement élancée,  
 **Gothrul's Needle** domine les Désolations comme une immense aiguille de métal.
