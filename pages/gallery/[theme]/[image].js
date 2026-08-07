@@ -72,6 +72,16 @@ export async function getStaticProps({ params }) {
         }
     });
 
+    let allowedThemes;
+    try {
+        allowedThemes = fs.readdirSync(imagesRoot).filter((folder) => {
+            const fullPath = path.join(imagesRoot, folder);
+            return fs.statSync(fullPath).isDirectory();
+        });
+    } catch (err) {
+        return { notFound: true };
+    }
+
     if (!allowedThemes.includes(theme)) {
         return { notFound: true };
     }
