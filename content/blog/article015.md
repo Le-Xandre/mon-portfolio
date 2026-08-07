@@ -19,6 +19,7 @@ afin de présenter les principales Hives* du monde-ruche de Necromunda.
 >Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
 
 (* Hive signifiant ou désignant une Ruche)
+
 ---
 
 ## Illustrations (L'originale et celle traduite réalisée avec ia)
