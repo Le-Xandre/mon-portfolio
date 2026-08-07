@@ -12,14 +12,13 @@ Bienvenue dans cette présentation consacrée aux principales **cités-ruches de
 
 Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop  
 afin de présenter les principales Hives* du monde-ruche de Necromunda.  
-(* Hive signifiant ou désignant une Ruche)
-
 à ce lien : https://www.warhammer-community.com/en-gb/articles/2zkr3awe/newsletter-supply-drop/
+
 >
 > Les noms propres, organisations et lieux appartiennent à l'univers officiel de **Necromunda**.  
 >Les descriptions proposées ici constituent une adaptation destinée à faciliter la découverte du lore en français.
 
-
+(* Hive signifiant ou désignant une Ruche)
 ---
 
 ## Illustrations (L'originale et celle traduite réalisée avec ia)
