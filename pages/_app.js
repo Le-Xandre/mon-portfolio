@@ -1,4 +1,4 @@
-﻿// File: pages/_app.js
+// File: pages/_app.js
 import React, { useEffect } from "react";
 import { ThemeProvider } from "../context/ThemeContext";
 import "../styles/globals.css";
@@ -8,6 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { PageTransitionProvider, usePageTransition } from "../context/PageTransitionContext";
 import useGlow from "../components/glow";
 import { getAssetPath } from "../lib/assets";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function PageTransitionWrapper({ children }) {
     const router = useRouter();
@@ -65,6 +66,7 @@ export default function App({ Component, pageProps }) {
                     </PageTransitionWrapper>
                 </Layout>
             </PageTransitionProvider>
+            <SpeedInsights />
         </ThemeProvider>
     );
 }

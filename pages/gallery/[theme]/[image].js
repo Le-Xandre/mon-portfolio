@@ -1,4 +1,4 @@
-﻿// pages/gallery/[theme]/[image].js
+// pages/gallery/[theme]/[image].js
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
@@ -81,13 +81,11 @@ export async function getStaticProps({ params }) {
 
     const formats = fs
         .readdirSync(realImagesDir)
-        .filter((f) => fs.statSync(path.join(realImagesDir, f)).isDirectory());
-        .readdirSync(imagesDir)
         .filter((f) => {
             try {
-                const candidatePath = path.join(imagesDir, f);
+                const candidatePath = path.join(realImagesDir, f);
                 const realCandidatePath = fs.realpathSync(candidatePath);
-                return isPathInside(imagesDir, realCandidatePath) && fs.statSync(realCandidatePath).isDirectory();
+                return isPathInside(realImagesDir, realCandidatePath) && fs.statSync(realCandidatePath).isDirectory();
             } catch {
                 return false;
             }
