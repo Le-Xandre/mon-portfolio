@@ -67,8 +67,8 @@ const playlistMeta = {
 }
 
 export default function PlaylistsPage() {
-    const tabs = ["Créations", "Documentaires", "Musique", "Autres", "Tout"]
-    const [activeTab, setActiveTab] = useState("Créations")
+    const tabs = ["Tout", "Créations", "Documentaires", "Musique", "Autres"]
+const [activeTab, setActiveTab] = useState("Tout")
 
     // Construire la liste à partir des métadonnées
     const enriched = Object.entries(playlistMeta).map(([id, meta]) => ({
