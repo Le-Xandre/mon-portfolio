@@ -63,7 +63,18 @@ const playlistMeta = {
         title: "Tatami Galaxy (V.o.s.t.fr) - 四畳半神話大系 * (2010) ♥",
         description: "Anime Tatami Galaxy en VOSTFR.",
         category: "Autres"
-    }
+    },
+    "PL7XN2x8uRCXdQFAu-yQk_uFhC9C6217NY": {
+    title: "Gris ~ OST",
+    description: "Bande originale du jeu Gris.",
+    category: "Musique"
+},
+
+"PL7XN2x8uRCXebmFvTlBtlXV3mnOoJuUIt": {
+    title: "Tutos Peintures",
+    description: "Tutoriels et techniques de peinture.",
+    category: "Créations"
+},
 }
 
 export default function PlaylistsPage() {
