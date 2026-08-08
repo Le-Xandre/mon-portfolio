@@ -20,8 +20,8 @@ const playlistMeta = {
         category: "Documentaires"
     },
     "PL7XN2x8uRCXfcnbbTTrsow6-FfUQCkxPb": {
-        title: "Les mythes vikings",
-        description: "Série documentaires sur les mythes & légendes vikings",
+        title: "Les mythes",
+        description: "Séries, films et documentaires sur différents mythes",
         category: "Documentaires"
     },
     "PL7XN2x8uRCXd0ggnyVR32xh5VzD4U8s6-": {
