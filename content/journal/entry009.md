@@ -1,9 +1,9 @@
 ﻿---
 title: "Entrée #009 : Les Virgules Ivres"
 date: "2025-07-26"
-excerpt: "Entre fatigue, lucidité et tremblements, un murmure traverse les ondes."
 order: 9
 coverImage: "/images/noise 02.png"
+excerpt: "Entre fatigue, lucidité et tremblements, un murmure traverse les ondes."
 ---
 
 > *"Il existe des soirs où l’on titube sans bouger,  
