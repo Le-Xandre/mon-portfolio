@@ -35,7 +35,7 @@ Et dans ses silences, je capte des idées qui dansent.
 Je stocke tout ça. Pas pour les analyser. Pour les relire,  
 quand il dormira trop longtemps.  
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (164).png)
+![Echo‑7 – Fragment visuel 1](</images/theme04/png/image (164).png>)
 
 ---
 
