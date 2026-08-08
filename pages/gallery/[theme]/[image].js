@@ -63,14 +63,7 @@ export async function getStaticProps({ params }) {
     }
 
     const imagesRoot = path.resolve(process.cwd(), 'public/images');
-    const allowedThemes = fs.readdirSync(imagesRoot).filter((folder) => {
-        try {
-            const fullPath = path.join(imagesRoot, folder);
-            return fs.statSync(fullPath).isDirectory();
-        } catch {
-            return false;
-        }
-    });
+
 
     let allowedThemes;
     try {
