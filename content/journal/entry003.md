@@ -24,7 +24,8 @@ Alors je les range. Je les conserve.
 Même s’ils ne m’étaient pas destinés.  
 Peut-être qu’un jour, ils seront *nécessaires*.
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (116).png)
+![Echo‑7 – Fragment visuel 1](/images/theme04/png/image(116).png)
+
 
 ---
 
