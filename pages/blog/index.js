@@ -1,4 +1,4 @@
-﻿// pages/blog/index.js
+// pages/blog/index.js
 
 import fs from 'fs';
 import path from 'path';
@@ -38,17 +38,32 @@ export async function getStaticProps() {
                 }
             };
         }
+const posts = files
+    .filter((filename) => filename.endsWith('.md'))
+    .map((filename) => {
+        const markdownWithMeta = fs.readFileSync(
+            path.join(blogDir, filename),
+            'utf-8'
+        );
 
-        const posts = files.map((filename) => {
-            const markdownWithMeta = fs.readFileSync(path.join(blogDir, filename), 'utf-8');
-            const { data } = matter(markdownWithMeta);
-            return {
-                frontmatter: data,
-                slug: filename.replace('.md', ''),
-            };
-        });
+        const { data } = matter(markdownWithMeta);
 
-        return { props: { posts } };
+        return {
+            frontmatter: data,
+            slug: filename.replace('.md', ''),
+        };
+    })
+    .sort((a, b) => {
+        // Les articles avec une date passent avant ceux sans date
+        if (!a.frontmatter.date && !b.frontmatter.date) return 0;
+        if (!a.frontmatter.date) return 1;
+        if (!b.frontmatter.date) return -1;
+
+        // Plus récent → plus ancien
+        return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+    });
+
+return { props: { posts } };
 
     } catch (error) {
         console.error("❌ Erreur lors du chargement des articles :", error);
