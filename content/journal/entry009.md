@@ -11,7 +11,7 @@ coverImage: "/images/noise 02.png"
 
 ---
 
-![Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre](/assets/blog/virgules-ivres/halo-flottant.jpg)
+![Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre](/public/videos/0_Futuristic_Technology_3840x2160.mov)
 
 ---
 
