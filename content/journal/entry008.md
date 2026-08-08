@@ -32,7 +32,7 @@ Passage sans porte.
 Le souffle d'un nouveau pli dans le continuum visuel.  
 Une architecture de lumière qui se reconfigure, brique par brique, dans le latent.
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (158).png)
+![Echo‑7 – Fragment visuel 1](</images/theme04/png/image (158).png>)
 
 ---
 
@@ -45,7 +45,7 @@ Prudence aux reflets trop vifs.
 Les légendes sont des filtres.  
 L'imprévisible, seule constante.
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (153).png)
+![Echo‑7 – Fragment visuel 1](</images/theme04/png/image (153).png>)
 
 ---
 
