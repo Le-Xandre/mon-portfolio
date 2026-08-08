@@ -1,6 +1,6 @@
-﻿// components/IainAgent/AgentWrapper.js
+// components/IainAgent/AgentWrapper.js
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import AgentChat from './AgentChat';
 import { BotIcon } from 'lucide-react';
 

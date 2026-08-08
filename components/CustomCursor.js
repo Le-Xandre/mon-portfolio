@@ -1,6 +1,6 @@
-﻿// components/CustomCursor.js
+// components/CustomCursor.js
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 export default function CustomCursor({ text = 'Voir' }) {
     const [pos, setPos] = useState({ x: 0, y: 0 });

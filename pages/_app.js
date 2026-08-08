@@ -4,7 +4,7 @@ import { ThemeProvider } from "../context/ThemeContext";
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import { useRouter } from "next/router";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { PageTransitionProvider, usePageTransition } from "../context/PageTransitionContext";
 import useGlow from "../components/glow";
 import { getAssetPath } from "../lib/assets";

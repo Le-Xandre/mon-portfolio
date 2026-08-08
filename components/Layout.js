@@ -1,6 +1,6 @@
-﻿import Navbar from './Navbar';
+import Navbar from './Navbar';
 import Footer from './Footer';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'motion/react';
 import AgentWrapper from './IainAgent/AgentWrapper';
 
 
@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen">      {/* 1. conteneur flex-col  */}
             <Navbar />
-            <main className="flex-grow m-4">                    {/* 2. main prend l’espace restant */}
+            <main className="flex-grow m-4">                    {/* 2. main prend l'espace restant */}
                 <AnimatePresence mode="wait">
                     <motion.div
                         initial={{ opacity: 0 }}

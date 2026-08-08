@@ -1,6 +1,6 @@
-﻿// pages/projects.js
+// pages/projects.js
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { FiArrowRight } from 'react-icons/fi';
 import { getAssetPath } from '../lib/assets';
 

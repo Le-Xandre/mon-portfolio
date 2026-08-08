@@ -1,5 +1,5 @@
-﻿import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import agentData from './agentData';
 
 export default function AgentChat({ onClose }) {

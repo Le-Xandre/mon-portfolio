@@ -1,9 +1,9 @@
-﻿
+
 import { useEffect, useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence } from 'motion/react'
 
 const lines = [ "Hello ♥",
-    "Je m’appelle Alex.",
+    "Je m'appelle Alex.",
     "Ayant un passif en Histoire de l'art mais aussi en Arts Plastiques,",
     "mes compétences incluent la création de concepts visuels & d'illustrations.",
     "Je suis également un développeur passionné par les technologies web modernes.",

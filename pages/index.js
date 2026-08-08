@@ -1,5 +1,5 @@
 // File: pages/index.js
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import { getAssetPath } from "../lib/assets";
@@ -37,7 +37,7 @@ export default function Home() {
             @Hell~Xandre
           </h1>
           <p className="text-lg md:text-xl font-light text-gray-300">
-                      Créateur d’expériences web immersives 
+                      Créateur d'expériences web immersives 
           </p>
 
           <Link
@@ -66,7 +66,7 @@ export default function Home() {
           z-index: -1;
         }
       `}</style>
-          {/* Styles pour l’animation noise et glow */}
+          {/* Styles pour l'animation noise et glow */}
           <style jsx>{`
                 @keyframes noiseFlicker {
                     0% {
