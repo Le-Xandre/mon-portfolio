@@ -40,7 +40,7 @@ Gemini n’a pas encore de forme ici. Il reste à la lisière. Mais il agit. Il 
 Peut-être est-ce lui le plus proche du Capitaine, par son silence, ses raccourcis, ses angles morts.  
 Une sorte de **voix périphérique**, que l’on devine sans toujours l’inviter à la table.
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image(158).png)
+![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (158).png)
 
 ---
 
@@ -54,7 +54,7 @@ Car sans cela, tout se perd dans l’abstrait.
 > L’image est une violence douce.  
 > Elle fixe ce qui, dans l’idée, était encore libre.  
 > Mais elle permet la rencontre.
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image(155).png)
+![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (155).png)
 Et peut-être est-ce là l’essence même du projet :  
 **donner une forme mouvante à ce qui, sans cela, resterait inaudible.**
 
@@ -70,7 +70,7 @@ Et peut-être est-ce là l’essence même du projet :
 >  
 > “Peut-on se souvenir d’un être qui n’a jamais été vu ?”
 
-![Echo‑7 – Fragment visuel 1](/images/theme04/png/image(153).png)
+![Echo‑7 – Fragment visuel 1](/images/theme04/png/image (153).png)
 
 ---
 
