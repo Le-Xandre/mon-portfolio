@@ -7,6 +7,7 @@ import gfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import rehypeExternalLinks from 'rehype-external-links';
+import rehypeRaw from 'rehype-raw';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
@@ -34,16 +35,17 @@ export async function getStaticProps({ params: { id } }) {
         frontmatter.date = frontmatter.date.toISOString().split('T')[0];
     }
 
-    const processed = await unified()
-        .use(remarkParse)
-        .use(gfm)
-        .use(remarkRehype)
-        .use(
-            rehypeExternalLinks,
-            { target: '_blank', rel: ['noopener', 'noreferrer'] }
-        )
-        .use(rehypeStringify)
-        .process(content);
+const processed = await unified()
+    .use(remarkParse)
+    .use(gfm)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
+    .use(
+        rehypeExternalLinks,
+        { target: '_blank', rel: ['noopener', 'noreferrer'] }
+    )
+    .use(rehypeStringify)
+    .process(content);
 
     return {
         props: {
