@@ -6,23 +6,43 @@ import { getAssetPath } from '../lib/assets';
 
 const projects = [
     {
-        title: 'Projet A',
-        description: 'Portfolio photo expérimental + liens à découvrir.',
+        title: 'Linktree',
+        description: 'Page personnelle regroupant différents liens, projets, créations et espaces du portfolio.',
+        image: getAssetPath('/images/project-a.png'),
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        link: {
+            url: 'https://le-xandre.github.io/Vitrine-Portfolio/linktree.html',
+            label: '🔗 Visiter le Linktree'
+        }
+    },
+    {
+        title: 'Portfolio photo expérimental',
+        description: 'Ancienne vitrine photographique et espace regroupant différentes créations et expérimentations.',
         image: getAssetPath('/images/project-a.png'),
         tech: ['HTML', 'CSS', 'JavaScript'],
         link: {
             url: 'https://le-xandre.github.io/Vitrine-Portfolio/Portfolio.html',
-            label: '🎨 Portfolio photo'
+            label: '📷 Voir le portfolio'
         }
     },
     {
-        title: 'Projet B',
-        description: 'Linktree actuel en projet B.',
+        title: 'C.77 — Cyberpunk Interface',
+        description: 'Expérimentation web interactive inspirée de l’univers Cyberpunk 2077.',
         image: getAssetPath('/images/project-a.png'),
-        tech: ['React', 'Next.js', 'Tailwind CSS', 'Node.js'],
+        tech: ['HTML', 'CSS', 'JavaScript'],
         link: {
-            url: 'https://le-xandre.github.io/Vitrine-Portfolio/linktree.html',
-            label: '🔗 Linktree'
+            url: 'https://le-xandre.github.io/essaibis/',
+            label: '🖥️ Explorer C.77'
+        }
+    },
+    {
+        title: 'Perceptions & Illusions',
+        description: 'Expérimentation interactive autour de la perception, de la synesthésie et des illusions optiques.',
+        image: getAssetPath('/images/project-a.png'),
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        link: {
+            url: 'https://le-xandre.github.io/Vitrine-Portfolio/HTMLPage1.html',
+            label: '🎨 Explorer l’expérience'
         }
     }
 ];
