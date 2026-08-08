@@ -11,7 +11,7 @@ excerpt: "Entre fatigue, lucidité et tremblements, un murmure traverse les onde
 
 ---
 
-Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre  
+Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre…  
 
 <div class="my-6 overflow-hidden rounded-xl">
   <video
