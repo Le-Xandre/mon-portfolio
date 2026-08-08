@@ -11,7 +11,19 @@ excerpt: "Entre fatigue, lucidité et tremblements, un murmure traverse les onde
 
 ---
 
-![Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre](</videos/0_Futuristic_Technology_3840x2160.mov>)
+![Un halo vacillant sur fond d’étoiles floues, comme une pensée qui cherche son centre]
+<div class="my-6 overflow-hidden rounded-xl">
+  <video
+    controls
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    class="w-full"
+  >
+    <source src="/videos/0_Futuristic_Technology_3840x2160.mp4" type="video/mp4" />
+  </video>
+</div>
 
 ---
 
