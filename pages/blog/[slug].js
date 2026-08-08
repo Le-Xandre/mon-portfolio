@@ -19,10 +19,17 @@ import 'yet-another-react-lightbox/styles.css';
 
 export async function getStaticPaths() {
     const files = fs.readdirSync(path.join('content/blog'));
+
     const paths = files.map((filename) => ({
-        params: { slug: filename.replace('.md', '') },
+        params: {
+            slug: filename.replace('.md', ''),
+        },
     }));
-    return { paths, fallback: false };
+
+    return {
+        paths,
+        fallback: false,
+    };
 }
 
 export async function getStaticProps({ params: { slug } }) {
@@ -30,18 +37,19 @@ export async function getStaticProps({ params: { slug } }) {
         path.join('content/blog', slug + '.md'),
         'utf-8'
     );
+
     const { data: frontmatter, content } = matter(markdownWithMeta);
 
     const processedContent = await unified()
         .use(remarkParse)
         .use(gfm)
-.use(remarkRehype, { allowDangerousHtml: true })
-.use(rehypeRaw)
-.use(rehypeExternalLinks, {
-    target: '_blank',
-    rel: ['noopener', 'noreferrer'],
-})
-.use(rehypeStringify)
+        .use(remarkRehype, { allowDangerousHtml: true })
+        .use(rehypeRaw)
+        .use(rehypeExternalLinks, {
+            target: '_blank',
+            rel: ['noopener', 'noreferrer'],
+        })
+        .use(rehypeStringify)
         .process(content);
 
     const contentHtml = processedContent.toString();
@@ -56,58 +64,118 @@ export async function getStaticProps({ params: { slug } }) {
 
 export default function Post({ frontmatter, contentHtml }) {
     const router = useRouter();
+
     const [open, setOpen] = useState(false);
     const [slides, setSlides] = useState([]);
     const [startIndex, setStartIndex] = useState(0);
 
     useEffect(() => {
-        // --- Lightbox gallery wiring ---
-        const galleryListeners = [];
-        const imageListeners = [];
+        // ============================================================
+        // LIGHTBOX — GALERIES .gallery
+        // ============================================================
 
-        const galleries = Array.from(document.querySelectorAll('.gallery'));
+        const galleryListeners = [];
+
+        const galleries = Array.from(
+            document.querySelectorAll('.gallery')
+        );
+
         galleries.forEach((gallery) => {
-            const imgs = Array.from(gallery.querySelectorAll('img'));
+            const imgs = Array.from(
+                gallery.querySelectorAll('img')
+            );
+
             imgs.forEach((img, index) => {
                 img.style.cursor = 'pointer';
-                const onClick = () => {
-                    const groupSlides = imgs.map((i) => ({ src: i.src }));
+
+                const handleClick = () => {
+                    const groupSlides = imgs.map((image) => ({
+                        src: image.src,
+                    }));
+
                     setSlides(groupSlides);
                     setStartIndex(index);
                     setOpen(true);
                 };
-                img.addEventListener('click', onClick);
-                galleryListeners.push({ img, onClick });
+
+                img.addEventListener('click', handleClick);
+
+                galleryListeners.push({
+                    img,
+                    handleClick,
+                });
             });
         });
 
-        const allImages = Array.from(document.querySelectorAll('.prose img:not(.gallery img)'));
+        // ============================================================
+        // AUTRES IMAGES DU TEXTE
+        // ============================================================
+
+        const imageListeners = [];
+
+        const allImages = Array.from(
+            document.querySelectorAll(
+                '.prose img:not(.gallery img)'
+            )
+        );
+
         allImages.forEach((img) => {
             img.style.maxWidth = '350px';
             img.style.cursor = 'pointer';
-            const onClick = () => {
-                setSlides([{ src: img.src }]);
+
+            const handleImageClick = () => {
+                setSlides([
+                    {
+                        src: img.src,
+                    },
+                ]);
+
                 setStartIndex(0);
                 setOpen(true);
             };
-            img.addEventListener('click', onClick);
-            imageListeners.push({ img, onClick });
+
+            img.addEventListener('click', handleImageClick);
+
+            imageListeners.push({
+                img,
+                handleImageClick,
+            });
         });
 
-        // --- Secret fragment (7 clicks) wiring ---
+        // ============================================================
+        // SECRET FRAGMENT — 7 CLICS
+        // ============================================================
+
         const secretListeners = [];
-        const triggers = Array.from(document.querySelectorAll('.secret-trigger[data-secret-id]'));
+
+        const triggers = Array.from(
+            document.querySelectorAll(
+                '.secret-trigger[data-secret-id]'
+            )
+        );
 
         triggers.forEach((btn) => {
             const secretId = btn.dataset.secretId;
-            const fragment = document.querySelector(`.secret-fragment[data-secret-id="${secretId}"]`);
+
+            const fragment = document.querySelector(
+                `.secret-fragment[data-secret-id="${secretId}"]`
+            );
+
             if (!fragment) return;
 
-            const clicksNeeded = parseInt(btn.dataset.clicksNeeded || '7', 10);
-            const storageKey = `secret:${secretId}:count`;
-            let count = parseInt(localStorage.getItem(storageKey) || '0', 10);
+            const clicksNeeded = parseInt(
+                btn.dataset.clicksNeeded || '7',
+                10
+            );
 
-            // Initialize visual state
+            const storageKey = `secret:${secretId}:count`;
+
+            let count = parseInt(
+                localStorage.getItem(storageKey) || '0',
+                10
+            );
+
+            // État visuel initial
             if (count >= clicksNeeded) {
                 fragment.classList.remove('hidden');
                 fragment.setAttribute('aria-hidden', 'false');
@@ -116,25 +184,48 @@ export default function Post({ frontmatter, contentHtml }) {
                 fragment.style.opacity = 0;
             }
 
-            // Ensure focusability for keyboard users
-            if (!btn.hasAttribute('tabindex')) btn.tabIndex = 0;
+            // Accessibilité clavier
+            if (!btn.hasAttribute('tabindex')) {
+                btn.tabIndex = 0;
+            }
 
             const revealIfNeeded = () => {
                 count += 1;
-                localStorage.setItem(storageKey, String(count));
+
+                localStorage.setItem(
+                    storageKey,
+                    String(count)
+                );
+
                 btn.dataset.count = String(count);
 
-                // small tactile feedback
+                // Petit retour visuel
                 try {
-                    btn.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.06)' }, { transform: 'scale(1)' }], { duration: 160 });
+                    btn.animate(
+                        [
+                            { transform: 'scale(1)' },
+                            { transform: 'scale(1.06)' },
+                            { transform: 'scale(1)' },
+                        ],
+                        {
+                            duration: 160,
+                        }
+                    );
                 } catch (e) {
-                    // animate might not be available in old browsers
+                    // Animation non disponible
                 }
 
                 if (count >= clicksNeeded) {
                     fragment.classList.remove('hidden');
-                    fragment.setAttribute('aria-hidden', 'false');
-                    fragment.style.transition = 'opacity 400ms ease';
+
+                    fragment.setAttribute(
+                        'aria-hidden',
+                        'false'
+                    );
+
+                    fragment.style.transition =
+                        'opacity 400ms ease';
+
                     fragment.style.opacity = 1;
                 }
             };
@@ -153,17 +244,50 @@ export default function Post({ frontmatter, contentHtml }) {
 
             btn.addEventListener('click', onClick);
             btn.addEventListener('keydown', onKey);
-            secretListeners.push({ btn, onClick, onKey });
+
+            secretListeners.push({
+                btn,
+                onClick,
+                onKey,
+            });
         });
 
-        // cleanup
+        // ============================================================
+        // NETTOYAGE
+        // ============================================================
+
         return () => {
-            galleryListeners.forEach(({ img, onClick }) => img.removeEventListener('click', onClick));
-            imageListeners.forEach(({ img, onClick }) => img.removeEventListener('click', onClick));
-            secretListeners.forEach(({ btn, onClick, onKey }) => {
-                btn.removeEventListener('click', onClick);
-                btn.removeEventListener('keydown', onKey);
-            });
+            galleryListeners.forEach(
+                ({ img, handleClick }) => {
+                    img.removeEventListener(
+                        'click',
+                        handleClick
+                    );
+                }
+            );
+
+            imageListeners.forEach(
+                ({ img, handleImageClick }) => {
+                    img.removeEventListener(
+                        'click',
+                        handleImageClick
+                    );
+                }
+            );
+
+            secretListeners.forEach(
+                ({ btn, onClick, onKey }) => {
+                    btn.removeEventListener(
+                        'click',
+                        onClick
+                    );
+
+                    btn.removeEventListener(
+                        'keydown',
+                        onKey
+                    );
+                }
+            );
         };
     }, [contentHtml]);
 
@@ -178,6 +302,7 @@ export default function Post({ frontmatter, contentHtml }) {
             </button>
 
             <article className="prose dark:prose-invert max-w-6xl mx-auto py-10 glass-section">
+
                 {frontmatter.coverImage && (
                     <img
                         src={frontmatter.coverImage}
@@ -187,42 +312,70 @@ export default function Post({ frontmatter, contentHtml }) {
                 )}
 
                 <h1>{frontmatter.title}</h1>
+
                 <p>
                     <em>{frontmatter.date}</em>
                 </p>
 
-                <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+                <div
+                    dangerouslySetInnerHTML={{
+                        __html: contentHtml,
+                    }}
+                />
 
-                {/* Affichage des visuels liés à Echo‑7 */}
+                {/* ====================================================
+                    VISUELS LIÉS À ECHO-7
+                ==================================================== */}
+
                 {frontmatter.images?.map((src, i) => (
                     <div
                         key={i}
-                        className={`flex flex-col md:flex-row items-center my-8 gap-4 ${i % 2 === 0 ? '' : 'md:flex-row-reverse'
-                            }`}
+                        className={`flex flex-col md:flex-row items-center my-8 gap-4 ${
+                            i % 2 === 0
+                                ? ''
+                                : 'md:flex-row-reverse'
+                        }`}
                     >
                         <img
                             src={src}
                             alt={`Fragment visuel ${i + 1}`}
                             className="w-full md:w-1/3 rounded-xl shadow-xl cursor-pointer hover:scale-105 transition"
                             onClick={() => {
-                                setSlides(frontmatter.images.map((img) => ({ src: img })));
+                                setSlides(
+                                    frontmatter.images.map(
+                                        (img) => ({
+                                            src: img,
+                                        })
+                                    )
+                                );
+
                                 setStartIndex(i);
                                 setOpen(true);
                             }}
                         />
+
                         <p className="text-sm text-gray-600 italic">
-                            Vision #{i + 1} — Echo‑7 a intercepté ce fragment à travers les couches.
+                            Vision #{i + 1} — Echo-7 a intercepté ce fragment à travers les couches.
                         </p>
                     </div>
                 ))}
+
+                {/* ====================================================
+                    LIGHTBOX
+                ==================================================== */}
 
                 <Lightbox
                     open={open}
                     close={() => setOpen(false)}
                     slides={slides}
                     index={startIndex}
-                    plugins={[Fullscreen, Zoom, Slideshow]}
+                    plugins={[
+                        Fullscreen,
+                        Zoom,
+                        Slideshow,
+                    ]}
                 />
+
             </article>
         </>
     );
