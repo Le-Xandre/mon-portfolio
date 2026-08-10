@@ -36,9 +36,11 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold animate-noise glitch-text hover:glitch-text">
             @Hell~Xandre
           </h1>
-          <p className="text-lg md:text-xl font-light text-gray-300">
-                      Créateur d'expériences web immersives 
-          </p>
+         <p className="text-lg md:text-xl font-light text-gray-300">
+  Un espace entre création visuelle, numérique et expérimentation.
+  <br />
+  Photographie, design, web, vidéo et autres explorations se croisent ici au fil des projets.
+</p>
 
           <Link
             href="https://ko-fi.com/hellxandre"
