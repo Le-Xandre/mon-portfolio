@@ -154,12 +154,17 @@ où les Grandes Maisons, les gangs et les habitants des Sous-Ruches façonnent l
 
 Pour accompagner cette rapide présentation quelques liens pouvant être utile. 
 
-- Le page fr de la communauté française de Necromunda (qui saura vous conseiller et/ou vous renseigner)
-https://www.facebook.com/groups/1770540056556421/
+- Le page fr de la communauté française de Necromunda (qui saura vous conseiller et/ou vous renseigner) : 
+https://www.facebook.com/groups/1770540056556421/ 
+
+- la page Necromunda underhive community : 
+https://www.facebook.com/groups/285168385337236/ 
 
 - Une de mes playlists oscillant entre tutos & channels parlant de Necromunda (par exemple Wellywood) : 
-https://youtube.com/playlist?list=PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0&si=7Y5Y7WHqtGLehUSZ
+https://youtube.com/playlist?list=PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0&si=7Y5Y7WHqtGLehUSZ 
 
+- La page Warhammer Communnity orienté Necromunda : 
+https://www.warhammer-community.com/en-gb/topics/necromunda/ 
 
 > **Source d'inspiration**
 >
