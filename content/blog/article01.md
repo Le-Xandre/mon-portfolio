@@ -1,4 +1,4 @@
-﻿---
+ ---
  title: "Codex de l’Inframonde"
  description: "Une traversée SF/Fantasy, entre littérature, animation et rêveries mécaniques."
  date: "2025-06-22"
