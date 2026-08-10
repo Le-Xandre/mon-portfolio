@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Le Vide Quantique & des Bulles Cosmiques"
 date: "2025-07-12"
 description: "Article 1 : Exploration des fluctuations de l’existence en orbite basse..."
