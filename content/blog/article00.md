@@ -1,11 +1,10 @@
  ---
 title: "Introduction au Journal de Bord"
 description: "Pourquoi ce blog existe & ce qu’il contient."
- date: "2025-06-25"
- order: 0
- coverImage: "/images/bg.jpg"
-excerpt: "Introduction à Necromunda."
-tags: ["peinture", "apprentissage", "Necromunda"]
+date: "2025-06-25"
+order: 0
+coverImage: "/images/bg.jpg"
+
 ---
 
 Bienvenue à toi, passager curieux ou récurrent du bord.
