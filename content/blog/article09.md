@@ -1,4 +1,3 @@
-
 ---
 title: "Vers une Clé Vivante : Souveraineté, Éthique et Technologie en Europe"
 date: "2025-07-15"
