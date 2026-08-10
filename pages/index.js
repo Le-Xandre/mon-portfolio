@@ -43,7 +43,7 @@ export default function Home() {
             @Hell~Xandre
           </h1>
 
-          <p className="text-base font-light text-gray-300">
+          <p className="text-sm md:text-base font-light text-gray-300">
             Un espace entre création visuelle, numérique et expérimentation.
           </p>
 
