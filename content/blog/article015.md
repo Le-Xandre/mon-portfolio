@@ -155,7 +155,6 @@ où les Grandes Maisons, les gangs et les habitants des Sous-Ruches façonnent l
 
 Quelques ressources pour poursuivre la découverte de l'univers de **Necromunda** :
 
-
 [Source originale à ce lien](https://www.warhammer-community.com/en-gb/articles/2zkr3awe/newsletter-supply-drop/) 
 
 [Le page facebook fr de la communauté française de Necromunda (qui saura vous conseiller et/ou vous renseigner)](https://www.facebook.com/groups/1770540056556421/)
