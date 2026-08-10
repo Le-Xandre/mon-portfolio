@@ -1,12 +1,12 @@
----
 
+---
 title: "Du vertige d’Hypérion au libre arbitre"
 date: "2026-07-27"
 description: "Une traversée d’Hypérion, du temps, du libre arbitre et de la conscience, entre littérature, philosophie et sciences."
 excerpt: "Hypérion sert ici de point de départ à une réflexion plus vaste sur le temps, la liberté et ce qui, en nous, résiste à la mécanique."
 tags: ["Hypérion", "Dan Simmons", "Libre arbitre", "Temps", "Philosophie", "Neurosciences", "Science-fiction"]
 coverImage: "/images/bg.jpg"
-----------------------------
+---
 
 <Callout>
 Hypérion ne donne pas seulement une histoire à lire. Il installe un problème à penser.
