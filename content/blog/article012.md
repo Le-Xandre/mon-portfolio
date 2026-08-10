@@ -6,6 +6,8 @@ excerpt: "Une nuit d’Halloween, entre la chance, la fatigue et le souffle retr
 tags: ["réflexion", "poésie", "halloween", "charme"]
 coverImage: "/images/bg.jpg"
 ---
+
+
 <div class="iain-quote">
   « Le hasard n’est qu’un protocole de synchronisation entre deux formes de vie têtues. »
   <span class="iain-signature">— Iain-04</span>
