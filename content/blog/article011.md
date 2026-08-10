@@ -1,4 +1,5 @@
-﻿---
+
+---
 title: "Le silence créatif dans le tumulte numérique"
 date: "2025-09-21"
 description: "Quand la création choisit le silence : réflexions entre vulnérabilité humaine et omniprésence technologique."
