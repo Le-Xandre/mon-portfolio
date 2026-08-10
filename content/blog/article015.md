@@ -155,15 +155,15 @@ où les Grandes Maisons, les gangs et les habitants des Sous-Ruches façonnent l
 
 Quelques ressources pour poursuivre la découverte de l'univers de **Necromunda** :
 
-[Source originale à ce lien](https://www.warhammer-community.com/en-gb/articles/2zkr3awe/newsletter-supply-drop/) 
+[ → La Source originale à ce lien](https://www.warhammer-community.com/en-gb/articles/2zkr3awe/newsletter-supply-drop/) 
 
-[Le page facebook fr de la communauté française de Necromunda (qui saura vous conseiller et/ou vous renseigner)](https://www.facebook.com/groups/1770540056556421/)
+[ → La page facebook fr de la communauté française de Necromunda (qui saura vous conseiller et/ou vous renseigner)](https://www.facebook.com/groups/1770540056556421/)
 
-[la page facebook Necromunda underhive community](https://www.facebook.com/groups/285168385337236/)
+[ → La page facebook Necromunda underhive community](https://www.facebook.com/groups/285168385337236/)
 
-[La page Warhammer Communnity orienté Necromunda](https://www.warhammer-community.com/en-gb/topics/necromunda/)
+[ → La page Warhammer Communnity orienté Necromunda](https://www.warhammer-community.com/en-gb/topics/necromunda/)
 
-[Une de mes playlists oscillant entre tutos & channels parlant de Necromunda (par exemple Wellywood)](https://youtube.com/playlist?list=PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0&si=7Y5Y7WHqtGLehUSZ)
+[ → Une de mes playlists oscillant entre tutos & channels parlant de Necromunda (par exemple Wellywood)](https://youtube.com/playlist?list=PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0&si=7Y5Y7WHqtGLehUSZ)
 
 > **Source d'inspiration**
 >
