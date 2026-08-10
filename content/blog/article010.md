@@ -1,8 +1,8 @@
 ﻿---
-title: "Comment vérifier l’info à l’ère des IA et des flux permanents"
-date: "2025-09-13"
-description: "Un mini-guide pratique pour naviguer entre IA,  
-dépêches rapides et lignes éditoriales, avec des exemples concrets et des outils simples."  
+ title: "Comment vérifier l’info à l’ère des IA et des flux permanents"
+ date: "2025-09-13"
+ description: "Un mini-guide pratique pour naviguer entre IA,  
+dépêches rapides et lignes éditoriales, avec des exemples concrets et des outils simples."
 coverImage: "/images/bg.jpg"
 ---
 
