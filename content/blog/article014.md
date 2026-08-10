@@ -1,4 +1,3 @@
-
 ---
 title: "Du vertige d’Hypérion au libre arbitre"
 date: "2026-07-27"
