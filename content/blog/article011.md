@@ -1,5 +1,5 @@
-
 ---
+
 title: "Le silence créatif dans le tumulte numérique"
 date: "2025-09-21"
 description: "Quand la création choisit le silence : réflexions entre vulnérabilité humaine et omniprésence technologique."
@@ -8,6 +8,7 @@ coverImage: "/images/bg.jpg"
 # Meta pour fragment caché (ton système peut lire ces champs)
 secret_fragment: true
 secret_trigger_clicks: 7
+
 ---
 
 Chaque matin, l'écran convulse : *révolution !*  
