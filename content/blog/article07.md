@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Dans l’Océan Luminescent"
 date: "2025-07-12"
 description: "Article 2 : Des visions poétiques mêlant vide quantique, science et fluctuations de l’existence..."
