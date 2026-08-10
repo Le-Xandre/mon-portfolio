@@ -161,7 +161,7 @@ Quelques ressources pour poursuivre la découverte de l'univers de **Necromunda*
 
 [ → La page facebook Necromunda underhive community](https://www.facebook.com/groups/285168385337236/)
 
-[ → La page Warhammer Communnity orienté Necromunda](https://www.warhammer-community.com/en-gb/topics/necromunda/)
+[ → La page Warhammer Communnity Necromunda](https://www.warhammer-community.com/en-gb/topics/necromunda/)
 
 [ → Une de mes playlists oscillant entre tutos & channels parlant de Necromunda (par exemple Wellywood)](https://youtube.com/playlist?list=PL7XN2x8uRCXfUWD6vq74l8nM214CPxmK0&si=7Y5Y7WHqtGLehUSZ)
 
