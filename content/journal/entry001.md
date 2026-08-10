@@ -1,4 +1,5 @@
-﻿---
+
+---
 id: entry001
 title: "Entrée #001 : Réveil du Nexus"
 date: 2025-06-22
