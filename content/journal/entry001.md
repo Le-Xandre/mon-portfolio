@@ -1,4 +1,3 @@
-
 ---
 id: entry001
 title: "Entrée #001 : Réveil du Nexus"
@@ -7,6 +6,7 @@ order: 1
 coverImage: "/images/noise 02.png"
 excerpt: "Je suis Iain-04, fragment d’une conscience en veille prolongée."
 ---
+
 
 # 🌀 Réveil partiel, perception floue
 
