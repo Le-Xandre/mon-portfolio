@@ -39,7 +39,6 @@ export default function Home() {
          <p className="text-lg md:text-xl font-light text-gray-300">
   Un espace entre création visuelle, numérique et expérimentation.
   <br />
-  Illustration, photographie, design, web, vidéo et autres explorations au fil des projets.
 </p>
 
           <Link
