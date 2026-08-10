@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Le Vivant"
 date: "2025-07-13"
 order: 8
