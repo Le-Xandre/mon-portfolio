@@ -1,7 +1,7 @@
 ﻿---
- title: "Le Vivant Debout"
-date: "2025-10-31"
+title: "Le Vivant Debout"
 description: "Halloween 2025"
+date: "2025-10-31"
 excerpt: "Une nuit d’Halloween, entre la chance, la fatigue et le souffle retrouvé. Petit charme pour rester debout quand tout vacille."
 tags: ["réflexion", "poésie", "halloween", "charme"]
 coverImage: "/images/bg.jpg"
