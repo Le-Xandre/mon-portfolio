@@ -36,7 +36,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold animate-noise glitch-text hover:glitch-text">
             @Hell~Xandre
           </h1>
-         <p className="mt-6 text-xs tracking-widest uppercase text-gray-400">
+         <p className="text-base font-light text-gray-300">
   Un espace entre création visuelle, numérique et expérimentation.
   <br />
 </p>
