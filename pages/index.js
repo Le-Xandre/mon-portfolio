@@ -25,7 +25,7 @@ export default function Home() {
               alt="Mon portrait"
               width={160}
               height={160}
-                          className="object-cover noise-overlay neon-glow avatar-halo w-full h-full transition-transform duration-300"
+                          className="object-cover noise-overlay neon-glow avatar-halo w-full h-full animate-noise glitch-text hover:glitch-text" transition-transform duration-300"
             />
           </div>
         </div>
