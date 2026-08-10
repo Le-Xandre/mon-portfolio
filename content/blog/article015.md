@@ -7,7 +7,6 @@ coverImage: "/images/bg.jpg"
 ---
 
 # 
-
 Bienvenue dans cette présentation consacrée aux principales **cités-ruches de Necromunda** .
 
 Cette page propose une adaptation française inspirée d'un document promotionnel diffusé gratuitement par Games Workshop  
