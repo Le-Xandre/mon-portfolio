@@ -106,7 +106,7 @@ faisant d'elle un point stratégique pour le commerce, l'industrie et la logisti
 Immense cité consacrée au culte impérial, **Hive Temenos** est dominée par ses cathédrales, sanctuaires et monuments religieux.
 
 Des millions de fidèles y vivent sous l'autorité du **Ministorum**,  
-tandis que les niveaux inférieurs restent exposés aux cultes interdits, aux hérétiques et aux **Genestealer Cults**.
+tandis que les niveaux inférieurs restent exposés aux cultes interdits, aux hérétiques et aux **Cultes Genestealer**.
 
 ---
 
