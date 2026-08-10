@@ -11,7 +11,7 @@
     --bg-image: none;
     --bg-fallback: #000;
 
-    --nav-backdrop: rgba(10, 10, 15, 0.72);
+    --nav-backdrop: rgba(10, 10, 15, 0.78);
 
     --text-main: #e8edf2;
     --text-muted: #b8c0c8;
@@ -32,7 +32,11 @@
 
     --code-bg: rgba(0, 0, 0, 0.35);
 
-    --content-line-height: 1.72;
+    --font-title: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --content-line-height: 1.75;
+    --content-max-width: 100%;
 }
 
 
@@ -40,11 +44,11 @@
    THÈME LIGHT
    ========================================================= */
 
-html[data-theme='light'] {
+html[data-theme="light"] {
     --bg-image: url('/images/bg.jpg');
     --bg-fallback: #e8e5df;
 
-    --nav-backdrop: rgba(245, 245, 245, 0.72);
+    --nav-backdrop: rgba(245, 245, 245, 0.82);
 
     --text-main: #26313a;
     --text-muted: #59636c;
@@ -71,11 +75,11 @@ html[data-theme='light'] {
    THÈME DARK
    ========================================================= */
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
     --bg-image: url('/images/bg03.png');
     --bg-fallback: #05070b;
 
-    --nav-backdrop: rgba(5, 8, 14, 0.76);
+    --nav-backdrop: rgba(5, 8, 14, 0.84);
 
     --text-main: #e6edf3;
     --text-muted: #b8c1cb;
@@ -85,8 +89,16 @@ html[data-theme='dark'] {
     --link: #55e6ee;
     --link-hover: #9bffff;
 
-    --glass-bg: rgba(5, 10, 17, 0.72);
+    --border-soft: rgba(255, 255, 255, 0.16);
+    --separator: rgba(0, 220, 255, 0.18);
+
+    --glass-bg: rgba(5, 10, 17, 0.74);
     --glass-border: rgba(0, 255, 255, 0.20);
+
+    --quote-bg: rgba(0, 255, 255, 0.035);
+    --quote-border: rgba(0, 255, 255, 0.35);
+
+    --code-bg: rgba(0, 0, 20, 0.42);
 }
 
 
@@ -101,7 +113,7 @@ html[data-theme="steampunk"] {
     --bg-image: url('/themes/steampunk/bg.jpg');
     --bg-fallback: #1f140a;
 
-    --nav-backdrop: rgba(30, 20, 10, 0.76);
+    --nav-backdrop: rgba(30, 20, 10, 0.84);
 
     --text-main: #f1e6d4;
     --text-muted: #d1c0a7;
@@ -135,7 +147,7 @@ html[data-theme="cyberpunk"] {
     --bg-image: url('/themes/cyberpunk/bg.jpg');
     --bg-fallback: #080820;
 
-    --nav-backdrop: rgba(5, 10, 30, 0.78);
+    --nav-backdrop: rgba(5, 10, 30, 0.86);
 
     --text-main: #e6f8ff;
     --text-muted: #b7d1dc;
@@ -169,7 +181,7 @@ html[data-theme="fantasy"] {
     --bg-image: url('/themes/fantasy/bg.jpg');
     --bg-fallback: #4a2e60;
 
-    --nav-backdrop: rgba(55, 30, 75, 0.78);
+    --nav-backdrop: rgba(55, 30, 75, 0.84);
 
     --text-main: #f5eaff;
     --text-muted: #d9c7e8;
@@ -193,23 +205,39 @@ html[data-theme="fantasy"] {
 
 
 /* =========================================================
-   BASE
+   RESET / BASE
    ========================================================= */
 
 html {
-    min-height: 100vh;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100%;
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 html,
 body {
+    width: 100%;
+    min-height: 100%;
+
+    margin: 0;
+    padding: 0;
+
     overflow-x: hidden;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+    position: relative;
+    z-index: 0;
 
     width: 100%;
     min-height: 100vh;
@@ -217,10 +245,13 @@ body {
     background-color: var(--bg-fallback);
     color: var(--text-main);
 
-    font-family: var(--font-body, 'Inter', sans-serif);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: var(--content-line-height);
 
-    position: relative;
-    z-index: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     transition:
         background-color 0.3s ease,
@@ -228,7 +259,9 @@ body {
 }
 
 
-/* Fond principal */
+/* =========================================================
+   FOND PRINCIPAL
+   ========================================================= */
 
 body::before {
     content: '';
@@ -241,12 +274,12 @@ body::before {
 
     background-image: var(--bg-image);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 
     z-index: -2;
 
-    opacity: 1;
+    pointer-events: none;
 
     transition:
         background-image 0.3s ease,
@@ -254,7 +287,7 @@ body::before {
 }
 
 
-/* Assombrissement périphérique du fond */
+/* Assombrissement périphérique */
 
 body::after {
     content: '';
@@ -279,7 +312,7 @@ body::after {
 
 
 /* =========================================================
-   TYPOGRAPHIE GLOBALE
+   ÉLÉMENTS TEXTUELS DE BASE
    ========================================================= */
 
 h1,
@@ -288,39 +321,58 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-title, 'Cormorant Garamond', serif);
+    margin-left: 0;
+    margin-right: 0;
+
+    font-family: var(--font-title);
     color: var(--heading);
 
     line-height: 1.25;
 
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
+
+    text-wrap: balance;
 }
 
 h1 {
     font-size: clamp(1.65rem, 2.5vw, 2.15rem);
+
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: clamp(1.25rem, 1.9vw, 1.6rem);
+    font-size: clamp(1.3rem, 2vw, 1.65rem);
+
     margin-top: 2rem;
     margin-bottom: 0.85rem;
 }
 
 h3 {
-    font-size: clamp(1.1rem, 1.5vw, 1.35rem);
+    font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+
     margin-top: 1.6rem;
     margin-bottom: 0.7rem;
 }
 
+h4 {
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+}
+
 p {
     color: var(--text-main);
+
     line-height: var(--content-line-height);
 
     overflow-wrap: break-word;
     word-wrap: break-word;
+
+    hyphens: auto;
+
+    margin-top: 0.85rem;
+    margin-bottom: 0.95rem;
 }
 
 strong,
@@ -338,9 +390,20 @@ small {
     color: var(--text-muted);
 }
 
+img,
+video,
+iframe {
+    max-width: 100%;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 
 /* =========================================================
-   LIGHT : AJUSTEMENTS GLOBAUX
+   LIGHT : AJUSTEMENTS
    ========================================================= */
 
 html[data-theme="light"] body {
@@ -355,7 +418,9 @@ html[data-theme="light"] b {
 html[data-theme="light"] h1,
 html[data-theme="light"] h2,
 html[data-theme="light"] h3,
-html[data-theme="light"] h4 {
+html[data-theme="light"] h4,
+html[data-theme="light"] h5,
+html[data-theme="light"] h6 {
     color: #17232c;
 }
 
@@ -365,10 +430,12 @@ html[data-theme="light"] h4 {
    ========================================================= */
 
 .background {
+    min-height: 100vh;
+
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
+    background-size: cover;
 }
 
 .noise-overlay {
@@ -399,19 +466,20 @@ html[data-theme="light"] h4 {
     position: relative;
     z-index: 1;
 
+    width: 100%;
+
     background: var(--glass-bg);
 
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 
     border: 1px solid var(--glass-border);
-
     border-radius: 1rem;
 
-    padding: 1.25rem;
+    padding: clamp(1rem, 2vw, 1.5rem);
 
     box-shadow:
-        0 0 20px rgba(0, 255, 255, 0.12),
+        0 0 20px rgba(0, 255, 255, 0.10),
         inset 0 0 30px rgba(255, 255, 255, 0.015);
 
     color: var(--text-main);
@@ -423,11 +491,15 @@ html[data-theme="light"] h4 {
 }
 
 
-/* Bloc flottant */
+/* =========================================================
+   BLOC FLOTTANT
+   ========================================================= */
 
 .section-overlay {
     position: relative;
     z-index: 1;
+
+    width: 100%;
 
     background: rgba(0, 0, 0, 0.55);
 
@@ -436,16 +508,13 @@ html[data-theme="light"] h4 {
 
     border-radius: 1rem;
 
-    padding: 2rem;
+    padding: clamp(1rem, 3vw, 2rem);
 
     box-shadow:
         0 0 15px rgba(0, 0, 0, 0.25);
 
     color: var(--text-main);
 }
-
-
-/* Ancienne classe conservée */
 
 body.light .section-overlay {
     background-color: rgba(245, 245, 245, 0.68);
@@ -458,10 +527,15 @@ body.light .section-overlay {
    ========================================================= */
 
 .prose {
+    width: 100%;
+    max-width: var(--content-max-width);
+
     color: var(--text-main);
+
+    font-size: clamp(0.96rem, 0.35vw + 0.9rem, 1rem);
     line-height: var(--content-line-height);
 
-    max-width: none;
+    overflow-wrap: break-word;
 }
 
 .prose p {
@@ -471,6 +545,8 @@ body.light .section-overlay {
     margin-bottom: 0.95rem;
 
     line-height: var(--content-line-height);
+
+    overflow-wrap: break-word;
 }
 
 .prose strong,
@@ -487,10 +563,13 @@ body.light .section-overlay {
 .prose h6 {
     color: var(--heading);
 
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
 
     scroll-margin-top: 5rem;
+
+    text-wrap: balance;
 }
 
 .prose h1 {
@@ -516,6 +595,10 @@ body.light .section-overlay {
     margin-bottom: 0.7rem;
 }
 
+.prose h4 {
+    font-size: clamp(1rem, 1.3vw, 1.15rem);
+}
+
 
 /* Date / petites informations */
 
@@ -525,11 +608,12 @@ body.light .section-overlay {
 }
 
 
-/* Séparateurs Markdown */
+/* =========================================================
+   SÉPARATEURS MARKDOWN
+   ========================================================= */
 
 .prose hr {
     border: 0;
-
     border-top: 1px solid var(--separator);
 
     margin: 2rem 0;
@@ -538,7 +622,9 @@ body.light .section-overlay {
 }
 
 
-/* Citations */
+/* =========================================================
+   CITATIONS
+   ========================================================= */
 
 .prose blockquote {
     margin: 1.5rem 0;
@@ -552,15 +638,20 @@ body.light .section-overlay {
     color: var(--text-main);
 
     font-style: italic;
+
+    overflow-wrap: break-word;
 }
 
 .prose blockquote p {
     color: inherit;
+
     margin: 0.35rem 0;
 }
 
 
-/* Listes */
+/* =========================================================
+   LISTES
+   ========================================================= */
 
 .prose ul,
 .prose ol {
@@ -579,6 +670,8 @@ body.light .section-overlay {
     margin-bottom: 0.35rem;
 
     line-height: 1.65;
+
+    overflow-wrap: break-word;
 }
 
 .prose li::marker {
@@ -589,6 +682,10 @@ body.light .section-overlay {
 /* =========================================================
    LIENS
    ========================================================= */
+
+a {
+    overflow-wrap: anywhere;
+}
 
 .prose a,
 .prose a:visited {
@@ -629,6 +726,11 @@ body.light .section-overlay {
     margin: 1.5rem 0;
 
     color: var(--text-main);
+
+    display: block;
+    overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
 }
 
 .prose th,
@@ -640,6 +742,8 @@ body.light .section-overlay {
     color: var(--text-main);
 
     vertical-align: top;
+
+    min-width: 120px;
 }
 
 .prose th {
@@ -665,20 +769,30 @@ body.light .section-overlay {
     border-radius: 0.3rem;
 
     font-size: 0.9em;
+
+    overflow-wrap: anywhere;
 }
 
 .prose pre {
+    max-width: 100%;
+
     background: var(--code-bg);
 
     color: var(--text-main);
 
     border: 1px solid var(--border-soft);
-
     border-radius: 0.6rem;
 
     padding: 1rem;
 
     overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.prose pre code {
+    background: transparent;
+    padding: 0;
 }
 
 
@@ -687,6 +801,8 @@ body.light .section-overlay {
    ========================================================= */
 
 article img {
+    display: block;
+
     max-width: 100%;
     height: auto;
 
@@ -694,21 +810,23 @@ article img {
 
     margin: 2rem auto;
 
-    display: block;
-
     box-shadow:
         0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .prose img {
+    display: block;
+
     max-width: 100%;
     height: auto;
 
     margin: 2rem auto;
 
-    display: block;
-
     max-height: 500px;
+
+    object-fit: contain;
+
+    border-radius: 0.5rem;
 
     cursor: zoom-in;
 
@@ -718,7 +836,7 @@ article img {
 }
 
 .prose img:hover {
-    transform: scale(1.025);
+    transform: scale(1.015);
 }
 
 
@@ -740,6 +858,8 @@ article img {
    ========================================================= */
 
 .glow-card {
+    position: relative;
+
     border: 1px solid rgba(216, 36, 251, 0.3);
 
     box-shadow:
@@ -749,7 +869,6 @@ article img {
         box-shadow 0.3s,
         border-color 0.3s;
 
-    position: relative;
     overflow: hidden;
 }
 
@@ -923,23 +1042,37 @@ article img {
    ========================================================= */
 
 nav {
+    position: sticky;
+    top: 0;
+
+    z-index: 50;
+
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 
     background-color: var(--nav-backdrop);
 
-    z-index: 50;
+    padding-top: env(safe-area-inset-top);
 
-    position: sticky;
-    top: 0;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 44px;
+
     color: var(--text-main);
 
     padding: 0.5rem 1rem;
 
     text-decoration: none;
+
+    white-space: normal;
 
     transition:
         color 0.3s,
@@ -999,6 +1132,8 @@ nav a:hover {
     position: relative;
     z-index: 2;
 
+    width: min(90%, 600px);
+
     background: rgba(18, 18, 18, 0.68);
 
     backdrop-filter: blur(10px);
@@ -1006,10 +1141,7 @@ nav a:hover {
 
     border-radius: 1rem;
 
-    padding: 2rem;
-
-    max-width: 600px;
-    width: 90%;
+    padding: clamp(1.25rem, 4vw, 2rem);
 
     text-align: center;
 
@@ -1020,7 +1152,8 @@ nav a:hover {
 }
 
 .glassmorphism-card h1 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+
     margin-bottom: 0.5rem;
 }
 
@@ -1034,6 +1167,8 @@ nav a:hover {
 
 .glassmorphism-card a.button {
     display: inline-block;
+
+    min-height: 44px;
 
     padding: 0.6rem 1.2rem;
 
@@ -1058,8 +1193,8 @@ nav a:hover {
    ========================================================= */
 
 .avatar {
-    width: 240px;
-    height: 240px;
+    width: clamp(80px, 18vw, 240px);
+    height: clamp(80px, 18vw, 240px);
 
     border-radius: 50%;
 
@@ -1100,17 +1235,20 @@ nav a:hover {
 .gallery {
     display: flex;
 
-    gap: 0.5rem;
+    gap: clamp(0.5rem, 1vw, 0.8rem);
 
     margin-bottom: 1rem;
 
     flex-wrap: wrap;
 
     justify-content: center;
+
+    align-items: center;
 }
 
 .gallery img {
-    width: 300px;
+    width: min(300px, 100%);
+
     height: auto;
 
     object-fit: contain;
@@ -1123,7 +1261,7 @@ nav a:hover {
 }
 
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.025);
 
     filter:
         drop-shadow(0 0 10px #0ff);
@@ -1141,6 +1279,9 @@ nav a:hover {
 .halloween-image {
     display: block;
 
+    width: min(100%, 1000px);
+    height: auto;
+
     margin: 1rem auto;
 
     border-radius: 12px;
@@ -1154,7 +1295,7 @@ nav a:hover {
 }
 
 .halloween-image:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 
     box-shadow:
         0 0 25px rgba(255, 140, 0, 0.6);
@@ -1167,6 +1308,8 @@ nav a:hover {
 
 .video-container {
     position: relative;
+
+    width: 100%;
 
     padding-bottom: 56.25%;
 
@@ -1200,7 +1343,7 @@ nav a:hover {
 }
 
 .video-container:hover {
-    transform: scale(1.02);
+    transform: scale(1.015);
 
     box-shadow:
         0 0 35px rgba(255, 140, 240, 0.5),
@@ -1280,28 +1423,72 @@ nav a:hover {
 
     text-shadow:
         1px 1px #000;
+
+    overflow-wrap: anywhere;
 }
 
 
 /* =========================================================
-   RESPONSIVE
+   TABLETTE
+   ========================================================= */
+
+@media (max-width: 1024px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .glass-section {
+        padding: 1.15rem;
+    }
+
+    .section-overlay {
+        padding: 1.5rem;
+    }
+
+    .prose {
+        font-size: 0.99rem;
+    }
+
+    .prose p {
+        line-height: 1.75;
+    }
+
+    .gallery {
+        gap: 0.65rem;
+    }
+
+    .gallery img {
+        width: min(280px, 100%);
+    }
+
+    .glassmorphism-card {
+        width: min(92%, 600px);
+    }
+}
+
+
+/* =========================================================
+   MOBILE
    ========================================================= */
 
 @media (max-width: 768px) {
 
-    .glassmorphism-card {
-        max-width: 90%;
-
-        padding: 1.5rem;
+    html {
+        scroll-padding-top: 4.5rem;
     }
 
-    .glassmorphism-card h1 {
-        font-size: 1.5rem;
+    body {
+        font-size: 16px;
     }
 
-    .avatar {
-        width: 80px;
-        height: 80px;
+    body::before {
+        background-attachment: scroll;
+        background-position: center center;
+    }
+
+    .background {
+        background-attachment: scroll;
     }
 
     nav {
@@ -1311,48 +1498,266 @@ nav a:hover {
         left: 0;
 
         width: 100%;
+
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+
+    nav a {
+        min-height: 44px;
+
+        padding: 0.65rem 0.8rem;
+
+        font-size: 0.95rem;
     }
 
     .glass-section {
+        width: 100%;
+
         padding: 1rem;
 
         border-radius: 0.75rem;
     }
 
     .section-overlay {
-        padding: 1.25rem;
+        padding: 1.15rem;
+
+        border-radius: 0.75rem;
     }
 
     .prose {
-        font-size: 0.96rem;
+        width: 100%;
+
+        font-size: 0.98rem;
+
+        line-height: 1.76;
+    }
+
+    .prose p {
+        line-height: 1.76;
+
+        margin-top: 0.75rem;
+        margin-bottom: 0.9rem;
     }
 
     .prose h1 {
-        font-size: 1.55rem;
+        font-size: clamp(1.5rem, 7vw, 1.8rem);
+
+        line-height: 1.2;
+
+        margin-bottom: 0.9rem;
     }
 
     .prose h2 {
-        font-size: 1.25rem;
+        font-size: clamp(1.2rem, 5.5vw, 1.4rem);
+
+        line-height: 1.28;
 
         margin-top: 1.7rem;
     }
 
     .prose h3 {
-        font-size: 1.1rem;
+        font-size: clamp(1.05rem, 5vw, 1.2rem);
+
+        line-height: 1.3;
     }
 
-    .prose p {
-        line-height: 1.7;
+    .prose blockquote {
+        padding: 0.7rem 0.8rem;
+
+        margin: 1.25rem 0;
+    }
+
+    .prose ul,
+    .prose ol {
+        padding-left: 1.25rem;
+    }
+
+    .prose li {
+        line-height: 1.65;
     }
 
     .prose table {
-        display: block;
+        font-size: 0.9rem;
+    }
 
-        overflow-x: auto;
+    .prose th,
+    .prose td {
+        padding: 0.55rem 0.6rem;
+    }
+
+    .prose pre {
+        padding: 0.8rem;
+
+        border-radius: 0.5rem;
+
+        font-size: 0.85rem;
+    }
+
+    article img,
+    .prose img {
+        max-width: 100%;
+
+        margin: 1.5rem auto;
+    }
+
+    .gallery {
+        width: 100%;
+
+        gap: 0.6rem;
     }
 
     .gallery img {
         width: min(100%, 300px);
+    }
+
+    .video-container {
+        margin: 1.5rem 0;
+
+        border-radius: 0.75rem;
+    }
+
+    .glassmorphism-card {
+        width: calc(100% - 2rem);
+
+        max-width: none;
+
+        padding: 1.25rem;
+    }
+
+    .glassmorphism-card h1 {
+        font-size: clamp(1.4rem, 7vw, 1.7rem);
+    }
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .glow-hover::before,
+    .glow-hover::after,
+    .glow-card::after {
+        display: none;
+    }
+
+    .gallery-hover-area {
+        cursor: auto;
+    }
+}
+
+
+/* =========================================================
+   PETITS TÉLÉPHONES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 15.8px;
+    }
+
+    h1 {
+        font-size: clamp(1.45rem, 8vw, 1.7rem);
+    }
+
+    h2 {
+        font-size: clamp(1.2rem, 6.5vw, 1.4rem);
+    }
+
+    h3 {
+        font-size: clamp(1.05rem, 5.8vw, 1.2rem);
+    }
+
+    .glass-section {
+        padding: 0.85rem;
+    }
+
+    .section-overlay {
+        padding: 1rem;
+    }
+
+    .prose {
+        font-size: 0.97rem;
+        line-height: 1.78;
+    }
+
+    .prose p {
+        line-height: 1.78;
+    }
+
+    .prose h1 {
+        font-size: clamp(1.4rem, 7.5vw, 1.65rem);
+    }
+
+    .prose h2 {
+        font-size: clamp(1.15rem, 6vw, 1.35rem);
+    }
+
+    .prose h3 {
+        font-size: clamp(1.02rem, 5.5vw, 1.15rem);
+    }
+
+    .prose blockquote {
+        padding: 0.65rem 0.7rem;
+
+        border-left-width: 2px;
+    }
+
+    .prose ul,
+    .prose ol {
+        padding-left: 1.15rem;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .video-container {
+        border-radius: 0.6rem;
+    }
+
+    .glassmorphism-card {
+        width: calc(100% - 1rem);
+
+        padding: 1rem;
+    }
+
+    .avatar {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+
+/* =========================================================
+   TRÈS PETITS ÉCRANS
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+    body {
+        font-size: 15.5px;
+    }
+
+    .glass-section {
+        padding: 0.7rem;
+    }
+
+    .section-overlay {
+        padding: 0.85rem;
+    }
+
+    .prose {
+        font-size: 0.95rem;
+    }
+
+    .prose p {
+        line-height: 1.8;
+    }
+
+    .prose ul,
+    .prose ol {
+        padding-left: 1rem;
     }
 }
 
@@ -1368,6 +1773,25 @@ button:focus-visible {
     outline-offset: 3px;
 }
 
+
+/* Désactive les effets trop lourds sur appareils tactiles */
+
+@media (hover: none) {
+
+    .gallery img:hover,
+    .avatar:hover,
+    .video-container:hover,
+    .halloween-image:hover,
+    .prose img:hover {
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   RÉDUCTION DES ANIMATIONS
+   ========================================================= */
+
 @media (prefers-reduced-motion: reduce) {
 
     html {
@@ -1379,6 +1803,9 @@ button:focus-visible {
     *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
+
         transition-duration: 0.01ms !important;
+
+        scroll-behavior: auto !important;
     }
 }
