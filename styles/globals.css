@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* =========================================================
    VARIABLES GLOBALES
    ========================================================= */
@@ -35,10 +34,11 @@
     --font-title: 'Cormorant Garamond', serif;
     --font-body: 'Inter', sans-serif;
 
-    --content-line-height: 1.75;
-    --content-max-width: 100%;
+    --content-line-height: 1.68;
+    --content-max-width: 90ch;
+    --nav-font-size: 0.88rem;
+    --nav-link-padding: 0.35rem 0.55rem;
 }
-
 
 /* =========================================================
    THÈME LIGHT
@@ -70,7 +70,6 @@ html[data-theme="light"] {
     --code-bg: rgba(20, 20, 20, 0.08);
 }
 
-
 /* =========================================================
    THÈME DARK
    ========================================================= */
@@ -100,7 +99,6 @@ html[data-theme="dark"] {
 
     --code-bg: rgba(0, 0, 20, 0.42);
 }
-
 
 /* =========================================================
    THÈME STEAMPUNK
@@ -135,7 +133,6 @@ html[data-theme="steampunk"] {
     --code-bg: rgba(0, 0, 0, 0.32);
 }
 
-
 /* =========================================================
    THÈME CYBERPUNK
    ========================================================= */
@@ -169,14 +166,13 @@ html[data-theme="cyberpunk"] {
     --code-bg: rgba(0, 0, 20, 0.42);
 }
 
-
 /* =========================================================
    THÈME FANTASY
    ========================================================= */
 
 html[data-theme="fantasy"] {
     --font-title: 'IM Fell English SC', serif;
-    --font-body: 'Metamorphous', cursive;
+    --font-body: 'Georgia', serif;
 
     --bg-image: url('/themes/fantasy/bg.jpg');
     --bg-fallback: #4a2e60;
@@ -201,8 +197,10 @@ html[data-theme="fantasy"] {
     --quote-border: rgba(230, 190, 255, 0.45);
 
     --code-bg: rgba(20, 5, 30, 0.38);
-}
 
+    /* La police décorative reste réservée aux titres : le corps doit rester confortable. */
+    --content-line-height: 1.68;
+}
 
 /* =========================================================
    RESET / BASE
@@ -258,7 +256,6 @@ body {
         color 0.3s ease;
 }
 
-
 /* =========================================================
    FOND PRINCIPAL
    ========================================================= */
@@ -286,7 +283,6 @@ body::before {
         opacity 0.3s ease;
 }
 
-
 /* Assombrissement périphérique */
 
 body::after {
@@ -309,7 +305,6 @@ body::after {
 
     pointer-events: none;
 }
-
 
 /* =========================================================
    ÉLÉMENTS TEXTUELS DE BASE
@@ -337,28 +332,28 @@ h6 {
 }
 
 h1 {
-    font-size: clamp(1.65rem, 2.5vw, 2.15rem);
+    font-size: clamp(1.55rem, 2.2vw, 2.05rem);
 
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: clamp(1.3rem, 2vw, 1.65rem);
+    font-size: clamp(1.22rem, 1.8vw, 1.55rem);
 
     margin-top: 2rem;
     margin-bottom: 0.85rem;
 }
 
 h3 {
-    font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+    font-size: clamp(1.05rem, 1.45vw, 1.3rem);
 
     margin-top: 1.6rem;
     margin-bottom: 0.7rem;
 }
 
 h4 {
-    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    font-size: clamp(0.98rem, 1.2vw, 1.15rem);
 }
 
 p {
@@ -367,6 +362,7 @@ p {
     line-height: var(--content-line-height);
 
     overflow-wrap: break-word;
+    text-wrap: pretty;
     word-wrap: break-word;
 
     hyphens: auto;
@@ -401,7 +397,6 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
-
 /* =========================================================
    LIGHT : AJUSTEMENTS
    ========================================================= */
@@ -423,7 +418,6 @@ html[data-theme="light"] h5,
 html[data-theme="light"] h6 {
     color: #17232c;
 }
-
 
 /* =========================================================
    FOND / CONTAINERS
@@ -457,7 +451,6 @@ html[data-theme="light"] h6 {
     }
 }
 
-
 /* =========================================================
    GLASS SECTION
    ========================================================= */
@@ -490,7 +483,6 @@ html[data-theme="light"] h6 {
         border-color 0.3s ease-in-out;
 }
 
-
 /* =========================================================
    BLOC FLOTTANT
    ========================================================= */
@@ -521,7 +513,6 @@ body.light .section-overlay {
     color: #26313a;
 }
 
-
 /* =========================================================
    TYPOGRAPHIE DES ARTICLES MARKDOWN
    ========================================================= */
@@ -529,13 +520,15 @@ body.light .section-overlay {
 .prose {
     width: 100%;
     max-width: var(--content-max-width);
+    text-wrap: pretty;
 
     color: var(--text-main);
 
-    font-size: clamp(0.96rem, 0.35vw + 0.9rem, 1rem);
+    font-size: clamp(0.94rem, 0.25vw + 0.9rem, 1rem);
     line-height: var(--content-line-height);
 
     overflow-wrap: break-word;
+    text-wrap: pretty;
 }
 
 .prose p {
@@ -547,6 +540,7 @@ body.light .section-overlay {
     line-height: var(--content-line-height);
 
     overflow-wrap: break-word;
+    text-wrap: pretty;
 }
 
 .prose strong,
@@ -573,7 +567,7 @@ body.light .section-overlay {
 }
 
 .prose h1 {
-    font-size: clamp(1.65rem, 2.4vw, 2.15rem);
+    font-size: clamp(1.55rem, 2.2vw, 2.05rem);
     line-height: 1.2;
 
     margin-top: 0.5rem;
@@ -581,7 +575,7 @@ body.light .section-overlay {
 }
 
 .prose h2 {
-    font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+    font-size: clamp(1.22rem, 1.7vw, 1.5rem);
     line-height: 1.3;
 
     margin-top: 2.1rem;
@@ -589,7 +583,7 @@ body.light .section-overlay {
 }
 
 .prose h3 {
-    font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+    font-size: clamp(1.05rem, 1.4vw, 1.28rem);
 
     margin-top: 1.6rem;
     margin-bottom: 0.7rem;
@@ -599,14 +593,12 @@ body.light .section-overlay {
     font-size: clamp(1rem, 1.3vw, 1.15rem);
 }
 
-
 /* Date / petites informations */
 
 .prose > p:first-of-type {
     color: var(--text-muted);
     font-size: 0.9rem;
 }
-
 
 /* =========================================================
    SÉPARATEURS MARKDOWN
@@ -620,7 +612,6 @@ body.light .section-overlay {
 
     opacity: 0.9;
 }
-
 
 /* =========================================================
    CITATIONS
@@ -647,7 +638,6 @@ body.light .section-overlay {
 
     margin: 0.35rem 0;
 }
-
 
 /* =========================================================
    LISTES
@@ -677,7 +667,6 @@ body.light .section-overlay {
 .prose li::marker {
     color: var(--link);
 }
-
 
 /* =========================================================
    LIENS
@@ -712,7 +701,6 @@ a {
     outline: 2px solid var(--link);
     outline-offset: 3px;
 }
-
 
 /* =========================================================
    TABLEAUX MARKDOWN
@@ -754,7 +742,6 @@ a {
     font-weight: 700;
 }
 
-
 /* =========================================================
    CODE
    ========================================================= */
@@ -794,7 +781,6 @@ a {
     background: transparent;
     padding: 0;
 }
-
 
 /* =========================================================
    IMAGES D'ARTICLES
@@ -839,7 +825,6 @@ article img {
     transform: scale(1.015);
 }
 
-
 /* =========================================================
    EFFETS NÉON
    ========================================================= */
@@ -851,7 +836,6 @@ article img {
         0 0 25px #24fb8bcc,
         0 0 35px #24fbf4aa;
 }
-
 
 /* =========================================================
    GLOW CARD
@@ -879,7 +863,6 @@ article img {
         0 0 15px rgba(216, 36, 251, 0.6),
         0 0 25px rgba(216, 36, 251, 0.4);
 }
-
 
 /* =========================================================
    GLOW INTERACTIF
@@ -987,7 +970,6 @@ article img {
     opacity: 1;
 }
 
-
 /* =========================================================
    GLITCH
    ========================================================= */
@@ -1036,7 +1018,6 @@ article img {
     animation: glitch 5s infinite;
 }
 
-
 /* =========================================================
    NAVIGATION
    ========================================================= */
@@ -1068,7 +1049,9 @@ nav a {
 
     color: var(--text-main);
 
-    padding: 0.5rem 1rem;
+    padding: var(--nav-link-padding);
+    font-size: var(--nav-font-size);
+    line-height: 1.2;
 
     text-decoration: none;
 
@@ -1085,7 +1068,6 @@ nav a:hover {
     text-shadow:
         0 0 8px rgba(0, 255, 255, 0.45);
 }
-
 
 /* =========================================================
    NEON BOX
@@ -1122,7 +1104,6 @@ nav a:hover {
 
     animation: neonGlow 5s infinite alternate;
 }
-
 
 /* =========================================================
    GLASSMORPHISM CARD
@@ -1187,7 +1168,6 @@ nav a:hover {
     color: #000;
 }
 
-
 /* =========================================================
    AVATAR
    ========================================================= */
@@ -1226,7 +1206,6 @@ nav a:hover {
 .avatar:hover {
     transform: scale(1.05);
 }
-
 
 /* =========================================================
    GALERIE
@@ -1271,7 +1250,6 @@ nav a:hover {
     cursor: none;
 }
 
-
 /* =========================================================
    IMAGES SPÉCIALES
    ========================================================= */
@@ -1300,7 +1278,6 @@ nav a:hover {
     box-shadow:
         0 0 25px rgba(255, 140, 0, 0.6);
 }
-
 
 /* =========================================================
    VIDEO
@@ -1349,7 +1326,6 @@ nav a:hover {
         0 0 35px rgba(255, 140, 240, 0.5),
         0 0 15px rgba(0, 200, 255, 0.25);
 }
-
 
 /* =========================================================
    IAIN-04
@@ -1411,7 +1387,6 @@ nav a:hover {
     }
 }
 
-
 /* =========================================================
    TITRE STEAMPUNK
    ========================================================= */
@@ -1426,7 +1401,6 @@ nav a:hover {
 
     overflow-wrap: anywhere;
 }
-
 
 /* =========================================================
    TABLETTE
@@ -1447,11 +1421,11 @@ nav a:hover {
     }
 
     .prose {
-        font-size: 0.99rem;
+        font-size: 0.98rem;
     }
 
     .prose p {
-        line-height: 1.75;
+        line-height: 1.7;
     }
 
     .gallery {
@@ -1466,7 +1440,6 @@ nav a:hover {
         width: min(92%, 600px);
     }
 }
-
 
 /* =========================================================
    MOBILE
@@ -1508,7 +1481,7 @@ nav a:hover {
 
         padding: 0.65rem 0.8rem;
 
-        font-size: 0.95rem;
+        font-size: 0.93rem;
     }
 
     .glass-section {
@@ -1528,20 +1501,20 @@ nav a:hover {
     .prose {
         width: 100%;
 
-        font-size: 0.98rem;
+        font-size: 0.96rem;
 
-        line-height: 1.76;
+        line-height: 1.72;
     }
 
     .prose p {
-        line-height: 1.76;
+        line-height: 1.72;
 
         margin-top: 0.75rem;
         margin-bottom: 0.9rem;
     }
 
     .prose h1 {
-        font-size: clamp(1.5rem, 7vw, 1.8rem);
+        font-size: clamp(1.42rem, 6.5vw, 1.72rem);
 
         line-height: 1.2;
 
@@ -1549,7 +1522,7 @@ nav a:hover {
     }
 
     .prose h2 {
-        font-size: clamp(1.2rem, 5.5vw, 1.4rem);
+        font-size: clamp(1.15rem, 5vw, 1.34rem);
 
         line-height: 1.28;
 
@@ -1557,7 +1530,7 @@ nav a:hover {
     }
 
     .prose h3 {
-        font-size: clamp(1.05rem, 5vw, 1.2rem);
+        font-size: clamp(1.02rem, 4.6vw, 1.18rem);
 
         line-height: 1.3;
     }
@@ -1645,7 +1618,6 @@ nav a:hover {
     }
 }
 
-
 /* =========================================================
    PETITS TÉLÉPHONES
    ========================================================= */
@@ -1653,19 +1625,19 @@ nav a:hover {
 @media (max-width: 480px) {
 
     body {
-        font-size: 15.8px;
+        font-size: 15.7px;
     }
 
     h1 {
-        font-size: clamp(1.45rem, 8vw, 1.7rem);
+        font-size: clamp(1.38rem, 7vw, 1.62rem);
     }
 
     h2 {
-        font-size: clamp(1.2rem, 6.5vw, 1.4rem);
+        font-size: clamp(1.15rem, 6vw, 1.34rem);
     }
 
     h3 {
-        font-size: clamp(1.05rem, 5.8vw, 1.2rem);
+        font-size: clamp(1.02rem, 5.3vw, 1.16rem);
     }
 
     .glass-section {
@@ -1677,24 +1649,24 @@ nav a:hover {
     }
 
     .prose {
-        font-size: 0.97rem;
-        line-height: 1.78;
+        font-size: 0.93rem;
+        line-height: 1.72;
     }
 
     .prose p {
-        line-height: 1.78;
+        line-height: 1.72;
     }
 
     .prose h1 {
-        font-size: clamp(1.4rem, 7.5vw, 1.65rem);
+        font-size: clamp(1.35rem, 7vw, 1.58rem);
     }
 
     .prose h2 {
-        font-size: clamp(1.15rem, 6vw, 1.35rem);
+        font-size: clamp(1.12rem, 5.6vw, 1.3rem);
     }
 
     .prose h3 {
-        font-size: clamp(1.02rem, 5.5vw, 1.15rem);
+        font-size: clamp(1rem, 5vw, 1.12rem);
     }
 
     .prose blockquote {
@@ -1728,7 +1700,6 @@ nav a:hover {
     }
 }
 
-
 /* =========================================================
    TRÈS PETITS ÉCRANS
    ========================================================= */
@@ -1748,11 +1719,11 @@ nav a:hover {
     }
 
     .prose {
-        font-size: 0.95rem;
+        font-size: 0.93rem;
     }
 
     .prose p {
-        line-height: 1.8;
+        line-height: 1.74;
     }
 
     .prose ul,
@@ -1761,6 +1732,93 @@ nav a:hover {
     }
 }
 
+/* =========================================================
+   CONFORT DES THÈMES / NAVIGATION RESPONSIVE
+   ========================================================= */
+
+/* Les polices très décoratives restent sur les titres. Le corps reste neutre et lisible. */
+html[data-theme="fantasy"] .prose,
+html[data-theme="fantasy"] .section-overlay,
+html[data-theme="fantasy"] .glass-section {
+    font-size: 0.96rem;
+}
+
+html[data-theme="fantasy"] nav a {
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    letter-spacing: 0.01em;
+}
+
+html[data-theme="steampunk"] nav a {
+    font-size: 0.84rem;
+}
+
+html[data-theme="cyberpunk"] nav a {
+    font-size: 0.80rem;
+}
+
+/* Évite que les libellés du menu se cassent en deux lignes sur les écrans intermédiaires. */
+nav a {
+    white-space: nowrap;
+}
+
+/* À 900 px, on passe déjà en navigation compacte.
+   Cela évite le cas classique d'une tablette paysage où le menu desktop déborde. */
+@media (max-width: 900px) {
+    nav .md\:flex {
+        display: none !important;
+    }
+
+    nav .md\:hidden.flex {
+        display: flex !important;
+    }
+
+    nav > .md\:hidden {
+        display: block !important;
+    }
+
+    nav a {
+        font-size: 0.92rem;
+    }
+
+    html[data-theme="fantasy"] nav a {
+        font-size: 0.88rem;
+    }
+}
+
+/* Le panneau mobile ouvert garde une largeur exploitable et des cibles tactiles confortables. */
+@media (max-width: 768px) {
+    nav a {
+        min-height: 44px;
+        padding: 0.55rem 0.75rem;
+    }
+
+    nav > .md\:hidden {
+        width: 100%;
+    }
+
+    .prose {
+        max-width: 100%;
+    }
+
+    .prose p,
+    .prose li {
+        text-wrap: pretty;
+    }
+}
+
+/* Très petits écrans : priorité au texte plutôt qu'à l'effet décoratif. */
+@media (max-width: 480px) {
+    html[data-theme="fantasy"] .prose,
+    html[data-theme="fantasy"] .section-overlay,
+    html[data-theme="fantasy"] .glass-section {
+        font-size: 0.92rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+}
 
 /* =========================================================
    ACCESSIBILITÉ
@@ -1772,7 +1830,6 @@ button:focus-visible {
 
     outline-offset: 3px;
 }
-
 
 /* Désactive les effets trop lourds sur appareils tactiles */
 
@@ -1786,7 +1843,6 @@ button:focus-visible {
         transform: none;
     }
 }
-
 
 /* =========================================================
    RÉDUCTION DES ANIMATIONS
