@@ -35,7 +35,7 @@
     --font-body: 'Inter', sans-serif;
 
     --content-line-height: 1.68;
-    --content-max-width: 90ch;
+    --content-max-width: 100ch;
     --nav-font-size: 0.88rem;
     --nav-link-padding: 0.35rem 0.55rem;
 }
@@ -524,7 +524,7 @@ body.light .section-overlay {
 
     color: var(--text-main);
 
-    font-size: clamp(0.94rem, 0.25vw + 0.9rem, 1rem);
+    font-size: clamp(0.98rem, 0.25vw + 0.94rem, 1.04rem);
     line-height: var(--content-line-height);
 
     overflow-wrap: break-word;
@@ -1740,7 +1740,7 @@ nav a:hover {
 html[data-theme="fantasy"] .prose,
 html[data-theme="fantasy"] .section-overlay,
 html[data-theme="fantasy"] .glass-section {
-    font-size: 0.96rem;
+    font-size: 1rem;
 }
 
 html[data-theme="fantasy"] nav a {
@@ -1812,7 +1812,7 @@ nav a {
     html[data-theme="fantasy"] .prose,
     html[data-theme="fantasy"] .section-overlay,
     html[data-theme="fantasy"] .glass-section {
-        font-size: 0.92rem;
+        font-size: 0.95rem;
     }
 
     nav a {
