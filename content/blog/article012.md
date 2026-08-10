@@ -1,5 +1,4 @@
-
- ---
+---
 title: "Le Vivant Debout"
 description: "Halloween 2025"
 date: "2025-10-31"
