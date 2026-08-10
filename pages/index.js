@@ -48,7 +48,8 @@ export default function Home() {
             Me soutenir si vous aimez ♥
           </Link>
           <div className="mt-6 text-xs tracking-widest uppercase text-gray-400">
-           <br></br> • Impressive Design • Innovative Solutions •
+           <br>
+              </br> • Impressive Design • Innovative Solutions •
           </div>
         </div>
       </div>
