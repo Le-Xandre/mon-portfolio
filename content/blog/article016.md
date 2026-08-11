@@ -27,9 +27,7 @@ retrouvé à regarder un peu plus loin,
 puis étrangement, presque par hasard... à écouter *Aspiration* de **Zaho de Sagazan**,  
 et finalement à me dire : pourquoi ne pas faire un petit montage autour de tout ça ?
 
-Rien de très sérieux au départ.
-
-Mais plus je regardais,  
+Rien de très sérieux au départ. Mais plus je regardais,  
 plus je trouvais qu'il y avait quelque chose derrière cette apparence assez légère, voire mignonne.  
 
 Et c'est probablement là que ça m'a accroché davantage.
