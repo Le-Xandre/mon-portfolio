@@ -21,7 +21,6 @@ Il y a parfois des œuvres sur lesquelles on tombe un peu par hasard, sans forc�
 savoir pourquoi on va s'y attarder.
 
 Pour moi *YaniNeko* en fait partie.
-
 Je l'ai découvert à travers son adaptation animée, puis assez rapidement je me suis
 retrouvé à regarder un peu plus loin,  
 puis étrangement, presque par hasard... à écouter *Aspiration* de **Zaho de Sagazan**,  
