@@ -22,7 +22,7 @@
     "lightbox": "^0.5.0",
     "lottie-react": "2.4.1",
     "lucide-react": "^0.525.0",
-    "motion": "^12.40.0",
+    "motion": "^13.0.0",
     "next": "16.3.0",
     "postcss": "^8.5.18",
     "react": "^19.2.0",
