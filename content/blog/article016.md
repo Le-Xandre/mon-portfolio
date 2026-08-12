@@ -2,6 +2,8 @@
 title: "Pourquoi YaniNeko m'a intrigué"
 description: "Une cigarette, une musique, un anime qui avait l'air assez léger au premier regard... et finalement, me voilà à en faire un petit fanmade."
 date: "2026-08-11"
+order: 16
+coverImage: "/images/bg.jpg"
 ---
 
 > *Une cigarette, une musique, un anime qui avait l'air assez léger au premier regard...*
