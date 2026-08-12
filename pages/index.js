@@ -47,12 +47,14 @@ export default function Home() {
             Un espace entre création visuelle, numérique et expérimentation.
           </p>
 
-          <Link
-            href="https://ko-fi.com/hellxandre"
-            className="mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
-          >
-            Me soutenir si vous aimez ♥
-          </Link>
+          <a
+  href="https://ko-fi.com/hellxandre"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
+>
+  Me soutenir si vous aimez ♥
+</a>
 
           <div className="mt-6 text-xs tracking-widest uppercase text-gray-400">
             <br />
