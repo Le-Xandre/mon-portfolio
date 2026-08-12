@@ -564,7 +564,7 @@ Et finalement, ça me semble assez cohérent avec la manière dont j'ai découve
 
 > **Voir le fanmade sur YouTube :**
 >
-> [YaniNeko × Aspiration — Dernière cigarette](LIEN_YOUTUBE_FANMADE)
+> [YaniNeko × Aspiration — Dernière cigarette](https://youtu.be/ebIEzs9QjVc)
 
 ---
 
