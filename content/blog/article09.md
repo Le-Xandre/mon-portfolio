@@ -6,7 +6,6 @@ description: "Diagnostic géopolitique du cloud‑capital et de la souveraineté
 coverImage: "/images/bg.jpg"
 ---
 
-
 # I. Introduction : De la poésie à la géopolitique du vivant
 
 Après avoir exploré les enjeux du vivant et de notre course à l’entropie dans l’article 8,  
