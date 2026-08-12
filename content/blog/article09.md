@@ -19,7 +19,7 @@ l’Europe oscille entre dépendance et ambition.
 Forte de ses atouts uniques (RGPD, AI Act, valeurs partagées), elle doit pourtant surmonter des lenteurs systémiques et un manque d’élan industriel.  
 Ce premier volet dresse un diagnostic lucide, avant de proposer dans une seconde partie une clé stratégique vivante.
 
-> **Citation clé :**  
+> **Citation clé :**   
 > « Avec 62 % du marché cloud mondial dominé par les géants américains,  
 l’Europe doit forger une ‘clé vivante’ pour libérer ses données captives. »  
 > — inspiré de Gemini, 2025
