@@ -2491,3 +2491,14 @@ button:focus-visible {
         display: none !important;
     }
 }
+
+/* =========================================================
+   MOBILE — BOUTON DE SOUTIEN KO-FI
+   ========================================================= */
+
+@media (max-width: 480px) {
+    .support-button {
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+}
