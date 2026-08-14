@@ -19,16 +19,16 @@ coverImage: "/images/bg.jpg"
   <p><em>et finalement, me voilà à en faire une sorte de fanmade...</em></p>
 </div>
 
-Il y a parfois des œuvres sur lesquelles on tombe un peu par hasard,
+Il y a parfois des œuvres sur lesquelles on tombe un peu par hasard,  
 sans vraiment savoir pourquoi on va s'y attarder. Et pour moi, *YaniNeko* en fait partie.
 
-Je l'ai découvert à travers son adaptation animée,
+Je l'ai découvert à travers son adaptation animée,  
 assez rapidement je me suis retrouvé à regarder un peu plus loin.
 
 Puis étrangement, presque par hasard... à ré-écouter *[Aspiration](https://www.youtube.com/watch?v=t7o0yCOCSBU)* de **Zaho de Sagazan**, et finalement à me dire :
 pourquoi ne pas faire un petit montage autour de tout ça ?
 
-Rien de très sérieux au départ mais plus je regardais,
+Rien de très sérieux au départ mais plus je regardais,  
 plus je trouvais qu'il y avait quelque chose derrière cette apparence assez légère, voire mignonne.
 
 Et c'est probablement là que ça m'a accroché davantage.
@@ -37,19 +37,18 @@ Et c'est probablement là que ça m'a accroché davantage.
 
 ## Un anime presque normal... justement
 
-Je ne sais même pas si je qualifierais réellement *YaniNeko* de « digressif » au
-sens strict.
+Je ne sais même pas si je qualifierais réellement *YaniNeko* de « digressif » au sens strict.
 
-Le terme me vient surtout de ma propre digression et parce que le manga donne davantage cette impression,
+Le terme me vient surtout de ma propre digression et parce que le manga donne davantage cette impression,  
 alors que l'animé finalement, ressemble presque à un anime assez normal.
 
-Il a ses personnages, son humour, ses situations, son quotidien...
-Bref rien que l'on puisse attribuer à un « ovni » ou du « génie » et pourtant,
-il y a régulièrement ces petites bifurcations, ces conversations ou ces détails,
+Il a ses personnages, son humour, ses situations, son quotidien...  
+Bref rien que l'on puisse attribuer à un « ovni » ou du « génie » et pourtant,  
+il y a régulièrement ces petites bifurcations, ces conversations ou ces détails,  
 qui donnent l'impression que l'œuvre peut partir ailleurs pendant quelques instants.
 
-C'est peut-être ce qui me plaît.
-Elle n'a pas besoin d'être complètement bizarre ou expérimentale ou bien ficeler
+C'est peut-être ce qui me plaît.  
+Elle n'a pas besoin d'être complètement bizarre ou expérimentale ou bien ficeler  
 pour me faire sortir un peu du chemin prévu, c'est ce que j'aime.
 
 <div class="image-right">
@@ -59,15 +58,15 @@ pour me faire sortir un peu du chemin prévu, c'est ce que j'aime.
   />
 </div>
 
-On peut très bien regarder *YaniNeko* simplement comme une comédie avec des personnages un peu particuliers.
+On peut très bien regarder *YaniNeko* simplement comme une comédie avec des personnages un peu particuliers.  
 Et ça fonctionne.
 
-Mais on peut aussi commencer à regarder ce qui se passe autour d'eux,
+Mais on peut aussi commencer à regarder ce qui se passe autour d'eux,  
 leurs habitudes, leurs petits travers, leurs relations...
 
 Et là, forcément, on commence à tirer un fil, puis un autre.
 
-C'est probablement là que je commence à partir dans tous les sens personnellement,
+C'est probablement là que je commence à partir dans tous les sens personnellement,  
 car mine de rien de près ou de loin, certains vécus y font **écho**.
 
 <details class="article-details">
@@ -77,11 +76,12 @@ car mine de rien de près ou de loin, certains vécus y font **écho**.
 </summary>
 
 <p>
-Je ne vais évidemment pas refaire ici la fiche complète de l'anime : le manga
-et le site officiel le font beaucoup mieux que moi. Mais puisque chacun semble
-avoir ses propres habitudes, ses travers et sa manière bien à lui de fonctionner,
-je trouvais intéressant de laisser quelques repères pour ceux qui connaissent
-déjà l'œuvre ou qui voudraient simplement aller un peu plus loin.
+Je ne vais évidemment pas refaire ici la fiche complète de l'anime,  
+le manga et le site officiel le font beaucoup mieux que moi.
+
+Mais puisque chacun semble avoir ses propres habitudes, ses travers et sa manière bien à lui de fonctionner,  
+je trouvais intéressant de laisser quelques repères  
+pour ceux qui connaissent déjà l'œuvre ou qui voudraient simplement aller un peu plus loin.
 </p>
 
 <div class="yanineko-characters">
@@ -153,27 +153,27 @@ déjà l'œuvre ou qui voudraient simplement aller un peu plus loin.
 <h3>YaniNeko / Satō Yaniko — 佐藤ヤニ子</h3>
 
 <p>
-Le personnage central, et forcément mon point d'entrée dans l'œuvre.
-Son vrai nom est <strong>佐藤ヤニ子 (Satō Yaniko)</strong>. Elle a 21 ans et est une
-femme-bête. La cigarette occupe une place particulièrement importante dans son quotidien :
+Le personnage central, et forcément mon point d'entrée dans l'œuvre.  
+Son vrai nom est <strong>佐藤ヤニ子 (Satō Yaniko)</strong>.  
+Elle a 21 ans et est une femme-bête.  
+La cigarette occupe une place particulièrement importante dans son quotidien :  
 pour elle, le tabac passe pratiquement avant tout le reste.
 </p>
 
 <p>
-Elle vit de manière assez désordonnée et paresseuse, avec un quotidien largement
-organisé autour de ses cigarettes. Sa relation avec sa petite sœur Imoko constitue
-également une partie importante de son personnage.
+Elle vit de manière assez désordonnée et paresseuse,  
+avec un quotidien largement organisé autour de ses cigarettes.  
+Sa relation avec sa petite sœur Imoko constitue également une partie importante de son personnage.
 </p>
 
 <p>
-Mais ce qui est intéressant c'est tout ce qui se construit
-autour d'elle : son quotidien, ses relations avec les autres et mine de rien,
-sa propre réflexion face à tout cela.
+Mais ce qui est intéressant c'est tout ce qui se construit autour d'elle :  
+son quotidien, ses relations avec les autres et mine de rien, sa propre réflexion face à tout cela.
 </p>
 
 <p>
-Parfois idiote, parfois féerique, elle est d'une attractivité assez folle
-finalement pour un personnage aussi simple. 
+Parfois idiote, parfois féerique,  
+elle est d'une attractivité assez folle finalement pour un personnage aussi simple. 
 
 Et comme dans les contes ou comptines ce qui m'a toujours fasciné  
 c'est que cela paraît simple et souvent c'est d'une complexité folle à la réalisation.
@@ -194,25 +194,24 @@ c'est que cela paraît simple et souvent c'est d'une complexité folle à la ré
 <h3>Satō Imoko — 佐藤妹子</h3>
 
 <p>
-La petite sœur de YaniNeko. Son vrai nom est <strong>佐藤妹子 (Satō Imoko)</strong>.
-À l'inverse de sa sœur, Imoko est une lycéenne sérieuse, responsable et plutôt
-bonne élève.
+La petite sœur de YaniNeko. Son vrai nom est <strong>佐藤妹子 (Satō Imoko)</strong>.  
+À l'inverse de sa sœur, Imoko est une lycéenne sérieuse, responsable et plutôt bonne élève.
 </p>
 
 <p>
-Elle est assez dure avec YaniNeko, mais c'est aussi clairement lié à
-l'affection qu'elle lui porte et à son côté protecteur. Elle semble notamment
-avoir pris l'habitude de s'occuper de sa sœur malgré tout ce qui peut les opposer.
+Elle est assez dure avec YaniNeko,  
+mais c'est aussi clairement lié à l'affection qu'elle lui porte et à son côté protecteur.  
+Elle semble notamment avoir pris l'habitude de s'occuper de sa sœur malgré tout ce qui peut les opposer.
 </p>
 
 <p>
-Son côté très sérieux face au comportement de YaniNeko crée évidemment une bonne
-partie du contraste entre les deux sœurs.
+Son côté très sérieux face au comportement de YaniNeko  
+crée évidemment une bonne partie du contraste entre les deux sœurs.
 </p>
 
 <p>
-(Le vivant un peu, c'est assez drôle pour moi d'en faire un parallèle
-et au final de comprendre aussi.)
+Le vivant un peu, c'est assez drôle pour moi d'en faire un parallèle  
+et au final de comprendre aussi.
 </p>
 
 </div>
@@ -230,20 +229,20 @@ et au final de comprendre aussi.)
 <h3>YakuNeko / Etsushimaru Masuko — 越司丸益子</h3>
 
 <p>
-YakuNeko a 20 ans. Son vrai nom est <strong>越司丸益子</strong>.
+YakuNeko a 20 ans. Son vrai nom est <strong>越司丸益子</strong>.  
 Elle considère YaniNeko comme sa « senpai » et la respecte comme une aînée.
 </p>
 
 <p>
-Elle est présentée comme un(e) bon(ne) junior ?  
+Elle est présentée comme un(e) bon(ne) "junior" ? (le terme m'échappant un peu)  
 même si son passé semble cacher certaines choses qu'elle ne raconte pas forcément.  
-Cela donne au personnage un côté plus mystérieux derrière son attitude de jeune collègue admiratif.  
+Cela donne au personnage un côté plus mystérieux derrière son attitude de jeune collègue admiratif.   
 Elle a aussi un aspect très particulier sur les extrêmes, parfois la plus raisonnée parfois la plus déraisonnée,  
 elle magnétise assez l'ambiance quasiment dès les premiers épisodes. 
 </p>
 
 <p>
-Elle fait également partie des personnages dont les relations avec YaniNeko
+Elle fait également partie des personnages dont les relations avec YaniNeko  
 permettent de découvrir progressivement un peu plus l'univers de l'œuvre.
 </p>
 
