@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 
-export default function CustomCursor({ text = 'Voir' }) {
+export default function CustomCursor({ text = 'Voir', hidden = false }) {
     const [pos, setPos] = useState({ x: 0, y: 0 });
     const [visible, setVisible] = useState(false);
 
@@ -12,6 +12,7 @@ export default function CustomCursor({ text = 'Voir' }) {
         const leave = () => setVisible(false);
 
         document.addEventListener('mousemove', move);
+
         document.querySelectorAll('.gallery-hover-area').forEach((el) => {
             el.addEventListener('mouseenter', enter);
             el.addEventListener('mouseleave', leave);
@@ -19,6 +20,7 @@ export default function CustomCursor({ text = 'Voir' }) {
 
         return () => {
             document.removeEventListener('mousemove', move);
+
             document.querySelectorAll('.gallery-hover-area').forEach((el) => {
                 el.removeEventListener('mouseenter', enter);
                 el.removeEventListener('mouseleave', leave);
@@ -30,9 +32,13 @@ export default function CustomCursor({ text = 'Voir' }) {
         <motion.div
             className="fixed top-0 left-0 z-50 pointer-events-none flex items-center justify-center"
             initial={{ opacity: 0 }}
-            animate={{ opacity: visible ? 1 : 0 }}
+            animate={{ opacity: hidden ? 0 : visible ? 1 : 0 }}
             style={{ x: pos.x - 240, y: pos.y - 200 }}
-            transition={{ type: 'spring', stiffness: 500, damping: 40 }}
+            transition={{
+                type: 'spring',
+                stiffness: 500,
+                damping: 40,
+            }}
         >
             <div className="custom-cursor w-16 h-16 rounded-full border border-pink-400 neon-glow bg-black bg-opacity-0 text-white flex items-center justify-center text-xs font-semibold">
                 {text}
