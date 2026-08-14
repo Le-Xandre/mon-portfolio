@@ -2502,3 +2502,26 @@ button:focus-visible {
         white-space: nowrap;
     }
 }
+
+/* =========================================================
+   LIGHTBOX — FOND SEMI-TRANSPARENT
+   ========================================================= */
+
+.yarl__backdrop {
+    background-color: rgba(0, 0, 0, 0.78) !important;
+}
+
+/* =========================================================
+   LIGHTBOX — COMMANDES MASQUÉES APRÈS INACTIVITÉ
+   ========================================================= */
+
+.yarl__toolbar,
+.yarl__navigation {
+    transition: opacity 0.25s ease;
+}
+
+body.yarl-idle .yarl__toolbar,
+body.yarl-idle .yarl__navigation {
+    opacity: 0;
+    pointer-events: none;
+}
