@@ -51,7 +51,7 @@ export default function Home() {
   href="https://ko-fi.com/hellxandre"
   target="_blank"
   rel="noopener noreferrer"
-  className="mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
+  className="support-button mt-4 inline-block px-8 py-4 rounded-xl neon-box neon-glow bg-gradient-to-r from-cyan-600 to-blue-500 font-semibold border-2 border-cyan-400 shadow-md transition-transform hover:scale-110"
 >
   Me soutenir si vous aimez ♥
 </a>
