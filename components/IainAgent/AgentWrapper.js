@@ -14,7 +14,7 @@ export default function AgentWrapper() {
     };
 
     return (
-        <div className="fixed bottom-24 right-6 z-50">
+        <div className="agent-wrapper fixed bottom-24 right-6 z-50">
             <motion.button
                 onClick={() => setIsOpen(!isOpen)}
                 className="p-3 bg-black neon-glow opacity-60 hover:opacity-100 text-white rounded-full shadow-xl hover:bg-gray-800 transition-all"
