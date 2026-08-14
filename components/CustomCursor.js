@@ -30,10 +30,17 @@ export default function CustomCursor({ text = 'Voir', hidden = false }) {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 z-50 pointer-events-none flex items-center justify-center"
+            className={`custom-cursor-wrapper fixed top-0 left-0 z-50 pointer-events-none flex items-center justify-center ${
+                hidden ? 'custom-cursor-hidden' : ''
+            }`}
             initial={{ opacity: 0 }}
-            animate={{ opacity: hidden ? 0 : visible ? 1 : 0 }}
-            style={{ x: pos.x - 240, y: pos.y - 200 }}
+            animate={{
+                opacity: hidden ? 0 : visible ? 1 : 0,
+            }}
+            style={{
+                x: pos.x - 240,
+                y: pos.y - 200,
+            }}
             transition={{
                 type: 'spring',
                 stiffness: 500,
