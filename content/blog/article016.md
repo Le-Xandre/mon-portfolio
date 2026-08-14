@@ -25,8 +25,8 @@ sans vraiment savoir pourquoi on va s'y attarder. Et pour moi, *YaniNeko* en fai
 Je l'ai découvert à travers son adaptation animée,  
 assez rapidement je me suis retrouvé à regarder un peu plus loin.
 
-Puis étrangement, presque par hasard... à ré-écouter *[Aspiration](https://www.youtube.com/watch?v=t7o0yCOCSBU)* de **Zaho de Sagazan**, et finalement à me dire :
-pourquoi ne pas faire un petit montage autour de tout ça ?
+Puis étrangement, presque par hasard... à ré-écouter *[Aspiration](https://www.youtube.com/watch?v=t7o0yCOCSBU)* de **Zaho de Sagazan**,  
+et finalement à me dire : pourquoi ne pas faire un petit montage autour de tout ça ?
 
 Rien de très sérieux au départ mais plus je regardais,  
 plus je trouvais qu'il y avait quelque chose derrière cette apparence assez légère, voire mignonne.
@@ -58,16 +58,16 @@ pour me faire sortir un peu du chemin prévu, c'est ce que j'aime.
   />
 </div>
 
-On peut très bien regarder *YaniNeko* simplement comme une comédie avec des personnages un peu particuliers.  
-Et ça fonctionne.
+On peut très bien regarder *YaniNeko* simplement comme une comédie  
+avec des personnages un peu particuliers. Et ça fonctionne.
 
 Mais on peut aussi commencer à regarder ce qui se passe autour d'eux,  
 leurs habitudes, leurs petits travers, leurs relations...
 
 Et là, forcément, on commence à tirer un fil, puis un autre.
 
-C'est probablement là que je commence à partir dans tous les sens personnellement,  
-car mine de rien de près ou de loin, certains vécus y font **écho**.
+C'est probablement là que je commence à partir dans tous les sens personnellement car mine de rien de près ou de loin,  
+certains vécus y font **écho**.
 
 <details class="article-details">
 
