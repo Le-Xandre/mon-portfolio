@@ -2458,3 +2458,24 @@ button:focus-visible {
         font-size: 0.66rem;
     }
 }
+
+/* =========================================================
+   MOBILE — IMAGE D'INTRODUCTION DES ARTICLES
+   ========================================================= */
+
+@media (max-width: 768px) {
+    .article-intro .gallery-item {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .article-intro .gallery-item img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: none;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+}
