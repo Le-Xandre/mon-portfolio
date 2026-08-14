@@ -25,7 +25,9 @@ export async function getStaticProps() {
 
     const themes = fs
         .readdirSync(imageDir)
-        .filter((name) => fs.statSync(path.join(imageDir, name)).isDirectory());
+        .filter((name) =>
+            fs.statSync(path.join(imageDir, name)).isDirectory()
+        );
 
     const galleries = themes.map((theme) => {
         const themeFolder = path.join(imageDir, theme);
@@ -72,13 +74,22 @@ export default function Gallery({ galleries }) {
     const [lightboxOpen, setLightboxOpen] = useState(false);
 
     /*
+     * true lorsque la lightbox est inactive depuis 4 secondes.
+     * Cette valeur sert directement au CustomCursor.
+     */
+    const [lightboxIdle, setLightboxIdle] = useState(false);
+
+    /*
      * Gestion de l'inactivité de la lightbox :
-     * après 4 secondes sans interaction, les commandes disparaissent.
-     * Un mouvement de souris, clic, touche, tactile ou molette
+     * après 4 secondes sans interaction, les commandes
+     * et le curseur personnalisé disparaissent.
+     *
+     * Une interaction souris, clavier, tactile ou molette
      * les fait réapparaître et relance le compteur.
      */
     useEffect(() => {
         if (!lightboxOpen) {
+            setLightboxIdle(false);
             document.body.classList.remove('yarl-idle');
             return;
         }
@@ -86,11 +97,13 @@ export default function Gallery({ galleries }) {
         let timer;
 
         const resetIdle = () => {
+            setLightboxIdle(false);
             document.body.classList.remove('yarl-idle');
 
             clearTimeout(timer);
 
             timer = setTimeout(() => {
+                setLightboxIdle(true);
                 document.body.classList.add('yarl-idle');
             }, 4000);
         };
@@ -118,6 +131,7 @@ export default function Gallery({ galleries }) {
             });
 
             document.body.classList.remove('yarl-idle');
+            setLightboxIdle(false);
         };
     }, [lightboxOpen]);
 
@@ -130,6 +144,8 @@ export default function Gallery({ galleries }) {
         setCurrentImages(images.map((src) => ({ src })));
         setCurrentIndex(index);
         setCurrentTheme(theme);
+        setInfoOpen(false);
+        setLightboxIdle(false);
         setLightboxOpen(true);
     };
 
@@ -247,6 +263,7 @@ export default function Gallery({ galleries }) {
                     close={() => {
                         setLightboxOpen(false);
                         setInfoOpen(false);
+                        setLightboxIdle(false);
                     }}
                     slides={currentImages}
                     index={currentIndex}
@@ -311,7 +328,7 @@ export default function Gallery({ galleries }) {
                 />
             )}
 
-            <CustomCursor />
+            <CustomCursor hidden={lightboxIdle} />
         </section>
     );
 }
