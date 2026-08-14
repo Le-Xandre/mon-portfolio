@@ -71,8 +71,9 @@ leurs habitudes, leurs petits travers, leurs relations...
 
 Et là forcément, on commence à tirer un fil, puis un autre..
 
-C'est probablement là que j'ai ressenti personnellement une similarité,  
-car mine de rien de près ou de loin, certains vécus y font **écho**.  
+C'est probablement là que j'ai ressenti personnellement  
+une similarité car mine de rien de près ou de loin,  
+certains vécus y font **écho**.  
 Et je trouve que malgré ces airs simplets, l'animé retranscrit bien ces instants de vie.
 
 <details class="article-details">
@@ -507,6 +508,7 @@ C'est plutôt ce qu'elle permet de faire apparaître autour.
 Cela semble répétitif de le rappeler mais :  
 Les habitudes. Les discussions. Les comportements sociaux.  
 Les petits travers des personnages aussi.
+
 Cette façon qu'ont les gens de se construire autour de choses parfois complètement banales en somme.
 
 Je ne veux évidemment pas présenter le tabagisme comme quelque chose à promouvoir.  
