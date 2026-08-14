@@ -2516,12 +2516,14 @@ button:focus-visible {
    ========================================================= */
 
 .yarl__toolbar,
-.yarl__navigation {
+.yarl__navigation_prev,
+.yarl__navigation_next {
     transition: opacity 0.25s ease;
 }
 
 body.yarl-idle .yarl__toolbar,
-body.yarl-idle .yarl__navigation {
+body.yarl-idle .yarl__navigation_prev,
+body.yarl-idle .yarl__navigation_next {
     opacity: 0;
     pointer-events: none;
 }
