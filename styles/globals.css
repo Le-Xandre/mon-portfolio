@@ -2481,13 +2481,13 @@ button:focus-visible {
 }
 
 /* =========================================================
-   MOBILE — FONDS FLOTTAnt / IAIN-04
-   Le faux bot reste présent sur desktop mais disparaît
-   sur les écrans tactiles et les petites largeurs.
+   MOBILE — BOUTON IAIN-04
+   Le bouton robot reste visible sur desktop,
+   mais disparaît sur tablette et mobile.
    ========================================================= */
 
 @media (max-width: 768px) {
-    .secret-avatar {
+    .agent-wrapper {
         display: none !important;
     }
 }
