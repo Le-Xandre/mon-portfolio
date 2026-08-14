@@ -480,7 +480,7 @@ Car finalement, chacun apporte sa propre petite bizarrerie à l'ensemble.
 
 ## La cigarette comme point de départ
 
-La cigarette est évidemment un élément important de l'œuvre.
+La cigarette est évidemment un élément important de l'œuvre.  
 Et étant moi-même fumeur, c'est probablement la première chose qui m'a fait tiquer.
 
 (Et accroché ?! addiction de plus en perspective ... aïe aïe aïe ...)
@@ -535,9 +535,8 @@ et quelle animation ♥
 
 <!-- IMAGE 04 — ÉVENTUELLEMENT COUVERTURE / VISUEL MANGA -->
 
-Je préfère d'ailleurs rester prudent sur certains détails de cette histoire plutôt
-que de transformer quelques informations trouvées ici et là en grande légende sur
-la naissance du manga.  
+Je préfère d'ailleurs rester prudent sur certains détails de cette histoire  
+plutôt que de transformer quelques informations trouvées ici et là sur la naissance du manga.  
 Ce que je trouve intéressant, c'est simplement cette progression :
 
 **réseaux sociaux → publication → rencontre avec le public → adaptation animée.**
