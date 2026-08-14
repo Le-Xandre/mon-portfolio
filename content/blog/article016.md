@@ -7,7 +7,7 @@ coverImage: "/images/bg.jpg"
 ---
 
 <div class="article-intro">
-  <p><em>Une cigarette, une musique, un anime qui avait l'air assez léger au premier regard...</em></p>
+  <p><em>Une cigarette, une musique, un anime qui avait l'air assez léger au premier regard... et finalement,</em></p>
 
   <div class="gallery-item">
     <img
@@ -16,17 +16,18 @@ coverImage: "/images/bg.jpg"
     />
   </div>
 
-  <p><em>et finalement, me voilà à en faire une sorte de fanmade...</em></p>
+  <p><em>me voilà à en faire une sorte de fanmade...</em></p>
 </div>
 
 Il y a parfois des œuvres sur lesquelles on tombe un peu par hasard,  
 sans vraiment savoir pourquoi on va s'y attarder. Et pour moi, *YaniNeko* en fait partie.
 
 Je l'ai découvert à travers son adaptation animée,  
-assez rapidement je me suis retrouvé à regarder un peu plus loin.
+et assez rapidement je me suis retrouvé à regarder un peu plus loin.
 
-Puis étrangement, presque par hasard... à ré-écouter *[Aspiration](https://www.youtube.com/watch?v=t7o0yCOCSBU)* de **Zaho de Sagazan**,  
-et finalement à me dire : pourquoi ne pas faire un petit montage autour de tout ça ?
+Puis étrangement, presque par hasard...  
+à ré-écouter la chanson *[Aspiration](https://www.youtube.com/watch?v=t7o0yCOCSBU)* de **Zaho de Sagazan**,  
+en me disant : pourquoi ne pas faire un petit montage autour de tout ça ?
 
 Rien de très sérieux au départ mais plus je regardais,  
 plus je trouvais qu'il y avait quelque chose derrière cette apparence assez légère, voire mignonne.
@@ -43,13 +44,15 @@ Le terme me vient surtout de ma propre digression et parce que le manga donne da
 alors que l'animé finalement, ressemble presque à un anime assez normal.
 
 Il a ses personnages, son humour, ses situations, son quotidien...  
-Bref rien que l'on puisse attribuer à un « ovni » ou du « génie » et pourtant,  
-il y a régulièrement ces petites bifurcations, ces conversations ou ces détails,  
+bref rien que l'on puisse attribuer à un « ovni » ou du « génie ».  
+
+Et pourtant il y a régulièrement ces petites bifurcations, ces conversations ou ces détails,  
 qui donnent l'impression que l'œuvre peut partir ailleurs pendant quelques instants.
 
 C'est peut-être ce qui me plaît.  
-Elle n'a pas besoin d'être complètement bizarre ou expérimentale ou bien ficeler  
-pour me faire sortir un peu du chemin prévu, c'est ce que j'aime.
+
+Elle n'a pas besoin d'être complètement bizarre, expérimentale ou bien ficelée  
+pour me faire sortir un peu du chemin prévu, et c'est ce que j'aime après tout.
 
 <div class="image-right">
   <img
@@ -58,16 +61,19 @@ pour me faire sortir un peu du chemin prévu, c'est ce que j'aime.
   />
 </div>
 
-On peut très bien regarder *YaniNeko* simplement comme une comédie  
+On peut très bien regarder *YaniNeko* simplement  
+comme une comédie  
 avec des personnages un peu particuliers. Et ça fonctionne.
 
-Mais on peut aussi commencer à regarder ce qui se passe autour d'eux,  
+Mais on peut aussi commencer à regarder  
+ce qui se passe autour d'eux,  
 leurs habitudes, leurs petits travers, leurs relations...
 
-Et là, forcément, on commence à tirer un fil, puis un autre.
+Et là forcément, on commence à tirer un fil, puis un autre..
 
-C'est probablement là que je commence à partir dans tous les sens personnellement car mine de rien de près ou de loin,  
-certains vécus y font **écho**.
+C'est probablement là que j'ai ressenti personnellement une similarité,  
+car mine de rien de près ou de loin, certains vécus y font **écho**.  
+Et je trouve que malgré ces airs simplets, l'animé retranscrit bien ces instants de vie.
 
 <details class="article-details">
 
@@ -77,7 +83,7 @@ certains vécus y font **écho**.
 
 <p>
 Je ne vais évidemment pas refaire ici la fiche complète de l'anime,  
-le manga et le site officiel le font beaucoup mieux que moi.
+  le manga et le site officiel le font beaucoup mieux que moi.
 
 Mais puisque chacun semble avoir ses propres habitudes, ses travers et sa manière bien à lui de fonctionner,  
 je trouvais intéressant de laisser quelques repères  
@@ -234,9 +240,11 @@ Elle considère YaniNeko comme sa « senpai » et la respecte comme une aînée.
 </p>
 
 <p>
-Elle est présentée comme un(e) bon(ne) "junior" ? (le terme m'échappant un peu)  
+Elle est présentée comme une bonne "une kohai" ?  
+  (le terme m'échappant un peu entre jeune collègue/cadette)  
 même si son passé semble cacher certaines choses qu'elle ne raconte pas forcément.  
-Cela donne au personnage un côté plus mystérieux derrière son attitude de jeune collègue admiratif.   
+  
+Cela donne au personnage un côté plus mystérieux derrière son attitude de jeune collègue admiratif.  
 Elle a aussi un aspect très particulier sur les extrêmes, parfois la plus raisonnée parfois la plus déraisonnée,  
 elle magnétise assez l'ambiance quasiment dès les premiers épisodes. 
 </p>
@@ -269,7 +277,10 @@ Son vrai nom est <strong>ゆるふわ＊天使 ハメ子</strong>.
 C'est une gameuse et streameuse spécialisée dans les jeux de combat,
 qui fait également des vidéos sur sa propre chaîne, « Hame-chan Channel ».
 
-Le ＊ désignant " Angel " mais, je laisse le soin de découvrir pourquoi ^^'
+Le « ＊ » donne évidemment ce petit côté « Angel » au nom, ce qui semble très sérieux…  
+jusqu'à ce que l'administration commence à l'interpréter autrement. ^^'  
+Je vais éviter d'expliquer la suite ici : disons simplement que la scène vaut mieux que mon résumé.
+
 </p>
 
 <p>
@@ -288,7 +299,7 @@ La petite touche étant son... Flot ? ahah ^^'
 </p>
 
 <p>
-Et mine de rien, comme les autres personnages que l'on accepte volontier
+Et mine de rien, comme les autres personnages que l'on accepte volontiers
 (enfin moi j'accepte, question de point de vue sûrement).
 </p>
 
@@ -464,13 +475,15 @@ de le désigner dans le récit, mais son nom complet est bien <strong>大谷お�
 </article>
 
 <p>
-Je ne vais pas aller beaucoup plus loin dans les descriptions, notamment
-pour ne pas raconter l'anime à la place de ceux qui voudraient le découvrir  
+Je ne vais pas aller beaucoup plus loin dans les descriptions,  
+  notamment pour ne pas raconter l'anime à la place de ceux qui voudraient le découvrir  
+  
 (et surtout avoir du respect pour la mangaka et le studio qui nous propose cela)
 </p>
 
 <p>
-Ce sont surtout leurs interactions et leurs différences qui m'intéressent.
+Ce sont surtout leurs interactions et leurs différences qui m'intéressent.  
+  
 Car finalement, chacun apporte sa propre petite bizarrerie à l'ensemble.
 </p>
 
@@ -491,22 +504,22 @@ au premier regard pouvait sembler beaucoup plus léger.
 Mais ce qui m'intéresse finalement n'est pas tellement la cigarette en elle-même.  
 C'est plutôt ce qu'elle permet de faire apparaître autour.
 
+Cela semble répétitif de le rappeler mais :  
 Les habitudes. Les discussions. Les comportements sociaux.  
 Les petits travers des personnages aussi.
-
-Cette façon qu'ont les gens de se construire autour de choses parfois complètement banales.
+Cette façon qu'ont les gens de se construire autour de choses parfois complètement banales en somme.
 
 Je ne veux évidemment pas présenter le tabagisme comme quelque chose à promouvoir.  
 Ce n'est pas vraiment ce que j'y ai vu et je pense que l'oeuvre non plus.  
+
 J'y ai plutôt trouvé un écho assez étrange avec quelque chose de très quotidien.
 
 Et surtout, je ne pense pas que tout se résume au tabac dans *YaniNeko*.  
 
 Les autres personnages ont eux aussi leurs propres habitudes, leurs excès ou leurs petites obsessions.  
-C'est aussi ce qui me parle.
+C'est aussi ce qui me parle et je pense explique l'engouement du public pour cela.
 
-La cigarette est peut-être le point d'entrée  
-mais ce sont finalement les personnages qui deviennent intéressants.
+La cigarette est peut-être le point d'entrée mais ce sont les personnages qui sont intéressants.
 
 <div class="image-center">
   <img
@@ -530,13 +543,16 @@ Parce qu'au départ, on n'est pas forcément devant le genre de projet dont on s
 > « Tiens, ça va finir en anime. »
 
 Et pourtant...  
-L'œuvre a trouvé son public, a continué son chemin et a fini par arriver à l'animation,  
-et quelle animation ♥
+L'œuvre a trouvé son public, a continué son chemin et a fini par arriver à l'animation. 
+
+Et quelle animation ♥ c'est fluide, c'est drôle, c'est poétique ou satirique,  
+certains moments sont très beau visuellement aussi (enfin à mon sens).
 
 <!-- IMAGE 04 — ÉVENTUELLEMENT COUVERTURE / VISUEL MANGA -->
 
 Je préfère d'ailleurs rester prudent sur certains détails de cette histoire  
 plutôt que de transformer quelques informations trouvées ici et là sur la naissance du manga.  
+
 Ce que je trouve intéressant, c'est simplement cette progression :  
 
 **réseaux sociaux → publication → rencontre avec le public → adaptation animée.**
@@ -547,7 +563,16 @@ C'est déjà une trajectoire assez particulière.
 
 ## Quand l'adaptation arrive
 
-Les deux versions, manga comme animé, ne sont pas incompatibles.
+Les deux versions, manga comme animé, ne sont pas incompatibles.  
+L'anime existe d'ailleurs en deux versions :  
+la version diffusée à la télévision, et une version dite « 邪竜解放版 »,  
+proposée sur AT-X et certaines plateformes de streaming, avec un contenu adapté à ce mode de diffusion.
+
+邪竜解放版 reste difficile à traduire, même en ayant la traduction 😄
+( « version de libération du dragon maléfique » bon courage pour la signification ahah)  
+ce que je comprends c'est que c'est une version qui respecte davantage les intentions de mise en scène de l'œuvre.
+
+---------------------------------
 
 D'ailleurs, l'équipe d'animation semble avoir compris ce qu'elle pouvait faire avec ce matériau,  
 sans forcément chercher à le transformer en quelque chose de complètement différent.
@@ -555,15 +580,17 @@ sans forcément chercher à le transformer en quelque chose de complètement dif
 Et apparemment, cette impression n'est pas uniquement la mienne.
 
 Dans un commentaire publié sur le site officiel,  
-Nyan Nyan Factory raconte notamment sa réaction lorsqu'il a appris qu'une adaptation animée était envisagée.
+Nyan Nyan Factory, le nom d'auteur sous lequel paraît le manga original,  
+revient notamment sur la réaction de l'ensemble des auteurs  
+lorsqu'ils ont appris qu'une adaptation animée était envisagée.
 
-Sa première réaction semble avoir été assez proche de : *« Est-ce vraiment possible ? »*
+Leur première réaction semble avoir été assez proche de : *« Est-ce vraiment possible ? »*
 
 Puis, en découvrant les scripts et les character designs,  
 cette inquiétude initiale semble avoir laissé place à quelque chose de beaucoup plus positif.
 
-L'auteur explique notamment avoir eu le sentiment que l'équipe pouvait réellement faire l'œuvre « telle quelle »,  
-et souligne la qualité du travail déjà réalisé, notamment l'animation ainsi que les musiques d'ouverture et de fin.
+Ils expliquent notamment avoir eu le sentiment que l'équipe d'animation pouvait réellement faire l'œuvre « telle quelle »,  
+et soulignent la qualité du travail déjà réalisé, notamment l'animation ainsi que les musiques d'ouverture et de fin.
 
 Et ça, je trouve ça plutôt chouette, parce que c'est justement l'impression que j'avais eue.
 
@@ -574,8 +601,9 @@ Et ça, je trouve ça plutôt chouette, parce que c'est justement l'impression q
   />
 </div>
 
-Je ne vais évidemment pas prétendre que cela signifie que  
-le studio a « officiellement reconnu tout le potentiel » du manga ou autre grande formule du genre.  
+Je ne vais évidemment pas prétendre que cela signifie que le studio a « officiellement reconnu tout le potentiel »  
+du manga ou autre grande formule du genre.  
+
 Mais quand l'auteur lui-même explique avoir été agréablement surpris parce que l'équipe lui présentait,  
 ça donne quand même un peu de poids à cette impression. Et puis, visuellement, je trouve que ça se sent.
 
@@ -584,18 +612,15 @@ Mais quand l'auteur lui-même explique avoir été agréablement surpris parce q
 ## Le studio a apporté sa propre touche
 
 L'adaptation est réalisée par **Bibury Animation Studios**,  
-avec notamment Taku Kimura à la réalisation,  
-Takashi Aoshima à la composition de série,  
+avec notamment Taku Kimura à la réalisation, Takashi Aoshima à la composition de série,  
 Riki Matsuura au character design et Keiichi Suzuki à la musique.
 
-Je ne suis pas un spécialiste de l'animation japonaise du tout  
-et encore moins décortiquer chaque choix technique.
+Je ne suis pas un spécialiste de l'animation japonaise du tout et encore moins décortiquer chaque choix technique.  
+Ceci-dit ce qui m'intéresse davantage, c'est le résultat. 
 
-Ceci-dit ce qui m'intéresse davantage, c'est le résultat.  
 Et je trouve que l'anime donne une finition beaucoup plus propre à certaines choses qui,  
-sur le papier, pourraient sembler assez anecdotiques.
+sur le papier, pourraient sembler assez anecdotiques (Les expressions, le rythme, les situations...)
 
-Les expressions, le rythme, les situations...  
 Tout cela donne finalement davantage de vie aux personnages même si je me répète un peu.
 
 <div class="image-left">
@@ -619,10 +644,12 @@ C'est en tout cas comme ça que je l'ai ressenti.
 
 ## Et les réactions que j'ai vues ?
 
-C'est un autre petit détail qui m'a amusé (et peut-être un détail pour vous ♫).
+C'est un autre petit détail qui m'a amusé  
+(et peut-être un détail pour vous ♫).
 
 En cherchant un peu autour de l'anime,  
 je suis tombé sur quelques réactions assez violentes.
+
 
 Certaines personnes semblaient franchement révulsées par le concept,  
 allant jusqu'à considérer l'œuvre comme complètement mauvaise.
@@ -630,73 +657,81 @@ allant jusqu'à considérer l'œuvre comme complètement mauvaise.
 Évidemment, chacun pense ce qu'il veut et, même si cela m'énerve, ça se comprend.
 
 Je ne vais certainement pas expliquer à quelqu'un qu'il *doit* aimer *YaniNeko*  
-parce que moi j'y ai trouvé quelque chose.
+parce que moi j'y ai trouvé quelque chose,  
+cela serait stupide et c'est bien d'avoir des points de vue ou des regards différents.
 
 Au contraire, c'est aussi intéressant de pouvoir se questionner sur ce qui nous plaît ou non.
 
-Mais certaines réactions m'ont quand même laissé perplexe.
-
+Mais certaines réactions m'ont quand même laissé perplexe.  
 Peut-être aussi parce que je n'ai vu qu'une petite partie de ces contenus  
 et que cela ne représente évidemment pas l'ensemble des spectateurs.
 
-Ce qui m'a surtout frappé, c'est cette tendance que l'on retrouve parfois  
-sur Internet à vouloir immédiatement décider dans quelle case une œuvre doit entrer.
+Ce qui m'a surtout frappé, c'est cette tendance que l'on retrouve parfois sur Internet  
+à vouloir immédiatement décider dans quelle case une œuvre doit entrer.
 
-Et si elle ne correspond pas à ce que l'on attendait...
+Et si elle ne correspond pas à ce que l'on attendait... **elle devient mauvaise.**
 
-**elle devient mauvaise.**
-
-C'est dommage, pour ma part, car j'y mets aussi beaucoup de moi, mine de rien,  
+C'est dommage pour ma part, car j'y mets aussi beaucoup de moi mine de rien,  
 à simplement essayer de retranscrire certaines intentions.
 
 Parce qu'on peut très bien ne pas aimer une œuvre  
 et quand même essayer de comprendre ce qu'elle cherche à faire.
 
-Je dis ça alors que je suis moi-même parfaitement capable de râler sur des œuvres  
-que je n'aime pas ahah, plus idiot tu meurs... enfin bref ^^'
+Je dis ça alors que je suis moi-même parfaitement capable de râler sur des œuvres que je n'aime pas ahah,  
+plus idiot tu meurs... enfin bref ^^'
 
-Je suis plutôt amateur de shōnen par exemple, et j'en ai regardé énormément.
+J'aime beaucoup les shōnen,  
+mais je vais tout aussi facilement me perdre dans des œuvres plus atypiques ou techniquement ambitieuses.
 
-Je ne renie absolument pas le genre, bien au contraire.
+Mes premiers souvenirs remontent au milieu des années 1980,  
+avec tout ce qui passait alors à la télévision :  
+*Goldorak*, *Albator*, *Ulysse 31*, *Cat's Eye*, *Nicky Larson*, *Dragon Ball* et tellement d'autres.  
 
-Mais depuis aussi loin que je me souvienne, ce sont souvent les œuvres un peu à côté  
-qui finissent par rester le plus longtemps.
+Et déjà à l'époque,  
+je commençais à comprendre que certaines de ces séries n'avaient pas tout à fait le même parcours en France et au Japon,  
+même si je ne savais évidemment pas encore vraiment quoi en faire.
 
-Je suis né dans cette période où il y avait *Akira*, *Ghost in the Shell*, *Gunnm*  
-et déjà tellement d'autres choses derrière...
+Vers douze ou treize ans, j'ai commencé à dessiner sérieusement,  
+souvent en recopiant des personnages de *Dragon Ball* par exemple ou d'autres mangas de l'époque,  
+mais aussi en inventant mes propres petits décors, des palmiers, des scènes et quelques histoires.
 
-Et ça fait maintenant plus de vingt-cinq ans que je continue à tomber sur ces petites perles  
-qui arrivent parfois un peu de nulle part.
+Petit à petit, je me suis donc mis à regarder ce qu'il y avait derrière les images :  
+les auteurs, les styles, les films, les influences,  
+les façons différentes de raconter ou simplement de mettre quelque chose en scène.
 
-Ça ne m'empêche absolument pas d'aimer des œuvres beaucoup plus classiques.
+À l'adolescence, des œuvres comme *Akira*, *Ghost in the Shell*, *Gunnm*  
+et tant d'autres ont encore élargi cet horizon.
 
-J'aime *One Piece*, par exemple,  
-mais je peux aussi le détester très fort pour certaines années où j'ai eu l'impression  
-que l'histoire n'allait jamais finir de tourner autour des mêmes choses. ^^
+Et depuis plus de vingt-cinq ans,  
+je continue régulièrement à tomber sur ces petites perles qui arrivent parfois un peu de nulle part.
 
-Je vénère *Gintama*, qui est pourtant parfois incroyablement lambda dans ses codes.
+Parfois, ce sont de grosses productions. Parfois, presque l'inverse.
 
-Et récemment, *Dorohedoro* m'a complètement accroché par exemple,  
-alors que je pourrais moi-même me demander comment cette chose bizarre a réussi à se retrouver dans mon top.
+Il y a *Puparia*, cet ovni réalisé à la main par une seule personne,  
+que je continue de repartager régulièrement parce qu'il me rappelle ce qu'on peut encore faire avec une idée étrange,  
+énormément de travail et une vraie personnalité.
 
-C'est probablement ça que j'aime finalement.
+Ça ne m'empêche absolument pas d'aimer des œuvres beaucoup plus classiques. J'aime *One Piece* par exemple,  
+même si je peux aussi le détester très fort pour certaines périodes où j'ai eu l'impression que l'histoire tournait en rond. ^^
 
-Pas forcément l'originalité à tout prix.
+Je vénère *Gintama*, qui joue pourtant énormément avec des codes très classiques.  
+Et récemment, *Dorohedoro* m'a complètement accroché,  
+alors que je pourrais moi-même me demander comment cette chose aussi bizarre a réussi à se retrouver dans mon top.
+
+Je pense que c'est probablement ça que j'aime finalement :  
+pas forcément un genre précis, pas forcément l'originalité à tout prix,  
+mais une œuvre qui possède quelque chose de suffisamment personnel pour rester quelque part.
 
 Plutôt ce petit quelque chose qui fait qu'une œuvre possède son propre trait,  
 sa propre ambiance, sa manière de raconter ou simplement de provoquer quelque chose chez moi.
 
-Et *YaniNeko* possède justement ce petit quelque chose.
+Et *YaniNeko* possède justement ce petit quelque chose.  
+(Je n'en veux nullement au shōnen classique ahah)
 
-Je n'en veux nullement au shōnen classique ahah.
-
-Mais mon cœur, lui... va souvent vers les choses qui explorent et creusent un peu.
-
+Mais mon cœur, lui... va souvent vers les choses qui explorent et creusent un peu.  
 Et c'est peut-être aussi pour ça que *YaniNeko* m'amuse.
 
-Bref...
-
-Je digresse.
+Bref... Je digresse.
 
 ---
 
@@ -704,13 +739,10 @@ Je digresse.
 
 C'est finalement là que mon petit montage arrive.
 
-J'avais cette envie d'association  
-entre l'ambiance de l'anime, le personnage, la cigarette et la musique *Aspiration*.
-
+J'avais cette envie d'association entre l'ambiance de l'anime, le personnage, la cigarette et la musique *Aspiration*.  
 Et je me suis demandé ce que cela donnerait en essayant simplement de faire correspondre tout ça.
 
-Pas une bande-annonce officielle, pas une prétention particulière.
-
+Pas une bande-annonce officielle, pas une prétention particulière.  
 Juste un **fanmade**.
 
 <div class="image-center">
@@ -722,25 +754,20 @@ Juste un **fanmade**.
 
 ### Dernière cigarette ~* °
 
-C'est finalement devenu le titre de mon petit montage.
-
+C'est finalement devenu le titre de mon petit montage.  
 Et au fond, c'est assez simple.
 
-J'ai pris quelque chose qui m'avait intrigué et j'ai essayé d'en faire quelque chose à ma manière.
-
+J'ai pris quelque chose qui m'avait intrigué et j'ai essayé d'en faire quelque chose à ma manière.  
 La musique m'y a amené. L'anime a fait le reste. Et voilà.
 
 ---
 
 ## Pourquoi faire un fanmade ?
 
-Parce que parfois une œuvre donne simplement envie de lui répondre.
-
+Parce que parfois une œuvre donne simplement envie de lui répondre.  
 Pas forcément avec une critique. Pas forcément avec quelque chose de très construit.
 
-Une image, une musique, un montage...
-
-Une association d'idées.
+Une image, une musique, un montage... Une association d'idées.
 
 C'est un peu ce qui s'est passé ici.
 
@@ -761,22 +788,17 @@ Et finalement, ça me semble assez cohérent avec la manière dont j'ai découve
 
 ## Une œuvre plus intéressante qu'elle n'en a l'air ?
 
-Je ne sais pas si *YaniNeko* deviendra une œuvre majeure.
-
+Je ne sais pas si *YaniNeko* deviendra une œuvre majeure.  
 Et franchement, je ne suis même pas certain que ce soit important.
 
 Je sais simplement qu'elle m'a suffisamment intrigué pour que j'aille regarder un peu plus loin.
 
-Puis que je cherche le manga. Puis que je regarde comment l'anime avait été produit.
-
-Puis que je me renseigne sur les réactions de l'auteur. Puis que je fasse une vidéo.
-
-Puis maintenant un article.
-
+Que je cherche le manga, que je regarde comment l'anime avait été produit, 
+Puis que je me renseigne sur les réactions de l'auteur ou que je fasse une vidéo.  
+ou comme maintenant un article.  
 Voilà comment je fonctionne probablement un peu trop souvent...
 
-Je tire sur un fil... et je finis par en trouver cinq autres.
-
+Je tire sur un fil... et je finis par en trouver cinq autres.  
 Mais c'est aussi ce que j'aime dans certaines œuvres.
 
 Elles n'ont pas forcément besoin d'être parfaites.  
