@@ -483,12 +483,12 @@ Car finalement, chacun apporte sa propre petite bizarrerie à l'ensemble.
 La cigarette est évidemment un élément important de l'œuvre.  
 Et étant moi-même fumeur, c'est probablement la première chose qui m'a fait tiquer.
 
-(Et accroché ?! addiction de plus en perspective ... aïe aïe aïe ...)
+(Et autant accroché aussi. Addiction de plus en perspective ... aïe aïe aïe ...)
 
 Je ne m'attendais pas spécialement à retrouver ce genre de sujet dans un anime qui,  
 au premier regard pouvait sembler beaucoup plus léger.
 
-Mais ce qui m'intéresse finalement n'est pas tellement la cigarette en elle-même.
+Mais ce qui m'intéresse finalement n'est pas tellement la cigarette en elle-même.  
 C'est plutôt ce qu'elle permet de faire apparaître autour.
 
 Les habitudes. Les discussions. Les comportements sociaux.  
@@ -496,7 +496,7 @@ Les petits travers des personnages aussi.
 
 Cette façon qu'ont les gens de se construire autour de choses parfois complètement banales.
 
-Je ne veux évidemment pas présenter le tabagisme comme quelque chose à promouvoir.
+Je ne veux évidemment pas présenter le tabagisme comme quelque chose à promouvoir.  
 Ce n'est pas vraiment ce que j'y ai vu et je pense que l'oeuvre non plus.  
 J'y ai plutôt trouvé un écho assez étrange avec quelque chose de très quotidien.
 
@@ -521,11 +521,11 @@ mais ce sont finalement les personnages qui deviennent intéressants.
 
 C'est là que j'ai commencé à regarder un peu plus précisément d'où venait *YaniNeko*.
 
-L'œuvre de **Nyan Nyan Factory** a d'abord connu une existence sur les réseaux sociaux
+L'œuvre de **Nyan Nyan Factory** a d'abord connu une existence sur les réseaux sociaux  
 avant d'arriver dans *Young Magazine*.
 
 Et je trouve cette histoire assez amusante.  
-Parce qu'au départ, on n'est pas forcément devant le genre de projet dont on se dit immédiatement :
+Parce qu'au départ, on n'est pas forcément devant le genre de projet dont on se dit immédiatement :  
 
 > « Tiens, ça va finir en anime. »
 
@@ -537,7 +537,7 @@ et quelle animation ♥
 
 Je préfère d'ailleurs rester prudent sur certains détails de cette histoire  
 plutôt que de transformer quelques informations trouvées ici et là sur la naissance du manga.  
-Ce que je trouve intéressant, c'est simplement cette progression :
+Ce que je trouve intéressant, c'est simplement cette progression :  
 
 **réseaux sociaux → publication → rencontre avec le public → adaptation animée.**
 
@@ -574,7 +574,8 @@ Et ça, je trouve ça plutôt chouette, parce que c'est justement l'impression q
   />
 </div>
 
-Je ne vais évidemment pas prétendre que cela signifie que le studio a « officiellement reconnu tout le potentiel » du manga ou autre grande formule du genre.  
+Je ne vais évidemment pas prétendre que cela signifie que  
+le studio a « officiellement reconnu tout le potentiel » du manga ou autre grande formule du genre.  
 Mais quand l'auteur lui-même explique avoir été agréablement surpris parce que l'équipe lui présentait,  
 ça donne quand même un peu de poids à cette impression. Et puis, visuellement, je trouve que ça se sent.
 
@@ -608,8 +609,8 @@ Ce n'est peut-être pas révolutionnaire.
 
 Mais est-ce que tout doit forcément l'être ?
 
-Parfois une bonne adaptation,
-c'est peut-être simplement une équipe qui a compris
+Parfois une bonne adaptation,  
+c'est peut-être simplement une équipe qui a compris  
 ce qui faisait fonctionner une œuvre et qui décide de lui donner suffisamment de place pour respirer.
 
 C'est en tout cas comme ça que je l'ai ressenti.
@@ -620,69 +621,69 @@ C'est en tout cas comme ça que je l'ai ressenti.
 
 C'est un autre petit détail qui m'a amusé (et peut-être un détail pour vous ♫).
 
-En cherchant un peu autour de l'anime,
+En cherchant un peu autour de l'anime,  
 je suis tombé sur quelques réactions assez violentes.
 
-Certaines personnes semblaient franchement révulsées par le concept,
+Certaines personnes semblaient franchement révulsées par le concept,  
 allant jusqu'à considérer l'œuvre comme complètement mauvaise.
 
 Évidemment, chacun pense ce qu'il veut et, même si cela m'énerve, ça se comprend.
 
-Je ne vais certainement pas expliquer à quelqu'un qu'il *doit* aimer *YaniNeko*
+Je ne vais certainement pas expliquer à quelqu'un qu'il *doit* aimer *YaniNeko*  
 parce que moi j'y ai trouvé quelque chose.
 
 Au contraire, c'est aussi intéressant de pouvoir se questionner sur ce qui nous plaît ou non.
 
 Mais certaines réactions m'ont quand même laissé perplexe.
 
-Peut-être aussi parce que je n'ai vu qu'une petite partie de ces contenus
+Peut-être aussi parce que je n'ai vu qu'une petite partie de ces contenus  
 et que cela ne représente évidemment pas l'ensemble des spectateurs.
 
-Ce qui m'a surtout frappé, c'est cette tendance que l'on retrouve parfois
+Ce qui m'a surtout frappé, c'est cette tendance que l'on retrouve parfois  
 sur Internet à vouloir immédiatement décider dans quelle case une œuvre doit entrer.
 
 Et si elle ne correspond pas à ce que l'on attendait...
 
 **elle devient mauvaise.**
 
-C'est dommage, pour ma part, car j'y mets aussi beaucoup de moi, mine de rien,
+C'est dommage, pour ma part, car j'y mets aussi beaucoup de moi, mine de rien,  
 à simplement essayer de retranscrire certaines intentions.
 
-Parce qu'on peut très bien ne pas aimer une œuvre
+Parce qu'on peut très bien ne pas aimer une œuvre  
 et quand même essayer de comprendre ce qu'elle cherche à faire.
 
-Je dis ça alors que je suis moi-même parfaitement capable de râler sur des œuvres
+Je dis ça alors que je suis moi-même parfaitement capable de râler sur des œuvres  
 que je n'aime pas ahah, plus idiot tu meurs... enfin bref ^^'
 
 Je suis plutôt amateur de shōnen par exemple, et j'en ai regardé énormément.
 
 Je ne renie absolument pas le genre, bien au contraire.
 
-Mais depuis aussi loin que je me souvienne, ce sont souvent les œuvres un peu à côté
+Mais depuis aussi loin que je me souvienne, ce sont souvent les œuvres un peu à côté  
 qui finissent par rester le plus longtemps.
 
-Je suis né dans cette période où il y avait *Akira*, *Ghost in the Shell*, *Gunnm*
+Je suis né dans cette période où il y avait *Akira*, *Ghost in the Shell*, *Gunnm*  
 et déjà tellement d'autres choses derrière...
 
-Et ça fait maintenant plus de vingt-cinq ans que je continue à tomber sur ces petites perles
+Et ça fait maintenant plus de vingt-cinq ans que je continue à tomber sur ces petites perles  
 qui arrivent parfois un peu de nulle part.
 
 Ça ne m'empêche absolument pas d'aimer des œuvres beaucoup plus classiques.
 
-J'aime *One Piece*, par exemple,
-mais je peux aussi le détester très fort pour certaines années où j'ai eu l'impression
+J'aime *One Piece*, par exemple,  
+mais je peux aussi le détester très fort pour certaines années où j'ai eu l'impression  
 que l'histoire n'allait jamais finir de tourner autour des mêmes choses. ^^
 
 Je vénère *Gintama*, qui est pourtant parfois incroyablement lambda dans ses codes.
 
-Et récemment, *Dorohedoro* m'a complètement accroché, alors que je pourrais moi-même
-me demander comment cette chose bizarre a réussi à se retrouver dans mon top.
+Et récemment, *Dorohedoro* m'a complètement accroché par exemple,  
+alors que je pourrais moi-même me demander comment cette chose bizarre a réussi à se retrouver dans mon top.
 
 C'est probablement ça que j'aime finalement.
 
 Pas forcément l'originalité à tout prix.
 
-Plutôt ce petit quelque chose qui fait qu'une œuvre possède son propre trait,
+Plutôt ce petit quelque chose qui fait qu'une œuvre possède son propre trait,  
 sa propre ambiance, sa manière de raconter ou simplement de provoquer quelque chose chez moi.
 
 Et *YaniNeko* possède justement ce petit quelque chose.
@@ -703,13 +704,12 @@ Je digresse.
 
 C'est finalement là que mon petit montage arrive.
 
-J'avais cette envie d'association
+J'avais cette envie d'association  
 entre l'ambiance de l'anime, le personnage, la cigarette et la musique *Aspiration*.
 
 Et je me suis demandé ce que cela donnerait en essayant simplement de faire correspondre tout ça.
 
-Pas une bande-annonce officielle,
-pas une prétention particulière.
+Pas une bande-annonce officielle, pas une prétention particulière.
 
 Juste un **fanmade**.
 
@@ -728,11 +728,7 @@ Et au fond, c'est assez simple.
 
 J'ai pris quelque chose qui m'avait intrigué et j'ai essayé d'en faire quelque chose à ma manière.
 
-La musique m'y a amené.
-
-L'anime a fait le reste.
-
-Et voilà.
+La musique m'y a amené. L'anime a fait le reste. Et voilà.
 
 ---
 
@@ -740,8 +736,7 @@ Et voilà.
 
 Parce que parfois une œuvre donne simplement envie de lui répondre.
 
-Pas forcément avec une critique.
-Pas forcément avec quelque chose de très construit.
+Pas forcément avec une critique. Pas forcément avec quelque chose de très construit.
 
 Une image, une musique, un montage...
 
@@ -749,7 +744,7 @@ Une association d'idées.
 
 C'est un peu ce qui s'est passé ici.
 
-Je voulais simplement voir ce que donnerait cette rencontre entre *YaniNeko*,
+Je voulais simplement voir ce que donnerait cette rencontre entre *YaniNeko*,  
 *Aspiration* et cette idée assez simple de la « dernière cigarette ».
 
 C'est une petite digression supplémentaire, oui, je le conçois bien et désolé d'être... ainsi.
@@ -772,26 +767,19 @@ Et franchement, je ne suis même pas certain que ce soit important.
 
 Je sais simplement qu'elle m'a suffisamment intrigué pour que j'aille regarder un peu plus loin.
 
-Puis que je cherche le manga.
+Puis que je cherche le manga. Puis que je regarde comment l'anime avait été produit.
 
-Puis que je regarde comment l'anime avait été produit.
-
-Puis que je me renseigne sur les réactions de l'auteur.
-
-Puis que je fasse une vidéo.
+Puis que je me renseigne sur les réactions de l'auteur. Puis que je fasse une vidéo.
 
 Puis maintenant un article.
 
 Voilà comment je fonctionne probablement un peu trop souvent...
 
-Je tire sur un fil...
-
-et je finis par en trouver cinq autres.
+Je tire sur un fil... et je finis par en trouver cinq autres.
 
 Mais c'est aussi ce que j'aime dans certaines œuvres.
 
-Elles n'ont pas forcément besoin d'être parfaites.
-
+Elles n'ont pas forcément besoin d'être parfaites.  
 Il suffit parfois qu'elles donnent envie de continuer à regarder.
 
 ---
@@ -803,7 +791,8 @@ Il suffit parfois qu'elles donnent envie de continuer à regarder.
 **Site officiel de *YaniNeko***
 [Site officiel de l'anime *YaniNeko*](https://yanineko-anime.com/?utm_source=chatgpt.com)
 
-C'est évidemment le premier endroit à consulter pour retrouver les informations officielles sur l'adaptation, les personnages, la diffusion, les équipes et les différentes actualités.
+C'est évidemment le premier endroit à consulter pour retrouver les informations officielles sur l'adaptation,  
+les personnages, la diffusion, les équipes et les différentes actualités.
 
 **Personnages, équipe et casting**
 [Personnages et équipe officielle](https://yanineko-anime.com/?utm_source=chatgpt.com)
@@ -815,7 +804,8 @@ Le site regroupe notamment les fiches des personnages ainsi que les informations
 **YaniNeko — tome 1, Kodansha**
 [YaniNeko — tome 1 sur le site officiel de Kodansha](https://www.kodansha.co.jp/comic/products/0000378072?utm_source=chatgpt.com)
 
-C'est probablement le lien le plus important de cette section : avant l'anime, il y a le manga de **Nyan Nyan Factory**, publié dans *Young Magazine* puis édité en volumes par Kodansha. Le tome 1 est paru en août 2023.
+C'est probablement le lien le plus important de cette section : avant l'anime, il y a le manga de **Nyan Nyan Factory**,  
+publié dans *Young Magazine* puis édité en volumes par Kodansha. Le tome 1 est paru en août 2023.
 
 **YaniNeko — tome 13, Kodansha**
 [YaniNeko — tome 13 sur le site officiel de Kodansha](https://www.kodansha.co.jp/comic/products/0000429630?utm_source=chatgpt.com)
@@ -829,11 +819,13 @@ Le tome 13 est paru le **6 août 2026**, ce qui permet également de retrouver l
 
 C'est probablement l'une des pages que je trouve les plus intéressantes pour comprendre le passage du manga à l'animation.
 
-Nyan Nyan Factory y raconte notamment sa réaction lorsqu'une adaptation a été envisagée et explique avoir été agréablement surpris en découvrant les scripts et les character designs proposés par l'équipe.
+Nyan Nyan Factory y raconte notamment sa réaction lorsqu'une adaptation a été envisagée  
+et explique avoir été agréablement surpris en découvrant les scripts et les character designs proposés par l'équipe.
 
 ### Interviews et personnages
 
-Le site officiel publie également plusieurs entretiens avec les comédiennes et comédiens de l'anime, notamment ceux qui interprètent YaniNeko, YakuNeko, Imoko, KansaiNeko, AruNeko, Tatsuro et Ōya.
+Le site officiel publie également plusieurs entretiens avec les comédiennes et comédiens de l'anime,  
+notamment ceux qui interprètent YaniNeko, YakuNeko, Imoko, KansaiNeko, AruNeko, Tatsuro et Ōya.
 
 **Interview de YaniNeko — Yūko Natsuyoshi**
 [Interview officielle de Yūko Natsuyoshi](https://yanineko-anime.com/117/?utm_source=chatgpt.com)
@@ -855,33 +847,38 @@ Le site officiel publie également plusieurs entretiens avec les comédiennes et
 **Poster « 手洗いうがい » — ressource proposée par le site officiel**
 [Poster officiel et informations sur sa mise à disposition](https://yanineko-anime.com/211/?utm_source=chatgpt.com)
 
-Le site officiel indique que les données d'image de ce poster sont distribuées gratuitement pour un usage personnel. C'est notamment cette ressource qui m'a permis de réaliser une version française personnelle présentée plus haut dans l'article.
+Le site officiel indique que les données d'image de ce poster sont distribuées gratuitement pour un usage personnel.  
+C'est notamment cette ressource qui m'a permis de réaliser une version française personnelle présentée plus haut dans l'article.
 
 ### Et mon petit détour par la musique
 
 **Zaho de Sagazan — *Aspiration***
 [Clip officiel de *Aspiration* sur YouTube](https://www.youtube.com/watch?v=t7o0yCOCSBU&utm_source=chatgpt.com)
 
-C'est cette chanson qui m'a finalement donné l'idée du montage et de cette fameuse « dernière cigarette ». Le clip est publié sur la chaîne officielle de Zaho de Sagazan.
+C'est cette chanson qui m'a finalement donné l'idée du montage et de cette fameuse « dernière cigarette ».  
+Le clip est publié sur la chaîne officielle de Zaho de Sagazan.
 
 ### Mon fanmade
 
 **YaniNeko × Aspiration — Dernière cigarette**
 [Voir mon fanmade sur YouTube](https://youtu.be/ebIEzs9QjVc?utm_source=chatgpt.com)
 
-C'est évidemment la partie la plus personnelle de cette histoire : l'œuvre m'a donné envie de tirer un fil, puis d'aller voir jusqu'où ce fil pouvait mener.
+C'est évidemment la partie la plus personnelle de cette histoire :  
+l'œuvre m'a donné envie de tirer un fil, puis d'aller voir jusqu'où ce fil pouvait mener.
 
 ---
 
 ## Quelques sources et précisions
 
-Les informations concernant l'adaptation, les personnages, l'équipe de production et les déclarations de Nyan Nyan Factory proviennent principalement du site officiel de l'anime et des pages officielles de Kodansha.
+Les informations concernant l'adaptation, les personnages,  
+l'équipe de production et les déclarations de Nyan Nyan Factory proviennent principalement du site officiel de l'anime et des pages officielles de Kodansha.
 
 J'ai volontairement privilégié ces sources plutôt que les nombreuses fiches secondaires qui reprennent parfois les mêmes informations sans toujours permettre de retrouver leur origine.
 
 Pour les éléments musicaux, la référence renvoie directement vers la publication officielle de *Aspiration* par Zaho de Sagazan.
 
-Et pour les images, lorsque j'utilise ou adapte un élément provenant de l'œuvre originale, je préfère autant que possible indiquer clairement son origine plutôt que de le faire passer pour une création personnelle.
+Et pour les images, lorsque j'utilise ou adapte un élément provenant de l'œuvre originale,  
+je préfère autant que possible indiquer clairement son origine plutôt que de le faire passer pour une création personnelle.
 
 ---
 
