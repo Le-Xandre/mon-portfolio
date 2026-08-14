@@ -570,7 +570,7 @@ L'anime existe d'ailleurs en deux versions :
 la version diffusée à la télévision, et une version dite « 邪竜解放版 »,  
 proposée sur AT-X et certaines plateformes de streaming, avec un contenu adapté à ce mode de diffusion.
 
-邪竜解放版 reste difficile à traduire, même en ayant la traduction 😄
+邪竜解放版 reste difficile à traduire, même en ayant la traduction 😄  
 ( « version de libération du dragon maléfique » bon courage pour la signification ahah)  
 ce que je comprends c'est que c'est une version qui respecte davantage les intentions de mise en scène de l'œuvre.
 
