@@ -882,13 +882,37 @@ C'est notamment cette ressource qui m'a permis de réaliser une version françai
 C'est cette chanson qui m'a finalement donné l'idée du montage et de cette fameuse « dernière cigarette ».  
 Le clip est publié sur la chaîne officielle de Zaho de Sagazan.
 
-### Mon fanmade
+### Mon fanmade & le clip officiel de l'opening ♥
 
 **YaniNeko × Aspiration — Dernière cigarette**
 [Voir mon fanmade sur YouTube](https://youtu.be/ebIEzs9QjVc?utm_source=chatgpt.com)
 
 C'est évidemment la partie la plus personnelle de cette histoire :  
 l'œuvre m'a donné envie de tirer un fil, puis d'aller voir jusqu'où ce fil pouvait mener.
+
+**忘れらんねえよ「なんもねえ」Music Video**
+[Voir l'opening](https://youtu.be/aRiVUVNUhIs)
+
+Le clip du groupe faisant l'opening de l'animé. 忘れらんねえよ — なんもねえ
+
+忘れらんねえよ (Wasureranneyo) est le nom du groupe. Littéralement, on peut le comprendre comme :  
+« Je peux pas t’oublier » ou plus naturellement : « J’arrive pas à t’oublier » / « Je ne peux pas oublier »
+
+Le truc intéressant, c’est que らんねえ est une forme très familière / relâchée de られない (« ne pas pouvoir »).  
+Le nom a donc volontairement un côté très oral, brut, presque « j'arrive pas à l'oublier, bordel ». 😄
+
+Et なんもねえ (nanmo nee) est le titre. 何もない → なんもねえ  
+何もない (nanimo nai) = « il n’y a rien », « je n’ai rien »  
+なんもねえ (nanmo nee) = forme beaucoup plus familière / rude : « y a rien » / « j’ai rien » / « rien du tout »
+
+Donc le titre pourrait se rendre selon le ton par : « J’ai rien » « Y a rien » « Rien du tout »  
+Et connaissant le morceau et son contexte, « J’ai rien » me paraît finalement le plus intéressant :  
+ça garde le côté personnel et un peu paumé du japonais.
+
+Petit détail amusant : 忘れらんねえよ n'est pas juste un nom japonais « poétique ».  
+Le groupe l'emploie avec ce registre très parlé et très direct.  
+Le chanteur a d'ailleurs expliqué que le nom était lié à une période de frustration  
+et au sentiment de ne pas réussir à laisser certaines choses derrière lui.
 
 ---
 
@@ -897,7 +921,8 @@ l'œuvre m'a donné envie de tirer un fil, puis d'aller voir jusqu'où ce fil po
 Les informations concernant l'adaptation, les personnages,  
 l'équipe de production et les déclarations de Nyan Nyan Factory proviennent principalement du site officiel de l'anime et des pages officielles de Kodansha.
 
-J'ai volontairement privilégié ces sources plutôt que les nombreuses fiches secondaires qui reprennent parfois les mêmes informations sans toujours permettre de retrouver leur origine.
+J'ai volontairement privilégié ces sources plutôt que les nombreuses fiches secondaires  
+qui reprennent parfois les mêmes informations sans toujours permettre de retrouver leur origine.
 
 Pour les éléments musicaux, la référence renvoie directement vers la publication officielle de *Aspiration* par Zaho de Sagazan.
 
