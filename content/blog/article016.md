@@ -202,7 +202,7 @@ c'est que cela paraît simple et souvent c'est d'une complexité folle à la ré
 
 <p>
 La petite sœur de YaniNeko. Son vrai nom est <strong>佐藤妹子 (Satō Imoko)</strong>.  
-À l'inverse de sa sœur, Imoko est une lycéenne sérieuse, responsable et plutôt bonne élève.
+À l'inverse de sa sœur Imoko est une lycéenne sérieuse, responsable et plutôt bonne élève.
 </p>
 
 <p>
@@ -360,14 +360,14 @@ et parfois sous-évalué donc j'aime beaucoup l'équilibre qu'elle apporte à l'
 
 <p>
 Son vrai nom est <strong>酒井アル子 (Sakai Aruko)</strong>.
-AruNeko a 24 ans et est étudiante à l'université, avec deux années de retard
-dans son cursus.
+AruNeko a 24 ans et est étudiante à l'université,  
+  avec deux années de retard dans son cursus d'après ce que j'ai cru comprendre.
 </p>
 
 <p>
 Son apparence peut facilement tromper au premier regard puisqu'elle semble
-beaucoup plus jeune, mais elle est bien adulte. C'est également une
-« bokukko », avec une personnalité assez particulière.
+beaucoup plus jeune, mais elle est bien adulte.  
+  C'est également une « bokukko », avec une personnalité assez particulière.
 </p>
 
 <p>
@@ -378,8 +378,8 @@ les plus reconnaissables du personnage.
 
 <p>
 C'est probablement l'un des personnages qui illustre le mieux cette manière
-qu'a *YaniNeko* de prendre une habitude ou un travers et d'en faire une
-caractéristique à part entière.  
+qu'a *YaniNeko* de prendre une habitude ou un travers et d'en faire une caractéristique à part entière.  
+  
 Et quoi dire, une forme de perdition féerique ... une forme de naïveté mais qui n'en ai pas,  
 bref un personnage qui a quelques épisodes en tout cas dans l'animé d'une rare beauté. 
 </p>
@@ -400,26 +400,26 @@ bref un personnage qui a quelques épisodes en tout cas dans l'animé d'une rare
 
 <p>
 Son vrai nom est <strong>辰野沙織 (Tatsuno Saori)</strong>.
-C'est une mangaka professionnelle de 32 ans qui vit dans le même immeuble
-que YaniNeko.
+C'est une mangaka professionnelle de 32 ans qui vit dans le même immeuble que YaniNeko.
 </p>
 
 <p>
-Elle est l'un des rares personnages humains de cette galerie, contrairement
-aux nombreux personnages-félins qui composent l'univers de l'œuvre.
+Elle est l'un des rares personnages humains de cette galerie,  
+  contrairement aux nombreux personnages-félins qui composent l'univers de l'œuvre.
 </p>
 
 <p>
-Elle est également une grosse fumeuse, ce qui crée forcément un autre
-point commun avec notre personnage principal.
-Son nom « Ochinpo Tatsuro » est son nom de plume, alors que son véritable
-nom est Saori Tatsuno.
+Elle est également une grosse fumeuse,  
+  ce qui crée forcément un autre point commun avec notre personnage principal.
+Son nom « Ochinpo Tatsuro » est son nom de plume,  
+  alors que son véritable nom est Saori Tatsuno.
 </p>
 
 <p>
 Son statut de mangaka apporte aussi un petit écho intéressant à l'œuvre
 elle-même, puisqu'elle vit au milieu de personnages dont le quotidien
-pourrait presque fournir sa propre matière à raconter (comme un parallèle au manga en soit et à la vie d'artiste/artisan aussi).
+pourrait presque fournir sa propre matière à raconter  
+  (comme un parallèle au manga en soit et à la vie d'artiste/artisan aussi).
 </p>
 
 </div>
@@ -438,8 +438,8 @@ pourrait presque fournir sa propre matière à raconter (comme un parallèle au 
 
 <p>
 Son vrai nom est <strong>大谷おう也 (Ōtani Ōya)</strong>.
-Il a 45 ans et est humain. C'est le propriétaire de l'immeuble où vivent
-YaniNeko et plusieurs des autres personnages.
+Il a 45 ans et est humain.  
+  C'est le propriétaire de l'immeuble où vivent YaniNeko et plusieurs des autres personnages.
 </p>
 
 <p>
@@ -450,16 +450,15 @@ tout en gardant en sang-froid absolu.
 </p>
 
 <p>
-Il joue donc un rôle assez différent des autres personnages : là où la plupart
-sont des femmes-bêtes avec leurs propres travers et habitudes, lui apporte
-un regard plus humain et une forme de stabilité dans l'immeuble.
+Il joue donc un rôle assez différent des autres personnages :  
+  là où la plupart sont des femmes-bêtes avec leurs propres travers et habitudes,  
+  lui apporte un regard plus humain et une forme de stabilité dans l'immeuble.
 </p>
 
 <p>
-Ceci dit, il possède lui aussi ses propres défauts et une part plus mystérieuse
-du personnage voir très glauque aussi,  
-que je préfère laisser à ceux qui souhaitent découvrir l'œuvre découvrir,  
-ne connaissant pas entièrement l'oeuvre l'ambiguité présente est de mise.
+Ceci dit, il possède lui aussi ses propres défauts et possède une part plus mystérieuse voir glauque aussi,  
+que je préfère laisser à ceux qui souhaitent découvrir l'œuvre,  
+ne connaissant pas entièrement l'oeuvre ni sa direction, l'ambiguité qu'il présente reste de mise.
 </p>
 
 <p>
