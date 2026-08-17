@@ -71,9 +71,8 @@ leurs habitudes, leurs petits travers, leurs relations...
 
 Et là forcément, on commence à tirer un fil, puis un autre..
 
-C'est probablement là que j'ai ressenti personnellement  
-une similarité car mine de rien de près ou de loin,  
-certains vécus y font **écho**.  
+C'est probablement là que j'ai ressenti personnellement une similarité,  
+car mine de rien de près ou de loin, certains vécus y font **écho**.  
 Et je trouve que malgré ces airs simplets, l'animé retranscrit bien ces instants de vie.
 
 <details class="article-details">
@@ -91,71 +90,71 @@ je trouvais intéressant de laisser quelques repères
 pour ceux qui connaissent déjà l'œuvre ou qui voudraient simplement aller un peu plus loin.
 </p>
 
-<div class="yanineko-characters">
+<div class="article-characters">
 
-<div class="yanineko-portraits">
+<div class="article-portraits">
 
-<input type="radio" name="yanineko-character" id="char-yaniko" checked>
+<input type="radio" name="article-character" id="char-yaniko" checked>
 
-<label for="char-yaniko" class="yanineko-portrait">
+<label for="char-yaniko" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-yaniko.png" alt="YaniNeko / 佐藤ヤニ子">
 <span>YaniNeko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-imoko">
+<input type="radio" name="article-character" id="char-imoko">
 
-<label for="char-imoko" class="yanineko-portrait">
+<label for="char-imoko" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-imoko.png" alt="Imoko / 佐藤妹子">
 <span>Imoko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-yakineko">
+<input type="radio" name="article-character" id="char-yakineko">
 
-<label for="char-yakineko" class="yanineko-portrait">
+<label for="char-yakineko" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-yakineko.png" alt="YakuNeko / 越司丸益子">
 <span>YakuNeko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-hameneko">
+<input type="radio" name="article-character" id="char-hameneko">
 
-<label for="char-hameneko" class="yanineko-portrait">
+<label for="char-hameneko" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-hameneko.png" alt="HameNeko / ゆるふわ＊天使 ハメ子">
 <span>HameNeko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-kansai">
+<input type="radio" name="article-character" id="char-kansai">
 
-<label for="char-kansai" class="yanineko-portrait">
+<label for="char-kansai" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-kansaineko.png" alt="KansaiNeko / 西薫子">
 <span>KansaiNeko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-al">
+<input type="radio" name="article-character" id="char-al">
 
-<label for="char-al" class="yanineko-portrait">
+<label for="char-al" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-aruneko.png" alt="AruNeko / 酒井アル子">
 <span>AruNeko</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-tatsuro">
+<input type="radio" name="article-character" id="char-tatsuro">
 
-<label for="char-tatsuro" class="yanineko-portrait">
+<label for="char-tatsuro" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-tatsuro.png" alt="Ochinpo Tatsuro / 辰野沙織">
 <span>Tatsuno</span>
 </label>
 
-<input type="radio" name="yanineko-character" id="char-ooya">
+<input type="radio" name="article-character" id="char-ooya">
 
-<label for="char-ooya" class="yanineko-portrait">
+<label for="char-ooya" class="article-portrait">
 <img src="/images/Yanineko/media/yanineko-portrait-ooya.png" alt="Le propriétaire / 大谷おう也">
 <span>Ōya</span>
 </label>
 
 </div>
 
-<article class="yanineko-character-sheet sheet-yaniko">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>YaniNeko / Satō Yaniko — 佐藤ヤニ子</h3>
 
@@ -188,21 +187,21 @@ c'est que cela paraît simple et souvent c'est d'une complexité folle à la ré
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-yaniko.png" alt="YaniNeko / 佐藤ヤニ子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-imoko">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>Satō Imoko — 佐藤妹子</h3>
 
 <p>
 La petite sœur de YaniNeko. Son vrai nom est <strong>佐藤妹子 (Satō Imoko)</strong>.  
-À l'inverse de sa sœur Imoko est une lycéenne sérieuse, responsable et plutôt bonne élève.
+À l'inverse de sa sœur, Imoko est une lycéenne sérieuse, responsable et plutôt bonne élève.
 </p>
 
 <p>
@@ -223,15 +222,15 @@ et au final de comprendre aussi.
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-imoko.png" alt="Imoko / 佐藤妹子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-yakineko">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>YakuNeko / Etsushimaru Masuko — 越司丸益子</h3>
 
@@ -261,15 +260,15 @@ Donc à découvrir ^^
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-yakineko.png" alt="YakuNeko / 越司丸益子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-hameneko">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>HameNeko / Yurufuwa＊Tenshi Hameko — ゆるふわ＊天使 ハメ子</h3>
 
@@ -306,15 +305,15 @@ Et mine de rien, comme les autres personnages que l'on accepte volontiers
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-hameneko.png" alt="HameNeko / ゆるふわ＊天使 ハメ子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-kansai">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>KansaiNeko / Nishi Kaoruko — 西薫子</h3>
 
@@ -346,28 +345,28 @@ et parfois sous-évalué donc j'aime beaucoup l'équilibre qu'elle apporte à l'
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-kansaineko.png" alt="KansaiNeko / 西薫子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-al">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>AruNeko / Sakai Aruko — 酒井アル子</h3>
 
 <p>
 Son vrai nom est <strong>酒井アル子 (Sakai Aruko)</strong>.
-AruNeko a 24 ans et est étudiante à l'université,  
-  avec deux années de retard dans son cursus d'après ce que j'ai cru comprendre.
+AruNeko a 24 ans et est étudiante à l'université, avec deux années de retard
+dans son cursus.
 </p>
 
 <p>
 Son apparence peut facilement tromper au premier regard puisqu'elle semble
-beaucoup plus jeune, mais elle est bien adulte.  
-  C'est également une « bokukko », avec une personnalité assez particulière.
+beaucoup plus jeune, mais elle est bien adulte. C'est également une
+« bokukko », avec une personnalité assez particulière.
 </p>
 
 <p>
@@ -378,68 +377,68 @@ les plus reconnaissables du personnage.
 
 <p>
 C'est probablement l'un des personnages qui illustre le mieux cette manière
-qu'a *YaniNeko* de prendre une habitude ou un travers et d'en faire une caractéristique à part entière.  
-  
+qu'a *YaniNeko* de prendre une habitude ou un travers et d'en faire une
+caractéristique à part entière.  
 Et quoi dire, une forme de perdition féerique ... une forme de naïveté mais qui n'en ai pas,  
 bref un personnage qui a quelques épisodes en tout cas dans l'animé d'une rare beauté. 
 </p>
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-aruneko.png" alt="AruNeko / 酒井アル子">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-tatsuro">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>Ochinpo Tatsuro / Saori Tatsuno — おちんぽ達郎 / 辰野沙織</h3>
 
 <p>
 Son vrai nom est <strong>辰野沙織 (Tatsuno Saori)</strong>.
-C'est une mangaka professionnelle de 32 ans qui vit dans le même immeuble que YaniNeko.
+C'est une mangaka professionnelle de 32 ans qui vit dans le même immeuble
+que YaniNeko.
 </p>
 
 <p>
-Elle est l'un des rares personnages humains de cette galerie,  
-  contrairement aux nombreux personnages-félins qui composent l'univers de l'œuvre.
+Elle est l'un des rares personnages humains de cette galerie, contrairement
+aux nombreux personnages-félins qui composent l'univers de l'œuvre.
 </p>
 
 <p>
-Elle est également une grosse fumeuse,  
-  ce qui crée forcément un autre point commun avec notre personnage principal.
-Son nom « Ochinpo Tatsuro » est son nom de plume,  
-  alors que son véritable nom est Saori Tatsuno.
+Elle est également une grosse fumeuse, ce qui crée forcément un autre
+point commun avec notre personnage principal.
+Son nom « Ochinpo Tatsuro » est son nom de plume, alors que son véritable
+nom est Saori Tatsuno.
 </p>
 
 <p>
 Son statut de mangaka apporte aussi un petit écho intéressant à l'œuvre
 elle-même, puisqu'elle vit au milieu de personnages dont le quotidien
-pourrait presque fournir sa propre matière à raconter  
-  (comme un parallèle au manga en soit et à la vie d'artiste/artisan aussi).
+pourrait presque fournir sa propre matière à raconter (comme un parallèle au manga en soit et à la vie d'artiste/artisan aussi).
 </p>
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-tatsuro.png" alt="Ochinpo Tatsuro / 辰野沙織">
 </div>
 
 </article>
 
-<article class="yanineko-character-sheet sheet-ooya">
+<article class="article-character-sheet">
 
-<div class="yanineko-character-info">
+<div class="article-character-info">
 
 <h3>Ōtani Ōya, le propriétaire — 大谷おう也</h3>
 
 <p>
 Son vrai nom est <strong>大谷おう也 (Ōtani Ōya)</strong>.
-Il a 45 ans et est humain.  
-  C'est le propriétaire de l'immeuble où vivent YaniNeko et plusieurs des autres personnages.
+Il a 45 ans et est humain. C'est le propriétaire de l'immeuble où vivent
+YaniNeko et plusieurs des autres personnages.
 </p>
 
 <p>
@@ -450,15 +449,16 @@ tout en gardant en sang-froid absolu.
 </p>
 
 <p>
-Il joue donc un rôle assez différent des autres personnages :  
-  là où la plupart sont des femmes-bêtes avec leurs propres travers et habitudes,  
-  lui apporte un regard plus humain et une forme de stabilité dans l'immeuble.
+Il joue donc un rôle assez différent des autres personnages : là où la plupart
+sont des femmes-bêtes avec leurs propres travers et habitudes, lui apporte
+un regard plus humain et une forme de stabilité dans l'immeuble.
 </p>
 
 <p>
-Ceci dit, il possède lui aussi ses propres défauts et possède une part plus mystérieuse voir glauque aussi,  
-que je préfère laisser à ceux qui souhaitent découvrir l'œuvre,  
-ne connaissant pas entièrement l'oeuvre ni sa direction, l'ambiguité qu'il présente reste de mise.
+Ceci dit, il possède lui aussi ses propres défauts et une part plus mystérieuse
+du personnage voir très glauque aussi,  
+que je préfère laisser à ceux qui souhaitent découvrir l'œuvre découvrir,  
+ne connaissant pas entièrement l'oeuvre l'ambiguité présente est de mise.
 </p>
 
 <p>
@@ -468,7 +468,7 @@ de le désigner dans le récit, mais son nom complet est bien <strong>大谷お�
 
 </div>
 
-<div class="yanineko-character-full">
+<div class="article-character-full">
 <img src="/images/Yanineko/media/yanineko-character-ooya.png" alt="Le propriétaire / 大谷おう也">
 </div>
 
@@ -507,7 +507,6 @@ C'est plutôt ce qu'elle permet de faire apparaître autour.
 Cela semble répétitif de le rappeler mais :  
 Les habitudes. Les discussions. Les comportements sociaux.  
 Les petits travers des personnages aussi.
-
 Cette façon qu'ont les gens de se construire autour de choses parfois complètement banales en somme.
 
 Je ne veux évidemment pas présenter le tabagisme comme quelque chose à promouvoir.  
@@ -569,9 +568,9 @@ L'anime existe d'ailleurs en deux versions :
 la version diffusée à la télévision, et une version dite « 邪竜解放版 »,  
 proposée sur AT-X et certaines plateformes de streaming, avec un contenu adapté à ce mode de diffusion.
 
-邪竜解放版 reste difficile à traduire, même en ayant la traduction 😄  
+邪竜解放版 reste difficile à traduire, même en ayant la traduction 😄
 ( « version de libération du dragon maléfique » bon courage pour la signification ahah)  
-ce que je comprends c'est que c'est une version qui respecte davantage les intentions de mise en scène de l'œuvre.
+ce que je comprend c'est que c'est une version qui respecte davantage les intentions de mise en scène de l'œuvre.
 
 ---------------------------------
 
@@ -720,7 +719,7 @@ Et récemment, *Dorohedoro* m'a complètement accroché,
 alors que je pourrais moi-même me demander comment cette chose aussi bizarre a réussi à se retrouver dans mon top.
 
 Je pense que c'est probablement ça que j'aime finalement :  
-pas forcément un genre précis, pas forcément l'originalité à tout prix,  
+pas forcément un genre précis, Pas forcément l'originalité à tout prix,  
 mais une œuvre qui possède quelque chose de suffisamment personnel pour rester quelque part.
 
 Plutôt ce petit quelque chose qui fait qu'une œuvre possède son propre trait,  
@@ -881,37 +880,13 @@ C'est notamment cette ressource qui m'a permis de réaliser une version françai
 C'est cette chanson qui m'a finalement donné l'idée du montage et de cette fameuse « dernière cigarette ».  
 Le clip est publié sur la chaîne officielle de Zaho de Sagazan.
 
-### Mon fanmade & le clip officiel de l'opening ♥
+### Mon fanmade
 
 **YaniNeko × Aspiration — Dernière cigarette**
 [Voir mon fanmade sur YouTube](https://youtu.be/ebIEzs9QjVc?utm_source=chatgpt.com)
 
 C'est évidemment la partie la plus personnelle de cette histoire :  
 l'œuvre m'a donné envie de tirer un fil, puis d'aller voir jusqu'où ce fil pouvait mener.
-
-**忘れらんねえよ「なんもねえ」Music Video**
-[Voir l'opening](https://youtu.be/aRiVUVNUhIs)
-
-Le clip du groupe faisant l'opening de l'animé. 忘れらんねえよ — なんもねえ
-
-忘れらんねえよ (Wasureranneyo) est le nom du groupe. Littéralement, on peut le comprendre comme :  
-« Je peux pas t’oublier » ou plus naturellement : « J’arrive pas à t’oublier » / « Je ne peux pas oublier »
-
-Le truc intéressant, c’est que らんねえ est une forme très familière / relâchée de られない (« ne pas pouvoir »).  
-Le nom a donc volontairement un côté très oral, brut, presque « j'arrive pas à l'oublier, bordel ». 😄
-
-Et なんもねえ (nanmo nee) est le titre. 何もない → なんもねえ  
-何もない (nanimo nai) = « il n’y a rien », « je n’ai rien »  
-なんもねえ (nanmo nee) = forme beaucoup plus familière / rude : « y a rien » / « j’ai rien » / « rien du tout »
-
-Donc le titre pourrait se rendre selon le ton par : « J’ai rien » « Y a rien » « Rien du tout »  
-Et connaissant le morceau et son contexte, « J’ai rien » me paraît finalement le plus intéressant :  
-ça garde le côté personnel et un peu paumé du japonais.
-
-Petit détail amusant : 忘れらんねえよ n'est pas juste un nom japonais « poétique ».  
-Le groupe l'emploie avec ce registre très parlé et très direct.  
-Le chanteur a d'ailleurs expliqué que le nom était lié à une période de frustration  
-et au sentiment de ne pas réussir à laisser certaines choses derrière lui.
 
 ---
 
@@ -920,8 +895,7 @@ et au sentiment de ne pas réussir à laisser certaines choses derrière lui.
 Les informations concernant l'adaptation, les personnages,  
 l'équipe de production et les déclarations de Nyan Nyan Factory proviennent principalement du site officiel de l'anime et des pages officielles de Kodansha.
 
-J'ai volontairement privilégié ces sources plutôt que les nombreuses fiches secondaires  
-qui reprennent parfois les mêmes informations sans toujours permettre de retrouver leur origine.
+J'ai volontairement privilégié ces sources plutôt que les nombreuses fiches secondaires qui reprennent parfois les mêmes informations sans toujours permettre de retrouver leur origine.
 
 Pour les éléments musicaux, la référence renvoie directement vers la publication officielle de *Aspiration* par Zaho de Sagazan.
 
