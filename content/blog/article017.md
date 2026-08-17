@@ -6,7 +6,7 @@ order: 17
 coverImage: "/images/bg.jpg"
 ---
 <div class="article-intro">
-  <p><em>Une histoire dans la Perse médiévale, un empire qui s'étend, des personnages qui ne sont pas forcément là où on les attend...</em></p>
+  <p><em>Une histoire dans la Perse médiévale, un empire qui s'étend, <br>des personnages qui ne sont pas forcément là où on les attend...</em></p>
 
   <!-- À remplacer par un visuel Jaadugar lorsque les images seront ajoutées au dossier du blog. -->
 
@@ -17,21 +17,22 @@ coverImage: "/images/bg.jpg"
     />
   </div>
 
-  <p><em>Et derrière tout ça, une œuvre qui arrive à donner une impression de conte alors qu'elle raconte une histoire loin d'être légère.</em></p>
+  <p><em>Une impression de conte alors qu'elle raconte une histoire loin d'être légère.</em></p>
 
 </div>
 
-Il y a des œuvres que l'on regarde pour leur histoire, d'autres pour leur univers, et parfois les deux se mélangent suffisamment pour donner envie d'aller voir ce qu'il y a derrière.
-
+Il y a des œuvres que l'on regarde pour leur histoire et d'autres pour leur univers,  
+et parfois les deux se mélangent suffisamment pour donner envie d'aller voir ce qu'il y a derrière.  
 C'est un peu ce que je ressens avec Jaadugar.
 
-Le manga de Tomato Soup, adapté en anime par Science SARU, nous emmène au début du XIIIe siècle, dans la ville de Tus, dans l'est de l'Iran. On y suit Sitara, une jeune fille recueillie par une famille de lettrés, avant que l'expansion de l'Empire mongol ne bouleverse complètement sa vie.
+Le manga de Tomato Soup, adapté en anime par Science SARU, nous emmène au début du XIIIe siècle, dans la ville de Tus, dans l'est de l'Iran.  
+On y suit Sitara, une jeune fille recueillie par une famille de lettrés, avant que l'expansion de l'Empire mongol ne bouleverse complètement sa vie.
 
-Sur le papier, il y aurait largement de quoi faire un énorme dossier historique.
+Sur le papier, il y aurait largement de quoi faire un énorme dossier historique mais ce n'est pas vraiment le but ici.
 
-Mais ce n'est pas vraiment le but ici.
-
-J'avais surtout envie de parler de cette œuvre, de ce qu'elle raconte et de cette drôle d'impression qu'elle laisse : celle d'un monde immense, traversé par les guerres, les ambitions et les changements de pouvoir, mais raconté avec un dessin presque doux, parfois même proche du conte.
+J'avais surtout envie de parler de cette œuvre, de ce qu'elle raconte et de cette drôle d'impression qu'elle laisse :  
+celle d'un monde immense, traversé par les guerres, les ambitions et les changements de pouvoir,  
+mais raconté avec un dessin presque doux et proche du conte.
 
 ---
 
@@ -39,9 +40,14 @@ J'avais surtout envie de parler de cette œuvre, de ce qu'elle raconte et de cet
 
 Jaadugar commence en 1213, à Tus, dans l'est de l'Iran actuel.
 
-Sitara a perdu sa mère et se retrouve loin de son foyer. Elle est recueillie par Fatima, une femme issue d'une famille de lettrés. Au début, Sitara n'a pas particulièrement envie d'étudier. C'est finalement Muhammad, le fils de Fatima, qui lui fait comprendre que le savoir peut devenir une forme de liberté : comprendre davantage le monde permet aussi de mieux savoir quoi faire lorsqu'il devient difficile.
+Sitara a perdu sa mère et se retrouve loin de son foyer. Elle est recueillie par Fatima, une femme issue d'une famille de lettrés.  
+Au début, Sitara n'a pas particulièrement envie d'étudier.  
+C'est finalement Muhammad, le fils de Fatima, qui lui fait comprendre que le savoir peut devenir une forme de liberté :  
+comprendre davantage le monde permet aussi de mieux savoir quoi faire lorsqu'il devient difficile.
 
-Et c'est probablement l'une des premières choses que j'aime dans le récit : l'intelligence de Sitara n'est pas simplement présentée comme une qualité sympathique du personnage. Elle devient progressivement un outil de survie.
+Et c'est probablement l'une des premières choses que j'aime dans le récit :  
+l'intelligence de Sitara n'est pas simplement présentée comme une qualité sympathique du personnage.  
+Elle devient progressivement un outil de survie.
 
 Puis l'Histoire, avec un grand H, finit par entrer dans sa vie.
 
@@ -64,17 +70,21 @@ Et surtout, de comprendre ceux qui sont désormais autour d'elle.
 
 ## Quand les frontières modernes commencent à brouiller notre regard
 
-Il est assez facile, aujourd'hui, de regarder une carte de l'Asie et de penser en pays : Iran, Mongolie, Chine, etc.
+Il est assez facile aujourd'hui, de regarder une carte de l'Asie et de penser en pays : Iran, Mongolie, Chine, etc.
 
 Le monde de Jaadugar ne fonctionne évidemment pas comme cela.
 
-L'histoire se déroule dans un espace où les populations, les langues, les savoirs et les pouvoirs circulent sur des distances qui dépassent largement les frontières auxquelles nous sommes habitués.
+L'histoire se déroule dans un espace où les populations, les langues, les savoirs et les pouvoirs circulent sur des distances  
+qui dépassent largement les frontières auxquelles nous sommes habitués.
 
-Les Ouïghours sont explicitement mentionnés dans l'anime. C'est assez inattendu quand on vient avec une vision forcément influencée par les frontières et les États actuels. Cela rappelle aussi que ces frontières modernes n'ont pas grand-chose à voir avec la manière dont les populations et les pouvoirs circulaient dans l'Asie médiévale.
+Les Ouïghours sont explicitement mentionnés dans l'anime.  
+C'est assez inattendu quand on vient avec une vision forcément influencée par les frontières et les États actuels.  
+Cela rappelle aussi que ces frontières modernes n'ont pas grand-chose à voir avec la manière dont les populations et les pouvoirs circulaient dans l'Asie médiévale.
 
 L'un des personnages présentés dans l'anime, Chinqai, est d'ailleurs explicitement décrit comme Ouïghour et ancien marchand au service de l'Empire mongol.
 
-Ce détail n'a pas besoin de devenir un cours d'histoire à lui tout seul, mais il participe à une chose que Jaadugar fait plutôt bien : montrer que cet empire rassemble des gens et des trajectoires très différentes.
+Ce détail n'a pas besoin de devenir un cours d'histoire à lui tout seul,  
+mais il participe à une chose que Jaadugar fait plutôt bien : montrer que cet empire rassemble des gens et des trajectoires très différentes.
 
 <div class="image-right">
   <img
@@ -93,27 +103,22 @@ Jaadugar ne présente pas les différents peuples et les différents personnages
 
 On les rencontre à travers l'histoire de Sitara, au fil de ses déplacements et de ses rencontres.
 
-Et ces rencontres permettent progressivement de voir apparaître les intérêts de chacun : leurs ambitions, leurs alliances, leurs conflits, mais aussi parfois simplement leur destin personnel.
+Et ces rencontres permettent progressivement de voir apparaître les intérêts de chacun :  
+leurs ambitions, leurs alliances, leurs conflits, mais aussi parfois simplement leur destin personnel.
 
 C'est là que l'histoire devient plus intéressante qu'une simple reconstitution historique.
 
 Les grands bouleversements sont bien là, mais ils passent toujours par des individus.
 
-Un personnage veut survivre.
+Un personnage veut survivre, un autre veut monter dans la hiérarchie.
 
-Un autre veut monter dans la hiérarchie.
-
-Certains cherchent à protéger les leurs.
-
-D'autres veulent le pouvoir.
+Certains cherchent à protéger les leurs, d'autres veulent le pouvoir.
 
 Et parfois, les intérêts de deux personnes qui n'avaient aucune raison de se rencontrer finissent par se rejoindre.
 
-C'est notamment ce qui rend la relation entre Sitara et Töregene aussi importante dans le récit. Toutes les deux ont leurs propres raisons de détester l'ordre qui les entoure, leurs propres blessures, et pourtant leurs chemins vont finir par se croiser.
+C'est notamment ce qui rend la relation entre Sitara et Töregene aussi importante dans le récit. Toutes les deux ont leurs propres raisons de détester l'ordre qui les entoure, leurs propres blessures, et pourtant leurs chemins vont finir par se croiser. Ce n'est pas forcément spectaculaire en permanence.
 
-Ce n'est pas forcément spectaculaire en permanence.
-
-Mais c'est justement ce que j'apprécie : l'Histoire avance pendant que les personnages essaient simplement de trouver leur place dans ce qui leur arrive.
+L'Histoire avance pendant que les personnages essaient simplement de trouver leur place dans ce qui leur arrive.
 
 ---
 
@@ -121,10 +126,9 @@ Mais c'est justement ce que j'apprécie : l'Histoire avance pendant que les pers
   <summary><strong>Les personnages — quelques repères pour les curieux / curieuses ~\*</strong></summary>
 
   <p>
-    Je ne vais évidemment pas refaire ici la fiche complète de l'anime ou du manga,
-    le site officiel le fait beaucoup mieux que moi. Mais comme les personnages sont
-    réellement au cœur du récit, je trouvais intéressant de garder quelques repères
-    et de laisser chacun aller voir un peu plus loin s'il en a envie.
+   Le site officiel fait beaucoup mieux que moi cette présentation.  
+    Mais comme les personnages sont réellement au cœur du récit,  
+    je trouvais intéressant de garder quelques repères et de laisser chacun aller voir un peu plus loin s'il en a envie.
   </p>
 
   <div class="article-characters">
@@ -314,7 +318,8 @@ L'œuvre parle de guerre, de conquête, d'esclavage, de vengeance, de politique 
 
 Et pourtant, les personnages ont souvent quelque chose de très doux dans leur représentation.
 
-Le trait est simplifié, les silhouettes sont lisibles, les expressions peuvent être très franches et certains visages ont même quelque chose d'assez enfantin.
+Le trait est simplifié, les silhouettes sont lisibles,  
+les expressions peuvent être très franches et certains visages ont même quelque chose d'assez enfantin.
 
 Ce n'est pas enfantin dans le sens où l'histoire le serait.
 
@@ -322,17 +327,14 @@ C'est plutôt une stylisation qui rappelle certaines illustrations ou animations
 
 C'est une sensation assez particulière parce qu'elle contraste énormément avec ce que l'on voit réellement dans l'histoire.
 
-On peut avoir un personnage très simplement dessiné, presque comme s'il sortait d'une vieille illustration, et le voir quelques instants plus tard évoluer dans une situation politique autrement plus lourde.
+On peut avoir un personnage très simplement dessiné, presque comme s'il sortait d'une vieille illustration,  
+et le voir quelques instants plus tard évoluer dans une situation politique autrement plus lourde.
 
-Je trouve que ce contraste fonctionne étonnamment bien.
-
-Il donne à Jaadugar quelque chose de presque intemporel.
+Je trouve que ce contraste fonctionne étonnamment bien, il donne à Jaadugar quelque chose de presque intemporel.
 
 Et cela me rappelle aussi cette manière qu'ont certains contes de raconter des choses très dures avec des formes finalement très simples.
 
-Pas forcément pour les rendre moins graves.
-
-Plutôt pour permettre au récit d'être raconté.
+Pas forcément pour les rendre moins graves mais plutôt pour permettre au récit d'être raconté.
 
 <div class="gallery-item">
   <img
@@ -347,9 +349,11 @@ Plutôt pour permettre au récit d'être raconté.
 
 L'autre chose qui ressort énormément, ce sont les décors et les costumes.
 
-Il y a beaucoup de couleurs, d'étoffes, de bijoux, de coiffures, d'objets et de petits éléments qui donnent l'impression que le monde a réellement été pensé au-delà des seuls personnages.
+Il y a beaucoup de couleurs, d'étoffes, de bijoux, de coiffures,  
+d'objets et de petits éléments qui donnent l'impression que le monde a réellement été pensé au-delà des seuls personnages.
 
-Visuellement, cela crée une impression de monde très oriental, mais il vaut mieux être précis : l'univers de Jaadugar est particulièrement lié au monde persan et à l'espace mongol, avec les circulations culturelles propres à cet immense ensemble eurasiatique.
+Visuellement, cela crée une impression de monde très oriental, mais il vaut mieux être précis :  
+l'univers de Jaadugar est particulièrement lié au monde persan et à l'espace mongol, avec les circulations culturelles propres à cet immense ensemble eurasiatique.
 
 Ce que j'aime surtout, c'est que les costumes ne donnent pas simplement une information du type « nous sommes dans le passé ».
 
@@ -357,7 +361,8 @@ Ils contribuent à distinguer les personnes, leur statut, leur environnement et 
 
 Les décors jouent le même rôle.
 
-On sent le passage d'un univers persan à celui de l'Empire mongol, et cette transition participe beaucoup au sentiment de voyage que donne la série.
+On sent le passage d'un univers persan à celui de l'Empire mongol  
+et cette transition participe beaucoup au sentiment de voyage que donne la série.
 
 Ce n'est pas seulement Sitara qui change de monde.
 
@@ -375,15 +380,18 @@ Le monde autour d'elle change aussi.**
 
 ## Manga et anime : deux façons de raconter la même histoire
 
-Le manga de Tomato Soup possède déjà cette identité visuelle très particulière, avec ses personnages déformés et son équilibre assez surprenant entre mignonnerie et sujet historique sérieux.
+Le manga de Tomato Soup possède déjà cette identité visuelle très particulière,  
+avec ses personnages un peu " chibi " et son équilibre assez surprenant entre mignonnerie et sujet historique sérieux.
 
 L'anime ajoute forcément quelque chose : la couleur, le mouvement, les décors animés et le travail du son changent la manière dont certaines scènes sont ressenties.
 
-La production est assurée par Science SARU, avec Naoko Yamada comme réalisatrice générale, Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
+La production est assurée par Science SARU, avec Naoko Yamada comme réalisatrice générale,  
+Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
 
 Et ce choix de studio a du sens quand on voit la volonté de conserver l'aspect très particulier du manga tout en lui donnant une vraie vie en mouvement.
 
-L'équipe est même allée effectuer des repérages en Mongolie, notamment dans des musées et auprès de familles vivant dans des gers, afin de mieux comprendre l'environnement dans lequel les personnages allaient évoluer.
+L'équipe est même allée effectuer des repérages en Mongolie,  
+notamment dans des musées et auprès de familles vivant dans des gers, afin de mieux comprendre l'environnement dans lequel les personnages allaient évoluer.
 
 Je trouve que cela se ressent surtout dans les petits détails.
 
@@ -399,7 +407,8 @@ On parle d'empires, de conquêtes, de successions et de pouvoir.
 
 Mais ce que l'on suit réellement, ce sont des personnes qui essaient de comprendre ce qui leur arrive et de trouver une manière d'avancer.
 
-Et à cela s'ajoute cette esthétique presque douce, colorée, parfois proche du conte, qui pourrait sembler contradictoire avec ce que l'œuvre raconte.
+Et à cela s'ajoute cette esthétique presque douce, colorée, parfois proche du conte,  
+qui pourrait sembler contradictoire avec ce que l'œuvre raconte.
 
 C'est justement ce contraste qui fonctionne.
 
@@ -407,7 +416,8 @@ Une histoire dure racontée avec un dessin doux.
 
 Des personnages très stylisés placés dans un monde historique extrêmement vaste.
 
-Des frontières qui nous semblent évidentes aujourd'hui et qui, dans cette époque, ne veulent plus dire grand-chose lorsqu'on suit les déplacements des hommes, des connaissances et du pouvoir.
+Des frontières qui nous semblent évidentes aujourd'hui et qui dans cette époque,  
+ne veulent plus dire grand-chose lorsqu'on suit les déplacements des hommes, des connaissances et du pouvoir.
 
 Jaadugar n'est peut-être pas l'œuvre la plus spectaculaire qui soit à chaque instant.
 
@@ -441,14 +451,16 @@ C'est également une bonne référence pour retrouver le déroulement officiel d
 **Tomato Soup — *A Witch's Life in Mongol***  
 [Le manga sur Souffle](https://souffle.life/)
 
-Le manga original est signé **Tomato Soup** et est publié par Akita Shoten dans *Souffle*. Le site de Souffle propose notamment les chapitres et différents contenus consacrés à l'œuvre.
+Le manga original est signé **Tomato Soup** et est publié par Akita Shoten dans *Souffle*.  
+Le site de Souffle propose notamment les chapitres et différents contenus consacrés à l'œuvre.
 
 ### À propos de l'adaptation
 
 **Tomato Soup × Abel Góngora**  
 [Entretien spécial sur l'adaptation animée](https://souffle.life/topics/souffle-special/tenmaku-jaadugar-tomato-soup-abel-gongora-taidan/)
 
-Un entretien particulièrement intéressant autour des différences entre le manga et l'adaptation animée, ainsi que du travail réalisé pour donner vie à l'œuvre avec Science SARU.
+Un entretien particulièrement intéressant autour des différences entre le manga et l'adaptation animée,  
+ainsi que du travail réalisé pour donner vie à l'œuvre avec Science SARU.
 
 **Tomato Soup × Naoko Yamada**  
 [Entretien spécial avec Naoko Yamada](https://souffle.life/topics/souffle-special/tenmaku-jaadugar-tomato-soup-yamada-naoko-taidan/)
@@ -460,7 +472,8 @@ Un autre échange intéressant consacré à la création de l'adaptation et au r
 **Une discussion autour de la création de *Jaadugar***  
 [Tomato Soup, chercheurs et équipe éditoriale — Souffle](https://souffle.life/column/motto-tenmaku-no-ja-dougal/20250325-3/)
 
-Cette ressource est particulièrement intéressante pour ceux qui souhaitent aller au-delà de l'anime et découvrir quelques éléments sur les recherches historiques, la création du manga et les réflexions qui entourent son univers.
+Cette ressource est particulièrement intéressante pour ceux qui souhaitent aller au-delà de l'anime  
+et découvrir quelques éléments sur les recherches historiques, la création du manga et les réflexions qui entourent son univers.
 
 ---
 
@@ -468,8 +481,8 @@ Cette ressource est particulièrement intéressante pour ceux qui souhaitent all
   <em>
     Article écrit autour du manga et de l'adaptation animée de
     <strong>Jaadugar</strong>. Les éléments historiques sont volontairement présentés
-    comme des repères et non comme un dossier universitaire ; lorsque l'article parle
-    d'esthétique ou de ressenti, il s'agit d'une lecture personnelle de l'œuvre.
+    comme des repères, lorsque l'article parle
+    d'esthétique ou de ressenti, s'agissant de ma lecture personnelle de l'œuvre.
     Les visuels issus du site officiel sont utilisés uniquement à titre illustratif
     et éditorial. Ils restent la propriété de leurs ayants droit et ne constituent
     pas des créations personnelles. Les ressources officielles sont indiquées dans
