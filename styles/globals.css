@@ -1453,226 +1453,6 @@ nav a:hover {
 }
 
 /* =========================================================
-   PERSONNAGES — YANINEKO
-   ========================================================= */
-
-.yanineko-characters {
-    margin: 2rem 0;
-}
-
-.yanineko-portraits {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75rem;
-
-    margin: 1.5rem auto 2rem;
-}
-
-.yanineko-portrait {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 76px;
-    height: 76px;
-    padding: 0.25rem;
-
-    background: var(--glass-bg);
-    border: 1px solid var(--border-soft);
-    border-radius: 16px;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.25s ease,
-        border-color 0.25s ease,
-        box-shadow 0.25s ease,
-        background 0.25s ease;
-}
-
-.yanineko-portrait:hover {
-    transform: translateY(-4px);
-
-    border-color: var(--link);
-
-    box-shadow:
-        0 0 12px rgba(0, 255, 255, 0.18);
-}
-
-.yanineko-portrait.active {
-    border-color: var(--link);
-
-    background: var(--quote-bg);
-
-    box-shadow:
-        0 0 15px rgba(0, 255, 255, 0.25);
-}
-
-.yanineko-portrait img {
-    width: 100%;
-    height: 100%;
-
-    margin: 0 !important;
-    max-width: none !important;
-    max-height: none !important;
-
-    object-fit: contain;
-
-    border-radius: 12px;
-
-    box-shadow: none !important;
-
-    cursor: pointer;
-}
-
-
-/* ---------------------------------------------------------
-   FICHE DU PERSONNAGE
-   --------------------------------------------------------- */
-
-.yanineko-character-sheet {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
-    gap: 2rem;
-
-    align-items: center;
-
-    margin: 1.5rem 0 2.5rem;
-    padding: clamp(1.25rem, 3vw, 2rem);
-
-    background: var(--glass-bg);
-
-    border: 1px solid var(--glass-border);
-    border-radius: 1rem;
-
-    box-shadow:
-        0 0 18px rgba(0, 255, 255, 0.08);
-
-    animation: yaninekoSheetAppear 0.3s ease;
-}
-
-.yanineko-character-info {
-    min-width: 0;
-}
-
-.yanineko-character-info h3 {
-    margin-top: 0;
-    font-size: clamp(0.95rem, 1.7vw, 1.5rem);
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  white-space: nowrap;
-  letter-spacing: -0.02em;
-
-    color: var(--link);
-}
-
-.yanineko-character-info p {
-    margin-top: 0.6rem;
-}
-
-.yanineko-character-full {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 260px;
-}
-
-.yanineko-character-full img {
-    width: 100%;
-    max-width: 260px;
-    max-height: 430px;
- transition:
-    filter 0.25s ease,
-    transform 0.25s ease;
-    height: auto;
-
-    margin: 0 !important;
-
-    object-fit: contain;
-
-    border-radius: 0 !important;
-
-    box-shadow: none !important;
-
-    cursor: default;
-}
-.yanineko-character-full img:hover {
-  filter:
-    drop-shadow(0 0 6px rgba(0, 234, 255, 0.45))
-    drop-shadow(0 0 16px rgba(0, 234, 255, 0.25));
-}
-
-/* ---------------------------------------------------------
-   ANIMATION D'APPARITION
-   --------------------------------------------------------- */
-
-@keyframes yaninekoSheetAppear {
-    from {
-        opacity: 0;
-        transform: translateY(-8px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-
-/* ---------------------------------------------------------
-   MOBILE
-   --------------------------------------------------------- */
-
-@media (max-width: 700px) {
-
-    .yanineko-portraits {
-        gap: 0.5rem;
-    }
-
-    .yanineko-portrait {
-        width: 62px;
-        height: 62px;
-        border-radius: 13px;
-    }
-
-    .yanineko-character-sheet {
-        grid-template-columns: 1fr;
-
-        gap: 1rem;
-
-        padding: 1rem;
-    }
-
-    .yanineko-character-full {
-        order: -1;
-
-        min-height: 220px;
-    }
-
-    .yanineko-character-full img {
-        max-width: 210px;
-        max-height: 340px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .yanineko-portrait {
-        width: 54px;
-        height: 54px;
-        padding: 0.2rem;
-    }
-
-    .yanineko-character-sheet {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-/* =========================================================
    TABLETTE
    ========================================================= */
 
@@ -2133,10 +1913,64 @@ button:focus-visible {
 
 
 /* =========================================================
-   CORRECTIFS FINAUX — ARTICLE YANINEKO
+   COMPOSANTS / CORRECTIFS FINAUX — ARTICLES
    Ces règles viennent volontairement en dernier afin de prendre
-   le dessus sur les règles générales existantes sans modifier
-   le reste du site.
+   le dessus sur les règles générales existantes tout en restant
+   réutilisables par les différents articles du blog.
+   ========================================================= */
+
+.image-center {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+    clear: both;
+}
+
+.image-center img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 560px;
+    height: auto;
+    margin: 0 auto !important;
+    object-fit: contain;
+}
+
+.image-left,
+.image-right {
+    width: min(38%, 360px);
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.image-left {
+    float: left;
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
+.image-right {
+    float: right;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.image-left img,
+.image-right img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 520px;
+    height: auto;
+    margin: 0 !important;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   COMPOSANTS D'ARTICLES — IMAGES / ACCORDÉONS / PERSONNAGES
+   Ces classes sont volontairement génériques afin de pouvoir
+   être réutilisées par tous les articles du blog.
    ========================================================= */
 
 .image-center {
@@ -2236,16 +2070,24 @@ button:focus-visible {
     margin-right: 1rem;
 }
 
-.article-details > .yanineko-characters {
+/* ---------------------------------------------------------
+   SÉLECTEUR DE PERSONNAGES
+   Structure attendue :
+   input radio → label portrait → fiches article-character-sheet
+   Les correspondances se font par ordre, pas par nom d'œuvre.
+   --------------------------------------------------------- */
+
+.article-details > .article-characters {
     padding: 0 1rem 1rem;
 }
 
-.yanineko-characters {
+.article-characters {
+    position: relative;
     margin: 2rem 0;
     clear: both;
 }
 
-.yanineko-portraits {
+.article-portraits {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -2255,7 +2097,7 @@ button:focus-visible {
     margin: 1.5rem auto 2rem;
 }
 
-.yanineko-portraits > input[type="radio"] {
+.article-portraits > input[type="radio"] {
     position: absolute !important;
     width: 1px !important;
     height: 1px !important;
@@ -2267,7 +2109,7 @@ button:focus-visible {
     border: 0 !important;
 }
 
-.yanineko-portrait {
+.article-portrait {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2277,35 +2119,44 @@ button:focus-visible {
     min-height: 102px;
     height: auto;
     padding: 0.35rem;
+
     background: var(--glass-bg);
     border: 1px solid var(--border-soft);
     border-radius: 16px;
+
     cursor: pointer;
-    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
 }
 
-.yanineko-portrait:hover {
+.article-portrait:hover {
     transform: translateY(-4px);
     border-color: var(--link);
     box-shadow: 0 0 12px rgba(0, 255, 255, 0.18);
 }
 
-.yanineko-portrait img {
+.article-portrait img {
     display: block !important;
     width: 58px !important;
     height: 58px !important;
     max-width: 58px !important;
     max-height: 58px !important;
     margin: 0 !important;
+
     object-fit: contain;
     border-radius: 10px;
     box-shadow: none !important;
     cursor: pointer;
 }
 
-.yanineko-portrait span {
+.article-portrait span {
     display: block;
     width: 100%;
+
     color: var(--text-muted);
     font-size: 0.72rem;
     line-height: 1.15;
@@ -2313,82 +2164,140 @@ button:focus-visible {
     overflow-wrap: anywhere;
 }
 
-#char-yaniko:checked ~ label[for="char-yaniko"],
-#char-imoko:checked ~ label[for="char-imoko"],
-#char-yakineko:checked ~ label[for="char-yakineko"],
-#char-hameneko:checked ~ label[for="char-hameneko"],
-#char-kansai:checked ~ label[for="char-kansai"],
-#char-al:checked ~ label[for="char-al"],
-#char-tatsuro:checked ~ label[for="char-tatsuro"],
-#char-ooya:checked ~ label[for="char-ooya"] {
+/* Le portrait actif est simplement le label voisin du radio coché.
+   Aucun ID propre à un article n'est nécessaire. */
+.article-portraits > input[type="radio"]:checked + .article-portrait {
     border-color: var(--link);
     background: var(--quote-bg);
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.25);
 }
 
-#char-yaniko:checked ~ label[for="char-yaniko"] span,
-#char-imoko:checked ~ label[for="char-imoko"] span,
-#char-yakineko:checked ~ label[for="char-yakineko"] span,
-#char-hameneko:checked ~ label[for="char-hameneko"] span,
-#char-kansai:checked ~ label[for="char-kansai"] span,
-#char-al:checked ~ label[for="char-al"] span,
-#char-tatsuro:checked ~ label[for="char-tatsuro"] span,
-#char-ooya:checked ~ label[for="char-ooya"] span {
+.article-portraits > input[type="radio"]:checked + .article-portrait span {
     color: var(--link-hover);
 }
 
-.yanineko-character-sheet {
+/* ---------------------------------------------------------
+   FICHE DU PERSONNAGE
+   Le radio n°1 affiche la fiche n°1, etc.
+   --------------------------------------------------------- */
+
+.article-character-sheet {
     display: none !important;
     width: 100%;
+
     grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
     gap: 2rem;
     align-items: center;
+
+    margin: 1.5rem 0 2.5rem;
+    padding: clamp(1.25rem, 3vw, 2rem);
+
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 1rem;
+
+    box-shadow:
+        0 0 18px rgba(0, 255, 255, 0.08);
+
+    animation: articleCharacterSheetAppear 0.3s ease;
 }
 
-.yanineko-characters:has(#char-yaniko:checked) .sheet-yaniko,
-.yanineko-characters:has(#char-imoko:checked) .sheet-imoko,
-.yanineko-characters:has(#char-yakineko:checked) .sheet-yakineko,
-.yanineko-characters:has(#char-hameneko:checked) .sheet-hameneko,
-.yanineko-characters:has(#char-kansai:checked) .sheet-kansai,
-.yanineko-characters:has(#char-al:checked) .sheet-al,
-.yanineko-characters:has(#char-tatsuro:checked) .sheet-tatsuro,
-.yanineko-characters:has(#char-ooya:checked) .sheet-ooya {
+/* Mapping générique : l'ordre des portraits correspond à l'ordre des fiches. */
+.article-portraits:has(> input:nth-of-type(1):checked)
+    ~ .article-character-sheet:nth-of-type(1),
+.article-portraits:has(> input:nth-of-type(2):checked)
+    ~ .article-character-sheet:nth-of-type(2),
+.article-portraits:has(> input:nth-of-type(3):checked)
+    ~ .article-character-sheet:nth-of-type(3),
+.article-portraits:has(> input:nth-of-type(4):checked)
+    ~ .article-character-sheet:nth-of-type(4),
+.article-portraits:has(> input:nth-of-type(5):checked)
+    ~ .article-character-sheet:nth-of-type(5),
+.article-portraits:has(> input:nth-of-type(6):checked)
+    ~ .article-character-sheet:nth-of-type(6),
+.article-portraits:has(> input:nth-of-type(7):checked)
+    ~ .article-character-sheet:nth-of-type(7),
+.article-portraits:has(> input:nth-of-type(8):checked)
+    ~ .article-character-sheet:nth-of-type(8),
+.article-portraits:has(> input:nth-of-type(9):checked)
+    ~ .article-character-sheet:nth-of-type(9),
+.article-portraits:has(> input:nth-of-type(10):checked)
+    ~ .article-character-sheet:nth-of-type(10),
+.article-portraits:has(> input:nth-of-type(11):checked)
+    ~ .article-character-sheet:nth-of-type(11),
+.article-portraits:has(> input:nth-of-type(12):checked)
+    ~ .article-character-sheet:nth-of-type(12) {
     display: grid !important;
 }
 
-.yanineko-character-info {
+.article-character-info {
     min-width: 0;
 }
 
-.yanineko-character-info h3 {
+.article-character-info h3 {
     margin-top: 0;
-   font-size: clamp(0.95rem, 1.7vw, 1.5rem);
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  white-space: nowrap;
-  letter-spacing: -0.025em;
+    font-size: clamp(0.95rem, 1.7vw, 1.5rem);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    letter-spacing: -0.02em;
     color: var(--link);
 }
 
-.yanineko-character-full {
+.article-character-info p {
+    margin-top: 0.6rem;
+}
+
+.article-character-full {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 260px;
 }
 
-.yanineko-character-full img {
+.article-character-full img {
     display: block !important;
     width: 100% !important;
     max-width: 260px !important;
     max-height: 430px !important;
     height: auto !important;
     margin: 0 !important;
+
     object-fit: contain;
+
+    /* Pensé pour les PNG détourés : pas de cadre, pas d'ombre de boîte. */
+    background: transparent !important;
     border-radius: 0 !important;
     box-shadow: none !important;
+
     cursor: default;
+
+    transition:
+        filter 0.25s ease,
+        transform 0.25s ease;
 }
+
+.article-character-full img:hover {
+    filter:
+        drop-shadow(0 0 6px rgba(0, 234, 255, 0.45))
+        drop-shadow(0 0 16px rgba(0, 234, 255, 0.25));
+}
+
+@keyframes articleCharacterSheetAppear {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ---------------------------------------------------------
+   RESPONSIVE — PERSONNAGES
+   --------------------------------------------------------- */
 
 @media (max-width: 900px) {
     .image-left,
@@ -2406,30 +2315,30 @@ button:focus-visible {
         margin: 1.5rem auto;
     }
 
-    .yanineko-portrait {
+    .article-portrait {
         width: 72px;
         min-height: 90px;
     }
 
-    .yanineko-portrait img {
+    .article-portrait img {
         width: 50px !important;
         height: 50px !important;
         max-width: 50px !important;
         max-height: 50px !important;
     }
 
-    .yanineko-character-sheet {
+    .article-character-sheet {
         grid-template-columns: 1fr;
         gap: 1rem;
         padding: 1rem;
     }
 
-    .yanineko-character-full {
+    .article-character-full {
         order: -1;
         min-height: 220px;
     }
 
-    .yanineko-character-full img {
+    .article-character-full img {
         max-width: 210px !important;
         max-height: 340px !important;
     }
@@ -2440,21 +2349,21 @@ button:focus-visible {
         padding: 0.75rem;
     }
 
-    .yanineko-portrait {
+    .article-portrait {
         width: 62px;
         min-height: 82px;
         padding: 0.25rem;
         border-radius: 13px;
     }
 
-    .yanineko-portrait img {
+    .article-portrait img {
         width: 44px !important;
         height: 44px !important;
         max-width: 44px !important;
         max-height: 44px !important;
     }
 
-    .yanineko-portrait span {
+    .article-portrait span {
         font-size: 0.66rem;
     }
 }
