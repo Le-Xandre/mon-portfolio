@@ -107,40 +107,39 @@ export default function Post({ frontmatter, contentHtml }) {
             });
         });
 
-        // ============================================================
-        // AUTRES IMAGES DU TEXTE
-        // ============================================================
+      // ============================================================
+// AUTRES IMAGES DU TEXTE
+// ============================================================
 
-        const imageListeners = [];
+const imageListeners = [];
 
-        const allImages = Array.from(
-            document.querySelectorAll(
-                '.prose img:not(.gallery img)'
-            )
-        );
+const allImages = Array.from(
+    document.querySelectorAll('.prose img')
+).filter(
+    (img) => !img.closest('.gallery, .article-characters')
+);
 
-        allImages.forEach((img) => {
-            img.style.maxWidth = '350px';
-            img.style.cursor = 'pointer';
+allImages.forEach((img) => {
+    img.style.cursor = 'pointer';
 
-            const handleImageClick = () => {
-                setSlides([
-                    {
-                        src: img.src,
-                    },
-                ]);
+    const handleImageClick = () => {
+        setSlides([
+            {
+                src: img.src,
+            },
+        ]);
 
-                setStartIndex(0);
-                setOpen(true);
-            };
+        setStartIndex(0);
+        setOpen(true);
+    };
 
-            img.addEventListener('click', handleImageClick);
+    img.addEventListener('click', handleImageClick);
 
-            imageListeners.push({
-                img,
-                handleImageClick,
-            });
-        });
+    imageListeners.push({
+        img,
+        handleImageClick,
+    });
+});
 
         // ============================================================
         // SECRET FRAGMENT — 7 CLICS
