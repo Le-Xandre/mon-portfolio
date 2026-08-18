@@ -25,8 +25,11 @@ Il y a des œuvres que l'on regarde pour leur histoire et d'autres pour leur uni
 et parfois les deux se mélangent suffisamment pour donner envie d'aller voir ce qu'il y a derrière.  
 C'est un peu ce que je ressens avec Jaadugar.
 
-Le manga de Tomato Soup, adapté en anime par Science SARU, nous emmène au début du XIIIe siècle, dans la ville de Tus, dans l'est de l'Iran.  
-On y suit Sitara, une jeune fille recueillie par une famille de lettrés, avant que l'expansion de l'Empire mongol ne bouleverse complètement sa vie.
+Le manga de Tomato Soup, adapté en anime par Science SARU,  
+nous emmène au début du XIIIe siècle, dans la ville de Tus, dans l'est de l'Iran. 
+
+On y suit Sitara, une jeune fille recueillie par une famille de lettrés,  
+avant que l'expansion de l'Empire mongol ne bouleverse complètement sa vie.
 
 Sur le papier, il y aurait largement de quoi faire un énorme dossier historique mais ce n'est pas vraiment le but ici.
 
@@ -40,7 +43,9 @@ mais raconté avec un dessin presque doux et proche du conte.
 
 Jaadugar commence en 1213, à Tus, dans l'est de l'Iran actuel.
 
-Sitara a perdu sa mère et se retrouve loin de son foyer. Elle est recueillie par Fatima, une femme issue d'une famille de lettrés.  
+Sitara a perdu sa mère et se retrouve loin de son foyer.  
+Elle est recueillie par Fatima, une femme issue d'une famille de lettrés.  
+
 Au début, Sitara n'a pas particulièrement envie d'étudier.  
 C'est finalement Muhammad, le fils de Fatima, qui lui fait comprendre que le savoir peut devenir une forme de liberté :  
 comprendre davantage le monde permet aussi de mieux savoir quoi faire lorsqu'il devient difficile.
@@ -51,7 +56,8 @@ Elle devient progressivement un outil de survie.
 
 Puis l'Histoire, avec un grand H, finit par entrer dans sa vie.
 
-L'expansion de l'Empire mongol atteint Tus. Les habitants sont capturés, la ville est ravagée et Sitara perd presque tout ce qui lui restait.
+L'expansion de l'Empire mongol atteint Tus.  
+Les habitants sont capturés, la ville est ravagée et Sitara perd presque tout ce qui lui restait.
 
 <div class="gallery-item">
   <img
@@ -74,14 +80,17 @@ Il est assez facile aujourd'hui, de regarder une carte de l'Asie et de penser en
 
 Le monde de Jaadugar ne fonctionne évidemment pas comme cela.
 
-L'histoire se déroule dans un espace où les populations, les langues, les savoirs et les pouvoirs circulent sur des distances  
-qui dépassent largement les frontières auxquelles nous sommes habitués.
+L'histoire se déroule dans un espace où les populations, les langues,  
+les savoirs et les pouvoirs circulent sur des distances qui dépassent largement les frontières auxquelles nous sommes habitués.
 
 Les Ouïghours sont explicitement mentionnés dans l'anime.  
-C'est assez inattendu quand on vient avec une vision forcément influencée par les frontières et les États actuels.  
-Cela rappelle aussi que ces frontières modernes n'ont pas grand-chose à voir avec la manière dont les populations et les pouvoirs circulaient dans l'Asie médiévale.
+C'est assez inattendu quand on vient avec une vision forcément influencée par les frontières et les États actuels. 
 
-L'un des personnages présentés dans l'anime, Chinqai, est d'ailleurs explicitement décrit comme Ouïghour et ancien marchand au service de l'Empire mongol.
+Cela rappelle aussi que ces frontières modernes n'ont pas grand-chose à voir  
+avec la manière dont les populations et les pouvoirs circulaient dans l'Asie médiévale.
+
+L'un des personnages présentés dans l'anime, Chinqai,  
+est d'ailleurs explicitement décrit comme Ouïghour et ancien marchand au service de l'Empire mongol.
 
 Ce détail n'a pas besoin de devenir un cours d'histoire à lui tout seul,  
 mais il participe à une chose que Jaadugar fait plutôt bien : montrer que cet empire rassemble des gens et des trajectoires très différentes.
@@ -116,8 +125,11 @@ Certains cherchent à protéger les leurs, d'autres veulent le pouvoir.
 
 Et parfois, les intérêts de deux personnes qui n'avaient aucune raison de se rencontrer finissent par se rejoindre.
 
-C'est notamment ce qui rend la relation entre Sitara et Töregene aussi importante dans le récit. Toutes les deux ont leurs propres raisons de détester l'ordre qui les entoure, leurs propres blessures, et pourtant leurs chemins vont finir par se croiser. Ce n'est pas forcément spectaculaire en permanence.
+C'est notamment ce qui rend la relation entre Sitara et Töregene aussi importante dans le récit.  
+Toutes les deux ont leurs propres raisons de détester l'ordre qui les entoure, leurs propres blessures,  
+et pourtant leurs chemins vont finir par se croiser. 
 
+Ce n'est pas forcément spectaculaire en permanence.  
 L'Histoire avance pendant que les personnages essaient simplement de trouver leur place dans ce qui leur arrive.
 
 ---
@@ -315,25 +327,24 @@ parce que le savoir devient peu à peu ce qu'elle peut réellement garder avec e
 C'est probablement ce qui m'a le plus marqué visuellement dans Jaadugar.
 
 L'œuvre parle de guerre, de conquête, d'esclavage, de vengeance, de politique et de rapports de pouvoir.
-
 Et pourtant, les personnages ont souvent quelque chose de très doux dans leur représentation.
 
 Le trait est simplifié, les silhouettes sont lisibles,  
 les expressions peuvent être très franches et certains visages ont même quelque chose d'assez enfantin.
 
 Ce n'est pas enfantin dans le sens où l'histoire le serait.
-
 C'est plutôt une stylisation qui rappelle certaines illustrations ou animations de conte et de légende.
 
-C'est une sensation assez particulière parce qu'elle contraste énormément avec ce que l'on voit réellement dans l'histoire.
+C'est une sensation assez particulière,  
+parce qu'elle contraste énormément avec ce que l'on voit réellement dans l'histoire.
 
 On peut avoir un personnage très simplement dessiné, presque comme s'il sortait d'une vieille illustration,  
 et le voir quelques instants plus tard évoluer dans une situation politique autrement plus lourde.
 
 Je trouve que ce contraste fonctionne étonnamment bien, il donne à Jaadugar quelque chose de presque intemporel.
 
-Et cela me rappelle aussi cette manière qu'ont certains contes de raconter des choses très dures avec des formes finalement très simples.
-
+Et cela me rappelle aussi cette manière qu'ont certains contes de raconter des choses très dures  
+avec des formes finalement très simples.  
 Pas forcément pour les rendre moins graves mais plutôt pour permettre au récit d'être raconté.
 
 <div class="gallery-item">
@@ -353,11 +364,13 @@ Il y a beaucoup de couleurs, d'étoffes, de bijoux, de coiffures,
 d'objets et de petits éléments qui donnent l'impression que le monde a réellement été pensé au-delà des seuls personnages.
 
 Visuellement, cela crée une impression de monde très oriental, mais il vaut mieux être précis :  
-l'univers de Jaadugar est particulièrement lié au monde persan et à l'espace mongol, avec les circulations culturelles propres à cet immense ensemble eurasiatique.
+l'univers de Jaadugar est particulièrement lié au monde persan et à l'espace mongol,  
+avec les circulations culturelles propres à cet immense ensemble eurasiatique.
 
-Ce que j'aime surtout, c'est que les costumes ne donnent pas simplement une information du type « nous sommes dans le passé ».
-
-Ils contribuent à distinguer les personnes, leur statut, leur environnement et parfois même la manière dont elles se présentent aux autres.
+Ce que j'aime surtout,  
+c'est que les costumes ne donnent pas simplement une information du type 
+« nous sommes dans une vision du passé ». Ils contribuent à distinguer les personnes, leur statut, 
+leur environnement et parfois même la manière dont elles se présentent aux autres.
 
 Les décors jouent le même rôle.
 
@@ -380,49 +393,52 @@ Le monde autour d'elle change aussi.**
 
 ## Manga et anime : deux façons de raconter la même histoire
 
-Le manga de Tomato Soup possède déjà cette identité visuelle très particulière,  
+Le manga de Tomato Soup possède déjà cette identité visuelle très particulière, 
 avec ses personnages un peu " chibi " et son équilibre assez surprenant entre mignonnerie et sujet historique sérieux.
 
-L'anime ajoute forcément quelque chose : la couleur, le mouvement, les décors animés et le travail du son changent la manière dont certaines scènes sont ressenties.
+L'anime ajoute forcément quelque chose :  
+la couleur, le mouvement, les décors animés et le travail du son changent la manière dont certaines scènes sont ressenties.
 
-La production est assurée par Science SARU, avec Naoko Yamada comme réalisatrice générale,  
-Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
+La production est assurée par Science SARU,  
+avec Naoko Yamada comme réalisatrice générale, Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
 
-Et ce choix de studio a du sens quand on voit la volonté de conserver l'aspect très particulier du manga tout en lui donnant une vraie vie en mouvement.
+Ce choix de studio a du sens,  
+quand on voit la volonté de conserver l'aspect très particulier du manga tout en lui donnant une vraie vie en mouvement.
 
 L'équipe est même allée effectuer des repérages en Mongolie,  
-notamment dans des musées et auprès de familles vivant dans des gers, afin de mieux comprendre l'environnement dans lequel les personnages allaient évoluer.
+notamment dans des musées et auprès de familles vivant dans des gers,  
+afin de mieux comprendre l'environnement dans lequel les personnages allaient évoluer.
 
 Je trouve que cela se ressent surtout dans les petits détails.
 
-Pas forcément dans une volonté de faire une reconstitution documentaire parfaite, mais dans le soin donné à ce qui entoure les personnages.
+Pas forcément dans une volonté de faire une reconstitution documentaire parfaite,  
+mais dans le soin donné à ce qui entoure les personnages.
 
 ---
 
 ## Ce que je retiens de Jaadugar
 
-Je pense que ce qui me plaît le plus dans Jaadugar, c'est finalement cette façon de raconter une très grande Histoire à hauteur de personnages.
+Je pense que ce qui me plaît le plus dans Jaadugar,  
+c'est finalement cette façon de raconter une très grande Histoire à hauteur de personnages.
 
 On parle d'empires, de conquêtes, de successions et de pouvoir.
 
-Mais ce que l'on suit réellement, ce sont des personnes qui essaient de comprendre ce qui leur arrive et de trouver une manière d'avancer.
+Mais ce que l'on suit réellement,  
+ce sont des personnes qui essaient de comprendre ce qui leur arrive et de trouver une manière d'avancer.
 
-Et à cela s'ajoute cette esthétique presque douce, colorée, parfois proche du conte,  
+Et à cela s'ajoute cette esthétique presque douce, colorée  
 qui pourrait sembler contradictoire avec ce que l'œuvre raconte.
 
-C'est justement ce contraste qui fonctionne.
-
-Une histoire dure racontée avec un dessin doux.
-
+C'est justement ce contraste qui fonctionne. Une histoire dure racontée avec un dessin doux.  
 Des personnages très stylisés placés dans un monde historique extrêmement vaste.
 
 Des frontières qui nous semblent évidentes aujourd'hui et qui dans cette époque,  
 ne veulent plus dire grand-chose lorsqu'on suit les déplacements des hommes, des connaissances et du pouvoir.
 
-Jaadugar n'est peut-être pas l'œuvre la plus spectaculaire qui soit à chaque instant.
+Jaadugar n'est peut-être pas l'œuvre la plus spectaculaire qui soit à chaque instant,  
+mais elle possède quelque chose d'assez rare.   
 
-Mais elle possède quelque chose d'assez rare : elle donne envie d'aller regarder un peu plus loin que ce qu'elle montre.
-
+Elle donne envie d'aller regarder un peu plus loin que ce qu'elle montre.
 Et pour une œuvre qui parle justement de savoir et de transmission, ce n'est finalement pas un mauvais résultat.
 
 ---
@@ -434,17 +450,17 @@ Et pour une œuvre qui parle justement de savoir et de transmission, ce n'est fi
 **Site officiel de *Jaadugar***  
 [Site officiel de l'anime *Jaadugar*](https://anime-jaadugar.com/en/)
 
-Le site officiel regroupe les informations sur l'anime, son univers, les personnages, les équipes et les différentes actualités.
+Le site officiel regroupe les informations sur l'anime, son univers, les personnages et les différentes actualités.
 
 **Personnages, équipe et casting**  
-[Staff & Cast — site officiel](https://anime-jaadugar.com/en/staffcast/)
+[Staff & Cast](https://anime-jaadugar.com/en/staffcast/)
 
-Les fiches officielles permettent notamment de retrouver les personnages, les comédiennes et comédiens ainsi que l'équipe de production.
+Les fiches officielles permettent notamment de retrouver les personnages ainsi que l'équipe de production.
 
 **L'histoire et les épisodes**  
-[Story — site officiel](https://anime-jaadugar.com/en/story/)
+[Story](https://anime-jaadugar.com/en/story/)
 
-C'est également une bonne référence pour retrouver le déroulement officiel de l'histoire et les informations concernant les différents épisodes.
+Pour retrouver le déroulement officiel de l'histoire et les informations concernant les différents épisodes.
 
 ### Le manga original
 
@@ -473,19 +489,24 @@ Un autre échange intéressant consacré à la création de l'adaptation et au r
 [Tomato Soup, chercheurs et équipe éditoriale — Souffle](https://souffle.life/column/motto-tenmaku-no-ja-dougal/20250325-3/)
 
 Cette ressource est particulièrement intéressante pour ceux qui souhaitent aller au-delà de l'anime  
-et découvrir quelques éléments sur les recherches historiques, la création du manga et les réflexions qui entourent son univers.
+et découvrir quelques éléments sur les recherches historiques,  
+la création du manga et les réflexions qui entourent son univers.
 
 ---
 
 <p class="article-note">
   <em>
     Article écrit autour du manga et de l'adaptation animée de
-    <strong>Jaadugar</strong>. Les éléments historiques sont volontairement présentés
+    <strong>Jaadugar</strong>. 
+    <br>Les éléments historiques sont volontairement présentés
     comme des repères, lorsque l'article parle
-    d'esthétique ou de ressenti, s'agissant de ma lecture personnelle de l'œuvre.
-    Les visuels issus du site officiel sont utilisés uniquement à titre illustratif
-    et éditorial. Ils restent la propriété de leurs ayants droit et ne constituent
-    pas des créations personnelles. Les ressources officielles sont indiquées dans
+    d'esthétique ou de ressenti 
+    <br>(s'agissant de ma lecture personnelle de l'œuvre)
+    <br>Les visuels issus du site officiel sont utilisés uniquement à titre illustratif
+    et éditorial. 
+    <br>Ils restent la propriété de leurs ayants droit et ne constituent
+    pas des créations personnelles. 
+    <br>Les ressources officielles sont indiquées dans
     la section « Pour aller plus loin ».
   </em>
 </p>
