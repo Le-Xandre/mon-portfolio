@@ -360,17 +360,16 @@ Pas forcément pour les rendre moins graves mais plutôt pour permettre au réci
 
 L'autre chose qui ressort énormément, ce sont les décors et les costumes.
 
-Il y a beaucoup de couleurs, d'étoffes, de bijoux, de coiffures,  
-d'objets et de petits éléments qui donnent l'impression que le monde a réellement été pensé au-delà des seuls personnages.
+Il y a beaucoup de couleurs, d'étoffes, de bijoux, de coiffures, d'objets et de petits éléments  
+qui donnent l'impression que le monde a réellement été pensé au-delà des seuls personnages.
 
 Visuellement, cela crée une impression de monde très oriental, mais il vaut mieux être précis :  
 l'univers de Jaadugar est particulièrement lié au monde persan et à l'espace mongol,  
 avec les circulations culturelles propres à cet immense ensemble eurasiatique.
 
 Ce que j'aime surtout,  
-c'est que les costumes ne donnent pas simplement une information du type 
-« nous sommes dans une vision du passé ». Ils contribuent à distinguer les personnes, leur statut, 
-leur environnement et parfois même la manière dont elles se présentent aux autres.
+c'est que les costumes ne donnent pas simplement une information du type «nous sommes dans une vision du passé».   
+Ils contribuent à distinguer les personnes, leur statut, leur environnement et parfois même la manière dont elles se présentent aux autres.
 
 Les décors jouent le même rôle.
 
