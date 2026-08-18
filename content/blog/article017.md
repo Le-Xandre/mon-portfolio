@@ -496,11 +496,9 @@ la création du manga et les réflexions qui entourent son univers.
 
 <p class="article-note">
   <em>
-    Article écrit autour du manga et de l'adaptation animée de
-    <strong>Jaadugar</strong>. 
-    <br>Les éléments historiques sont volontairement présentés
-    comme des repères, lorsque l'article parle
-    d'esthétique ou de ressenti 
+    Article écrit autour du manga et de l'adaptation animée de <strong>Jaadugar</strong>. 
+    <br>Les éléments historiques sont volontairement présentés comme des repères, 
+    <br>lorsque l'article parle d'esthétique ou de ressenti 
     <br>(s'agissant de ma lecture personnelle de l'œuvre)
     <br>Les visuels issus du site officiel sont utilisés uniquement à titre illustratif
     et éditorial. 
