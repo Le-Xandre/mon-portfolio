@@ -402,6 +402,8 @@ la couleur, le mouvement, les décors animés et le travail du son changent la m
 La production est assurée par Science SARU,  
 avec Naoko Yamada comme réalisatrice générale, Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
 
+
+
 Ce choix de studio a du sens,  
 quand on voit la volonté de conserver l'aspect très particulier du manga tout en lui donnant une vraie vie en mouvement.
 
@@ -438,7 +440,7 @@ ne veulent plus dire grand-chose lorsqu'on suit les déplacements des hommes, de
 Jaadugar n'est peut-être pas l'œuvre la plus spectaculaire qui soit à chaque instant,  
 mais elle possède quelque chose d'assez rare.   
 
-Elle donne envie d'aller regarder un peu plus loin que ce qu'elle montre.
+Elle donne envie d'aller regarder un peu plus loin que ce qu'elle montre.  
 Et pour une œuvre qui parle justement de savoir et de transmission, ce n'est finalement pas un mauvais résultat.
 
 ---
