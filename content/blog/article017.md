@@ -392,14 +392,14 @@ Le monde autour d'elle change aussi.**
 
 ## Manga et anime : deux façons de raconter la même histoire
 
-Le manga de Tomato Soup possède déjà cette identité visuelle très particulière, 
+Le manga de Tomato Soup possède déjà cette identité visuelle très particulière,  
 avec ses personnages un peu " chibi " et son équilibre assez surprenant entre mignonnerie et sujet historique sérieux.
 
 L'anime ajoute forcément quelque chose :  
 la couleur, le mouvement, les décors animés et le travail du son changent la manière dont certaines scènes sont ressenties.
 
-La production est assurée par Science SARU,  
-avec Naoko Yamada comme réalisatrice générale, Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
+La production est assurée par Science SARU avec Naoko Yamada comme réalisatrice générale,  
+Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
 
 
 
