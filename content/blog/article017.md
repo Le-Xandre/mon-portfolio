@@ -326,13 +326,13 @@ parce que le savoir devient peu à peu ce qu'elle peut réellement garder avec e
 
 C'est probablement ce qui m'a le plus marqué visuellement dans Jaadugar.
 
-L'œuvre parle de guerre, de conquête, d'esclavage, de vengeance, de politique et de rapports de pouvoir.
+L'œuvre parle de guerre, de conquête, d'esclavage, de vengeance, de politique et de rapports de pouvoir.  
 Et pourtant, les personnages ont souvent quelque chose de très doux dans leur représentation.
 
 Le trait est simplifié, les silhouettes sont lisibles,  
 les expressions peuvent être très franches et certains visages ont même quelque chose d'assez enfantin.
 
-Ce n'est pas enfantin dans le sens où l'histoire le serait.
+Ce n'est pas enfantin dans le sens où l'histoire le serait.  
 C'est plutôt une stylisation qui rappelle certaines illustrations ou animations de conte et de légende.
 
 C'est une sensation assez particulière,  
