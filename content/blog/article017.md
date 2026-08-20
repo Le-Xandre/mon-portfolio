@@ -80,8 +80,8 @@ Il est assez facile aujourd'hui, de regarder une carte de l'Asie et de penser en
 
 Le monde de Jaadugar ne fonctionne évidemment pas comme cela.
 
-L'histoire se déroule dans un espace où les populations, les langues,  
-les savoirs et les pouvoirs circulent sur des distances qui dépassent largement les frontières auxquelles nous sommes habitués.
+L'histoire se déroule dans un espace où les populations, les langues, les savoirs et les pouvoirs  
+circulent sur des distances qui dépassent largement les frontières auxquelles nous sommes habitués.
 
 Les Ouïghours sont explicitement mentionnés dans l'anime.  
 C'est assez inattendu quand on vient avec une vision forcément influencée par les frontières et les États actuels. 
@@ -93,7 +93,10 @@ L'un des personnages présentés dans l'anime, Chinqai,
 est d'ailleurs explicitement décrit comme Ouïghour et ancien marchand au service de l'Empire mongol.
 
 Ce détail n'a pas besoin de devenir un cours d'histoire à lui tout seul,  
-mais il participe à une chose que Jaadugar fait plutôt bien : montrer que cet empire rassemble des gens et des trajectoires très différentes.
+mais il participe à une chose que Jaadugar fait plutôt bien :  
+
+Montrer que cet empire rassemble des gens et des trajectoires très différentes, 
+Et cela se ressent surtout à travers les personnages.
 
 <div class="image-right">
   <img
@@ -101,8 +104,6 @@ mais il participe à une chose que Jaadugar fait plutôt bien : montrer que cet 
     alt="Jaadugar — voyage dans le monde mongol"
   />
 </div>
-
-Et cela se ressent surtout à travers les personnages.
 
 ---
 
@@ -369,7 +370,8 @@ avec les circulations culturelles propres à cet immense ensemble eurasiatique.
 
 Ce que j'aime surtout,  
 c'est que les costumes ne donnent pas simplement une information du type «nous sommes dans une vision du passé».   
-Ils contribuent à distinguer les personnes, leur statut, leur environnement et parfois même la manière dont elles se présentent aux autres.
+Ils contribuent à distinguer les personnes, leur statut, leur environnement et parfois même  
+la manière dont elles se présentent aux autres.
 
 Les décors jouent le même rôle.
 
@@ -392,22 +394,24 @@ Le monde autour d'elle change aussi.**
 
 ## Manga et anime : deux façons de raconter la même histoire
 
-Le manga de Tomato Soup possède déjà cette identité visuelle très particulière,  
+Le manga de Tomato Soup possède déjà cette identité visuelle très particulière, 
 avec ses personnages un peu " chibi " et son équilibre assez surprenant entre mignonnerie et sujet historique sérieux.
 
 L'anime ajoute forcément quelque chose :  
-la couleur, le mouvement, les décors animés et le travail du son changent la manière dont certaines scènes sont ressenties.
+la couleur, le mouvement, les décors animés et le travail du son  
+changent la manière dont certaines scènes sont ressenties.
 
-La production est assurée par Science SARU avec Naoko Yamada comme réalisatrice générale,  
-Abel Góngora à la réalisation et Kenichi Yoshida au character design et à la direction de l'animation.
+La production est assurée par Science SARU avec Naoko Yamada comme réalisatrice générale, 
+Abel Góngora à la réalisation  
+et Kenichi Yoshida au character design et à la direction de l'animation.
 
 
 
-Ce choix de studio a du sens,  
+Ce choix de studio a du sens, 
 quand on voit la volonté de conserver l'aspect très particulier du manga tout en lui donnant une vraie vie en mouvement.
 
-L'équipe est même allée effectuer des repérages en Mongolie,  
-notamment dans des musées et auprès de familles vivant dans des gers,  
+L'équipe est même allée effectuer des repérages en Mongolie, 
+notamment dans des musées et auprès de familles vivant dans des gers, 
 afin de mieux comprendre l'environnement dans lequel les personnages allaient évoluer.
 
 Je trouve que cela se ressent surtout dans les petits détails.
